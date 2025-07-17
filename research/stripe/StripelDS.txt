@@ -1,0 +1,14 @@
+Smart Start: prod_ShKulOnzzsKqfz
+Financial Guru: prod_ShKzQnv1CR8T9N
+Wealth Builder: prod_ShL2iKM1bzmF5M
+Enterprise: prod_ShL7bml7GGm7py
+
+Smart Start: price_1RlwEXRinlJulA4GlTKZPtUn
+Financial Guru: price_1RlwJLRinlJulA4GNjrRNGV3
+Wealth Builder: price_1RlwMcRinlJulA4GuTnpfRlS
+Enterprise: price_1RlwQxRinlJulA4Ghkm9zoBg
+
+Smart Start: $0.00 per month    
+Financial Guru: $9.99 per month
+Wealth Builder: $19.99 per month
+Enterprise: $49.99 per month
