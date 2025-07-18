@@ -1,27 +1,40 @@
-# MoneyMind: Comprehensive Development Plan
+# Personal Finance AI Agent - Implementation Roadmap
 
-This document provides a granular, step-by-step roadmap for building the MoneyMind application, based on the full project scope defined in the research files.
+Based on comprehensive research documents for building an AI-powered financial management SaaS platform.
 
 ---
 
-## Phase 1: Foundation & Technical Setup
+## Phase 1: Foundation & Landing Page (Research-Aligned)
 
-**Goal:** Prepare the boilerplate codebase for custom development by integrating the new design system, setting up the database, and establishing core backend utilities.
+### Milestone 1.1: Core Setup & Design System ✅ COMPLETED
+-   [x] Install design libraries: framer-motion, class-variance-authority, clsx, tailwind-merge, lucide-react
+-   [x] Install animation libraries: vanta, three, gsap  
+-   [x] Configure Tailwind with custom design tokens:
+    -   [x] Financial Green (#10B981), Trust Blue (#3B82F6), Gold (#F59E0B)
+    -   [x] Inter font family
+    -   [x] Custom animations (fade-in-up, blur-in, staggered-reveal)
+-   [x] Create utility functions and global styles
 
-### Milestone 1.1: Design System & Dependencies
--   [x] **Install Core Design Libraries:** `npm install framer-motion class-variance-authority clsx tailwind-merge lucide-react`
--   [x] **Install Animation Libraries:** `npm install vanta three gsap`
--   [x] **Configure `tailwind.config.js`:**
-    -   [x] Add custom color palette (primary, secondary, accent, etc.) from research.
-    -   [x] Add `Inter` font family.
-    -   [x] Define custom animations (e.g., staggered reveal, blur-in) for reuse.
--   [x] **Create UI Utility (`/libs/utils.ts`):** Set up `cn` function for merging Tailwind classes.
--   [x] **Test - Dev Server:** Run `npm run dev` to confirm the app builds successfully with all new dependencies.
-
-### Milestone 1.2: Database & Models
--   [ ] **Configure MongoDB Connection:** Set up Mongoose connection utility in `/libs/db/mongoose.ts` using credentials from `.env`.
--   [ ] **Define Database Schemas (`/models/*.ts`):**
-    -   [ ] `User.ts`: Define user schema (name, email, password, subscription tier, etc.).
+### Milestone 1.2: Hero Section (Per Research Copy & UI)
+-   [x] **Fix Hero Copy & Layout:**
+    -   [x] Update headline to: "Transform Your Financial Chaos Into Clarity" 
+    -   [x] Update subheadline to: "Your AI-powered financial assistant that turns overwhelming bank statements into actionable insights..."
+    -   [x] Update CTAs: "Start Your Free Journey" and "Watch 2-Min Demo"
+    -   [x] Add trust indicators: "✓ Bank-Grade Security", "✓ No Credit Card Required", "✓ 30-Day Free Trial"
+-   [x] **Implement Research-Specified Components:**
+    -   [x] React Bits Split Text for animated headline reveal
+    -   [x] React Bits Blur Text for subheadline transition effect
+    -   [x] Vanta.js Net effect with financial data visualization theme
+    -   [x] Magic UI button with Ripple effect for primary CTA
+    -   [x] Magic UI Hero Video Dialog for demo video
+-   [x] **Add Trust Indicators:**
+    -   [x] "✓ Bank-Grade Security" badge
+    -   [x] "✓ No Credit Card Required" badge
+    -   [x] "✓ 30-Day Free Trial" badge
+-   [x] **Visual Polish:**
+    -   [x] Dark gradient background (implemented with Vanta.js)
+    -   [x] Trust badges with animations (fade-in effect)
+    -   [x] Hero dashboard mockup showing AI analysis
     -   [ ] `Document.ts`: Schema for uploaded documents (userId, fileName, storageUrl, status, etc.).
     -   [ ] `Transaction.ts`: Schema for financial transactions (userId, documentId, date, description, amount, category, etc.).
     -   [ ] `Category.ts`: Schema for user-defined spending categories.

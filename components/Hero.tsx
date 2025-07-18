@@ -1,8 +1,14 @@
 "use client";
 
-import { useEffect, useRef, useState } from 'react';
 import Link from 'next/link';
-import { ArrowRight } from 'lucide-react';
+import { useEffect, useRef, useState } from 'react';
+import { ArrowRight, Play } from 'lucide-react';
+import VANTA from 'vanta/dist/vanta.net.min';
+import { SplitText } from '@/components/ui/split-text';
+import { BlurText } from '@/components/ui/blur-text';
+import { RippleButton } from '@/components/ui/ripple-button';
+import { HeroVideoDialog } from '@/components/ui/hero-video-dialog';
+import { DashboardMockup } from '@/components/ui/dashboard-mockup';
 
 const Hero = () => {
   const [vantaEffect, setVantaEffect] = useState<any>(null);
@@ -54,27 +60,53 @@ const Hero = () => {
 
       <div className="relative z-20 max-w-4xl mx-auto text-center px-6 py-20 md:px-8">
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight leading-tight mb-6">
-          <span className="block text-white animate-fade-in-up" style={{ animationDelay: '0.1s' }}>Stop Guessing.</span>
-          <span className="block text-blue-400 animate-fade-in-up" style={{ animationDelay: '0.3s' }}>Start Knowing Your Money.</span>
+          <SplitText className="block text-white" delay={0.1}>
+            Transform Your Financial
+          </SplitText>
+          <SplitText className="block text-blue-400" delay={0.3}>
+            Chaos Into Clarity
+          </SplitText>
         </h1>
 
-        <p className="max-w-2xl mx-auto text-lg md:text-xl text-gray-200 mb-10 animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
-          We have made the changes
-        </p>
+        <BlurText 
+          className="max-w-2xl mx-auto text-lg md:text-xl text-gray-200 mb-10" 
+          delay={0.8}
+        >
+          Your AI-powered financial assistant that turns overwhelming bank statements into actionable insights – so you can finally take control of your money without the stress.
+        </BlurText>
 
-        <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
-          <Link href="/register" className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white bg-gradient-to-r from-blue-600 to-blue-700 rounded-full hover:from-blue-700 hover:to-blue-800 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
-            Get Started for Free
+        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <RippleButton href="/register">
+            Start Your Free Journey
             <ArrowRight className="ml-2 h-5 w-5" />
-          </Link>
-          <Link href="#how-it-works" className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white border-2 border-white/30 rounded-full hover:bg-white/10 transition-all duration-200">
-            See How It Works
-          </Link>
+          </RippleButton>
+          
+          <HeroVideoDialog
+            videoSrc="/demo-video.mp4"
+            trigger={
+              <button className="inline-flex items-center justify-center px-8 py-4 text-lg font-semibold text-white border-2 border-white/30 rounded-full hover:bg-white/10 transition-all duration-200">
+                <Play className="mr-2 h-5 w-5" />
+                Watch 2-Min Demo
+              </button>
+            }
+          />
         </div>
 
-        <div className="mt-12 text-sm text-gray-400 animate-fade-in-up" style={{ animationDelay: '0.9s' }}>
-          <p>Trusted by 10,000+ users • No credit card required</p>
+        {/* Trust Indicators */}
+        <div className="mt-8 flex flex-wrap items-center justify-center gap-4 text-sm text-gray-300 animate-fade-in-up" style={{ animationDelay: '0.9s' }}>
+          <span className="flex items-center gap-2">
+            <span className="text-green-400">✓</span> Bank-Grade Security
+          </span>
+          <span className="flex items-center gap-2">
+            <span className="text-green-400">✓</span> No Credit Card Required
+          </span>
+          <span className="flex items-center gap-2">
+            <span className="text-green-400">✓</span> 30-Day Free Trial
+          </span>
         </div>
+
+        {/* Dashboard Mockup */}
+        <DashboardMockup />
       </div>
     </section>
   );
