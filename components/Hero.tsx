@@ -59,7 +59,7 @@ const Hero = () => {
         </h1>
 
         <p className="max-w-2xl mx-auto text-lg md:text-xl text-gray-200 mb-10 animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
-          MoneyMind isn't just another budgeting app. It's your personal AI financial analyst. Upload your statements, and get crystal-clear insights in seconds. No more manual tracking. No more confusion. Just pure financial clarity.
+          We have made the changes
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in-up" style={{ animationDelay: '0.7s' }}>
