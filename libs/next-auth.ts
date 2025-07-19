@@ -5,6 +5,7 @@ import EmailProvider from "next-auth/providers/email";
 import { MongoDBAdapter } from "@auth/mongodb-adapter";
 import config from "@/config";
 import connectMongo from "./mongo";
+import User from "@/models/User";
 
 interface NextAuthOptionsExtended extends NextAuthOptions {
   adapter: any;
@@ -52,9 +53,55 @@ export const authOptions: NextAuthOptionsExtended = {
   ...(connectMongo && { adapter: MongoDBAdapter(connectMongo) }),
 
   callbacks: {
+    signIn: async ({ user, account, profile }) => {
+      // Check if user exists in our database
+      if (user.email) {
+        const existingUser = await User.findOne({ email: user.email });
+        
+        // If user exists but has no organizationId, they need to be invited first
+        if (existingUser && !existingUser.organizationId) {
+          return false; // Prevent sign in
+        }
+        
+        // If new user and not invited, prevent sign in
+        if (!existingUser) {
+          return false; // New users must be invited to an organization
+        }
+      }
+      
+      return true;
+    },
+    jwt: async ({ token, user, trigger, session }) => {
+      // Initial sign in
+      if (user) {
+        const dbUser = await User.findOne({ email: user.email }).populate('organizationId');
+        if (dbUser) {
+          token.userId = dbUser._id.toString();
+          token.organizationId = dbUser.organizationId?._id?.toString();
+          token.organizationName = dbUser.organizationId?.name;
+          token.role = dbUser.role;
+        }
+      }
+      
+      // Update token if user data changes
+      if (trigger === "update" && session) {
+        const dbUser = await User.findById(token.userId).populate('organizationId');
+        if (dbUser) {
+          token.organizationId = dbUser.organizationId?._id?.toString();
+          token.organizationName = dbUser.organizationId?.name;
+          token.role = dbUser.role;
+        }
+      }
+      
+      return token;
+    },
     session: async ({ session, token }) => {
       if (session?.user) {
         session.user.id = token.sub;
+        session.user.userId = token.userId as string;
+        session.user.organizationId = token.organizationId as string;
+        session.user.organizationName = token.organizationName as string;
+        session.user.role = token.role as any;
       }
       return session;
     },
