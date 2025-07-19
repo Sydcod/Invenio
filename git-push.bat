@@ -1,10 +1,10 @@
 @echo off
-echo Running Git Push Script for MoneyMind.net
+echo Running Git Push Script for Invenio
 echo ==========================================
 
-echo Setting remote repository to https://github.com/sydcod/MoneyMind...
+echo Setting remote repository to https://github.com/sydcod/Invenio
 git remote remove origin 2>nul
-git remote add origin https://github.com/sydcod/MoneyMind.git
+git remote add origin https://github.com/sydcod/Invenio.git
 
 echo.
 echo Checking current status...
@@ -28,7 +28,7 @@ echo WARNING: This will FORCE PUSH to the repository, potentially overwriting re
 echo This makes the remote repository match your local repository exactly.
 set /p confirm="Are you sure you want to force push? (Y/N): "
 if /i "%confirm%"=="Y" (
-  echo Pushing to GitHub repository: https://github.com/sydcod/MoneyMind
+  echo Pushing to GitHub repository: https://github.com/sydcod/Invenio
   git push -f -u origin main
 ) else (
   echo Force push canceled.
