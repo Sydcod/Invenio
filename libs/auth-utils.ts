@@ -13,10 +13,10 @@ export async function requireAuth() {
   return session;
 }
 
-export async function requireOrganization() {
+export async function requireOrganization(skipSettingsRedirect = false) {
   const session = await requireAuth();
   
-  if (!session.user.organizationId) {
+  if (!session.user.organizationId && !skipSettingsRedirect) {
     // Redirect to settings page if user doesn't belong to an organization
     // Users can create or join an organization from there
     redirect("/dashboard/settings");

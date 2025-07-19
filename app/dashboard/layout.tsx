@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { requireOrganization } from "@/libs/auth-utils";
+import { requireOrganization, requireAuth } from "@/libs/auth-utils";
 import DashboardSidebar from "@/components/dashboard/DashboardSidebar";
 import DashboardHeader from "@/components/dashboard/DashboardHeader";
 
@@ -8,8 +8,8 @@ export default async function DashboardLayout({
 }: {
   children: ReactNode;
 }) {
-  // Ensure user is authenticated and belongs to an organization
-  const session = await requireOrganization();
+  // For settings page, only require auth. For others, require organization
+  const session = await requireAuth();
 
   return (
     <div className="flex h-screen bg-gray-50">
@@ -26,8 +26,8 @@ export default async function DashboardLayout({
             image: session.user.image,
           }}
           organization={{
-            name: session.user.organizationName,
-            id: session.user.organizationId,
+            name: session.user.organizationName || 'No Organization',
+            id: session.user.organizationId || '',
           }}
         />
         
