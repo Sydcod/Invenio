@@ -66,10 +66,10 @@ export default function CustomFooter() {
               >
                 {/* Logo */}
                 <h3 className="text-2xl font-bold text-white mb-4">
-                  Money<span className="text-green-400">Mind</span>
+                  <span className="text-green-400">Invenio</span>
                 </h3>
                 <p className="text-gray-400 mb-6 max-w-xs">
-                  Transform your financial chaos into clarity with AI-powered insights and personalized recommendations.
+                  Master your inventory with real-time tracking, smart reordering, and powerful analytics.
                 </p>
                 
                 {/* Social Links */}
@@ -133,15 +133,15 @@ export default function CustomFooter() {
               >
                 <div className="flex items-center gap-2">
                   <Shield className="w-4 h-4" />
-                  <span>SOC2 Compliant</span>
+                  <span>ISO 27001 Certified</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Lock className="w-4 h-4" />
-                  <span>256-bit Encryption</span>
+                  <span>Enterprise Security</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Award className="w-4 h-4" />
-                  <span>GDPR Ready</span>
+                  <span>Industry Leader</span>
                 </div>
               </motion.div>
 
@@ -153,7 +153,7 @@ export default function CustomFooter() {
                 transition={{ delay: 0.5, duration: 0.6 }}
                 className="text-sm text-gray-400"
               >
-                © {new Date().getFullYear()} MoneyMind. All rights reserved.
+                © {new Date().getFullYear()} Invenio. All rights reserved.
               </motion.p>
             </div>
           </div>

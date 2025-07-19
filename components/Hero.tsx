@@ -61,23 +61,23 @@ const Hero = () => {
       <div className="relative z-20 max-w-4xl mx-auto text-center px-6 py-20 md:px-8">
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight leading-tight mb-6">
           <SplitText className="block text-white" delay={0.1}>
-            Transform Your Financial
+            Master Your Inventory
           </SplitText>
           <SplitText className="block text-blue-400" delay={0.3}>
-            Chaos Into Clarity
+            Control Your Business
           </SplitText>
         </h1>
 
         <BlurText 
-          className="max-w-2xl mx-auto text-lg md:text-xl text-gray-200 mb-10" 
+          className="max-w-2xl mx-auto text-lg md:text-xl text-blue-400 mb-10" 
           delay={0.8}
         >
-          Your AI-powered financial assistant that turns overwhelming bank statements into actionable insights – so you can finally take control of your money without the stress.
+          The intelligent inventory management platform that transforms complex operations into simple workflows. Real-time tracking, smart reordering, and powerful analytics – all in one intuitive system.
         </BlurText>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <RippleButton href="/register">
-            Start Your Free Journey
+            Start Your Free Trial
             <ArrowRight className="ml-2 h-5 w-5" />
           </RippleButton>
           
@@ -95,10 +95,10 @@ const Hero = () => {
         {/* Trust Indicators */}
         <div className="mt-8 flex flex-wrap items-center justify-center gap-4 text-sm text-gray-300 animate-fade-in-up" style={{ animationDelay: '0.9s' }}>
           <span className="flex items-center gap-2">
-            <span className="text-green-400">✓</span> Bank-Grade Security
+            <span className="text-green-400">✓</span> Real-Time Tracking
           </span>
           <span className="flex items-center gap-2">
-            <span className="text-green-400">✓</span> No Credit Card Required
+            <span className="text-green-400">✓</span> Multi-Location Support
           </span>
           <span className="flex items-center gap-2">
             <span className="text-green-400">✓</span> 30-Day Free Trial

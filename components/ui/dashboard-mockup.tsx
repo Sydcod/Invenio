@@ -1,19 +1,19 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { TrendingUp, TrendingDown, DollarSign, ShoppingCart, Home, Car } from 'lucide-react';
+import { TrendingUp, TrendingDown, Package, Truck, Warehouse, AlertCircle, BarChart, CheckCircle } from 'lucide-react';
 
 export function DashboardMockup() {
   const transactions = [
-    { icon: ShoppingCart, name: 'Grocery Store', amount: -125.43, category: 'Food & Dining' },
-    { icon: Home, name: 'Monthly Rent', amount: -1500.00, category: 'Housing' },
-    { icon: Car, name: 'Gas Station', amount: -65.00, category: 'Transportation' },
+    { icon: Truck, name: 'Received Shipment', amount: 125, category: 'Office Supplies' },
+    { icon: Package, name: 'Order Fulfilled', amount: -85, category: 'Electronics' },
+    { icon: AlertCircle, name: 'Low Stock Alert', amount: 15, category: 'Raw Materials' },
   ];
 
   const insights = [
-    { label: 'Monthly Spending', value: '$3,245', trend: 'down', change: '-12%' },
-    { label: 'Savings Rate', value: '23%', trend: 'up', change: '+5%' },
-    { label: 'Budget Health', value: 'Good', trend: 'up', change: 'On Track' },
+    { label: 'Stock Levels', value: '1,245', trend: 'up', change: '+12%' },
+    { label: 'Fulfillment Rate', value: '94%', trend: 'up', change: '+5%' },
+    { label: 'Inventory Health', value: 'Good', trend: 'up', change: 'On Track' },
   ];
 
   return (
@@ -30,9 +30,9 @@ export function DashboardMockup() {
         transition={{ delay: 1.5, duration: 0.5 }}
         className="absolute -top-4 left-1/2 transform -translate-x-1/2 z-20"
       >
-        <div className="bg-gradient-to-r from-green-500 to-emerald-500 text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg flex items-center gap-2">
+        <div className="bg-gradient-to-r from-blue-500 to-purple-500 text-white px-4 py-2 rounded-full text-sm font-semibold shadow-lg flex items-center gap-2">
           <div className="w-2 h-2 bg-white rounded-full animate-pulse" />
-          AI Analyzing Your Finances in Real-Time
+          AI Monitoring Your Inventory in Real-Time
         </div>
       </motion.div>
 
@@ -40,8 +40,8 @@ export function DashboardMockup() {
       <div className="bg-gray-900/80 backdrop-blur-xl rounded-2xl shadow-2xl border border-gray-800 overflow-hidden">
         {/* Header */}
         <div className="bg-gradient-to-r from-gray-800 to-gray-900 p-6 border-b border-gray-800">
-          <h3 className="text-xl font-semibold text-white">Financial Overview - December 2024</h3>
-          <p className="text-gray-400 text-sm mt-1">AI-powered insights updated in real-time</p>
+          <h3 className="text-xl font-semibold text-white">Inventory Overview - December 2024</h3>
+          <p className="text-gray-400 text-sm mt-1">AI-powered inventory insights updated in real-time</p>
         </div>
 
         {/* Insights Grid */}
@@ -68,9 +68,9 @@ export function DashboardMockup() {
           ))}
         </div>
 
-        {/* Recent Transactions */}
+        {/* Recent Activities */}
         <div className="p-6">
-          <h4 className="text-lg font-semibold text-white mb-4">Recent Transactions</h4>
+          <h4 className="text-lg font-semibold text-white mb-4">Recent Activities</h4>
           <div className="space-y-3">
             {transactions.map((transaction, index) => (
               <motion.div
@@ -92,7 +92,7 @@ export function DashboardMockup() {
                 <span className={`text-lg font-semibold ${
                   transaction.amount < 0 ? 'text-red-400' : 'text-green-400'
                 }`}>
-                  {transaction.amount < 0 ? '-' : '+'}${Math.abs(transaction.amount).toFixed(2)}
+                  {transaction.amount < 0 ? '-' : '+'}{Math.abs(transaction.amount)} units
                 </span>
               </motion.div>
             ))}
@@ -112,7 +112,7 @@ export function DashboardMockup() {
             </div>
             <div className="flex-1">
               <p className="text-gray-300 text-sm">
-                "I noticed you're spending 15% more on dining this month. Would you like me to find ways to save?"
+                "I noticed inventory levels for Electronics are 15% lower than optimal. Would you like me to generate a reorder plan?"
               </p>
             </div>
             <motion.div

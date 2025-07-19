@@ -2,11 +2,11 @@
 
 import { motion } from 'framer-motion';
 import { 
-  Brain, 
-  Shield, 
+  Package, 
+  BarChart3, 
   Zap, 
   TrendingUp, 
-  PieChart, 
+  Warehouse, 
   Bell,
   Sparkles,
   Target
@@ -14,44 +14,44 @@ import {
 
 const features = [
   {
-    icon: Brain,
-    title: 'AI-Powered Analysis',
-    description: 'Advanced machine learning algorithms analyze your spending patterns and provide actionable insights.',
+    icon: Package,
+    title: 'Real-Time Tracking',
+    description: 'Monitor inventory levels across all locations instantly. Know exactly what you have, where it is, and when to reorder.',
     gradient: 'from-blue-500 to-purple-500',
     size: 'large'
   },
   {
-    icon: Shield,
-    title: 'Bank-Grade Security',
-    description: '256-bit encryption and SOC2 compliance keep your financial data safe.',
+    icon: Warehouse,
+    title: 'Multi-Location Control',
+    description: 'Manage inventory across warehouses, stores, and fulfillment centers from one unified dashboard.',
     gradient: 'from-green-500 to-emerald-500',
     size: 'medium'
   },
   {
     icon: Zap,
-    title: 'Instant Insights',
-    description: 'Get real-time analysis of your transactions as they happen.',
+    title: 'Smart Reordering',
+    description: 'Automated purchase orders based on reorder points, lead times, and demand forecasting.',
     gradient: 'from-yellow-500 to-orange-500',
     size: 'medium'
   },
   {
     icon: TrendingUp,
-    title: 'Smart Budgeting',
-    description: 'Personalized budget recommendations based on your spending habits.',
+    title: 'Demand Forecasting',
+    description: 'AI-powered predictions help you stock the right products at the right time.',
     gradient: 'from-pink-500 to-rose-500',
     size: 'small'
   },
   {
-    icon: PieChart,
-    title: 'Visual Analytics',
-    description: 'Beautiful charts and graphs make understanding your finances easy.',
+    icon: BarChart3,
+    title: 'Powerful Analytics',
+    description: 'Comprehensive reports on inventory turnover, carrying costs, and performance metrics.',
     gradient: 'from-indigo-500 to-blue-500',
     size: 'small'
   },
   {
     icon: Bell,
     title: 'Smart Alerts',
-    description: 'Get notified about unusual spending or savings opportunities.',
+    description: 'Get notified about low stock, overstock situations, and expiring products.',
     gradient: 'from-purple-500 to-pink-500',
     size: 'small'
   }
@@ -96,10 +96,10 @@ export default function ValueProposition() {
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             Everything You Need to
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500"> Master Your Money</span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500"> Master Your Inventory</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            Powerful features designed to transform how you understand and manage your finances
+            Powerful features designed to streamline your supply chain and optimize your operations
           </p>
         </motion.div>
 
@@ -173,7 +173,7 @@ export default function ValueProposition() {
           className="text-center mt-16"
         >
           <p className="text-gray-400 mb-6">
-            Join thousands who've already transformed their financial lives
+            Join thousands of businesses already optimizing their inventory operations
           </p>
           <motion.button
             whileHover={{ scale: 1.05 }}

@@ -12,9 +12,9 @@ import { Metadata } from 'next';
 
 // Add metadata for SEO
 export const metadata: Metadata = {
-  title: 'FeNAgO - Agentic AI SaaS Platform Template',
-  description: 'The complete platform for building agentic AI-powered SaaS products—ideal for students, developers, startups, and entrepreneurs looking to innovate rapidly. In the near future, every traditional SaaS application will inevitably be surpassed by an Agentic SaaS solution, redefining the competitive landscape.',
-  keywords: 'agentic AI, SaaS template, AI platform, DrLee, AI development, FeNAgO, AI startup',
+  title: 'Invenio - Modern Inventory Management System',
+  description: 'The intuitive inventory management platform that streamlines your entire supply chain. From real-time tracking to intelligent reordering, Invenio empowers small to medium businesses with enterprise-grade inventory control without the complexity.',
+  keywords: 'inventory management, stock control, warehouse management, supply chain, order management, Invenio, inventory software, multi-location inventory',
 };
 
 export default function Home(): JSX.Element {
@@ -24,7 +24,7 @@ export default function Home(): JSX.Element {
         <Header />
       </Suspense>
       <main>
-        {/* FeNAgO - The complete platform for building agentic AI-powered SaaS products */}
+        {/* Invenio - Modern inventory management made simple */}
         <Hero />
         <ValueProposition />
         <SocialProof />

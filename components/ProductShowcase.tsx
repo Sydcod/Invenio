@@ -2,43 +2,43 @@
 
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
-import { Terminal, Sparkles, CheckCircle } from 'lucide-react';
+import { Terminal, Sparkles, CheckCircle, Package, BarChart3 } from 'lucide-react';
 
 const terminalSteps = [
   { 
-    command: '$ moneymind analyze --file bank_statement.pdf', 
-    output: 'Uploading and processing document...',
+    command: '$ invenio sync --location warehouse-01', 
+    output: 'Connecting to warehouse management system...',
     delay: 0 
   },
   { 
     command: '', 
-    output: '✓ Document uploaded successfully (2.3MB)',
+    output: '✓ Connected successfully (3 locations found)',
     delay: 1000,
     isSuccess: true
   },
   { 
     command: '', 
-    output: 'Running AI financial analysis...',
+    output: 'Scanning inventory levels...',
     delay: 1500 
   },
   { 
     command: '', 
-    output: 'Detecting transactions: Found 247 transactions',
+    output: 'Items tracked: 15,247 SKUs across 3 locations',
     delay: 2500 
   },
   { 
     command: '', 
-    output: 'Categorizing expenses: Food & Dining (32%), Housing (28%), Transport (15%)...',
+    output: 'Low stock alerts: 23 items below reorder point',
     delay: 3500 
   },
   { 
     command: '', 
-    output: 'Identifying patterns: Recurring subscriptions detected ($127/month)',
+    output: 'Generating purchase orders: 12 POs created ($45,230)',
     delay: 4500 
   },
   { 
     command: '', 
-    output: '✓ Analysis complete! Opening dashboard...',
+    output: '✓ Inventory sync complete! Opening dashboard...',
     delay: 5500,
     isSuccess: true
   },
@@ -78,11 +78,11 @@ export default function ProductShowcase() {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
-            See AI Analysis
+            See Inventory Control
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500"> In Action</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            Watch how MoneyMind transforms your bank statements into actionable financial insights
+            Watch how Invenio transforms complex inventory operations into simple, automated workflows
           </p>
         </motion.div>
 
@@ -104,7 +104,7 @@ export default function ProductShowcase() {
                 </div>
                 <div className="flex items-center gap-2 text-gray-400 text-sm">
                   <Terminal className="w-4 h-4" />
-                  <span>MoneyMind CLI</span>
+                  <span>Invenio CLI</span>
                 </div>
               </div>
               
@@ -149,29 +149,29 @@ export default function ProductShowcase() {
             className="space-y-6"
           >
             <h3 className="text-2xl font-bold text-white mb-6">
-              Powerful AI Features
+              Enterprise-Grade Features
             </h3>
             
             {[
               {
-                title: 'Instant Document Processing',
-                description: 'Upload PDFs, CSVs, or connect your bank directly. Our AI handles any format.',
+                title: 'Real-Time Synchronization',
+                description: 'Instant updates across all locations. Know your exact inventory levels at any moment.',
               },
               {
-                title: 'Smart Categorization',
-                description: 'Automatically categorize transactions with 99% accuracy using machine learning.',
+                title: 'Smart Reorder Points',
+                description: 'AI-powered reordering based on historical data, seasonality, and lead times.',
               },
               {
-                title: 'Pattern Recognition',
-                description: 'Discover spending patterns, recurring charges, and optimization opportunities.',
+                title: 'Barcode & RFID Support',
+                description: 'Seamless integration with barcode scanners and RFID systems for fast tracking.',
               },
               {
-                title: 'Predictive Insights',
-                description: 'Get alerts about upcoming bills and personalized saving recommendations.',
+                title: 'Demand Forecasting',
+                description: 'Predict future inventory needs with machine learning algorithms.',
               },
               {
-                title: 'Natural Language Queries',
-                description: 'Ask questions like "How much did I spend on coffee last month?" in plain English.',
+                title: 'Multi-Channel Integration',
+                description: 'Connect your e-commerce, POS, and ERP systems for unified inventory control.',
               },
             ].map((feature, index) => (
               <motion.div

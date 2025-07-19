@@ -1,57 +1,60 @@
 'use client';
 
 import { motion } from 'framer-motion';
-import { Check, Sparkles, Zap, Crown } from 'lucide-react';
+import { Check, Package, Warehouse, Building2 } from 'lucide-react';
 import { useState } from 'react';
 
 const plans = [
   {
     name: 'Starter',
-    icon: Zap,
+    icon: Package,
     price: 0,
-    description: 'Perfect for getting started with financial clarity',
+    description: 'Perfect for small businesses getting started',
     features: [
-      'Connect 1 bank account',
-      'Basic expense tracking',
-      'Monthly spending reports',
+      'Up to 100 SKUs',
+      '1 warehouse location',
+      'Basic inventory tracking',
+      'Low stock alerts',
       'Email support',
-      '30-day transaction history',
+      'Mobile app access',
     ],
     cta: 'Start Free',
     popular: false,
     gradient: 'from-gray-500 to-gray-600',
   },
   {
-    name: 'Pro',
-    icon: Sparkles,
-    price: 12,
-    description: 'Everything you need to master your finances',
+    name: 'Professional',
+    icon: Warehouse,
+    price: 49,
+    description: 'Complete inventory control for growing businesses',
     features: [
-      'Unlimited bank accounts',
-      'AI-powered insights',
-      'Custom budget goals',
-      'Real-time alerts',
-      'Unlimited transaction history',
+      'Up to 10,000 SKUs',
+      '5 warehouse locations',
+      'Real-time tracking',
+      'Smart reorder points',
+      'Barcode/RFID support',
+      'Demand forecasting',
+      'API access',
       'Priority support',
-      'Export to Excel/CSV',
     ],
     cta: 'Start Pro Trial',
     popular: true,
     gradient: 'from-green-500 to-emerald-500',
   },
   {
-    name: 'Business',
-    icon: Crown,
-    price: 49,
-    description: 'Advanced features for businesses and power users',
+    name: 'Enterprise',
+    icon: Building2,
+    price: 199,
+    description: 'Advanced features for large-scale operations',
     features: [
-      'Everything in Pro',
-      'Team collaboration',
+      'Unlimited SKUs',
+      'Unlimited locations',
       'Advanced analytics',
-      'API access',
       'Custom integrations',
+      'Multi-channel sync',
       'Dedicated account manager',
-      'White-label options',
+      'Custom training',
+      'SLA guarantee',
     ],
     cta: 'Contact Sales',
     popular: false,
@@ -81,7 +84,7 @@ export default function CustomPricing() {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500"> Pricing</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto mb-8">
-            Choose the perfect plan for your financial journey. No hidden fees, cancel anytime.
+            Choose the perfect plan for your inventory needs. No hidden fees, scale as you grow.
           </p>
 
           {/* Billing Toggle */}

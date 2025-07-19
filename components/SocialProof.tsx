@@ -8,49 +8,49 @@ const testimonials = [
   {
     id: 1,
     name: 'Sarah Johnson',
-    role: 'Small Business Owner',
+    role: 'Retail Store Owner',
     avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Sarah',
-    content: "MoneyMind transformed how I manage my business finances. The AI insights helped me cut unnecessary expenses by 30%.",
+    content: "Invenio reduced our stockouts by 45% and overstock by 30%. The smart reordering system is incredible.",
     rating: 5,
   },
   {
     id: 2,
     name: 'Michael Chen',
-    role: 'Software Engineer',
+    role: 'Operations Manager',
     avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Michael',
-    content: "Finally, a finance app that speaks my language. The visualizations make it so easy to track where my money goes.",
+    content: "Finally, inventory management that actually makes sense. The multi-location tracking saved us hours daily.",
     rating: 5,
   },
   {
     id: 3,
     name: 'Emily Rodriguez',
-    role: 'Freelance Designer',
+    role: 'E-commerce Director',
     avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Emily',
-    content: "The budgeting AI is like having a personal financial advisor. It's helped me save for my dream studio.",
+    content: "The demand forecasting AI is spot-on. We've reduced carrying costs by 25% while improving availability.",
     rating: 5,
   },
   {
     id: 4,
     name: 'David Thompson',
-    role: 'Retired Teacher',
+    role: 'Warehouse Manager',
     avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=David',
-    content: "Simple, secure, and smart. MoneyMind gives me confidence in managing my retirement finances.",
+    content: "Simple, powerful, and reliable. Invenio transformed our chaotic warehouse into a well-oiled machine.",
     rating: 5,
   },
   {
     id: 5,
     name: 'Jessica Park',
-    role: 'Marketing Manager',
+    role: 'Supply Chain Manager',
     avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Jessica',
-    content: "The real-time alerts saved me from overdraft fees multiple times. This app pays for itself!",
+    content: "The low stock alerts and automated PO generation saved us from multiple potential stockouts. Game-changer!",
     rating: 5,
   },
   {
     id: 6,
     name: 'Robert Williams',
-    role: 'Restaurant Owner',
+    role: 'Restaurant Chain Owner',
     avatar: 'https://api.dicebear.com/7.x/avataaars/svg?seed=Robert',
-    content: "MoneyMind's AI identified seasonal spending patterns I never noticed. Game-changer for my business.",
+    content: "Invenio's analytics revealed inventory patterns we never noticed. Cut food waste by 40% in 3 months.",
     rating: 5,
   },
 ];
@@ -93,7 +93,7 @@ export default function SocialProof() {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500"> Thousands</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            Join the growing community of people taking control of their financial future
+            Join the growing community of businesses optimizing their inventory operations
           </p>
         </motion.div>
 
@@ -106,12 +106,12 @@ export default function SocialProof() {
           className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16"
         >
           <div className="text-center">
-            <div className="text-4xl font-bold text-white mb-2">50K+</div>
-            <div className="text-gray-400">Active Users</div>
+            <div className="text-4xl font-bold text-white mb-2">10K+</div>
+            <div className="text-gray-400">Active Businesses</div>
           </div>
           <div className="text-center">
-            <div className="text-4xl font-bold text-white mb-2">$2.5M+</div>
-            <div className="text-gray-400">Money Saved</div>
+            <div className="text-4xl font-bold text-white mb-2">500M+</div>
+            <div className="text-gray-400">Items Tracked</div>
           </div>
           <div className="text-center">
             <div className="text-4xl font-bold text-white mb-2">4.9/5</div>
@@ -193,15 +193,15 @@ export default function SocialProof() {
         >
           <div className="flex items-center gap-2 text-gray-400">
             <Shield className="w-5 h-5" />
-            <span>Bank-level Security</span>
+            <span>Enterprise Security</span>
           </div>
           <div className="flex items-center gap-2 text-gray-400">
             <Lock className="w-5 h-5" />
-            <span>SOC2 Compliant</span>
+            <span>ISO 27001 Certified</span>
           </div>
           <div className="flex items-center gap-2 text-gray-400">
             <Award className="w-5 h-5" />
-            <span>Featured in TechCrunch</span>
+            <span>Industry Leader 2024</span>
           </div>
         </motion.div>
       </div>

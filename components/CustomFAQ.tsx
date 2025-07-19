@@ -6,36 +6,36 @@ import { Plus, Minus } from 'lucide-react';
 
 const faqs = [
   {
-    question: "How secure is my financial data?",
-    answer: "We use bank-level 256-bit encryption and are SOC2 compliant. Your data is encrypted both in transit and at rest. We never store your banking credentials - all connections are made through secure OAuth protocols."
+    question: "How does real-time inventory tracking work?",
+    answer: "Invenio syncs with your existing systems via API or direct integrations. Every transaction, movement, or adjustment is instantly reflected across all locations. Our system supports barcode scanners, RFID readers, and mobile devices for seamless tracking."
   },
   {
-    question: "Which banks do you support?",
-    answer: "MoneyMind supports over 12,000 financial institutions across the US and Canada, including all major banks and credit unions. We use Plaid for secure bank connections, ensuring compatibility with 99% of financial institutions."
+    question: "Can I manage multiple warehouse locations?",
+    answer: "Yes! Professional and Enterprise plans support multiple locations. You can track inventory across warehouses, retail stores, and fulfillment centers from one dashboard. Transfer stock between locations with full audit trails."
   },
   {
-    question: "Can I try MoneyMind before subscribing?",
-    answer: "Absolutely! We offer a 30-day free trial with full access to all Pro features. No credit card required to start. You can also use our free Starter plan indefinitely with basic features."
+    question: "What integrations do you support?",
+    answer: "Invenio integrates with major e-commerce platforms (Shopify, WooCommerce, Amazon), accounting software (QuickBooks, Xero), shipping providers (FedEx, UPS), and ERPs. We also offer REST API for custom integrations."
   },
   {
-    question: "How does the AI analysis work?",
-    answer: "Our AI uses advanced machine learning algorithms trained on millions of anonymized transactions. It categorizes expenses, identifies patterns, detects anomalies, and provides personalized insights based on your unique financial behavior."
+    question: "How does the smart reordering system work?",
+    answer: "Our AI analyzes your sales history, seasonality patterns, and lead times to calculate optimal reorder points. When stock hits these levels, we can automatically generate purchase orders or send alerts based on your preferences."
   },
   {
-    question: "Can I export my data?",
-    answer: "Yes! Pro and Business users can export all their data in multiple formats including CSV, Excel, and PDF. You own your data and can download it anytime. We also provide API access for Business users."
+    question: "Can I import my existing inventory data?",
+    answer: "Absolutely! We support bulk imports via CSV, Excel, or direct database migration. Our onboarding team helps ensure smooth data transfer. You can also use our API for programmatic imports."
   },
   {
-    question: "What if I need help?",
-    answer: "We're here for you! Free users get email support, Pro users get priority support with <24hr response time, and Business users get a dedicated account manager. We also have extensive documentation and video tutorials."
+    question: "What kind of reports can I generate?",
+    answer: "Generate comprehensive reports on inventory valuation, turnover rates, aging analysis, ABC classification, and more. All reports are customizable and can be scheduled for automatic delivery to stakeholders."
   },
   {
-    question: "Can I cancel anytime?",
-    answer: "Yes, you can cancel your subscription anytime with no penalties. If you cancel, you'll retain access until the end of your billing period. We also offer a 30-day money-back guarantee if you're not satisfied."
+    question: "Is there a mobile app?",
+    answer: "Yes! Our mobile apps for iOS and Android support barcode scanning, stock counts, transfers, and receiving. Perfect for warehouse staff to update inventory on the go. Offline mode ensures continuity even without internet."
   },
   {
-    question: "Do you sell my data?",
-    answer: "Never. Your privacy is our priority. We don't sell, rent, or share your personal financial data with third parties. We make money from subscriptions, not from your data. Read our privacy policy for full details."
+    question: "How secure is my inventory data?",
+    answer: "We use enterprise-grade security with 256-bit encryption, ISO 27001 certification, and regular security audits. Role-based access control ensures team members only see what they need. All data is backed up hourly."
   }
 ];
 
@@ -61,7 +61,7 @@ export default function CustomFAQ() {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500"> Questions</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            Everything you need to know about MoneyMind
+            Everything you need to know about Invenio
           </p>
         </motion.div>
 

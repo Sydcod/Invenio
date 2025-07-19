@@ -58,21 +58,21 @@ export default function CustomCTA() {
             className="inline-flex items-center gap-2 bg-gray-800/50 backdrop-blur-sm border border-gray-700/50 rounded-full px-4 py-2 mb-8"
           >
             <Sparkles className="w-4 h-4 text-green-400" />
-            <span className="text-sm text-gray-300">Join 50,000+ users transforming their finances</span>
+            <span className="text-sm text-gray-300">Join 10,000+ businesses optimizing their inventory</span>
           </motion.div>
 
           {/* Main Heading */}
           <h2 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
-            Ready to Take Control of
+            Ready to Transform Your
             <span className="block text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
-              Your Financial Future?
+              Inventory Management?
             </span>
           </h2>
 
           {/* Subheading */}
           <p className="text-xl text-gray-400 max-w-2xl mx-auto mb-8">
-            Start your journey to financial clarity today. No credit card required, 
-            cancel anytime, and see results in minutes.
+            Start streamlining your operations today. Real-time tracking, smart reordering, 
+            and powerful analytics - all in one platform.
           </p>
 
           {/* Benefits */}
@@ -90,7 +90,7 @@ export default function CustomCTA() {
               <span className="text-green-400">✓</span> No credit card needed
             </span>
             <span className="flex items-center gap-2">
-              <span className="text-green-400">✓</span> 5-minute setup
+              <span className="text-green-400">✓</span> Quick onboarding
             </span>
             <span className="flex items-center gap-2">
               <span className="text-green-400">✓</span> Cancel anytime
