@@ -89,7 +89,7 @@ export async function PATCH(req: NextRequest, { params }: RouteParams) {
     }
 
     // Check permission
-    if (!session.user.permissions?.canManageOrders) {
+    if (!session.user.role.permissions?.canManagePurchases) {
       return NextResponse.json(
         { error: 'Insufficient permissions' },
         { status: 403 }
@@ -119,6 +119,9 @@ export async function PATCH(req: NextRequest, { params }: RouteParams) {
       );
     }
 
+    // Store previous status for later checks
+    const previousStatus = order.status;
+    
     // Handle status transitions
     if (body.status && body.status !== order.status) {
       switch (body.status) {
@@ -130,10 +133,10 @@ export async function PATCH(req: NextRequest, { params }: RouteParams) {
             );
           }
           order.approval = {
-            approved: true,
+            required: true,
             approvedBy: new mongoose.Types.ObjectId(session.user.userId),
             approvedAt: new Date(),
-            notes: body.approvalNotes,
+            comments: body.approvalNotes,
           };
           break;
 
@@ -176,19 +179,43 @@ export async function PATCH(req: NextRequest, { params }: RouteParams) {
 
     // Recalculate totals if items updated
     if (body.items) {
-      const subtotal = order.items.reduce((sum: number, item: any) => sum + item.totalCost, 0);
-      const taxAmount = order.items.reduce((sum: number, item: any) => sum + (item.totalCost * item.taxRate / 100), 0);
+      const subtotal = order.items.reduce((sum: number, item: any) => sum + item.total, 0);
+      const taxAmount = order.items.reduce((sum: number, item: any) => sum + item.taxAmount, 0);
       order.financial.subtotal = subtotal;
-      order.financial.taxAmount = taxAmount;
-      order.financial.totalAmount = subtotal + taxAmount + order.financial.shippingCost - order.financial.discount;
+      order.financial.totalTax = taxAmount;
+      order.financial.grandTotal = subtotal + taxAmount + order.financial.shippingCost - order.financial.totalDiscount;
     }
 
     await order.save();
 
-    // Update supplier performance if status changed to delivered
-    if (body.status === 'delivered' && order.status !== 'delivered') {
-      const isOnTime = !order.deliveryDate || order.deliveryDate <= order.expectedDelivery;
-      await updateSupplierPerformance(order.supplierId, isOnTime);
+    // Update supplier performance if status changed to completed
+    if (body.status === 'completed' && previousStatus !== 'completed') {
+      const isOnTime = !order.dates?.actualDelivery || 
+        (order.dates.actualDelivery && order.dates.expectedDelivery && 
+         order.dates.actualDelivery <= order.dates.expectedDelivery);
+      
+      // Update supplier performance metrics
+      const supplier = await Supplier.findById(order.supplierId);
+      if (supplier) {
+        const totalOrders = supplier.performance.totalOrders + 1;
+        const onTimeOrders = supplier.performance.onTimeDelivery * supplier.performance.totalOrders / 100;
+        const newOnTimeOrders = isOnTime ? onTimeOrders + 1 : onTimeOrders;
+        const newOnTimePercentage = (newOnTimeOrders / totalOrders) * 100;
+        
+        // Calculate new average lead time
+        if (order.dates?.actualDelivery && order.dates?.orderDate) {
+          const leadTime = Math.ceil((order.dates.actualDelivery.getTime() - order.dates.orderDate.getTime()) / (1000 * 60 * 60 * 24));
+          const avgLeadTime = supplier.performance.averageLeadTime || 0;
+          const newAvgLeadTime = ((avgLeadTime * supplier.performance.totalOrders) + leadTime) / totalOrders;
+          supplier.performance.averageLeadTime = Math.round(newAvgLeadTime);
+        }
+        
+        supplier.performance.totalOrders = totalOrders;
+        supplier.performance.onTimeDelivery = Math.round(newOnTimePercentage);
+        supplier.performance.lastOrderDate = new Date();
+        
+        await supplier.save();
+      }
     }
 
     await order.populate('supplierId', 'name code');
@@ -220,7 +247,7 @@ export async function DELETE(req: NextRequest, { params }: RouteParams) {
     }
 
     // Check permission
-    if (!session.user.permissions?.canManageOrders) {
+    if (!session.user.role.permissions?.canManagePurchases) {
       return NextResponse.json(
         { error: 'Insufficient permissions' },
         { status: 403 }
@@ -256,10 +283,11 @@ export async function DELETE(req: NextRequest, { params }: RouteParams) {
 
     await order.save();
 
-    // Update supplier performance
+    // Update supplier performance for cancellation
     const supplier = await Supplier.findById(order.supplierId);
     if (supplier) {
-      supplier.performance.ordersCancelled++;
+      // We can track this as a reduction in total orders if needed
+      // or just leave the totalOrders count as is to maintain accurate history
       await supplier.save();
     }
 
@@ -280,11 +308,18 @@ export async function DELETE(req: NextRequest, { params }: RouteParams) {
 async function updateSupplierPerformance(supplierId: string, onTime: boolean) {
   const supplier = await Supplier.findById(supplierId);
   if (supplier) {
+    supplier.performance.totalOrders++;
+    
+    // Update on-time delivery percentage
     if (onTime) {
-      supplier.performance.ordersDelivered++;
+      const currentOnTimeCount = Math.round(supplier.performance.onTimeDelivery * (supplier.performance.totalOrders - 1) / 100);
+      supplier.performance.onTimeDelivery = Math.round(((currentOnTimeCount + 1) / supplier.performance.totalOrders) * 100);
     } else {
-      supplier.performance.ordersLate++;
+      const currentOnTimeCount = Math.round(supplier.performance.onTimeDelivery * (supplier.performance.totalOrders - 1) / 100);
+      supplier.performance.onTimeDelivery = Math.round((currentOnTimeCount / supplier.performance.totalOrders) * 100);
     }
+    
+    supplier.performance.lastOrderDate = new Date();
     await supplier.save();
   }
 }

@@ -112,7 +112,7 @@ export async function POST(req: NextRequest) {
     }
 
     // Check permission
-    if (!session.user.permissions?.canManageProducts) {
+    if (!session.user.role.permissions?.canManageInventory) {
       return NextResponse.json(
         { error: 'Insufficient permissions' },
         { status: 403 }

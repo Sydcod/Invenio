@@ -1,24 +1,41 @@
 import { ReactNode } from "react";
-import { redirect } from "next/navigation";
-import { getServerSession } from "next-auth";
-import { authOptions } from "@/libs/next-auth";
-import config from "@/config";
+import { requireOrganization } from "@/libs/auth-utils";
+import DashboardSidebar from "@/components/dashboard/DashboardSidebar";
+import DashboardHeader from "@/components/dashboard/DashboardHeader";
 
-// This is a server-side component to ensure the user is logged in.
-// If not, it will redirect to the login page.
-// It's applied to all subpages of /dashboard in /app/dashboard/*** pages
-// You can also add custom static UI elements like a Navbar, Sidebar, Footer, etc..
-// See https://shipfa.st/docs/tutorials/private-page
-export default async function LayoutPrivate({
+export default async function DashboardLayout({
   children,
 }: {
   children: ReactNode;
 }) {
-  const session = await getServerSession(authOptions);
+  // Ensure user is authenticated and belongs to an organization
+  const session = await requireOrganization();
 
-  if (!session) {
-    redirect(config.auth.loginUrl);
-  }
-
-  return <>{children}</>;
+  return (
+    <div className="flex h-screen bg-gray-50">
+      {/* Sidebar */}
+      <DashboardSidebar />
+      
+      {/* Main content area */}
+      <div className="flex flex-1 flex-col overflow-hidden">
+        {/* Header */}
+        <DashboardHeader 
+          user={{
+            name: session.user.name,
+            email: session.user.email,
+            image: session.user.image,
+          }}
+          organization={{
+            name: session.user.organizationName,
+            id: session.user.organizationId,
+          }}
+        />
+        
+        {/* Page content */}
+        <main className="flex-1 overflow-y-auto">
+          {children}
+        </main>
+      </div>
+    </div>
+  );
 }

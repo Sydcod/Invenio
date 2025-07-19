@@ -61,7 +61,7 @@ export async function GET(req: NextRequest, { params }: RouteParams) {
         $match: {
           supplierId: supplier._id,
           organizationId: new mongoose.Types.ObjectId(session.user.organizationId),
-          status: { $in: ['delivered', 'partial'] },
+          status: { $in: ['completed', 'partial'] },
         },
       },
       {
@@ -103,7 +103,7 @@ export async function PATCH(req: NextRequest, { params }: RouteParams) {
     }
 
     // Check permission
-    if (!session.user.permissions?.canManageSuppliers) {
+    if (!session.user.role.permissions?.canManageInventory) {
       return NextResponse.json(
         { error: 'Insufficient permissions' },
         { status: 403 }
@@ -187,7 +187,7 @@ export async function DELETE(req: NextRequest, { params }: RouteParams) {
     }
 
     // Check permission
-    if (!session.user.permissions?.canManageSuppliers) {
+    if (!session.user.role.permissions?.canManageInventory) {
       return NextResponse.json(
         { error: 'Insufficient permissions' },
         { status: 403 }
@@ -239,8 +239,7 @@ export async function DELETE(req: NextRequest, { params }: RouteParams) {
     // Soft delete
     supplier.status = 'inactive';
     supplier.isActive = false;
-    supplier.deletedAt = new Date();
-    supplier.deletedBy = new mongoose.Types.ObjectId(session.user.userId);
+    // Remove non-schema fields - using status and isActive for soft delete
     supplier.updatedBy = new mongoose.Types.ObjectId(session.user.userId);
     supplier.updatedAt = new Date();
 
@@ -274,7 +273,7 @@ export async function POST(
     }
 
     // Check permission
-    if (!session.user.permissions?.canManageSuppliers) {
+    if (!session.user.role.permissions?.canManageInventory) {
       return NextResponse.json(
         { error: 'Insufficient permissions' },
         { status: 403 }
@@ -301,31 +300,34 @@ export async function POST(
 
     switch (type) {
       case 'order_completed':
+        supplier.performance.totalOrders++;
+        
         if (data.onTime) {
-          supplier.performance.ordersDelivered++;
+          const onTimeOrders = (supplier.performance.onTimeDelivery / 100) * (supplier.performance.totalOrders - 1);
+          supplier.performance.onTimeDelivery = Math.round(((onTimeOrders + 1) / supplier.performance.totalOrders) * 100);
         } else {
-          supplier.performance.ordersLate++;
+          const onTimeOrders = (supplier.performance.onTimeDelivery / 100) * (supplier.performance.totalOrders - 1);
+          supplier.performance.onTimeDelivery = Math.round((onTimeOrders / supplier.performance.totalOrders) * 100);
         }
         
         // Update average lead time
         if (data.leadTime) {
-          const totalOrders = supplier.performance.ordersDelivered + supplier.performance.ordersLate;
           supplier.performance.averageLeadTime = 
-            ((supplier.performance.averageLeadTime * (totalOrders - 1)) + data.leadTime) / totalOrders;
+            Math.round(((supplier.performance.averageLeadTime * (supplier.performance.totalOrders - 1)) + data.leadTime) / supplier.performance.totalOrders);
         }
-        break;
-
-      case 'order_cancelled':
-        supplier.performance.ordersCancelled++;
+        
+        supplier.performance.lastOrderDate = new Date();
         break;
 
       case 'quality_assessment':
-        supplier.performance.qualityRating = data.rating;
-        supplier.performance.lastAssessment = new Date();
+        supplier.performance.qualityScore = data.rating;
         break;
 
-      case 'reliability_update':
-        supplier.performance.reliabilityScore = data.score;
+      case 'return_recorded':
+        if (data.returnCount && supplier.performance.totalOrders > 0) {
+          const totalReturns = (supplier.performance.returnRate / 100) * supplier.performance.totalOrders + data.returnCount;
+          supplier.performance.returnRate = Math.round((totalReturns / supplier.performance.totalOrders) * 100);
+        }
         break;
 
       default:

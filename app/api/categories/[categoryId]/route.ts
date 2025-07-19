@@ -83,7 +83,7 @@ export async function PATCH(req: NextRequest, { params }: RouteParams) {
     }
 
     // Check permission
-    if (!session.user.permissions?.canManageProducts) {
+    if (!session.user.role.permissions?.canManageInventory) {
       return NextResponse.json(
         { error: 'Insufficient permissions' },
         { status: 403 }
@@ -240,7 +240,7 @@ export async function DELETE(req: NextRequest, { params }: RouteParams) {
     }
 
     // Check permission
-    if (!session.user.permissions?.canManageProducts) {
+    if (!session.user.role.permissions?.canManageInventory) {
       return NextResponse.json(
         { error: 'Insufficient permissions' },
         { status: 403 }
@@ -289,8 +289,6 @@ export async function DELETE(req: NextRequest, { params }: RouteParams) {
 
     // Soft delete
     category.isActive = false;
-    category.deletedAt = new Date();
-    category.deletedBy = new mongoose.Types.ObjectId(session.user.userId);
     category.updatedBy = new mongoose.Types.ObjectId(session.user.userId);
     category.updatedAt = new Date();
 

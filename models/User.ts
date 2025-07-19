@@ -2,7 +2,7 @@ import mongoose, { Schema, Document } from "mongoose";
 import toJSON from "./plugins/toJSON";
 
 export interface IUser extends Document {
-  organizationId: mongoose.Types.ObjectId;
+  organizationId?: mongoose.Types.ObjectId; // Optional to allow new users
   email: string;
   name?: string;
   image?: string;
@@ -81,7 +81,7 @@ const userSchema = new Schema<IUser>(
     organizationId: {
       type: Schema.Types.ObjectId,
       ref: 'Organization',
-      required: true,
+      required: false, // Made optional to allow new users to sign up first
       index: true,
     },
     email: {

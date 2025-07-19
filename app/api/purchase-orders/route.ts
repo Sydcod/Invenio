@@ -108,7 +108,7 @@ export async function POST(req: NextRequest) {
     }
 
     // Check permission
-    if (!session.user.permissions?.canManageOrders) {
+    if (!session.user.role.permissions?.canManagePurchases) {
       return NextResponse.json(
         { error: 'Insufficient permissions' },
         { status: 403 }
@@ -228,7 +228,7 @@ export async function POST(req: NextRequest) {
         paidAmount: 0,
         currency: body.currency || 'USD',
       },
-      paymentTerms: body.paymentTerms || supplier.paymentTerms || '30 days',
+      paymentTerms: body.paymentTerms || supplier.payment?.terms || 'net30',
       notes: body.notes,
       createdBy: new mongoose.Types.ObjectId(session.user.userId),
       updatedBy: new mongoose.Types.ObjectId(session.user.userId),

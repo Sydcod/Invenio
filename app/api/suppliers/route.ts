@@ -40,8 +40,8 @@ export async function GET(req: NextRequest) {
       query.$or = [
         { name: { $regex: search, $options: 'i' } },
         { code: { $regex: search, $options: 'i' } },
-        { 'contactInfo.primaryContact.name': { $regex: search, $options: 'i' } },
-        { 'contactInfo.primaryContact.email': { $regex: search, $options: 'i' } },
+        { 'contact.contactPerson': { $regex: search, $options: 'i' } },
+        { 'contact.email': { $regex: search, $options: 'i' } },
       ];
     }
 
@@ -57,19 +57,17 @@ export async function GET(req: NextRequest) {
 
     // Calculate performance metrics
     const suppliersWithMetrics = suppliers.map(supplier => {
-      const metrics = supplier.toObject();
+      const supplierObj = supplier.toObject();
       
       // Add calculated fields
-      const totalOrders = (metrics.performance?.ordersDelivered || 0) + 
-                         (metrics.performance?.ordersLate || 0) + 
-                         (metrics.performance?.ordersCancelled || 0);
+      const totalOrders = supplierObj.performance?.totalOrders || 0;
+      const onTimeRate = supplierObj.performance?.onTimeDelivery || 0;
       
-      metrics.totalOrders = totalOrders;
-      metrics.onTimeRate = totalOrders > 0 
-        ? ((metrics.performance?.ordersDelivered || 0) / totalOrders * 100).toFixed(2)
-        : 0;
-      
-      return metrics;
+      return {
+        ...supplierObj,
+        totalOrders,
+        onTimeRate,
+      };
     });
 
     return NextResponse.json({
@@ -103,7 +101,7 @@ export async function POST(req: NextRequest) {
     }
 
     // Check permission
-    if (!session.user.permissions?.canManageSuppliers) {
+    if (!session.user.role.permissions?.canManageInventory) {
       return NextResponse.json(
         { error: 'Insufficient permissions' },
         { status: 403 }
@@ -114,7 +112,7 @@ export async function POST(req: NextRequest) {
     const body = await req.json();
 
     // Validate required fields
-    const { name, code, contactInfo } = body;
+    const { name, code, contact } = body;
     if (!name || !code) {
       return NextResponse.json(
         { error: 'Supplier name and code are required' },
@@ -122,9 +120,9 @@ export async function POST(req: NextRequest) {
       );
     }
 
-    if (!contactInfo?.primaryContact?.email) {
+    if (!contact?.email) {
       return NextResponse.json(
-        { error: 'Primary contact email is required' },
+        { error: 'Contact email is required' },
         { status: 400 }
       );
     }
@@ -150,13 +148,13 @@ export async function POST(req: NextRequest) {
       createdBy: new mongoose.Types.ObjectId(session.user.userId),
       updatedBy: new mongoose.Types.ObjectId(session.user.userId),
       performance: {
-        ordersDelivered: 0,
-        ordersLate: 0,
-        ordersCancelled: 0,
-        averageLeadTime: body.leadTime || 0,
-        qualityRating: 5,
-        reliabilityScore: 100,
-        lastAssessment: new Date(),
+        rating: 5,
+        onTimeDelivery: 100,
+        qualityScore: 5,
+        responseTime: 24,
+        totalOrders: 0,
+        returnRate: 0,
+        averageLeadTime: body.leadTime || 7,
       },
     });
 

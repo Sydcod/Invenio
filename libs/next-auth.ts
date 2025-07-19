@@ -54,21 +54,8 @@ export const authOptions: NextAuthOptionsExtended = {
 
   callbacks: {
     signIn: async ({ user, account, profile }) => {
-      // Check if user exists in our database
-      if (user.email) {
-        const existingUser = await User.findOne({ email: user.email });
-        
-        // If user exists but has no organizationId, they need to be invited first
-        if (existingUser && !existingUser.organizationId) {
-          return false; // Prevent sign in
-        }
-        
-        // If new user and not invited, prevent sign in
-        if (!existingUser) {
-          return false; // New users must be invited to an organization
-        }
-      }
-      
+      // Always allow sign in - we'll handle organization setup after
+      // This allows new users to create accounts and existing users to access onboarding
       return true;
     },
     jwt: async ({ token, user, trigger, session }) => {

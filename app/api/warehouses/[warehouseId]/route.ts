@@ -29,7 +29,6 @@ export async function GET(req: NextRequest, { params }: RouteParams) {
       _id: params.warehouseId,
       organizationId: session.user.organizationId,
     })
-      .populate('managerId', 'name email')
       .populate('createdBy', 'name email')
       .populate('updatedBy', 'name email');
 
@@ -156,20 +155,20 @@ export async function PATCH(req: NextRequest, { params }: RouteParams) {
     }
 
     // Handle default warehouse change
-    if (body.isDefault === true && !warehouse.settings.isDefault) {
+    if (body.settings?.isDefault === true) {
       // Remove default from other warehouses
       await Warehouse.updateMany(
         { 
           organizationId: session.user.organizationId, 
-          'settings.isDefault': true,
           _id: { $ne: params.warehouseId },
+          'settings.isDefault': true 
         },
         { $set: { 'settings.isDefault': false } }
       );
     }
 
     // Prevent removing default if it's the only warehouse
-    if (body.isDefault === false && warehouse.settings.isDefault) {
+    if (body.settings?.isDefault === false && warehouse.settings.isDefault) {
       const warehouseCount = await Warehouse.countDocuments({
         organizationId: session.user.organizationId,
         status: 'active',
@@ -192,29 +191,21 @@ export async function PATCH(req: NextRequest, { params }: RouteParams) {
       ...updateData 
     } = body;
 
-    // Handle isDefault separately if it's at root level of body
-    if (body.isDefault !== undefined) {
-      warehouse.settings.isDefault = body.isDefault;
-      delete updateData.isDefault; // Remove from updateData to avoid conflicts
-    }
-    
-    // Handle settings object if provided
-    if (updateData.settings) {
-      // Merge settings instead of overwriting
-      warehouse.settings = {
-        ...warehouse.settings,
-        ...updateData.settings,
-      };
-      delete updateData.settings; // Remove to handle separately
-    }
-    
-    // Update other fields
+    // Update warehouse
     Object.assign(warehouse, {
       ...updateData,
       code: updateData.code ? updateData.code.toUpperCase() : warehouse.code,
       updatedBy: new mongoose.Types.ObjectId(session.user.userId),
       updatedAt: new Date(),
     });
+    
+    // Handle settings separately to ensure proper merge
+    if (body.settings) {
+      warehouse.settings = {
+        ...warehouse.settings,
+        ...body.settings,
+      };
+    }
 
     await warehouse.save();
 
