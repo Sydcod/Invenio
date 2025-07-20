@@ -8,12 +8,11 @@ import WarehouseForm from "@/components/dashboard/WarehouseForm";
 
 export const dynamic = "force-dynamic";
 
-async function getWarehouse(warehouseId: string, organizationId: string) {
+async function getWarehouse(warehouseId: string) {
   await connectMongo();
   
   const warehouse = await Warehouse.findOne({
     _id: warehouseId,
-    organizationId,
   })
     .lean();
     
@@ -23,12 +22,13 @@ async function getWarehouse(warehouseId: string, organizationId: string) {
 export default async function WarehouseDetailPage({
   params,
 }: {
-  params: { warehouseId: string };
+  params: Promise<{ warehouseId: string }>;
 }) {
   const session = await requirePermission('canManageInventory');
   
+  const { warehouseId } = await params;
   // Handle "new" warehouse creation
-  if (params.warehouseId === 'new') {
+  if (warehouseId === 'new') {
     return (
       <div className="p-8">
         {/* Page header */}
@@ -48,14 +48,14 @@ export default async function WarehouseDetailPage({
 
         {/* Warehouse form */}
         <div className="max-w-4xl">
-          <WarehouseForm organizationId={session.user.organizationId} />
+          <WarehouseForm />
         </div>
       </div>
     );
   }
   
   // Get existing warehouse
-  const warehouse = await getWarehouse(params.warehouseId, session.user.organizationId);
+  const warehouse = await getWarehouse(warehouseId);
   
   if (!warehouse) {
     notFound();
@@ -106,7 +106,6 @@ export default async function WarehouseDetailPage({
       <div className="max-w-4xl">
         <WarehouseForm 
           warehouse={warehouse}
-          organizationId={session.user.organizationId}
         />
       </div>
     </div>

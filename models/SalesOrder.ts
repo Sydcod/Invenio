@@ -2,7 +2,6 @@ import mongoose, { Schema, Document } from 'mongoose';
 import toJSON from './plugins/toJSON';
 
 export interface ISalesOrder extends Document {
-  organizationId: mongoose.Types.ObjectId;
   orderNumber: string;
   customerId?: mongoose.Types.ObjectId;
   customer: {
@@ -145,12 +144,6 @@ export interface ISalesOrder extends Document {
 
 const salesOrderSchema = new Schema<ISalesOrder>(
   {
-    organizationId: {
-      type: Schema.Types.ObjectId,
-      ref: 'Organization',
-      required: true,
-      index: true,
-    },
     orderNumber: {
       type: String,
       required: true,
@@ -560,16 +553,16 @@ const salesOrderSchema = new Schema<ISalesOrder>(
 );
 
 // Compound indexes for performance
-salesOrderSchema.index({ organizationId: 1, orderNumber: 1 }, { unique: true });
-salesOrderSchema.index({ organizationId: 1, status: 1, 'dates.orderDate': -1 });
-salesOrderSchema.index({ organizationId: 1, customerId: 1, status: 1 });
-salesOrderSchema.index({ organizationId: 1, warehouseId: 1 });
-salesOrderSchema.index({ organizationId: 1, salesPersonId: 1 });
-salesOrderSchema.index({ organizationId: 1, 'payment.status': 1 });
-salesOrderSchema.index({ organizationId: 1, 'fulfillment.priority': 1, status: 1 });
-salesOrderSchema.index({ organizationId: 1, 'dates.expectedDelivery': 1 });
-salesOrderSchema.index({ organizationId: 1, 'customer.email': 1 });
-salesOrderSchema.index({ organizationId: 1, source: 1 });
+salesOrderSchema.index({ orderNumber: 1 }, { unique: true });
+salesOrderSchema.index({ status: 1, 'dates.orderDate': -1 });
+salesOrderSchema.index({ customerId: 1, status: 1 });
+salesOrderSchema.index({ warehouseId: 1 });
+salesOrderSchema.index({ salesPersonId: 1 });
+salesOrderSchema.index({ 'payment.status': 1 });
+salesOrderSchema.index({ 'fulfillment.priority': 1, status: 1 });
+salesOrderSchema.index({ 'dates.expectedDelivery': 1 });
+salesOrderSchema.index({ 'customer.email': 1 });
+salesOrderSchema.index({ source: 1 });
 
 // Apply the toJSON plugin
 salesOrderSchema.plugin(toJSON);
@@ -578,9 +571,7 @@ salesOrderSchema.plugin(toJSON);
 salesOrderSchema.pre('save', async function(next) {
   // Generate order number if not provided
   if (this.isNew && !this.orderNumber) {
-    const count = await mongoose.model('SalesOrder').countDocuments({
-      organizationId: this.organizationId,
-    });
+    const count = await mongoose.model('SalesOrder').countDocuments({});
     const year = new Date().getFullYear().toString().slice(-2);
     this.orderNumber = `SO${year}${String(count + 1).padStart(6, '0')}`;
   }
@@ -714,30 +705,28 @@ salesOrderSchema.methods.processReturn = async function(returnData: any) {
 };
 
 // Static methods
-salesOrderSchema.statics.findByOrganization = function(organizationId: mongoose.Types.ObjectId, status?: string) {
-  const query: any = { organizationId };
+salesOrderSchema.statics.findByStatus = function(status?: string) {
+  const query: any = {};
   if (status) query.status = status;
   
   return this.find(query).sort('-dates.orderDate');
 };
 
-salesOrderSchema.statics.findPendingFulfillment = function(organizationId: mongoose.Types.ObjectId) {
+salesOrderSchema.statics.findPendingFulfillment = function() {
   return this.find({
-    organizationId,
     status: { $in: ['confirmed', 'processing'] },
     'fulfillment.priority': { $in: ['high', 'urgent'] },
   }).sort({ 'fulfillment.priority': -1, 'dates.orderDate': 1 });
 };
 
-salesOrderSchema.statics.findOverduePayments = function(organizationId: mongoose.Types.ObjectId) {
+salesOrderSchema.statics.findOverduePayments = function() {
   return this.find({
-    organizationId,
     'payment.status': 'overdue',
   }).sort('dates.dueDate');
 };
 
-salesOrderSchema.statics.getCustomerOrderHistory = function(organizationId: mongoose.Types.ObjectId, customerId?: mongoose.Types.ObjectId, email?: string) {
-  const query: any = { organizationId, status: { $ne: 'cancelled' } };
+salesOrderSchema.statics.getCustomerOrderHistory = function(customerId?: mongoose.Types.ObjectId, email?: string) {
+  const query: any = { status: { $ne: 'cancelled' } };
   
   if (customerId) {
     query.customerId = customerId;
@@ -748,7 +737,7 @@ salesOrderSchema.statics.getCustomerOrderHistory = function(organizationId: mong
   return this.find(query).sort('-dates.orderDate');
 };
 
-salesOrderSchema.statics.getDailySales = function(organizationId: mongoose.Types.ObjectId, date: Date) {
+salesOrderSchema.statics.getDailySales = function(date: Date) {
   const startOfDay = new Date(date);
   startOfDay.setHours(0, 0, 0, 0);
   
@@ -756,12 +745,11 @@ salesOrderSchema.statics.getDailySales = function(organizationId: mongoose.Types
   endOfDay.setHours(23, 59, 59, 999);
   
   return this.find({
-    organizationId,
     'dates.orderDate': { $gte: startOfDay, $lte: endOfDay },
     status: { $nin: ['cancelled', 'refunded'] },
   });
 };
 
-const SalesOrder = mongoose.model<ISalesOrder>('SalesOrder', salesOrderSchema);
+const SalesOrder = mongoose.models.SalesOrder || mongoose.model<ISalesOrder>('SalesOrder', salesOrderSchema);
 
 export default SalesOrder;

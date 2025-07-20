@@ -6,10 +6,10 @@ import connectMongo from "@/libs/mongoose";
 
 export const dynamic = "force-dynamic";
 
-async function getSuppliers(organizationId: string, searchQuery?: string) {
+async function getSuppliers(searchQuery?: string) {
   await connectMongo();
   
-  const query: any = { organizationId };
+  const query: any = {};
   
   if (searchQuery) {
     query.$or = [
@@ -34,7 +34,7 @@ export default async function SuppliersPage({
   searchParams: { search?: string };
 }) {
   const session = await requirePermission('canManageInventory');
-  const suppliers = await getSuppliers(session.user.organizationId, searchParams.search);
+  const suppliers = await getSuppliers(searchParams.search);
 
   return (
     <div className="p-8">

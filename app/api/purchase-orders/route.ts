@@ -12,7 +12,7 @@ import mongoose from 'mongoose';
 export async function GET(req: NextRequest) {
   try {
     const session = await getServerSession(authOptions);
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -35,9 +35,7 @@ export async function GET(req: NextRequest) {
     const order = searchParams.get('order') === 'asc' ? 1 : -1;
 
     // Build query
-    const query: any = {
-      organizationId: session.user.organizationId,
-    };
+    const query: any = {};
 
     if (status) {
       query.status = status;
@@ -100,7 +98,7 @@ export async function GET(req: NextRequest) {
 export async function POST(req: NextRequest) {
   try {
     const session = await getServerSession(authOptions);
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -130,7 +128,6 @@ export async function POST(req: NextRequest) {
     // Validate supplier
     const supplier = await Supplier.findOne({
       _id: supplierId,
-      organizationId: session.user.organizationId,
       status: 'active',
     });
 
@@ -144,7 +141,6 @@ export async function POST(req: NextRequest) {
     // Validate warehouse
     const warehouse = await Warehouse.findOne({
       _id: warehouseId,
-      organizationId: session.user.organizationId,
       status: 'active',
     });
 
@@ -160,7 +156,6 @@ export async function POST(req: NextRequest) {
       items.map(async (item: any) => {
         const product = await Product.findOne({
           _id: item.productId,
-          organizationId: session.user.organizationId,
           status: 'active',
         });
 
@@ -194,15 +189,12 @@ export async function POST(req: NextRequest) {
     const totalAmount = subtotal + taxAmount + shippingCost;
 
     // Generate order number
-    const orderCount = await PurchaseOrder.countDocuments({
-      organizationId: session.user.organizationId,
-    });
+    const orderCount = await PurchaseOrder.countDocuments();
     const orderNumber = `PO-${new Date().getFullYear()}-${String(orderCount + 1).padStart(6, '0')}`;
 
     // Create purchase order
     const purchaseOrder = await PurchaseOrder.create({
       orderNumber,
-      organizationId: session.user.organizationId,
       supplierId,
       supplier: {
         id: supplier._id,

@@ -11,7 +11,7 @@ import mongoose from 'mongoose';
 export async function GET(req: NextRequest) {
   try {
     const session = await getServerSession(authOptions);
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -33,9 +33,7 @@ export async function GET(req: NextRequest) {
     const order = searchParams.get('order') === 'asc' ? 1 : -1;
 
     // Build query
-    const query: any = {
-      organizationId: session.user.organizationId,
-    };
+    const query: any = {};
 
     if (status) {
       query.status = status;
@@ -108,7 +106,7 @@ export async function GET(req: NextRequest) {
 export async function POST(req: NextRequest) {
   try {
     const session = await getServerSession(authOptions);
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -145,7 +143,6 @@ export async function POST(req: NextRequest) {
     // Validate warehouse
     const warehouse = await Warehouse.findOne({
       _id: warehouseId,
-      organizationId: session.user.organizationId,
       status: 'active',
     });
 
@@ -161,7 +158,6 @@ export async function POST(req: NextRequest) {
       items.map(async (item: any) => {
         const product = await Product.findOne({
           _id: item.productId,
-          organizationId: session.user.organizationId,
           status: 'active',
         });
 
@@ -220,15 +216,12 @@ export async function POST(req: NextRequest) {
     const grandTotal = subtotal - totalDiscount + totalTax + shippingCost;
 
     // Generate order number
-    const orderCount = await SalesOrder.countDocuments({
-      organizationId: session.user.organizationId,
-    });
+    const orderCount = await SalesOrder.countDocuments();
     const orderNumber = `SO-${new Date().getFullYear()}-${String(orderCount + 1).padStart(6, '0')}`;
 
     // Create sales order
     const salesOrder = await SalesOrder.create({
       orderNumber,
-      organizationId: session.user.organizationId,
       customer: {
         ...customer,
         name: customer.name || customer.email.split('@')[0],

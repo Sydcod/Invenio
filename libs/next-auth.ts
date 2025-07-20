@@ -69,14 +69,22 @@ export const authOptions: NextAuthOptionsExtended = {
               name: user.name,
               image: user.image,
               role: {
-                name: 'staff',
-                permissions: [],
+                name: 'admin', // All users are admins by default
+                permissions: [
+                  'canManageUsers',
+                  'canManageInventory',
+                  'canManageSales',
+                  'canManagePurchases',
+                  'canManageReports',
+                  'canViewReports',
+                  'canManageSettings'
+                ],
                 customPermissions: {
-                  inventory: { view: true, create: false, edit: false, delete: false },
-                  sales: { view: true, create: false, edit: false, delete: false, approve: false },
-                  purchases: { view: true, create: false, edit: false, delete: false, approve: false },
-                  reports: { view: true, export: false, advanced: false },
-                  settings: { view: false, edit: false, users: false, billing: false }
+                  inventory: { view: true, create: true, edit: true, delete: true },
+                  sales: { view: true, create: true, edit: true, delete: true, approve: true },
+                  purchases: { view: true, create: true, edit: true, delete: true, approve: true },
+                  reports: { view: true, export: true, advanced: true },
+                  settings: { view: true, edit: true, users: true, billing: true }
                 }
               },
               status: 'pending',
@@ -111,11 +119,9 @@ export const authOptions: NextAuthOptionsExtended = {
       if (user) {
         try {
           await connectMongoose();
-          const dbUser = await User.findOne({ email: user.email }).populate('organizationId');
+          const dbUser = await User.findOne({ email: user.email });
           if (dbUser) {
             token.userId = dbUser._id.toString();
-            token.organizationId = dbUser.organizationId?._id?.toString();
-            token.organizationName = dbUser.organizationId?.name;
             token.role = dbUser.role;
           }
         } catch (error) {
@@ -127,10 +133,8 @@ export const authOptions: NextAuthOptionsExtended = {
       if (trigger === "update" && session) {
         try {
           await connectMongoose();
-          const dbUser = await User.findById(token.userId).populate('organizationId');
+          const dbUser = await User.findById(token.userId);
           if (dbUser) {
-            token.organizationId = dbUser.organizationId?._id?.toString();
-            token.organizationName = dbUser.organizationId?.name;
             token.role = dbUser.role;
           }
         } catch (error) {
@@ -144,8 +148,6 @@ export const authOptions: NextAuthOptionsExtended = {
       if (session?.user) {
         session.user.id = token.sub;
         session.user.userId = token.userId as string;
-        session.user.organizationId = token.organizationId as string;
-        session.user.organizationName = token.organizationName as string;
         session.user.role = token.role as any;
       }
       return session;

@@ -2,22 +2,21 @@ import { requirePermission } from "@/libs/auth-utils";
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { ArrowLeftIcon } from "@heroicons/react/24/outline";
-import SalesOrder from "@/models/SalesOrder";
+import SalesOrder, { ISalesOrder } from "@/models/SalesOrder";
 import connectMongo from "@/libs/mongoose";
 import SalesOrderForm from "@/components/dashboard/SalesOrderForm";
 
 export const dynamic = "force-dynamic";
 
-async function getSalesOrder(salesOrderId: string, organizationId: string) {
+async function getSalesOrder(salesOrderId: string) {
   await connectMongo();
   
   const order = await SalesOrder.findOne({
     _id: salesOrderId,
-    organizationId,
   })
-    .populate('warehouse', 'name code')
-    .populate('items.product', 'name sku')
-    .lean();
+    .populate('warehouseId', 'name code')
+    .populate('items.productId', 'name sku')
+    .lean() as ISalesOrder | null;
     
   return order;
 }
@@ -25,12 +24,13 @@ async function getSalesOrder(salesOrderId: string, organizationId: string) {
 export default async function SalesOrderDetailPage({
   params,
 }: {
-  params: { salesOrderId: string };
+  params: Promise<{ salesOrderId: string }>;
 }) {
   const session = await requirePermission('canManageInventory');
+  const { salesOrderId } = await params;
   
   // Handle "new" sales order creation
-  if (params.salesOrderId === 'new') {
+  if (salesOrderId === 'new') {
     return (
       <div className="p-8">
         {/* Page header */}
@@ -50,14 +50,14 @@ export default async function SalesOrderDetailPage({
 
         {/* Sales order form */}
         <div className="max-w-6xl">
-          <SalesOrderForm organizationId={session.user.organizationId} />
+          <SalesOrderForm />
         </div>
       </div>
     );
   }
   
   // Get existing sales order
-  const order = await getSalesOrder(params.salesOrderId, session.user.organizationId);
+  const order = await getSalesOrder(salesOrderId);
   
   if (!order) {
     notFound();
@@ -80,15 +80,13 @@ export default async function SalesOrderDetailPage({
               Sales Order {order.orderNumber}
             </h1>
             <p className="mt-1 text-sm text-gray-500">
-              {order.customer?.name || 'Customer'} • ${order.financials?.totalAmount?.toFixed(2) || '0.00'}
+              {order.customer?.name || 'Customer'} • ${order.financial?.grandTotal?.toFixed(2) || '0.00'}
             </p>
           </div>
           <div className="mt-4 sm:mt-0">
             <span className={`inline-flex rounded-full px-3 py-1 text-sm font-semibold ${
               order.status === 'draft'
                 ? 'bg-gray-100 text-gray-800'
-                : order.status === 'pending'
-                ? 'bg-yellow-100 text-yellow-800'
                 : order.status === 'confirmed'
                 ? 'bg-blue-100 text-blue-800'
                 : order.status === 'processing'
@@ -111,7 +109,6 @@ export default async function SalesOrderDetailPage({
       <div className="max-w-6xl">
         <SalesOrderForm 
           salesOrder={order}
-          organizationId={session.user.organizationId}
         />
       </div>
     </div>

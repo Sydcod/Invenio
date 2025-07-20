@@ -19,20 +19,15 @@ interface DashboardHeaderProps {
     email?: string | null;
     image?: string | null;
   };
-  organization: {
-    name: string;
-    id: string;
-  };
 }
 
-export default function DashboardHeader({ user, organization }: DashboardHeaderProps) {
+export default function DashboardHeader({ user }: DashboardHeaderProps) {
   return (
     <div className="sticky top-0 z-10 flex h-16 bg-white border-b border-gray-200">
       <div className="flex flex-1 items-center justify-between px-4 sm:px-6 lg:px-8">
-        {/* Organization Info */}
+        {/* Welcome message */}
         <div className="flex items-center">
-          <BuildingOfficeIcon className="h-5 w-5 text-gray-400 mr-2" />
-          <span className="text-sm font-medium text-gray-900">{organization.name}</span>
+          <span className="text-sm font-medium text-gray-900">Welcome back!</span>
         </div>
 
         {/* Right side */}

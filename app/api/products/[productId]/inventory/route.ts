@@ -17,7 +17,7 @@ export async function GET(req: NextRequest, { params }: RouteParams) {
   try {
     const session = await getServerSession(authOptions);
     
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -28,7 +28,6 @@ export async function GET(req: NextRequest, { params }: RouteParams) {
 
     const product = await Product.findOne({
       _id: params.productId,
-      organizationId: session.user.organizationId,
     })
       .select('name sku inventory')
       .populate('inventory.warehouses.warehouseId', 'name code location');
@@ -82,7 +81,7 @@ export async function POST(req: NextRequest, { params }: RouteParams) {
   try {
     const session = await getServerSession(authOptions);
     
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -122,7 +121,6 @@ export async function POST(req: NextRequest, { params }: RouteParams) {
     // Validate warehouse
     const warehouse = await Warehouse.findOne({
       _id: warehouseId,
-      organizationId: session.user.organizationId,
       status: 'active',
     });
 
@@ -136,7 +134,6 @@ export async function POST(req: NextRequest, { params }: RouteParams) {
     // Find product
     const product = await Product.findOne({
       _id: params.productId,
-      organizationId: session.user.organizationId,
     });
 
     if (!product) {
@@ -280,7 +277,7 @@ export async function PUT(req: NextRequest, { params }: RouteParams) {
   try {
     const session = await getServerSession(authOptions);
     
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -302,7 +299,6 @@ export async function PUT(req: NextRequest, { params }: RouteParams) {
 
     const product = await Product.findOne({
       _id: params.productId,
-      organizationId: session.user.organizationId,
     });
 
     if (!product) {

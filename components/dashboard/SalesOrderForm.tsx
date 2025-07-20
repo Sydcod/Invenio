@@ -45,12 +45,10 @@ type SalesOrderFormData = z.infer<typeof salesOrderSchema>;
 
 interface SalesOrderFormProps {
   salesOrder?: any;
-  organizationId: string;
 }
 
 export default function SalesOrderForm({ 
-  salesOrder,
-  organizationId 
+  salesOrder
 }: SalesOrderFormProps) {
   const router = useRouter();
   const [isSubmitting, setIsSubmitting] = useState(false);

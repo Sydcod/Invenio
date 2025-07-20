@@ -2,7 +2,6 @@ import mongoose, { Schema, Document } from 'mongoose';
 import toJSON from './plugins/toJSON';
 
 export interface IWarehouse extends Document {
-  organizationId: mongoose.Types.ObjectId;
   code: string;
   name: string;
   type: 'main' | 'branch' | 'distribution' | 'retail' | 'virtual';
@@ -94,12 +93,6 @@ export interface IWarehouse extends Document {
 
 const warehouseSchema = new Schema<IWarehouse>(
   {
-    organizationId: {
-      type: Schema.Types.ObjectId,
-      ref: 'Organization',
-      required: true,
-      index: true,
-    },
     code: {
       type: String,
       required: true,
@@ -340,11 +333,11 @@ const warehouseSchema = new Schema<IWarehouse>(
 );
 
 // Compound indexes for performance
-warehouseSchema.index({ organizationId: 1, code: 1 }, { unique: true });
-warehouseSchema.index({ organizationId: 1, status: 1, type: 1 });
-warehouseSchema.index({ organizationId: 1, 'settings.isDefault': 1 });
-warehouseSchema.index({ organizationId: 1, 'address.city': 1, 'address.country': 1 });
-warehouseSchema.index({ organizationId: 1, tags: 1 });
+warehouseSchema.index({ code: 1 }, { unique: true });
+warehouseSchema.index({ status: 1, type: 1 });
+warehouseSchema.index({ 'settings.isDefault': 1 });
+warehouseSchema.index({ 'address.city': 1, 'address.country': 1 });
+warehouseSchema.index({ tags: 1 });
 
 // Apply the toJSON plugin
 warehouseSchema.plugin(toJSON);
@@ -353,9 +346,7 @@ warehouseSchema.plugin(toJSON);
 warehouseSchema.pre('save', async function(next) {
   // Generate warehouse code if not provided
   if (this.isNew && !this.code) {
-    const count = await mongoose.model('Warehouse').countDocuments({
-      organizationId: this.organizationId,
-    });
+    const count = await mongoose.model('Warehouse').countDocuments({});
     this.code = `WH${String(count + 1).padStart(4, '0')}`;
   }
   
@@ -424,42 +415,38 @@ warehouseSchema.methods.getAvailableZones = function(zoneType?: string) {
 };
 
 // Static methods
-warehouseSchema.statics.findByOrganization = function(organizationId: mongoose.Types.ObjectId, status = 'active') {
+warehouseSchema.statics.findActive = function(status = 'active') {
   return this.find({
-    organizationId,
     status,
     isActive: true,
   }).sort('name');
 };
 
-warehouseSchema.statics.findDefault = function(organizationId: mongoose.Types.ObjectId) {
+warehouseSchema.statics.findDefault = function() {
   return this.findOne({
-    organizationId,
     'settings.isDefault': true,
     status: 'active',
     isActive: true,
   });
 };
 
-warehouseSchema.statics.findNearby = function(organizationId: mongoose.Types.ObjectId, coordinates: { latitude: number; longitude: number }, maxDistance = 100) {
+warehouseSchema.statics.findNearby = function(coordinates: { latitude: number; longitude: number }, maxDistance = 100) {
   // Simple distance calculation - in production, use proper geospatial queries
   return this.find({
-    organizationId,
     status: 'active',
     isActive: true,
     'address.coordinates': { $exists: true },
   });
 };
 
-warehouseSchema.statics.findWithAvailableSpace = function(organizationId: mongoose.Types.ObjectId, requiredSpace: number) {
+warehouseSchema.statics.findWithAvailableSpace = function(requiredSpace: number) {
   return this.find({
-    organizationId,
     status: 'active',
     isActive: true,
     $expr: { $lt: ['$capacity.usedSpace', { $subtract: ['$capacity.totalSpace', requiredSpace] }] },
   });
 };
 
-const Warehouse = mongoose.model<IWarehouse>('Warehouse', warehouseSchema);
+const Warehouse = mongoose.models.Warehouse || mongoose.model<IWarehouse>('Warehouse', warehouseSchema);
 
 export default Warehouse;

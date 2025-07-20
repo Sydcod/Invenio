@@ -48,12 +48,10 @@ type WarehouseFormData = z.infer<typeof warehouseSchema>;
 
 interface WarehouseFormProps {
   warehouse?: any;
-  organizationId: string;
 }
 
 export default function WarehouseForm({ 
-  warehouse,
-  organizationId 
+  warehouse
 }: WarehouseFormProps) {
   const router = useRouter();
   const [isSubmitting, setIsSubmitting] = useState(false);

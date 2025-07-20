@@ -6,10 +6,10 @@ import connectMongo from "@/libs/mongoose";
 
 export const dynamic = "force-dynamic";
 
-async function getPurchaseOrders(organizationId: string) {
+async function getPurchaseOrders() {
   await connectMongo();
   
-  const orders = await PurchaseOrder.find({ organizationId })
+  const orders = await PurchaseOrder.find({})
     .populate('supplier', 'name code')
     .populate('warehouse', 'name code')
     .sort({ createdAt: -1 })
@@ -21,7 +21,7 @@ async function getPurchaseOrders(organizationId: string) {
 
 export default async function PurchaseOrdersPage() {
   const session = await requirePermission('canManageInventory');
-  const orders = await getPurchaseOrders(session.user.organizationId);
+  const orders = await getPurchaseOrders();
 
   return (
     <div className="p-8">

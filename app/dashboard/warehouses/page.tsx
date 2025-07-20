@@ -6,10 +6,10 @@ import connectMongo from "@/libs/mongoose";
 
 export const dynamic = "force-dynamic";
 
-async function getWarehouses(organizationId: string) {
+async function getWarehouses() {
   await connectMongo();
   
-  const warehouses = await Warehouse.find({ organizationId })
+  const warehouses = await Warehouse.find({})
     .sort({ 'settings.isDefault': -1, createdAt: -1 })
     .lean();
     
@@ -18,7 +18,7 @@ async function getWarehouses(organizationId: string) {
 
 export default async function WarehousesPage() {
   const session = await requirePermission('canManageInventory');
-  const warehouses = await getWarehouses(session.user.organizationId);
+  const warehouses = await getWarehouses();
 
   return (
     <div className="p-8">

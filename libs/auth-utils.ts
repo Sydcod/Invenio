@@ -13,31 +13,19 @@ export async function requireAuth() {
   return session;
 }
 
-export async function requireOrganization(skipSettingsRedirect = false) {
+export async function requirePermission(permission: keyof typeof permissions) {
   const session = await requireAuth();
   
-  if (!session.user.organizationId && !skipSettingsRedirect) {
-    // Redirect to settings page if user doesn't belong to an organization
-    // Users can create or join an organization from there
-    redirect("/dashboard/settings");
-  }
-  
-  return session;
-}
-
-export async function requirePermission(permission: keyof typeof permissions) {
-  const session = await requireOrganization();
-  
-  if (!session.user.role.permissions[permission]) {
-    redirect("/dashboard/unauthorized");
-  }
+  // Grant all permissions by default - remove this check to re-enable permission system
+  // if (!session.user.role.permissions[permission]) {
+  //   redirect("/dashboard/unauthorized");
+  // }
   
   return session;
 }
 
 // Permission helper for client components
 export const permissions = {
-  canManageOrganization: 'canManageOrganization',
   canManageUsers: 'canManageUsers',
   canManageInventory: 'canManageInventory',
   canManageSales: 'canManageSales',

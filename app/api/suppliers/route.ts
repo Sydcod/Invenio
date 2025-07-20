@@ -9,7 +9,7 @@ import mongoose from 'mongoose';
 export async function GET(req: NextRequest) {
   try {
     const session = await getServerSession(authOptions);
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -28,9 +28,7 @@ export async function GET(req: NextRequest) {
     const order = searchParams.get('order') === 'desc' ? -1 : 1;
 
     // Build query
-    const query: any = {
-      organizationId: session.user.organizationId,
-    };
+    const query: any = {};
 
     if (status) {
       query.status = status;
@@ -93,7 +91,7 @@ export async function GET(req: NextRequest) {
 export async function POST(req: NextRequest) {
   try {
     const session = await getServerSession(authOptions);
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -129,7 +127,6 @@ export async function POST(req: NextRequest) {
 
     // Check for duplicate code
     const duplicate = await Supplier.findOne({
-      organizationId: session.user.organizationId,
       code: code.toUpperCase(),
     });
 
@@ -144,7 +141,6 @@ export async function POST(req: NextRequest) {
     const supplier = await Supplier.create({
       ...body,
       code: code.toUpperCase(),
-      organizationId: session.user.organizationId,
       createdBy: new mongoose.Types.ObjectId(session.user.userId),
       updatedBy: new mongoose.Types.ObjectId(session.user.userId),
       performance: {

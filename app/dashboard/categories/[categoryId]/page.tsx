@@ -8,12 +8,11 @@ import CategoryForm from "@/components/dashboard/CategoryForm";
 
 export const dynamic = "force-dynamic";
 
-async function getCategory(categoryId: string, organizationId: string) {
+async function getCategory(categoryId: string) {
   await connectMongo();
   
   const category = await Category.findOne({
     _id: categoryId,
-    organizationId,
   })
     .populate('parentId', 'name')
     .lean();
@@ -21,9 +20,8 @@ async function getCategory(categoryId: string, organizationId: string) {
   return category as any;
 }
 
-async function getCategories(organizationId: string, excludeId?: string) {
+async function getCategories(excludeId?: string) {
   const query: any = {
-    organizationId,
     isActive: true,
   };
   
@@ -46,9 +44,10 @@ export default async function CategoryDetailPage({
 }) {
   const session = await requirePermission('canManageInventory');
   
+  const { categoryId } = await params;
   // Handle "new" category creation
-  if (params.categoryId === 'new') {
-    const categories = await getCategories(session.user.organizationId);
+  if (categoryId === 'new') {
+    const categories = await getCategories();
     
     return (
       <div className="p-8">
@@ -71,7 +70,6 @@ export default async function CategoryDetailPage({
         <div className="max-w-2xl">
           <CategoryForm
             parentCategories={categories}
-            organizationId={session.user.organizationId}
           />
         </div>
       </div>
@@ -80,8 +78,8 @@ export default async function CategoryDetailPage({
   
   // Get existing category
   const [category, categories] = await Promise.all([
-    getCategory(params.categoryId, session.user.organizationId),
-    getCategories(session.user.organizationId, params.categoryId),
+    getCategory(categoryId),
+    getCategories(categoryId),
   ]);
   
   if (!category) {
@@ -112,7 +110,6 @@ export default async function CategoryDetailPage({
         <CategoryForm
           category={category}
           parentCategories={categories}
-          organizationId={session.user.organizationId}
         />
       </div>
     </div>

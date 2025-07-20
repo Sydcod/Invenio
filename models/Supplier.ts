@@ -2,7 +2,6 @@ import mongoose, { Schema, Document } from 'mongoose';
 import toJSON from './plugins/toJSON';
 
 export interface ISupplier extends Document {
-  organizationId: mongoose.Types.ObjectId;
   code: string;
   name: string;
   type: 'manufacturer' | 'distributor' | 'wholesaler' | 'retailer' | 'dropshipper';
@@ -92,12 +91,6 @@ export interface ISupplier extends Document {
 
 const supplierSchema = new Schema<ISupplier>(
   {
-    organizationId: {
-      type: Schema.Types.ObjectId,
-      ref: 'Organization',
-      required: true,
-      index: true,
-    },
     code: {
       type: String,
       required: true,
@@ -337,12 +330,12 @@ const supplierSchema = new Schema<ISupplier>(
 );
 
 // Compound indexes for performance
-supplierSchema.index({ organizationId: 1, code: 1 }, { unique: true });
-supplierSchema.index({ organizationId: 1, status: 1, name: 1 });
-supplierSchema.index({ organizationId: 1, type: 1 });
-supplierSchema.index({ organizationId: 1, isPreferred: 1 });
-supplierSchema.index({ organizationId: 1, 'performance.rating': -1 });
-supplierSchema.index({ organizationId: 1, tags: 1 });
+supplierSchema.index({ code: 1 }, { unique: true });
+supplierSchema.index({ status: 1, name: 1 });
+supplierSchema.index({ type: 1 });
+supplierSchema.index({ isPreferred: 1 });
+supplierSchema.index({ 'performance.rating': -1 });
+supplierSchema.index({ tags: 1 });
 
 // Apply the toJSON plugin
 supplierSchema.plugin(toJSON);
@@ -351,9 +344,7 @@ supplierSchema.plugin(toJSON);
 supplierSchema.pre('save', async function(next) {
   if (this.isNew && !this.code) {
     // Generate a unique supplier code
-    const count = await mongoose.model('Supplier').countDocuments({
-      organizationId: this.organizationId,
-    });
+    const count = await mongoose.model('Supplier').countDocuments({});
     this.code = `SUP${String(count + 1).padStart(5, '0')}`;
   }
   next();
@@ -401,26 +392,23 @@ supplierSchema.methods.updatePerformanceMetrics = async function(order: any) {
 };
 
 // Static methods
-supplierSchema.statics.findByOrganization = function(organizationId: mongoose.Types.ObjectId, status = 'active') {
+supplierSchema.statics.findActive = function(status = 'active') {
   return this.find({
-    organizationId,
     status,
     isActive: true,
   }).sort('name');
 };
 
-supplierSchema.statics.findPreferred = function(organizationId: mongoose.Types.ObjectId) {
+supplierSchema.statics.findPreferred = function() {
   return this.find({
-    organizationId,
     isPreferred: true,
     status: 'active',
     isActive: true,
   }).sort('-performance.rating');
 };
 
-supplierSchema.statics.findByProduct = function(organizationId: mongoose.Types.ObjectId, productId: mongoose.Types.ObjectId) {
+supplierSchema.statics.findByProduct = function(productId: mongoose.Types.ObjectId) {
   return this.find({
-    organizationId,
     'products.productId': productId,
     'products.isActive': true,
     status: 'active',
@@ -428,9 +416,8 @@ supplierSchema.statics.findByProduct = function(organizationId: mongoose.Types.O
   });
 };
 
-supplierSchema.statics.searchSuppliers = function(organizationId: mongoose.Types.ObjectId, searchTerm: string) {
+supplierSchema.statics.searchSuppliers = function(searchTerm: string) {
   return this.find({
-    organizationId,
     status: 'active',
     isActive: true,
     $or: [
@@ -442,6 +429,6 @@ supplierSchema.statics.searchSuppliers = function(organizationId: mongoose.Types
   });
 };
 
-const Supplier = mongoose.model<ISupplier>('Supplier', supplierSchema);
+const Supplier = mongoose.models.Supplier || mongoose.model<ISupplier>('Supplier', supplierSchema);
 
 export default Supplier;

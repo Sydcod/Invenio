@@ -17,7 +17,7 @@ interface RouteParams {
 export async function GET(req: NextRequest, { params }: RouteParams) {
   try {
     const session = await getServerSession(authOptions);
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -28,7 +28,6 @@ export async function GET(req: NextRequest, { params }: RouteParams) {
 
     const supplier = await Supplier.findOne({
       _id: params.supplierId,
-      organizationId: session.user.organizationId,
     })
       .populate('createdBy', 'name email')
       .populate('updatedBy', 'name email');
@@ -43,13 +42,11 @@ export async function GET(req: NextRequest, { params }: RouteParams) {
     // Get related products count
     const productCount = await Product.countDocuments({
       'suppliers.vendorId': supplier._id,
-      organizationId: session.user.organizationId,
     });
 
     // Get recent purchase orders
     const recentOrders = await PurchaseOrder.find({
       supplierId: supplier._id,
-      organizationId: session.user.organizationId,
     })
       .select('orderNumber orderDate totalAmount status')
       .sort({ orderDate: -1 })
@@ -60,7 +57,6 @@ export async function GET(req: NextRequest, { params }: RouteParams) {
       {
         $match: {
           supplierId: supplier._id,
-          organizationId: new mongoose.Types.ObjectId(session.user.organizationId),
           status: { $in: ['completed', 'partial'] },
         },
       },
@@ -95,7 +91,7 @@ export async function GET(req: NextRequest, { params }: RouteParams) {
 export async function PATCH(req: NextRequest, { params }: RouteParams) {
   try {
     const session = await getServerSession(authOptions);
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -115,7 +111,6 @@ export async function PATCH(req: NextRequest, { params }: RouteParams) {
 
     const supplier = await Supplier.findOne({
       _id: params.supplierId,
-      organizationId: session.user.organizationId,
     });
 
     if (!supplier) {
@@ -128,7 +123,6 @@ export async function PATCH(req: NextRequest, { params }: RouteParams) {
     // Check code uniqueness if being updated
     if (body.code && body.code !== supplier.code) {
       const duplicate = await Supplier.findOne({
-        organizationId: session.user.organizationId,
         code: body.code.toUpperCase(),
         _id: { $ne: params.supplierId },
       });
@@ -179,7 +173,7 @@ export async function PATCH(req: NextRequest, { params }: RouteParams) {
 export async function DELETE(req: NextRequest, { params }: RouteParams) {
   try {
     const session = await getServerSession(authOptions);
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -198,7 +192,6 @@ export async function DELETE(req: NextRequest, { params }: RouteParams) {
 
     const supplier = await Supplier.findOne({
       _id: params.supplierId,
-      organizationId: session.user.organizationId,
     });
 
     if (!supplier) {
@@ -211,7 +204,6 @@ export async function DELETE(req: NextRequest, { params }: RouteParams) {
     // Check for active purchase orders
     const activeOrders = await PurchaseOrder.countDocuments({
       supplierId: supplier._id,
-      organizationId: session.user.organizationId,
       status: { $in: ['pending', 'approved', 'ordered', 'partial'] },
     });
 
@@ -225,7 +217,6 @@ export async function DELETE(req: NextRequest, { params }: RouteParams) {
     // Check for products
     const productCount = await Product.countDocuments({
       'suppliers.vendorId': supplier._id,
-      organizationId: session.user.organizationId,
       status: 'active',
     });
 
@@ -265,7 +256,7 @@ export async function POST(
 ) {
   try {
     const session = await getServerSession(authOptions);
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -285,7 +276,6 @@ export async function POST(
 
     const supplier = await Supplier.findOne({
       _id: params.supplierId,
-      organizationId: session.user.organizationId,
     });
 
     if (!supplier) {

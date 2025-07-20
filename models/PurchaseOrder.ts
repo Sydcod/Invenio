@@ -2,7 +2,6 @@ import mongoose, { Schema, Document } from 'mongoose';
 import toJSON from './plugins/toJSON';
 
 export interface IPurchaseOrder extends Document {
-  organizationId: mongoose.Types.ObjectId;
   orderNumber: string;
   supplierId: mongoose.Types.ObjectId;
   supplier: {
@@ -105,12 +104,6 @@ export interface IPurchaseOrder extends Document {
 
 const purchaseOrderSchema = new Schema<IPurchaseOrder>(
   {
-    organizationId: {
-      type: Schema.Types.ObjectId,
-      ref: 'Organization',
-      required: true,
-      index: true,
-    },
     orderNumber: {
       type: String,
       required: true,
@@ -396,13 +389,13 @@ const purchaseOrderSchema = new Schema<IPurchaseOrder>(
 );
 
 // Compound indexes for performance
-purchaseOrderSchema.index({ organizationId: 1, orderNumber: 1 }, { unique: true });
-purchaseOrderSchema.index({ organizationId: 1, status: 1, 'dates.orderDate': -1 });
-purchaseOrderSchema.index({ organizationId: 1, supplierId: 1, status: 1 });
-purchaseOrderSchema.index({ organizationId: 1, warehouseId: 1 });
-purchaseOrderSchema.index({ organizationId: 1, 'payment.status': 1 });
-purchaseOrderSchema.index({ organizationId: 1, 'dates.expectedDelivery': 1 });
-purchaseOrderSchema.index({ organizationId: 1, 'items.productId': 1 });
+purchaseOrderSchema.index({ orderNumber: 1 }, { unique: true });
+purchaseOrderSchema.index({ status: 1, 'dates.orderDate': -1 });
+purchaseOrderSchema.index({ supplierId: 1, status: 1 });
+purchaseOrderSchema.index({ warehouseId: 1 });
+purchaseOrderSchema.index({ 'payment.status': 1 });
+purchaseOrderSchema.index({ 'dates.expectedDelivery': 1 });
+purchaseOrderSchema.index({ 'items.productId': 1 });
 
 // Apply the toJSON plugin
 purchaseOrderSchema.plugin(toJSON);
@@ -411,9 +404,7 @@ purchaseOrderSchema.plugin(toJSON);
 purchaseOrderSchema.pre('save', async function(next) {
   // Generate order number if not provided
   if (this.isNew && !this.orderNumber) {
-    const count = await mongoose.model('PurchaseOrder').countDocuments({
-      organizationId: this.organizationId,
-    });
+    const count = await mongoose.model('PurchaseOrder').countDocuments({});
     const year = new Date().getFullYear().toString().slice(-2);
     this.orderNumber = `PO${year}${String(count + 1).padStart(6, '0')}`;
   }
@@ -512,36 +503,33 @@ purchaseOrderSchema.methods.addPayment = async function(payment: any) {
 };
 
 // Static methods
-purchaseOrderSchema.statics.findByOrganization = function(organizationId: mongoose.Types.ObjectId, status?: string) {
-  const query: any = { organizationId };
+purchaseOrderSchema.statics.findByStatus = function(status?: string) {
+  const query: any = {};
   if (status) query.status = status;
   
   return this.find(query).sort('-dates.orderDate');
 };
 
-purchaseOrderSchema.statics.findPendingDeliveries = function(organizationId: mongoose.Types.ObjectId) {
+purchaseOrderSchema.statics.findPendingDeliveries = function() {
   return this.find({
-    organizationId,
     status: { $in: ['ordered', 'partial'] },
     'dates.expectedDelivery': { $lte: new Date(Date.now() + 7 * 24 * 60 * 60 * 1000) }, // Next 7 days
   }).sort('dates.expectedDelivery');
 };
 
-purchaseOrderSchema.statics.findOverduePayments = function(organizationId: mongoose.Types.ObjectId) {
+purchaseOrderSchema.statics.findOverduePayments = function() {
   return this.find({
-    organizationId,
     'payment.status': 'overdue',
   }).sort('dates.dueDate');
 };
 
-purchaseOrderSchema.statics.getSupplierOrderHistory = function(organizationId: mongoose.Types.ObjectId, supplierId: mongoose.Types.ObjectId) {
+purchaseOrderSchema.statics.getSupplierOrderHistory = function(supplierId: mongoose.Types.ObjectId) {
   return this.find({
-    organizationId,
     supplierId,
     status: { $ne: 'cancelled' },
   }).sort('-dates.orderDate');
 };
 
-const PurchaseOrder = mongoose.model<IPurchaseOrder>('PurchaseOrder', purchaseOrderSchema);
+const PurchaseOrder = mongoose.models.PurchaseOrder || mongoose.model<IPurchaseOrder>('PurchaseOrder', purchaseOrderSchema);
 
 export default PurchaseOrder;

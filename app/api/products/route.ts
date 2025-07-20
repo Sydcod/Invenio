@@ -11,7 +11,7 @@ export async function GET(req: NextRequest) {
   try {
     const session = await getServerSession(authOptions);
     
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -34,7 +34,6 @@ export async function GET(req: NextRequest) {
 
     // Build query
     const query: any = { 
-      organizationId: session.user.organizationId,
       isActive: true 
     };
     
@@ -104,7 +103,7 @@ export async function POST(req: NextRequest) {
   try {
     const session = await getServerSession(authOptions);
     
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -136,7 +135,6 @@ export async function POST(req: NextRequest) {
     // Validate category exists
     const category = await Category.findOne({
       _id: categoryId,
-      organizationId: session.user.organizationId,
     });
     
     if (!category) {
@@ -148,7 +146,6 @@ export async function POST(req: NextRequest) {
 
     // Check if SKU already exists
     const existingProduct = await Product.findOne({
-      organizationId: session.user.organizationId,
       sku: sku.toUpperCase(),
     });
     
@@ -162,7 +159,6 @@ export async function POST(req: NextRequest) {
     // Create product
     const product = await Product.create({
       ...body,
-      organizationId: session.user.organizationId,
       sku: sku.toUpperCase(),
       categoryId,
       status: body.status || 'active',
@@ -192,7 +188,7 @@ export async function PUT(req: NextRequest) {
   try {
     const session = await getServerSession(authOptions);
     
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -219,15 +215,14 @@ export async function PUT(req: NextRequest) {
       );
     }
 
-    // Validate products belong to organization
+    // Validate products exist
     const products = await Product.find({
       _id: { $in: productIds },
-      organizationId: session.user.organizationId,
     });
 
     if (products.length !== productIds.length) {
       return NextResponse.json(
-        { error: 'Some products not found or unauthorized' },
+        { error: 'Some products not found' },
         { status: 404 }
       );
     }
@@ -245,7 +240,6 @@ export async function PUT(req: NextRequest) {
     const result = await Product.updateMany(
       {
         _id: { $in: productIds },
-        organizationId: session.user.organizationId,
       },
       { $set: updateData }
     );

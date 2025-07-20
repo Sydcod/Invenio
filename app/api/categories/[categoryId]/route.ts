@@ -16,7 +16,7 @@ interface RouteParams {
 export async function GET(req: NextRequest, { params }: RouteParams) {
   try {
     const session = await getServerSession(authOptions);
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -27,7 +27,6 @@ export async function GET(req: NextRequest, { params }: RouteParams) {
 
     const category = await Category.findOne({
       _id: params.categoryId,
-      organizationId: session.user.organizationId,
     })
       .populate('parentId', 'name path')
       .populate('createdBy', 'name email')
@@ -43,7 +42,6 @@ export async function GET(req: NextRequest, { params }: RouteParams) {
     // Get child categories
     const children = await Category.find({
       parentId: category._id,
-      organizationId: session.user.organizationId,
     })
       .select('name code isActive productCount')
       .sort({ sortOrder: 1, name: 1 });
@@ -51,7 +49,6 @@ export async function GET(req: NextRequest, { params }: RouteParams) {
     // Get product count
     const productCount = await Product.countDocuments({
       'category.id': category._id,
-      organizationId: session.user.organizationId,
     });
 
     return NextResponse.json({
@@ -75,7 +72,7 @@ export async function GET(req: NextRequest, { params }: RouteParams) {
 export async function PATCH(req: NextRequest, { params }: RouteParams) {
   try {
     const session = await getServerSession(authOptions);
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -95,7 +92,6 @@ export async function PATCH(req: NextRequest, { params }: RouteParams) {
 
     const category = await Category.findOne({
       _id: params.categoryId,
-      organizationId: session.user.organizationId,
     });
 
     if (!category) {
@@ -133,7 +129,6 @@ export async function PATCH(req: NextRequest, { params }: RouteParams) {
       if (body.parentId) {
         const newParent = await Category.findOne({
           _id: body.parentId,
-          organizationId: session.user.organizationId,
         });
 
         if (!newParent) {
@@ -154,7 +149,6 @@ export async function PATCH(req: NextRequest, { params }: RouteParams) {
     // Check for duplicate name at same level if name is changing
     if (body.name && body.name !== category.name) {
       const duplicate = await Category.findOne({
-        organizationId: session.user.organizationId,
         parentId: body.parentId !== undefined ? body.parentId : category.parentId,
         name: { $regex: `^${body.name}$`, $options: 'i' },
         _id: { $ne: params.categoryId },
@@ -201,7 +195,6 @@ export async function PATCH(req: NextRequest, { params }: RouteParams) {
       await Product.updateMany(
         { 
           'category.id': category._id,
-          organizationId: session.user.organizationId,
         },
         { 
           $set: { 
@@ -232,7 +225,7 @@ export async function PATCH(req: NextRequest, { params }: RouteParams) {
 export async function DELETE(req: NextRequest, { params }: RouteParams) {
   try {
     const session = await getServerSession(authOptions);
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -251,7 +244,6 @@ export async function DELETE(req: NextRequest, { params }: RouteParams) {
 
     const category = await Category.findOne({
       _id: params.categoryId,
-      organizationId: session.user.organizationId,
     });
 
     if (!category) {
@@ -264,7 +256,6 @@ export async function DELETE(req: NextRequest, { params }: RouteParams) {
     // Check for child categories
     const childCount = await Category.countDocuments({
       parentId: category._id,
-      organizationId: session.user.organizationId,
     });
 
     if (childCount > 0) {
@@ -277,7 +268,6 @@ export async function DELETE(req: NextRequest, { params }: RouteParams) {
     // Check for products
     const productCount = await Product.countDocuments({
       'category.id': category._id,
-      organizationId: session.user.organizationId,
     });
 
     if (productCount > 0) {

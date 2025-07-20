@@ -1,4 +1,4 @@
-import { requireOrganization } from "@/libs/auth-utils";
+import { requireAuth } from "@/libs/auth-utils";
 import { 
   CubeIcon, 
   TruckIcon, 
@@ -13,7 +13,7 @@ import Link from 'next/link';
 export const dynamic = "force-dynamic";
 
 // Fetch dashboard statistics
-async function getDashboardStats(organizationId: string) {
+async function getDashboardStats() {
   // This would normally fetch from the database
   // For now, returning mock data
   return {
@@ -57,8 +57,8 @@ async function getDashboardStats(organizationId: string) {
 }
 
 export default async function DashboardPage() {
-  const session = await requireOrganization();
-  const stats = await getDashboardStats(session.user.organizationId);
+  const session = await requireAuth();
+  const stats = await getDashboardStats();
 
   const statCards = [
     {

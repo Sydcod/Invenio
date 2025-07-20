@@ -7,10 +7,10 @@ import connectMongo from "@/libs/mongoose";
 
 export const dynamic = "force-dynamic";
 
-async function getProducts(organizationId: string, searchQuery?: string) {
+async function getProducts(searchQuery?: string) {
   await connectMongo();
   
-  const query: any = { organizationId };
+  const query: any = {};
   
   if (searchQuery) {
     query.$or = [
@@ -35,7 +35,7 @@ export default async function ProductsPage({
   searchParams: { search?: string };
 }) {
   const session = await requirePermission('canManageInventory');
-  const products = await getProducts(session.user.organizationId, searchParams.search);
+  const products = await getProducts(searchParams.search);
 
   return (
     <div className="p-8">

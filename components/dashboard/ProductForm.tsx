@@ -49,16 +49,14 @@ type ProductFormData = z.infer<typeof productSchema>;
 
 interface ProductFormProps {
   product?: any;
-  categories: any[];
-  suppliers: any[];
-  organizationId: string;
+  categories?: any[];
+  suppliers?: any[];
 }
 
 export default function ProductForm({ 
-  product, 
-  categories, 
-  suppliers,
-  organizationId 
+  product,
+  categories = [],
+  suppliers = []
 }: ProductFormProps) {
   const router = useRouter();
   const [isSubmitting, setIsSubmitting] = useState(false);

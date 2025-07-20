@@ -28,14 +28,12 @@ type CategoryFormData = z.infer<typeof categorySchema>;
 
 interface CategoryFormProps {
   category?: any;
-  parentCategories: any[];
-  organizationId: string;
+  parentCategories?: any[];
 }
 
 export default function CategoryForm({ 
-  category, 
-  parentCategories,
-  organizationId 
+  category,
+  parentCategories = []
 }: CategoryFormProps) {
   const router = useRouter();
   const [isSubmitting, setIsSubmitting] = useState(false);

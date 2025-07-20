@@ -17,7 +17,7 @@ interface RouteParams {
 export async function GET(req: NextRequest, { params }: RouteParams) {
   try {
     const session = await getServerSession(authOptions);
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -28,7 +28,6 @@ export async function GET(req: NextRequest, { params }: RouteParams) {
 
     const order = await PurchaseOrder.findOne({
       _id: params.orderId,
-      organizationId: session.user.organizationId,
     })
       .populate('supplierId', 'name code contactInfo paymentTerms')
       .populate('warehouseId', 'name code location')
@@ -81,7 +80,7 @@ export async function GET(req: NextRequest, { params }: RouteParams) {
 export async function PATCH(req: NextRequest, { params }: RouteParams) {
   try {
     const session = await getServerSession(authOptions);
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -101,7 +100,6 @@ export async function PATCH(req: NextRequest, { params }: RouteParams) {
 
     const order = await PurchaseOrder.findOne({
       _id: params.orderId,
-      organizationId: session.user.organizationId,
     });
 
     if (!order) {
@@ -239,7 +237,7 @@ export async function PATCH(req: NextRequest, { params }: RouteParams) {
 export async function DELETE(req: NextRequest, { params }: RouteParams) {
   try {
     const session = await getServerSession(authOptions);
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -258,7 +256,6 @@ export async function DELETE(req: NextRequest, { params }: RouteParams) {
 
     const order = await PurchaseOrder.findOne({
       _id: params.orderId,
-      organizationId: session.user.organizationId,
     });
 
     if (!order) {

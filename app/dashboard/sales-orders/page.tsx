@@ -6,11 +6,11 @@ import connectMongo from "@/libs/mongoose";
 
 export const dynamic = "force-dynamic";
 
-async function getSalesOrders(organizationId: string) {
+async function getSalesOrders() {
   await connectMongo();
   
-  const orders = await SalesOrder.find({ organizationId })
-    .populate('warehouse', 'name code')
+  const orders = await SalesOrder.find({})
+    .populate('warehouseId', 'name code')
     .sort({ createdAt: -1 })
     .limit(100)
     .lean();
@@ -20,7 +20,7 @@ async function getSalesOrders(organizationId: string) {
 
 export default async function SalesOrdersPage() {
   const session = await requirePermission('canManageInventory');
-  const orders = await getSalesOrders(session.user.organizationId);
+  const orders = await getSalesOrders();
 
   return (
     <div className="p-8">
@@ -100,10 +100,10 @@ export default async function SalesOrdersPage() {
                           </div>
                         </td>
                         <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-900">
-                          {order.warehouse?.name || 'N/A'}
+                          {order.warehouseId?.name || 'N/A'}
                         </td>
                         <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-900">
-                          ${order.financials?.totalAmount?.toFixed(2) || '0.00'}
+                          ${order.financial?.grandTotal?.toFixed(2) || '0.00'}
                         </td>
                         <td className="whitespace-nowrap px-3 py-4">
                           <span className={`inline-flex rounded-full px-2 text-xs font-semibold leading-5 ${

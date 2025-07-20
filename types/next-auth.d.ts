@@ -11,10 +11,6 @@ declare module 'next-auth' {
       id: string;
       /** The user's MongoDB ObjectId */
       userId: string;
-      /** The user's organization ID */
-      organizationId: string;
-      /** The user's organization name */
-      organizationName: string;
       /** The user's role with permissions */
       role: {
         name: 'owner' | 'admin' | 'manager' | 'staff' | 'viewer';
@@ -41,7 +37,6 @@ declare module 'next-auth' {
   
   interface User {
     id: string;
-    organizationId?: string;
     role?: any;
   }
 }
@@ -49,8 +44,6 @@ declare module 'next-auth' {
 declare module 'next-auth/jwt' {
   interface JWT {
     userId?: string;
-    organizationId?: string;
-    organizationName?: string;
     role?: any;
   }
 }

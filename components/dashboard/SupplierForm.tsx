@@ -42,12 +42,10 @@ type SupplierFormData = z.infer<typeof supplierSchema>;
 
 interface SupplierFormProps {
   supplier?: any;
-  organizationId: string;
 }
 
 export default function SupplierForm({ 
-  supplier,
-  organizationId 
+  supplier
 }: SupplierFormProps) {
   const router = useRouter();
   const [isSubmitting, setIsSubmitting] = useState(false);

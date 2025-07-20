@@ -2,7 +2,6 @@ import mongoose, { Schema, Document } from "mongoose";
 import toJSON from "./plugins/toJSON";
 
 export interface IUser extends Document {
-  organizationId?: mongoose.Types.ObjectId; // Optional to allow new users
   email: string;
   name?: string;
   image?: string;
@@ -78,12 +77,6 @@ export interface IUser extends Document {
 // USER SCHEMA
 const userSchema = new Schema<IUser>(
   {
-    organizationId: {
-      type: Schema.Types.ObjectId,
-      ref: 'Organization',
-      required: false, // Made optional to allow new users to sign up first
-      index: true,
-    },
     email: {
       type: String,
       required: true,
@@ -198,12 +191,12 @@ const userSchema = new Schema<IUser>(
   }
 );
 
-// Compound index for email uniqueness per organization
-userSchema.index({ email: 1, organizationId: 1 }, { unique: true });
+// Compound index for email unique
+userSchema.index({ email: 1 }, { unique: true });
 
 // Performance indexes
-userSchema.index({ status: 1, organizationId: 1 });
-userSchema.index({ 'role.name': 1, organizationId: 1 });
+userSchema.index({ status: 1 });
+userSchema.index({ 'role.name': 1 });
 userSchema.index({ lastLoginAt: -1 });
 
 // Add the toJSON plugin
@@ -237,17 +230,15 @@ userSchema.methods.isOwnerOrAdmin = function(): boolean {
 };
 
 // Static methods
-userSchema.statics.findByEmail = function(email: string, organizationId: mongoose.Types.ObjectId) {
+userSchema.statics.findByEmail = function(email: string) {
   return this.findOne({ 
     email: email.toLowerCase(), 
-    organizationId,
     status: { $ne: 'suspended' }
   });
 };
 
-userSchema.statics.findActiveByOrganization = function(organizationId: mongoose.Types.ObjectId) {
+userSchema.statics.findActive = function() {
   return this.find({ 
-    organizationId,
     status: 'active'
   });
 };

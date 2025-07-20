@@ -2,7 +2,6 @@ import mongoose, { Schema, Document } from 'mongoose';
 import toJSON from './plugins/toJSON';
 
 export interface ICategory extends Document {
-  organizationId: mongoose.Types.ObjectId;
   name: string;
   description?: string;
   parentId?: mongoose.Types.ObjectId;
@@ -50,12 +49,6 @@ export interface ICategory extends Document {
 
 const categorySchema = new Schema<ICategory>(
   {
-    organizationId: {
-      type: Schema.Types.ObjectId,
-      ref: 'Organization',
-      required: true,
-      index: true,
-    },
     name: {
       type: String,
       required: true,
@@ -186,11 +179,11 @@ const categorySchema = new Schema<ICategory>(
 );
 
 // Compound indexes for performance
-categorySchema.index({ organizationId: 1, parentId: 1 });
-categorySchema.index({ organizationId: 1, path: 1 });
-categorySchema.index({ organizationId: 1, name: 1 });
-categorySchema.index({ organizationId: 1, 'seo.slug': 1 }, { unique: true, sparse: true });
-categorySchema.index({ organizationId: 1, isActive: 1, sortOrder: 1 });
+categorySchema.index({ parentId: 1 });
+categorySchema.index({ path: 1 });
+categorySchema.index({ name: 1 });
+categorySchema.index({ 'seo.slug': 1 }, { unique: true, sparse: true });
+categorySchema.index({ isActive: 1, sortOrder: 1 });
 
 // Apply the toJSON plugin
 categorySchema.plugin(toJSON);
@@ -215,7 +208,6 @@ categorySchema.pre('save', async function(next) {
 // Instance methods
 categorySchema.methods.getChildren = function() {
   return mongoose.model('Category').find({
-    organizationId: this.organizationId,
     parentId: this._id,
     isActive: true,
   }).sort('sortOrder');
@@ -236,23 +228,21 @@ categorySchema.methods.getAncestors = async function() {
 };
 
 // Static methods
-categorySchema.statics.findByOrganization = function(organizationId: mongoose.Types.ObjectId) {
+categorySchema.statics.findActive = function() {
   return this.find({
-    organizationId,
     isActive: true,
   }).sort('sortOrder');
 };
 
-categorySchema.statics.findRootCategories = function(organizationId: mongoose.Types.ObjectId) {
+categorySchema.statics.findRootCategories = function() {
   return this.find({
-    organizationId,
     parentId: null,
     isActive: true,
   }).sort('sortOrder');
 };
 
-categorySchema.statics.buildTree = async function(organizationId: mongoose.Types.ObjectId) {
-  const categories = await this.find({ organizationId, isActive: true }).sort('sortOrder');
+categorySchema.statics.buildTree = async function() {
+  const categories = await this.find({ isActive: true }).sort('sortOrder');
   const categoryMap = new Map<string, any>();
   const tree: any[] = [];
 
@@ -280,6 +270,6 @@ categorySchema.statics.buildTree = async function(organizationId: mongoose.Types
   return tree;
 };
 
-const Category = mongoose.model<ICategory>('Category', categorySchema);
+const Category = mongoose.models.Category || mongoose.model<ICategory>('Category', categorySchema);
 
 export default Category;

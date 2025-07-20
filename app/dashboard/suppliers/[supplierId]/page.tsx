@@ -8,27 +8,31 @@ import SupplierForm from "@/components/dashboard/SupplierForm";
 
 export const dynamic = "force-dynamic";
 
-async function getSupplier(supplierId: string, organizationId: string) {
+async function getSupplier(supplierId: string) {
   await connectMongo();
   
   const supplier = await Supplier.findOne({
     _id: supplierId,
-    organizationId,
   })
     .lean();
     
-  return supplier;
+  if (!supplier) {
+    return null;
+  }
+
+  return JSON.parse(JSON.stringify(supplier));
 }
 
 export default async function SupplierDetailPage({
   params,
 }: {
-  params: { supplierId: string };
+  params: Promise<{ supplierId: string }>;
 }) {
   const session = await requirePermission('canManageInventory');
   
+  const { supplierId } = await params;
   // Handle "new" supplier creation
-  if (params.supplierId === 'new') {
+  if (supplierId === 'new') {
     return (
       <div className="p-8">
         {/* Page header */}
@@ -48,14 +52,14 @@ export default async function SupplierDetailPage({
 
         {/* Supplier form */}
         <div className="max-w-4xl">
-          <SupplierForm organizationId={session.user.organizationId} />
+          <SupplierForm />
         </div>
       </div>
     );
   }
   
   // Get existing supplier
-  const supplier = await getSupplier(params.supplierId, session.user.organizationId);
+  const supplier = await getSupplier(supplierId);
   
   if (!supplier) {
     notFound();
@@ -95,7 +99,6 @@ export default async function SupplierDetailPage({
       <div className="max-w-4xl">
         <SupplierForm 
           supplier={supplier}
-          organizationId={session.user.organizationId}
         />
       </div>
     </div>

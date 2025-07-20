@@ -1,5 +1,5 @@
 import { ReactNode } from "react";
-import { requireOrganization, requireAuth } from "@/libs/auth-utils";
+import { requireAuth } from "@/libs/auth-utils";
 import DashboardSidebar from "@/components/dashboard/DashboardSidebar";
 import DashboardHeader from "@/components/dashboard/DashboardHeader";
 
@@ -8,7 +8,6 @@ export default async function DashboardLayout({
 }: {
   children: ReactNode;
 }) {
-  // For settings page, only require auth. For others, require organization
   const session = await requireAuth();
 
   return (
@@ -24,10 +23,6 @@ export default async function DashboardLayout({
             name: session.user.name,
             email: session.user.email,
             image: session.user.image,
-          }}
-          organization={{
-            name: session.user.organizationName || 'No Organization',
-            id: session.user.organizationId || '',
           }}
         />
         

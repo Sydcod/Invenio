@@ -9,7 +9,7 @@ export async function GET(req: NextRequest) {
   try {
     const session = await getServerSession(authOptions);
     
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -33,9 +33,7 @@ export async function GET(req: NextRequest) {
     }
 
     // Build search query
-    const searchQuery: any = {
-      organizationId: session.user.organizationId,
-    };
+    const searchQuery: any = {};
 
     if (!includeInactive) {
       searchQuery.isActive = true;

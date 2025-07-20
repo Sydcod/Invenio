@@ -9,7 +9,7 @@ import mongoose from 'mongoose';
 export async function GET(req: NextRequest) {
   try {
     const session = await getServerSession(authOptions);
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -26,9 +26,7 @@ export async function GET(req: NextRequest) {
     const includeCapacity = searchParams.get('includeCapacity') === 'true';
 
     // Build query
-    const query: any = {
-      organizationId: session.user.organizationId,
-    };
+    const query: any = {};
 
     if (status) {
       query.status = status;
@@ -97,7 +95,7 @@ export async function GET(req: NextRequest) {
 export async function POST(req: NextRequest) {
   try {
     const session = await getServerSession(authOptions);
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -133,7 +131,6 @@ export async function POST(req: NextRequest) {
 
     // Check for duplicate code
     const duplicate = await Warehouse.findOne({
-      organizationId: session.user.organizationId,
       code: code.toUpperCase(),
     });
 
@@ -149,14 +146,12 @@ export async function POST(req: NextRequest) {
     if (isDefault) {
       // Remove default from other warehouses
       await Warehouse.updateMany(
-        { organizationId: session.user.organizationId, 'settings.isDefault': true },
+        { 'settings.isDefault': true },
         { $set: { 'settings.isDefault': false } }
       );
     } else {
       // Check if this is the first warehouse
-      const warehouseCount = await Warehouse.countDocuments({
-        organizationId: session.user.organizationId,
-      });
+      const warehouseCount = await Warehouse.countDocuments({});
       if (warehouseCount === 0) {
         isDefault = true;
       }
@@ -166,7 +161,6 @@ export async function POST(req: NextRequest) {
     const warehouse = await Warehouse.create({
       ...body,
       code: code.toUpperCase(),
-      organizationId: session.user.organizationId,
       createdBy: new mongoose.Types.ObjectId(session.user.userId),
       updatedBy: new mongoose.Types.ObjectId(session.user.userId),
       capacity: {

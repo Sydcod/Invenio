@@ -10,12 +10,11 @@ import ProductForm from "@/components/dashboard/ProductForm";
 
 export const dynamic = "force-dynamic";
 
-async function getProduct(productId: string, organizationId: string) {
+async function getProduct(productId: string) {
   await connectMongo();
   
   const product = await Product.findOne({
     _id: productId,
-    organizationId,
   })
     .populate('categoryId', 'name')
     .populate('suppliers.supplierId', 'name code')
@@ -24,9 +23,8 @@ async function getProduct(productId: string, organizationId: string) {
   return product;
 }
 
-async function getCategories(organizationId: string) {
+async function getCategories() {
   const categories = await Category.find({
-    organizationId,
     isActive: true,
   })
     .select('name path level')
@@ -36,9 +34,8 @@ async function getCategories(organizationId: string) {
   return categories;
 }
 
-async function getSuppliers(organizationId: string) {
+async function getSuppliers() {
   const suppliers = await Supplier.find({
-    organizationId,
     status: 'active',
   })
     .select('name code')
@@ -51,15 +48,16 @@ async function getSuppliers(organizationId: string) {
 export default async function ProductDetailPage({
   params,
 }: {
-  params: { productId: string };
+  params: Promise<{ productId: string }>;
 }) {
   const session = await requirePermission('canManageInventory');
   
+  const { productId } = await params;
   // Handle "new" product creation
-  if (params.productId === 'new') {
+  if (productId === 'new') {
     const [categories, suppliers] = await Promise.all([
-      getCategories(session.user.organizationId),
-      getSuppliers(session.user.organizationId),
+      getCategories(),
+      getSuppliers(),
     ]);
     
     return (
@@ -84,7 +82,6 @@ export default async function ProductDetailPage({
           <ProductForm
             categories={categories}
             suppliers={suppliers}
-            organizationId={session.user.organizationId}
           />
         </div>
       </div>
@@ -93,9 +90,9 @@ export default async function ProductDetailPage({
   
   // Get existing product
   const [product, categories, suppliers] = await Promise.all([
-    getProduct(params.productId, session.user.organizationId),
-    getCategories(session.user.organizationId),
-    getSuppliers(session.user.organizationId),
+    getProduct(productId),
+    getCategories(),
+    getSuppliers(),
   ]);
   
   if (!product) {
@@ -138,7 +135,6 @@ export default async function ProductDetailPage({
           product={product}
           categories={categories}
           suppliers={suppliers}
-          organizationId={session.user.organizationId}
         />
       </div>
     </div>

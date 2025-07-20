@@ -17,7 +17,7 @@ export async function GET(req: NextRequest, { params }: RouteParams) {
   try {
     const session = await getServerSession(authOptions);
     
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -28,7 +28,6 @@ export async function GET(req: NextRequest, { params }: RouteParams) {
 
     const product = await Product.findOne({
       _id: params.productId,
-      organizationId: session.user.organizationId,
     })
       .populate('category.id', 'name parentId')
       .populate('suppliers.vendorId', 'name code contactInfo')
@@ -59,7 +58,7 @@ export async function PATCH(req: NextRequest, { params }: RouteParams) {
   try {
     const session = await getServerSession(authOptions);
     
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -81,7 +80,6 @@ export async function PATCH(req: NextRequest, { params }: RouteParams) {
     // Find product
     const product = await Product.findOne({
       _id: params.productId,
-      organizationId: session.user.organizationId,
     });
 
     if (!product) {
@@ -95,7 +93,6 @@ export async function PATCH(req: NextRequest, { params }: RouteParams) {
     if (body.category) {
       const category = await Category.findOne({
         _id: body.category.id,
-        organizationId: session.user.organizationId,
       });
       
       if (!category) {
@@ -116,7 +113,6 @@ export async function PATCH(req: NextRequest, { params }: RouteParams) {
     // Check SKU uniqueness if being updated
     if (body.sku && body.sku !== product.sku) {
       const existingProduct = await Product.findOne({
-        organizationId: session.user.organizationId,
         sku: body.sku.toUpperCase(),
         _id: { $ne: params.productId },
       });
@@ -171,7 +167,7 @@ export async function DELETE(req: NextRequest, { params }: RouteParams) {
   try {
     const session = await getServerSession(authOptions);
     
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -190,7 +186,6 @@ export async function DELETE(req: NextRequest, { params }: RouteParams) {
 
     const product = await Product.findOne({
       _id: params.productId,
-      organizationId: session.user.organizationId,
     });
 
     if (!product) {

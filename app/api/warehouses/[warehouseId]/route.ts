@@ -16,7 +16,7 @@ interface RouteParams {
 export async function GET(req: NextRequest, { params }: RouteParams) {
   try {
     const session = await getServerSession(authOptions);
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -27,7 +27,6 @@ export async function GET(req: NextRequest, { params }: RouteParams) {
 
     const warehouse = await Warehouse.findOne({
       _id: params.warehouseId,
-      organizationId: session.user.organizationId,
     })
       .populate('createdBy', 'name email')
       .populate('updatedBy', 'name email');
@@ -43,7 +42,6 @@ export async function GET(req: NextRequest, { params }: RouteParams) {
     const inventoryStats = await Product.aggregate([
       {
         $match: {
-          organizationId: new mongoose.Types.ObjectId(session.user.organizationId),
           'inventory.locations.warehouseId': new mongoose.Types.ObjectId(params.warehouseId),
         },
       },
@@ -108,7 +106,7 @@ export async function GET(req: NextRequest, { params }: RouteParams) {
 export async function PATCH(req: NextRequest, { params }: RouteParams) {
   try {
     const session = await getServerSession(authOptions);
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -128,7 +126,6 @@ export async function PATCH(req: NextRequest, { params }: RouteParams) {
 
     const warehouse = await Warehouse.findOne({
       _id: params.warehouseId,
-      organizationId: session.user.organizationId,
     });
 
     if (!warehouse) {
@@ -140,13 +137,12 @@ export async function PATCH(req: NextRequest, { params }: RouteParams) {
 
     // Check code uniqueness if being updated
     if (body.code && body.code !== warehouse.code) {
-      const duplicate = await Warehouse.findOne({
-        organizationId: session.user.organizationId,
+      const existingWarehouse = await Warehouse.findOne({
         code: body.code.toUpperCase(),
         _id: { $ne: params.warehouseId },
       });
 
-      if (duplicate) {
+      if (existingWarehouse) {
         return NextResponse.json(
           { error: 'Warehouse with this code already exists' },
           { status: 400 }
@@ -159,9 +155,8 @@ export async function PATCH(req: NextRequest, { params }: RouteParams) {
       // Remove default from other warehouses
       await Warehouse.updateMany(
         { 
-          organizationId: session.user.organizationId, 
-          _id: { $ne: params.warehouseId },
-          'settings.isDefault': true 
+          'settings.isDefault': true,
+          _id: { $ne: params.warehouseId }
         },
         { $set: { 'settings.isDefault': false } }
       );
@@ -170,7 +165,6 @@ export async function PATCH(req: NextRequest, { params }: RouteParams) {
     // Prevent removing default if it's the only warehouse
     if (body.settings?.isDefault === false && warehouse.settings.isDefault) {
       const warehouseCount = await Warehouse.countDocuments({
-        organizationId: session.user.organizationId,
         status: 'active',
       });
       
@@ -227,7 +221,7 @@ export async function PATCH(req: NextRequest, { params }: RouteParams) {
 export async function DELETE(req: NextRequest, { params }: RouteParams) {
   try {
     const session = await getServerSession(authOptions);
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -246,7 +240,6 @@ export async function DELETE(req: NextRequest, { params }: RouteParams) {
 
     const warehouse = await Warehouse.findOne({
       _id: params.warehouseId,
-      organizationId: session.user.organizationId,
     });
 
     if (!warehouse) {
@@ -266,7 +259,6 @@ export async function DELETE(req: NextRequest, { params }: RouteParams) {
 
     // Check for inventory
     const inventoryCount = await Product.countDocuments({
-      organizationId: session.user.organizationId,
       'inventory.locations.warehouseId': params.warehouseId,
       'inventory.locations.quantity': { $gt: 0 },
     });
@@ -306,7 +298,7 @@ export async function POST(
 ) {
   try {
     const session = await getServerSession(authOptions);
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -326,7 +318,6 @@ export async function POST(
 
     const warehouse = await Warehouse.findOne({
       _id: params.warehouseId,
-      organizationId: session.user.organizationId,
     });
 
     if (!warehouse) {

@@ -9,7 +9,7 @@ import mongoose from 'mongoose';
 export async function GET(req: NextRequest) {
   try {
     const session = await getServerSession(authOptions);
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -25,9 +25,7 @@ export async function GET(req: NextRequest) {
     const search = searchParams.get('search');
 
     // Build query
-    const query: any = {
-      organizationId: session.user.organizationId,
-    };
+    const query: any = {};
 
     if (parent === 'root') {
       query.parentId = null;
@@ -104,7 +102,7 @@ export async function GET(req: NextRequest) {
 export async function POST(req: NextRequest) {
   try {
     const session = await getServerSession(authOptions);
-    if (!session?.user?.organizationId) {
+    if (!session?.user) {
       return NextResponse.json(
         { error: 'Unauthorized' },
         { status: 401 }
@@ -139,7 +137,6 @@ export async function POST(req: NextRequest) {
     if (parentId) {
       parentCategory = await Category.findOne({
         _id: parentId,
-        organizationId: session.user.organizationId,
       });
 
       if (!parentCategory) {
@@ -155,7 +152,6 @@ export async function POST(req: NextRequest) {
 
     // Check for duplicate name at same level
     const duplicate = await Category.findOne({
-      organizationId: session.user.organizationId,
       parentId: parentId || null,
       name: { $regex: `^${name}$`, $options: 'i' },
     });
@@ -175,7 +171,7 @@ export async function POST(req: NextRequest) {
       let counter = 1;
       code = baseCode;
       
-      while (await Category.findOne({ organizationId: session.user.organizationId, code })) {
+      while (await Category.findOne({ code })) {
         code = `${baseCode}${counter}`;
         counter++;
       }
@@ -185,7 +181,6 @@ export async function POST(req: NextRequest) {
     const category = await Category.create({
       ...body,
       code,
-      organizationId: session.user.organizationId,
       parentId: parentId || null,
       level,
       path,

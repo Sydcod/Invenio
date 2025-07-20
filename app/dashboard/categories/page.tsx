@@ -6,11 +6,10 @@ import connectMongo from "@/libs/mongoose";
 
 export const dynamic = "force-dynamic";
 
-async function getCategories(organizationId: string) {
+async function getCategories() {
   await connectMongo();
   
   const categories = await Category.find({ 
-    organizationId,
     isActive: true 
   })
     .sort('path')
@@ -78,7 +77,7 @@ function CategoryRow({ category, level = 0 }: { category: any; level?: number })
 
 export default async function CategoriesPage() {
   const session = await requirePermission('canManageInventory');
-  const categories = await getCategories(session.user.organizationId);
+  const categories = await getCategories();
 
   return (
     <div className="p-8">

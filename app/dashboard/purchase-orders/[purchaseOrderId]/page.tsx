@@ -8,30 +8,34 @@ import PurchaseOrderForm from "@/components/dashboard/PurchaseOrderForm";
 
 export const dynamic = "force-dynamic";
 
-async function getPurchaseOrder(purchaseOrderId: string, organizationId: string) {
+async function getPurchaseOrder(purchaseOrderId: string) {
   await connectMongo();
   
   const order = await PurchaseOrder.findOne({
     _id: purchaseOrderId,
-    organizationId,
   })
     .populate('supplier', 'name code')
-    .populate('warehouse', 'name code')
+    .populate('warehouse', 'name')
     .populate('items.product', 'name sku')
     .lean();
     
-  return order;
+  if (!order) {
+    return null;
+  }
+
+  return JSON.parse(JSON.stringify(order));
 }
 
 export default async function PurchaseOrderDetailPage({
   params,
 }: {
-  params: { purchaseOrderId: string };
+  params: Promise<{ purchaseOrderId: string }>;
 }) {
   const session = await requirePermission('canManageInventory');
   
+  const { purchaseOrderId } = await params;
   // Handle "new" purchase order creation
-  if (params.purchaseOrderId === 'new') {
+  if (purchaseOrderId === 'new') {
     return (
       <div className="p-8">
         {/* Page header */}
@@ -51,14 +55,14 @@ export default async function PurchaseOrderDetailPage({
 
         {/* Purchase order form */}
         <div className="max-w-6xl">
-          <PurchaseOrderForm organizationId={session.user.organizationId} />
+          <PurchaseOrderForm />
         </div>
       </div>
     );
   }
   
   // Get existing purchase order
-  const order = await getPurchaseOrder(params.purchaseOrderId, session.user.organizationId);
+  const order = await getPurchaseOrder(purchaseOrderId);
   
   if (!order) {
     notFound();
@@ -108,7 +112,6 @@ export default async function PurchaseOrderDetailPage({
       <div className="max-w-6xl">
         <PurchaseOrderForm 
           purchaseOrder={order}
-          organizationId={session.user.organizationId}
         />
       </div>
     </div>

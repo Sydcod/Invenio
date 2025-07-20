@@ -37,12 +37,10 @@ type PurchaseOrderFormData = z.infer<typeof purchaseOrderSchema>;
 
 interface PurchaseOrderFormProps {
   purchaseOrder?: any;
-  organizationId: string;
 }
 
 export default function PurchaseOrderForm({ 
-  purchaseOrder,
-  organizationId 
+  purchaseOrder
 }: PurchaseOrderFormProps) {
   const router = useRouter();
   const [isSubmitting, setIsSubmitting] = useState(false);

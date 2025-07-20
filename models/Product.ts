@@ -2,7 +2,6 @@ import mongoose, { Schema, Document } from 'mongoose';
 import toJSON from './plugins/toJSON';
 
 export interface IProduct extends Document {
-  organizationId: mongoose.Types.ObjectId;
   sku: string;
   name: string;
   description?: string;
@@ -90,12 +89,6 @@ export interface IProduct extends Document {
 
 const productSchema = new Schema<IProduct>(
   {
-    organizationId: {
-      type: Schema.Types.ObjectId,
-      ref: 'Organization',
-      required: true,
-      index: true,
-    },
     sku: {
       type: String,
       required: true,
@@ -398,16 +391,16 @@ const productSchema = new Schema<IProduct>(
   }
 );
 
-// Compound indexes for performance
-productSchema.index({ organizationId: 1, sku: 1 }, { unique: true });
-productSchema.index({ organizationId: 1, status: 1, name: 1 });
-productSchema.index({ organizationId: 1, 'category.id': 1 });
-productSchema.index({ organizationId: 1, brand: 1 });
-productSchema.index({ organizationId: 1, barcode: 1 }, { sparse: true });
-productSchema.index({ organizationId: 1, upc: 1 }, { sparse: true });
-productSchema.index({ organizationId: 1, 'inventory.currentStock': 1 });
-productSchema.index({ organizationId: 1, 'inventory.reorderPoint': 1 });
-productSchema.index({ organizationId: 1, tags: 1 });
+// Indexes
+productSchema.index({ sku: 1 }, { unique: true });
+productSchema.index({ status: 1, name: 1 });
+productSchema.index({ 'category.id': 1 });
+productSchema.index({ brand: 1 });
+productSchema.index({ barcode: 1 }, { sparse: true });
+productSchema.index({ upc: 1 }, { sparse: true });
+productSchema.index({ 'inventory.currentStock': 1 });
+productSchema.index({ 'inventory.reorderPoint': 1 });
+productSchema.index({ tags: 1 });
 
 // Text index for search
 productSchema.index({ name: 'text', description: 'text', sku: 'text', brand: 'text' });
@@ -451,17 +444,15 @@ productSchema.methods.getProfitMargin = function(): number {
 };
 
 // Static methods
-productSchema.statics.findByOrganization = function(organizationId: mongoose.Types.ObjectId, status = 'active') {
+productSchema.statics.findActive = function(status = 'active') {
   return this.find({
-    organizationId,
     status,
     isActive: true,
   });
 };
 
-productSchema.statics.findLowStock = function(organizationId: mongoose.Types.ObjectId) {
+productSchema.statics.findLowStock = function() {
   return this.find({
-    organizationId,
     'inventory.trackQuantity': true,
     $expr: { $lte: ['$inventory.currentStock', '$inventory.reorderPoint'] },
     status: 'active',
@@ -469,9 +460,8 @@ productSchema.statics.findLowStock = function(organizationId: mongoose.Types.Obj
   });
 };
 
-productSchema.statics.findOutOfStock = function(organizationId: mongoose.Types.ObjectId) {
+productSchema.statics.findOutOfStock = function() {
   return this.find({
-    organizationId,
     'inventory.trackQuantity': true,
     'inventory.availableStock': { $lte: 0 },
     status: 'active',
@@ -479,9 +469,8 @@ productSchema.statics.findOutOfStock = function(organizationId: mongoose.Types.O
   });
 };
 
-productSchema.statics.searchProducts = function(organizationId: mongoose.Types.ObjectId, searchTerm: string) {
+productSchema.statics.searchProducts = function(searchTerm: string) {
   return this.find({
-    organizationId,
     $text: { $search: searchTerm },
     status: 'active',
     isActive: true,
@@ -489,6 +478,6 @@ productSchema.statics.searchProducts = function(organizationId: mongoose.Types.O
     .sort({ score: { $meta: 'textScore' } });
 };
 
-const Product = mongoose.model<IProduct>('Product', productSchema);
+const Product = mongoose.models.Product || mongoose.model<IProduct>('Product', productSchema);
 
 export default Product;
