@@ -55,6 +55,16 @@ export const authOptions: NextAuthOptionsExtended = {
 
   callbacks: {
     signIn: async ({ user, account, profile }) => {
+      // MINIMAL SOLUTION: Let NextAuth handle user creation automatically
+      // This fixes the OAuth login issue by allowing NextAuth's MongoDB adapter
+      // to create users with the simple schema it expects
+      
+      // The custom user creation logic has been commented out to prevent conflicts
+      // Users will be created with basic fields: name, email, image, emailVerified
+      
+      return true;
+      
+      /* COMMENTED OUT - Custom user creation was causing OAuth login issues
       if (account?.provider === "google") {
         try {
           await connectMongoose();
@@ -113,6 +123,7 @@ export const authOptions: NextAuthOptionsExtended = {
         }
       }
       return true;
+      */
     },
     jwt: async ({ token, user, trigger, session }) => {
       // Initial sign in
