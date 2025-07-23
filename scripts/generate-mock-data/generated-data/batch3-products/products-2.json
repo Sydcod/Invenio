@@ -1,0 +1,5502 @@
+[
+  {
+    "_id": "68811caa975c12956e900ec6",
+    "sku": "DEL-DESK-0051",
+    "name": "Dell Desktop Computers Model 16",
+    "description": "Power through demanding tasks with the Dell Desktop Computers Model 16 desktop. Equipped with Intel Core i7 processor, 32GB DDR5 RAM, and NVIDIA RTX 4070 graphics. The 128GB storage configuration provides speed and capacity. Extensive connectivity options and tool-free upgradability make this the ultimate workstation.",
+    "category": {
+      "id": "6880316114bfcd086db913f9",
+      "name": "Desktop Computers",
+      "path": "/electronics/computers-tablets/desktop-computers"
+    },
+    "brand": "Dell",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 532.7,
+      "price": 718.88,
+      "compareAtPrice": 849.28,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 0,
+      "availableStock": 0,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 10,
+      "reorderQuantity": 20,
+      "minStockLevel": 4,
+      "stockValue": 21308.17,
+      "averageCost": 532.7,
+      "lastCostUpdate": "2025-07-19T00:20:43.955Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 8,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 8,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-DEL-DESK-0052",
+        "cost": 513.07,
+        "leadTime": 6,
+        "minOrderQuantity": 20,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-DEL-DESK-0053",
+        "cost": 489.89,
+        "leadTime": 14,
+        "minOrderQuantity": 10,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 10.5,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 24.936028356207025,
+      "width": 39.63210606670117,
+      "height": 18.440615706145422,
+      "unit": "cm"
+    },
+    "barcode": "2700018318233",
+    "upc": "462008310528",
+    "tags": [
+      "Desktop Computers",
+      "Dell",
+      "Desktop"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-12-06T14:59:07.432Z",
+    "updatedAt": "2025-05-29T07:33:06.230Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ec7",
+    "sku": "HP-DESK-0052",
+    "name": "HP Desktop Computers Model 17",
+    "description": "Power through demanding tasks with the HP Desktop Computers Model 17 desktop. Equipped with AMD Ryzen 7 processor, 16GB DDR5 RAM, and NVIDIA RTX 4070 graphics. The 128GB storage configuration provides speed and capacity. Extensive connectivity options and tool-free upgradability make this the ultimate workstation.",
+    "category": {
+      "id": "6880316114bfcd086db913f9",
+      "name": "Desktop Computers",
+      "path": "/electronics/computers-tablets/desktop-computers"
+    },
+    "brand": "HP",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 596.67,
+      "price": 843.68,
+      "compareAtPrice": 1003.44,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 64,
+      "availableStock": 64,
+      "reservedStock": 0,
+      "incomingStock": 17,
+      "reorderPoint": 16,
+      "reorderQuantity": 32,
+      "minStockLevel": 7,
+      "stockValue": 38187.18,
+      "averageCost": 596.67,
+      "lastCostUpdate": "2025-07-11T12:34:24.576Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 12,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 12,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-HP-DESK-0053",
+        "cost": 584.42,
+        "leadTime": 10,
+        "minOrderQuantity": 5,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-HP-DESK-0054",
+        "cost": 581.17,
+        "leadTime": 10,
+        "minOrderQuantity": 14,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 5.58,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 45.30599651307031,
+      "width": 10.96888838462875,
+      "height": 25.893535345614687,
+      "unit": "cm"
+    },
+    "barcode": "1934637182722",
+    "upc": "963959265787",
+    "tags": [
+      "Desktop Computers",
+      "HP",
+      "Desktop"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-02-08T18:44:46.102Z",
+    "updatedAt": "2025-05-12T09:22:50.095Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ec8",
+    "sku": "ASU-DESK-0053",
+    "name": "ASUS Desktop Computers Model 18",
+    "description": "Power through demanding tasks with the ASUS Desktop Computers Model 18 desktop. Equipped with AMD Ryzen 7 processor, 32GB DDR5 RAM, and NVIDIA RTX 4070 graphics. The 1TB storage configuration provides speed and capacity. Extensive connectivity options and tool-free upgradability make this the ultimate workstation.",
+    "category": {
+      "id": "6880316114bfcd086db913f9",
+      "name": "Desktop Computers",
+      "path": "/electronics/computers-tablets/desktop-computers"
+    },
+    "brand": "ASUS",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 270.53,
+      "price": 447.99,
+      "compareAtPrice": 497.2,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 5,
+      "availableStock": 5,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 22,
+      "reorderQuantity": 43,
+      "minStockLevel": 9,
+      "stockValue": 22995.18,
+      "averageCost": 270.53,
+      "lastCostUpdate": "2025-07-10T17:06:03.834Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 17,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 17,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-ASU-DESK-0054",
+        "cost": 244.72,
+        "leadTime": 11,
+        "minOrderQuantity": 16,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-ASU-DESK-0055",
+        "cost": 261.23,
+        "leadTime": 8,
+        "minOrderQuantity": 11,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 7.97,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 33.04268613282906,
+      "width": 15.750591609216645,
+      "height": 22.945355947379177,
+      "unit": "cm"
+    },
+    "barcode": "6569491570998",
+    "upc": "522150424946",
+    "tags": [
+      "Desktop Computers",
+      "ASUS",
+      "Desktop"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-05-10T05:56:00.737Z",
+    "updatedAt": "2025-07-16T14:02:27.043Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ec9",
+    "sku": "LEN-TABL-0054",
+    "name": "Lenovo Tablets Model 1",
+    "description": "Versatility meets portability in the Lenovo Tablets Model 1. The 10.9\" 4K UHD display with 120Hz refresh rate is ideal for both work and play. Powered by Intel Core i5 with 32GB RAM and 256GB storage. Includes S Pen for precise input and DeX mode for desktop experience.",
+    "category": {
+      "id": "6880316114bfcd086db913fa",
+      "name": "Tablets",
+      "path": "/electronics/computers-tablets/tablets"
+    },
+    "brand": "Lenovo",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 248.67,
+      "price": 342.83,
+      "compareAtPrice": 397.55,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 36,
+      "availableStock": 36,
+      "reservedStock": 0,
+      "incomingStock": 46,
+      "reorderPoint": 9,
+      "reorderQuantity": 18,
+      "minStockLevel": 4,
+      "stockValue": 8952.03,
+      "averageCost": 248.67,
+      "lastCostUpdate": "2025-07-04T09:12:17.151Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 7,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 7,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-LEN-TABL-0055",
+        "cost": 232.29,
+        "leadTime": 13,
+        "minOrderQuantity": 24,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-LEN-TABL-0056",
+        "cost": 241.46,
+        "leadTime": 10,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.34,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 21.732121367598804,
+      "width": 20.923925290376303,
+      "height": 0.5686486798541588,
+      "unit": "cm"
+    },
+    "barcode": "2281885924858",
+    "upc": "163231844545",
+    "tags": [
+      "Tablets",
+      "Lenovo",
+      "Tablets"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-11-14T20:00:51.082Z",
+    "updatedAt": "2025-07-14T16:15:14.741Z"
+  },
+  {
+    "_id": "68811caa975c12956e900eca",
+    "sku": "GOO-TABL-0055",
+    "name": "Google Tablets Model 2",
+    "description": "Versatility meets portability in the Google Tablets Model 2. The 12.9\" 4K UHD display with 120Hz refresh rate is ideal for both work and play. Powered by Apple M2 with 32GB RAM and 1TB storage. Includes S Pen for precise input and DeX mode for desktop experience.",
+    "category": {
+      "id": "6880316114bfcd086db913fa",
+      "name": "Tablets",
+      "path": "/electronics/computers-tablets/tablets"
+    },
+    "brand": "Google",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 186.47,
+      "price": 270.16,
+      "compareAtPrice": 322.25,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 82,
+      "availableStock": 82,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 21,
+      "reorderQuantity": 41,
+      "minStockLevel": 9,
+      "stockValue": 15290.63,
+      "averageCost": 186.47,
+      "lastCostUpdate": "2025-07-02T02:15:39.410Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 16,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 16,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GOO-TABL-0056",
+        "cost": 169,
+        "leadTime": 8,
+        "minOrderQuantity": 12,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GOO-TABL-0057",
+        "cost": 179.3,
+        "leadTime": 8,
+        "minOrderQuantity": 16,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.35,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 26.26128613953408,
+      "width": 21.254197977177515,
+      "height": 0.5180220712544822,
+      "unit": "cm"
+    },
+    "barcode": "0650525821159",
+    "upc": "268151471347",
+    "tags": [
+      "Tablets",
+      "Google",
+      "Tablets"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-08-17T22:43:25.704Z",
+    "updatedAt": "2025-05-03T04:27:14.958Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ecb",
+    "sku": "LEN-TABL-0056",
+    "name": "Lenovo Tablets Model 3",
+    "description": "Discover endless possibilities with the Lenovo Tablets Model 3 featuring a vibrant 11\" display perfect for reading, streaming, and browsing. The long-lasting battery provides up to 12 hours of use. With 1TB storage expandable to 1TB, parental controls, and access to educational content, it's great for the whole family.",
+    "category": {
+      "id": "6880316114bfcd086db913fa",
+      "name": "Tablets",
+      "path": "/electronics/computers-tablets/tablets"
+    },
+    "brand": "Lenovo",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 246.55,
+      "price": 399.75,
+      "compareAtPrice": 496.73,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 5,
+      "availableStock": 5,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 6,
+      "reorderQuantity": 11,
+      "minStockLevel": 3,
+      "stockValue": 5177.6,
+      "averageCost": 246.55,
+      "lastCostUpdate": "2025-07-04T04:29:04.386Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 4,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 4,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-LEN-TABL-0057",
+        "cost": 226.02,
+        "leadTime": 14,
+        "minOrderQuantity": 14,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-LEN-TABL-0058",
+        "cost": 240.53,
+        "leadTime": 5,
+        "minOrderQuantity": 16,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.66,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 25.15069302645691,
+      "width": 21.578612876941484,
+      "height": 0.6224381746778038,
+      "unit": "cm"
+    },
+    "barcode": "8550694074999",
+    "upc": "542811330119",
+    "tags": [
+      "Tablets",
+      "Lenovo",
+      "Tablets"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-03-12T01:19:07.970Z",
+    "updatedAt": "2025-04-29T02:41:49.865Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ecc",
+    "sku": "LEN-TABL-0057",
+    "name": "Lenovo Tablets Model 4",
+    "description": "Versatility meets portability in the Lenovo Tablets Model 4. The 11\" Full HD display with 120Hz refresh rate is ideal for both work and play. Powered by Intel Core i5 with 8GB RAM and 512GB storage. Includes S Pen for precise input and DeX mode for desktop experience.",
+    "category": {
+      "id": "6880316114bfcd086db913fa",
+      "name": "Tablets",
+      "path": "/electronics/computers-tablets/tablets"
+    },
+    "brand": "Lenovo",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 325.28,
+      "price": 558.63,
+      "compareAtPrice": 664.35,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 48,
+      "availableStock": 48,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 12,
+      "reorderQuantity": 24,
+      "minStockLevel": 5,
+      "stockValue": 15613.3,
+      "averageCost": 325.28,
+      "lastCostUpdate": "2025-07-12T18:26:05.738Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 9,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 9,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-LEN-TABL-0058",
+        "cost": 309.19,
+        "leadTime": 6,
+        "minOrderQuantity": 14,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-LEN-TABL-0059",
+        "cost": 310.84,
+        "leadTime": 14,
+        "minOrderQuantity": 18,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.41,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 24.42380388310344,
+      "width": 16.477315437810393,
+      "height": 0.7045887357144344,
+      "unit": "cm"
+    },
+    "barcode": "6521412312459",
+    "upc": "906197815134",
+    "tags": [
+      "Tablets",
+      "Lenovo",
+      "Tablets"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-10-13T20:55:19.468Z",
+    "updatedAt": "2025-06-19T22:41:25.096Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ecd",
+    "sku": "AMA-TABL-0058",
+    "name": "Amazon Tablets Model 5",
+    "description": "Versatility meets portability in the Amazon Tablets Model 5. The 11\" 8K UHD display with 120Hz refresh rate is ideal for both work and play. Powered by AMD Ryzen 5 with 8GB RAM and 1TB storage. Includes S Pen for precise input and DeX mode for desktop experience.",
+    "category": {
+      "id": "6880316114bfcd086db913fa",
+      "name": "Tablets",
+      "path": "/electronics/computers-tablets/tablets"
+    },
+    "brand": "Amazon",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 93.69,
+      "price": 150.09,
+      "compareAtPrice": 179.7,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 42,
+      "availableStock": 42,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 11,
+      "reorderQuantity": 21,
+      "minStockLevel": 5,
+      "stockValue": 3934.82,
+      "averageCost": 93.69,
+      "lastCostUpdate": "2025-07-06T23:41:08.851Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 8,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 8,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-AMA-TABL-0059",
+        "cost": 86.34,
+        "leadTime": 3,
+        "minOrderQuantity": 25,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-AMA-TABL-0060",
+        "cost": 86.89,
+        "leadTime": 11,
+        "minOrderQuantity": 15,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.62,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 25.354007133281044,
+      "width": 20.78772544394445,
+      "height": 0.8408272843545155,
+      "unit": "cm"
+    },
+    "barcode": "0698418551729",
+    "upc": "070182661749",
+    "tags": [
+      "Tablets",
+      "Amazon",
+      "Tablets"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-01-28T20:08:46.012Z",
+    "updatedAt": "2025-07-05T04:09:58.182Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ece",
+    "sku": "MIC-TABL-0059",
+    "name": "Microsoft Surface Pro 9",
+    "description": "Discover endless possibilities with the Microsoft Surface Pro 9 featuring a vibrant 10.9\" display perfect for reading, streaming, and browsing. The long-lasting battery provides up to 12 hours of use. With 128GB storage expandable to 1TB, parental controls, and access to educational content, it's great for the whole family.",
+    "category": {
+      "id": "6880316114bfcd086db913fa",
+      "name": "Tablets",
+      "path": "/electronics/computers-tablets/tablets"
+    },
+    "brand": "Microsoft",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 405.06,
+      "price": 629.09,
+      "compareAtPrice": 778.5,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 61,
+      "availableStock": 61,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 16,
+      "reorderQuantity": 31,
+      "minStockLevel": 7,
+      "stockValue": 24708.44,
+      "averageCost": 405.06,
+      "lastCostUpdate": "2025-07-08T15:50:24.937Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 12,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 12,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-MIC-TABL-0060",
+        "cost": 373.24,
+        "leadTime": 12,
+        "minOrderQuantity": 24,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-MIC-TABL-0061",
+        "cost": 389.56,
+        "leadTime": 10,
+        "minOrderQuantity": 6,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.37,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 22.603813460014237,
+      "width": 18.97954105971376,
+      "height": 0.9696968045914133,
+      "unit": "cm"
+    },
+    "barcode": "9940792394253",
+    "upc": "541778703574",
+    "tags": [
+      "Tablets",
+      "Microsoft",
+      "Surface"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-09-11T19:28:31.424Z",
+    "updatedAt": "2025-07-18T07:03:19.368Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ecf",
+    "sku": "SAM-TABL-0060",
+    "name": "Samsung Galaxy Tab S9",
+    "description": "Versatility meets portability in the Samsung Galaxy Tab S9. The 11\" 8K UHD display with 120Hz refresh rate is ideal for both work and play. Powered by Apple M2 with 16GB RAM and 512GB storage. Includes S Pen for precise input and DeX mode for desktop experience.",
+    "category": {
+      "id": "6880316114bfcd086db913fa",
+      "name": "Tablets",
+      "path": "/electronics/computers-tablets/tablets"
+    },
+    "brand": "Samsung",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 323.24,
+      "price": 495.86,
+      "compareAtPrice": 554.44,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 96,
+      "availableStock": 96,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 24,
+      "reorderQuantity": 48,
+      "minStockLevel": 10,
+      "stockValue": 31030.85,
+      "averageCost": 323.24,
+      "lastCostUpdate": "2025-07-04T17:11:42.246Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 19,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 19,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-SAM-TABL-0061",
+        "cost": 307.69,
+        "leadTime": 9,
+        "minOrderQuantity": 13,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-SAM-TABL-0062",
+        "cost": 303.73,
+        "leadTime": 7,
+        "minOrderQuantity": 10,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.68,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 24.608526514199312,
+      "width": 16.27021140217599,
+      "height": 0.951241400185075,
+      "unit": "cm"
+    },
+    "barcode": "9920185618070",
+    "upc": "854762019127",
+    "tags": [
+      "Tablets",
+      "Samsung",
+      "Galaxy"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-12-06T01:21:45.861Z",
+    "updatedAt": "2025-05-07T06:52:45.881Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ed0",
+    "sku": "MIC-TABL-0061",
+    "name": "Microsoft Surface Go 3",
+    "description": "The Microsoft Surface Go 3 blurs the line between tablet and laptop with its 10.9\" Liquid Retina display and Intel Core i7 chip. With 256GB storage and support for Apple Pencil and Magic Keyboard, it's perfect for creative professionals. All-day battery life and 5G option keep you productive anywhere.",
+    "category": {
+      "id": "6880316114bfcd086db913fa",
+      "name": "Tablets",
+      "path": "/electronics/computers-tablets/tablets"
+    },
+    "brand": "Microsoft",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 378.53,
+      "price": 537.99,
+      "compareAtPrice": 617.45,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 78,
+      "availableStock": 78,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 20,
+      "reorderQuantity": 39,
+      "minStockLevel": 8,
+      "stockValue": 29525.65,
+      "averageCost": 378.53,
+      "lastCostUpdate": "2025-07-21T23:11:46.762Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 15,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 15,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-MIC-TABL-0062",
+        "cost": 346.39,
+        "leadTime": 9,
+        "minOrderQuantity": 25,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-MIC-TABL-0063",
+        "cost": 349.49,
+        "leadTime": 10,
+        "minOrderQuantity": 19,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.6,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 20.07354187177567,
+      "width": 22.994666637149244,
+      "height": 0.8139116553988652,
+      "unit": "cm"
+    },
+    "barcode": "4557910648487",
+    "upc": "377304427723",
+    "tags": [
+      "Tablets",
+      "Microsoft",
+      "Surface"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-08-24T18:58:30.443Z",
+    "updatedAt": "2025-05-31T08:11:37.355Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ed1",
+    "sku": "LEN-TABL-0062",
+    "name": "Lenovo Tablets Model 9",
+    "description": "Discover endless possibilities with the Lenovo Tablets Model 9 featuring a vibrant 12.9\" display perfect for reading, streaming, and browsing. The long-lasting battery provides up to 12 hours of use. With 128GB storage expandable to 1TB, parental controls, and access to educational content, it's great for the whole family.",
+    "category": {
+      "id": "6880316114bfcd086db913fa",
+      "name": "Tablets",
+      "path": "/electronics/computers-tablets/tablets"
+    },
+    "brand": "Lenovo",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 469,
+      "price": 658.57,
+      "compareAtPrice": 793.36,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 35,
+      "availableStock": 35,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 9,
+      "reorderQuantity": 18,
+      "minStockLevel": 4,
+      "stockValue": 16414.98,
+      "averageCost": 469,
+      "lastCostUpdate": "2025-07-12T21:57:26.574Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 7,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 7,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-LEN-TABL-0063",
+        "cost": 457.2,
+        "leadTime": 12,
+        "minOrderQuantity": 10,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-LEN-TABL-0064",
+        "cost": 448.92,
+        "leadTime": 12,
+        "minOrderQuantity": 10,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.73,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 29.154274429831897,
+      "width": 22.828398665046628,
+      "height": 0.8605575397063235,
+      "unit": "cm"
+    },
+    "barcode": "6650661621821",
+    "upc": "590875816604",
+    "tags": [
+      "Tablets",
+      "Lenovo",
+      "Tablets"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-04-16T22:21:23.793Z",
+    "updatedAt": "2025-04-28T15:47:39.421Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ed2",
+    "sku": "MIC-TABL-0063",
+    "name": "Microsoft Surface Go 3",
+    "description": "The Microsoft Surface Go 3 blurs the line between tablet and laptop with its 11\" Liquid Retina display and AMD Ryzen 7 chip. With 128GB storage and support for Apple Pencil and Magic Keyboard, it's perfect for creative professionals. All-day battery life and 5G option keep you productive anywhere.",
+    "category": {
+      "id": "6880316114bfcd086db913fa",
+      "name": "Tablets",
+      "path": "/electronics/computers-tablets/tablets"
+    },
+    "brand": "Microsoft",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 140.75,
+      "price": 217.23,
+      "compareAtPrice": 256.63,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 70,
+      "availableStock": 70,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 18,
+      "reorderQuantity": 35,
+      "minStockLevel": 7,
+      "stockValue": 9852.65,
+      "averageCost": 140.75,
+      "lastCostUpdate": "2025-07-17T09:48:48.637Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 14,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 14,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-MIC-TABL-0064",
+        "cost": 129.05,
+        "leadTime": 6,
+        "minOrderQuantity": 7,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-MIC-TABL-0065",
+        "cost": 134.36,
+        "leadTime": 4,
+        "minOrderQuantity": 15,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.53,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 21.450377110056348,
+      "width": 19.951947223087465,
+      "height": 0.721099299764596,
+      "unit": "cm"
+    },
+    "barcode": "7500696911269",
+    "upc": "751855637480",
+    "tags": [
+      "Tablets",
+      "Microsoft",
+      "Surface"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-12-06T07:26:17.584Z",
+    "updatedAt": "2025-05-20T09:49:48.303Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ed3",
+    "sku": "GOO-TABL-0064",
+    "name": "Google Tablets Model 11",
+    "description": "Versatility meets portability in the Google Tablets Model 11. The 12.9\" 8K UHD display with 120Hz refresh rate is ideal for both work and play. Powered by Intel Core i5 with 32GB RAM and 1TB storage. Includes S Pen for precise input and DeX mode for desktop experience.",
+    "category": {
+      "id": "6880316114bfcd086db913fa",
+      "name": "Tablets",
+      "path": "/electronics/computers-tablets/tablets"
+    },
+    "brand": "Google",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 566.21,
+      "price": 923.31,
+      "compareAtPrice": 1054.91,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 71,
+      "availableStock": 71,
+      "reservedStock": 0,
+      "incomingStock": 50,
+      "reorderPoint": 18,
+      "reorderQuantity": 36,
+      "minStockLevel": 8,
+      "stockValue": 40200.89,
+      "averageCost": 566.21,
+      "lastCostUpdate": "2025-07-08T23:09:44.012Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 14,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 14,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GOO-TABL-0065",
+        "cost": 517.19,
+        "leadTime": 13,
+        "minOrderQuantity": 13,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GOO-TABL-0066",
+        "cost": 519.06,
+        "leadTime": 14,
+        "minOrderQuantity": 15,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.51,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 28.337878484494322,
+      "width": 20.291542602586553,
+      "height": 0.6861040936590126,
+      "unit": "cm"
+    },
+    "barcode": "1439921496230",
+    "upc": "105645511706",
+    "tags": [
+      "Tablets",
+      "Google",
+      "Tablets"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-04-09T22:03:38.060Z",
+    "updatedAt": "2025-05-21T06:10:53.968Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ed4",
+    "sku": "APP-TABL-0065",
+    "name": "Apple iPad Air",
+    "description": "Versatility meets portability in the Apple iPad Air. The 11\" 4K UHD display with 120Hz refresh rate is ideal for both work and play. Powered by Intel Core i5 with 16GB RAM and 512GB storage. Includes S Pen for precise input and DeX mode for desktop experience.",
+    "category": {
+      "id": "6880316114bfcd086db913fa",
+      "name": "Tablets",
+      "path": "/electronics/computers-tablets/tablets"
+    },
+    "brand": "Apple",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 809.25,
+      "price": 1081.04,
+      "compareAtPrice": 1257.91,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 11,
+      "availableStock": 11,
+      "reservedStock": 0,
+      "incomingStock": 48,
+      "reorderPoint": 3,
+      "reorderQuantity": 6,
+      "minStockLevel": 2,
+      "stockValue": 8901.79,
+      "averageCost": 809.25,
+      "lastCostUpdate": "2025-07-21T04:06:27.026Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 2,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 2,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 2,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 2,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 2,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-APP-TABL-0066",
+        "cost": 763.82,
+        "leadTime": 10,
+        "minOrderQuantity": 17,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-APP-TABL-0067",
+        "cost": 744.59,
+        "leadTime": 3,
+        "minOrderQuantity": 11,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.35,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 22.661938692962266,
+      "width": 20.21314341570885,
+      "height": 0.7735132423456044,
+      "unit": "cm"
+    },
+    "barcode": "1894537879715",
+    "upc": "051585783763",
+    "tags": [
+      "Tablets",
+      "Apple",
+      "iPad"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-03-26T09:31:08.807Z",
+    "updatedAt": "2025-05-09T14:42:42.079Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ed5",
+    "sku": "AMA-TABL-0066",
+    "name": "Amazon Tablets Model 13",
+    "description": "The Amazon Tablets Model 13 blurs the line between tablet and laptop with its 11\" Liquid Retina display and Apple M2 chip. With 1TB storage and support for Apple Pencil and Magic Keyboard, it's perfect for creative professionals. All-day battery life and 5G option keep you productive anywhere.",
+    "category": {
+      "id": "6880316114bfcd086db913fa",
+      "name": "Tablets",
+      "path": "/electronics/computers-tablets/tablets"
+    },
+    "brand": "Amazon",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 153.03,
+      "price": 268.66,
+      "compareAtPrice": 298.59,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 4,
+      "availableStock": 4,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 20,
+      "reorderQuantity": 40,
+      "minStockLevel": 8,
+      "stockValue": 12089.41,
+      "averageCost": 153.03,
+      "lastCostUpdate": "2025-07-14T08:31:35.480Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 15,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 15,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-AMA-TABL-0067",
+        "cost": 146.46,
+        "leadTime": 6,
+        "minOrderQuantity": 6,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-AMA-TABL-0068",
+        "cost": 140.72,
+        "leadTime": 4,
+        "minOrderQuantity": 6,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.46,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 28.934011187912873,
+      "width": 20.36621092500841,
+      "height": 0.8680315873011655,
+      "unit": "cm"
+    },
+    "barcode": "9127081369219",
+    "upc": "213366619890",
+    "tags": [
+      "Tablets",
+      "Amazon",
+      "Tablets"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-12-21T04:45:49.784Z",
+    "updatedAt": "2025-05-07T09:17:53.297Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ed6",
+    "sku": "AMA-TABL-0067",
+    "name": "Amazon Tablets Model 14",
+    "description": "Versatility meets portability in the Amazon Tablets Model 14. The 10.9\" Full HD display with 120Hz refresh rate is ideal for both work and play. Powered by AMD Ryzen 7 with 16GB RAM and 512GB storage. Includes S Pen for precise input and DeX mode for desktop experience.",
+    "category": {
+      "id": "6880316114bfcd086db913fa",
+      "name": "Tablets",
+      "path": "/electronics/computers-tablets/tablets"
+    },
+    "brand": "Amazon",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 128.78,
+      "price": 223.3,
+      "compareAtPrice": 250.77,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 62,
+      "availableStock": 62,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 16,
+      "reorderQuantity": 31,
+      "minStockLevel": 7,
+      "stockValue": 7984.65,
+      "averageCost": 128.78,
+      "lastCostUpdate": "2025-07-02T09:47:36.032Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 12,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 12,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-AMA-TABL-0068",
+        "cost": 123.22,
+        "leadTime": 3,
+        "minOrderQuantity": 5,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-AMA-TABL-0069",
+        "cost": 121.38,
+        "leadTime": 9,
+        "minOrderQuantity": 20,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.36,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 27.196310693943804,
+      "width": 17.9207535512409,
+      "height": 0.6227719259488904,
+      "unit": "cm"
+    },
+    "barcode": "2302669355874",
+    "upc": "387224268116",
+    "tags": [
+      "Tablets",
+      "Amazon",
+      "Tablets"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-11-02T11:36:15.745Z",
+    "updatedAt": "2025-05-09T23:57:32.246Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ed7",
+    "sku": "GOO-TABL-0068",
+    "name": "Google Tablets Model 15",
+    "description": "Versatility meets portability in the Google Tablets Model 15. The 10.9\" 4K UHD display with 120Hz refresh rate is ideal for both work and play. Powered by Intel Core i7 with 32GB RAM and 128GB storage. Includes S Pen for precise input and DeX mode for desktop experience.",
+    "category": {
+      "id": "6880316114bfcd086db913fa",
+      "name": "Tablets",
+      "path": "/electronics/computers-tablets/tablets"
+    },
+    "brand": "Google",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 591.9,
+      "price": 951.34,
+      "compareAtPrice": 1144.97,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 89,
+      "availableStock": 89,
+      "reservedStock": 0,
+      "incomingStock": 40,
+      "reorderPoint": 23,
+      "reorderQuantity": 45,
+      "minStockLevel": 9,
+      "stockValue": 52678.92,
+      "averageCost": 591.9,
+      "lastCostUpdate": "2025-07-06T03:12:02.384Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 17,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 17,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GOO-TABL-0069",
+        "cost": 570.72,
+        "leadTime": 12,
+        "minOrderQuantity": 24,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GOO-TABL-0070",
+        "cost": 565.5,
+        "leadTime": 4,
+        "minOrderQuantity": 15,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.75,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 24.038486517754897,
+      "width": 23.98099650161639,
+      "height": 0.7342405937991188,
+      "unit": "cm"
+    },
+    "barcode": "3000765294460",
+    "upc": "743381887947",
+    "tags": [
+      "Tablets",
+      "Google",
+      "Tablets"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-03-13T08:18:42.163Z",
+    "updatedAt": "2025-07-08T03:49:04.676Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ed8",
+    "sku": "GOO-TABL-0069",
+    "name": "Google Tablets Model 16",
+    "description": "Discover endless possibilities with the Google Tablets Model 16 featuring a vibrant 11\" display perfect for reading, streaming, and browsing. The long-lasting battery provides up to 12 hours of use. With 1TB storage expandable to 1TB, parental controls, and access to educational content, it's great for the whole family.",
+    "category": {
+      "id": "6880316114bfcd086db913fa",
+      "name": "Tablets",
+      "path": "/electronics/computers-tablets/tablets"
+    },
+    "brand": "Google",
+    "type": "physical",
+    "status": "draft",
+    "pricing": {
+      "cost": 396.46,
+      "price": 618.35,
+      "compareAtPrice": 740.77,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 35,
+      "availableStock": 35,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 9,
+      "reorderQuantity": 18,
+      "minStockLevel": 4,
+      "stockValue": 13876.14,
+      "averageCost": 396.46,
+      "lastCostUpdate": "2025-07-18T16:42:48.055Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 7,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 7,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GOO-TABL-0070",
+        "cost": 377.35,
+        "leadTime": 8,
+        "minOrderQuantity": 17,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GOO-TABL-0071",
+        "cost": 372.11,
+        "leadTime": 3,
+        "minOrderQuantity": 23,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.43,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 21.213606186317595,
+      "width": 19.503697000202767,
+      "height": 0.8512264245042211,
+      "unit": "cm"
+    },
+    "barcode": "5982599901494",
+    "upc": "190634664042",
+    "tags": [
+      "Tablets",
+      "Google",
+      "Tablets"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-09-25T15:16:24.990Z",
+    "updatedAt": "2025-05-24T17:27:04.148Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ed9",
+    "sku": "GOO-TABL-0070",
+    "name": "Google Tablets Model 17",
+    "description": "Versatility meets portability in the Google Tablets Model 17. The 11\" 4K UHD display with 120Hz refresh rate is ideal for both work and play. Powered by Intel Core i7 with 8GB RAM and 1TB storage. Includes S Pen for precise input and DeX mode for desktop experience.",
+    "category": {
+      "id": "6880316114bfcd086db913fa",
+      "name": "Tablets",
+      "path": "/electronics/computers-tablets/tablets"
+    },
+    "brand": "Google",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 292.22,
+      "price": 523.38,
+      "compareAtPrice": 646.44,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 45,
+      "availableStock": 45,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 12,
+      "reorderQuantity": 23,
+      "minStockLevel": 5,
+      "stockValue": 13149.79,
+      "averageCost": 292.22,
+      "lastCostUpdate": "2025-07-04T05:45:10.328Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 9,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 9,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GOO-TABL-0071",
+        "cost": 276.48,
+        "leadTime": 6,
+        "minOrderQuantity": 24,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GOO-TABL-0072",
+        "cost": 281.17,
+        "leadTime": 6,
+        "minOrderQuantity": 9,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.35,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 23.768550792005904,
+      "width": 22.830717716712606,
+      "height": 0.6683112579229211,
+      "unit": "cm"
+    },
+    "barcode": "4073458962041",
+    "upc": "724410436686",
+    "tags": [
+      "Tablets",
+      "Google",
+      "Tablets"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-12-18T03:58:42.213Z",
+    "updatedAt": "2025-05-21T23:06:49.271Z"
+  },
+  {
+    "_id": "68811caa975c12956e900eda",
+    "sku": "GOO-TABL-0071",
+    "name": "Google Tablets Model 18",
+    "description": "Discover endless possibilities with the Google Tablets Model 18 featuring a vibrant 12.9\" display perfect for reading, streaming, and browsing. The long-lasting battery provides up to 12 hours of use. With 256GB storage expandable to 1TB, parental controls, and access to educational content, it's great for the whole family.",
+    "category": {
+      "id": "6880316114bfcd086db913fa",
+      "name": "Tablets",
+      "path": "/electronics/computers-tablets/tablets"
+    },
+    "brand": "Google",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 592.4,
+      "price": 938.96,
+      "compareAtPrice": 1061.42,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 44,
+      "availableStock": 44,
+      "reservedStock": 0,
+      "incomingStock": 48,
+      "reorderPoint": 11,
+      "reorderQuantity": 22,
+      "minStockLevel": 5,
+      "stockValue": 26065.58,
+      "averageCost": 592.4,
+      "lastCostUpdate": "2025-06-29T17:24:14.605Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 8,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 8,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GOO-TABL-0072",
+        "cost": 555.88,
+        "leadTime": 3,
+        "minOrderQuantity": 19,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GOO-TABL-0073",
+        "cost": 568.44,
+        "leadTime": 8,
+        "minOrderQuantity": 15,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.4,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 27.95448033527225,
+      "width": 18.68691464266137,
+      "height": 0.5847340395231719,
+      "unit": "cm"
+    },
+    "barcode": "4543156139426",
+    "upc": "590004801764",
+    "tags": [
+      "Tablets",
+      "Google",
+      "Tablets"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-05-29T06:07:05.133Z",
+    "updatedAt": "2025-05-22T15:05:28.084Z"
+  },
+  {
+    "_id": "68811caa975c12956e900edb",
+    "sku": "ASU-COMP-0072",
+    "name": "ASUS Computer Accessories Model 1",
+    "description": "Discover excellence with the ASUS Computer Accessories Model 1. Engineered with precision and built to last, this computer accessories product combines innovative features with reliable performance. Backed by ASUS's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fb",
+      "name": "Computer Accessories",
+      "path": "/electronics/computers-tablets/computer-accessories"
+    },
+    "brand": "ASUS",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 225.15,
+      "price": 305.29,
+      "compareAtPrice": 336.1,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 45,
+      "availableStock": 45,
+      "reservedStock": 0,
+      "incomingStock": 48,
+      "reorderPoint": 12,
+      "reorderQuantity": 23,
+      "minStockLevel": 5,
+      "stockValue": 10131.84,
+      "averageCost": 225.15,
+      "lastCostUpdate": "2025-07-04T17:48:01.828Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 9,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 9,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-ASU-COMP-0073",
+        "cost": 210.62,
+        "leadTime": 8,
+        "minOrderQuantity": 22,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-ASU-COMP-0074",
+        "cost": 215.7,
+        "leadTime": 7,
+        "minOrderQuantity": 14,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.06,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 17.284461283944495,
+      "width": 44.32401530730229,
+      "height": 22.944458030740808,
+      "unit": "cm"
+    },
+    "barcode": "7350596853733",
+    "upc": "215999227726",
+    "tags": [
+      "Computer Accessories",
+      "ASUS",
+      "Computer"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-01-08T12:01:05.237Z",
+    "updatedAt": "2025-06-20T10:02:23.819Z"
+  },
+  {
+    "_id": "68811caa975c12956e900edc",
+    "sku": "STE-COMP-0073",
+    "name": "SteelSeries Computer Accessories Model 2",
+    "description": "Discover excellence with the SteelSeries Computer Accessories Model 2. Engineered with precision and built to last, this computer accessories product combines innovative features with reliable performance. Backed by SteelSeries's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fb",
+      "name": "Computer Accessories",
+      "path": "/electronics/computers-tablets/computer-accessories"
+    },
+    "brand": "SteelSeries",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 320.08,
+      "price": 471.73,
+      "compareAtPrice": 530.59,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 91,
+      "availableStock": 91,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 23,
+      "reorderQuantity": 46,
+      "minStockLevel": 10,
+      "stockValue": 29127.25,
+      "averageCost": 320.08,
+      "lastCostUpdate": "2025-06-30T13:28:25.361Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 18,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 18,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-STE-COMP-0074",
+        "cost": 312.69,
+        "leadTime": 13,
+        "minOrderQuantity": 7,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-STE-COMP-0075",
+        "cost": 290.58,
+        "leadTime": 10,
+        "minOrderQuantity": 20,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.9,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 12.753475780177524,
+      "width": 19.108229463541363,
+      "height": 15.932762921730724,
+      "unit": "cm"
+    },
+    "barcode": "7556483838646",
+    "upc": "466529106493",
+    "tags": [
+      "Computer Accessories",
+      "SteelSeries",
+      "Computer"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-10-04T17:27:00.659Z",
+    "updatedAt": "2025-07-13T14:53:23.238Z"
+  },
+  {
+    "_id": "68811caa975c12956e900edd",
+    "sku": "COR-COMP-0074",
+    "name": "Corsair Computer Accessories Model 3",
+    "description": "Discover excellence with the Corsair Computer Accessories Model 3. Engineered with precision and built to last, this computer accessories product combines innovative features with reliable performance. Backed by Corsair's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fb",
+      "name": "Computer Accessories",
+      "path": "/electronics/computers-tablets/computer-accessories"
+    },
+    "brand": "Corsair",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 248.01,
+      "price": 410.24,
+      "compareAtPrice": 481.68,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 93,
+      "availableStock": 93,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 24,
+      "reorderQuantity": 47,
+      "minStockLevel": 10,
+      "stockValue": 23064.58,
+      "averageCost": 248.01,
+      "lastCostUpdate": "2025-07-17T06:51:26.605Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 18,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 18,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-COR-COMP-0075",
+        "cost": 240.94,
+        "leadTime": 10,
+        "minOrderQuantity": 10,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-COR-COMP-0076",
+        "cost": 235.51,
+        "leadTime": 9,
+        "minOrderQuantity": 11,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.66,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 32.555865213314405,
+      "width": 14.375007062800815,
+      "height": 13.995952577924172,
+      "unit": "cm"
+    },
+    "barcode": "4400896947293",
+    "upc": "914720462940",
+    "tags": [
+      "Computer Accessories",
+      "Corsair",
+      "Computer"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-11-21T05:05:03.360Z",
+    "updatedAt": "2025-07-20T10:58:34.401Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ede",
+    "sku": "ELG-COMP-0075",
+    "name": "Elgato Computer Accessories Model 4",
+    "description": "Discover excellence with the Elgato Computer Accessories Model 4. Engineered with precision and built to last, this computer accessories product combines innovative features with reliable performance. Backed by Elgato's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fb",
+      "name": "Computer Accessories",
+      "path": "/electronics/computers-tablets/computer-accessories"
+    },
+    "brand": "Elgato",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 304.85,
+      "price": 441.32,
+      "compareAtPrice": 518.78,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 0,
+      "availableStock": 0,
+      "reservedStock": 0,
+      "incomingStock": 14,
+      "reorderPoint": 21,
+      "reorderQuantity": 42,
+      "minStockLevel": 9,
+      "stockValue": 25607.3,
+      "averageCost": 304.85,
+      "lastCostUpdate": "2025-06-28T10:54:52.537Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 16,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 16,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-ELG-COMP-0076",
+        "cost": 278.1,
+        "leadTime": 10,
+        "minOrderQuantity": 17,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-ELG-COMP-0077",
+        "cost": 287.13,
+        "leadTime": 8,
+        "minOrderQuantity": 16,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.68,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 24.65771275722524,
+      "width": 36.03198602858699,
+      "height": 8.307220972442282,
+      "unit": "cm"
+    },
+    "barcode": "0349451729093",
+    "upc": "051357404598",
+    "tags": [
+      "Computer Accessories",
+      "Elgato",
+      "Computer"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-06-19T11:06:50.497Z",
+    "updatedAt": "2025-05-17T07:40:39.682Z"
+  },
+  {
+    "_id": "68811caa975c12956e900edf",
+    "sku": "ASU-COMP-0076",
+    "name": "ASUS Computer Accessories Model 5",
+    "description": "Discover excellence with the ASUS Computer Accessories Model 5. Engineered with precision and built to last, this computer accessories product combines innovative features with reliable performance. Backed by ASUS's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fb",
+      "name": "Computer Accessories",
+      "path": "/electronics/computers-tablets/computer-accessories"
+    },
+    "brand": "ASUS",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 143.84,
+      "price": 200.14,
+      "compareAtPrice": 229.82,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 79,
+      "availableStock": 79,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 20,
+      "reorderQuantity": 40,
+      "minStockLevel": 8,
+      "stockValue": 11363.14,
+      "averageCost": 143.84,
+      "lastCostUpdate": "2025-07-15T12:51:48.563Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 15,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 15,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-ASU-COMP-0077",
+        "cost": 138.97,
+        "leadTime": 4,
+        "minOrderQuantity": 15,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-ASU-COMP-0078",
+        "cost": 134.18,
+        "leadTime": 13,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.85,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 11.901262226820485,
+      "width": 39.31265050235844,
+      "height": 11.308250330540485,
+      "unit": "cm"
+    },
+    "barcode": "0381834088669",
+    "upc": "477286459878",
+    "tags": [
+      "Computer Accessories",
+      "ASUS",
+      "Computer"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-01-14T05:27:50.188Z",
+    "updatedAt": "2025-06-19T08:46:54.221Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ee0",
+    "sku": "LOG-COMP-0077",
+    "name": "Logitech Computer Accessories Model 6",
+    "description": "Discover excellence with the Logitech Computer Accessories Model 6. Engineered with precision and built to last, this computer accessories product combines innovative features with reliable performance. Backed by Logitech's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fb",
+      "name": "Computer Accessories",
+      "path": "/electronics/computers-tablets/computer-accessories"
+    },
+    "brand": "Logitech",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 230.98,
+      "price": 412.84,
+      "compareAtPrice": 468.21,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 67,
+      "availableStock": 67,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 17,
+      "reorderQuantity": 34,
+      "minStockLevel": 7,
+      "stockValue": 15475.72,
+      "averageCost": 230.98,
+      "lastCostUpdate": "2025-07-13T09:23:47.601Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 13,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 13,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-LOG-COMP-0078",
+        "cost": 220.95,
+        "leadTime": 11,
+        "minOrderQuantity": 23,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-LOG-COMP-0079",
+        "cost": 212.26,
+        "leadTime": 14,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.7,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 35.04236905345827,
+      "width": 30.180711033397426,
+      "height": 21.684139291047916,
+      "unit": "cm"
+    },
+    "barcode": "1920455446505",
+    "upc": "000225011951",
+    "tags": [
+      "Computer Accessories",
+      "Logitech",
+      "Computer"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-03-06T07:42:23.560Z",
+    "updatedAt": "2025-07-02T01:01:14.356Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ee1",
+    "sku": "ASU-COMP-0078",
+    "name": "ASUS Computer Accessories Model 7",
+    "description": "Discover excellence with the ASUS Computer Accessories Model 7. Engineered with precision and built to last, this computer accessories product combines innovative features with reliable performance. Backed by ASUS's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fb",
+      "name": "Computer Accessories",
+      "path": "/electronics/computers-tablets/computer-accessories"
+    },
+    "brand": "ASUS",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 343.4,
+      "price": 481.44,
+      "compareAtPrice": 556.31,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 25,
+      "availableStock": 25,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 7,
+      "reorderQuantity": 13,
+      "minStockLevel": 3,
+      "stockValue": 8585.05,
+      "averageCost": 343.4,
+      "lastCostUpdate": "2025-07-19T20:31:27.133Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 5,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 5,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-ASU-COMP-0079",
+        "cost": 325.32,
+        "leadTime": 13,
+        "minOrderQuantity": 23,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-ASU-COMP-0080",
+        "cost": 309.57,
+        "leadTime": 3,
+        "minOrderQuantity": 9,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.92,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 32.63493740555517,
+      "width": 49.895905110954374,
+      "height": 27.778777670642594,
+      "unit": "cm"
+    },
+    "barcode": "4839580916089",
+    "upc": "494329069442",
+    "tags": [
+      "Computer Accessories",
+      "ASUS",
+      "Computer"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-05-08T21:56:54.318Z",
+    "updatedAt": "2025-06-26T17:44:15.235Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ee2",
+    "sku": "STE-COMP-0079",
+    "name": "SteelSeries Computer Accessories Model 8",
+    "description": "Discover excellence with the SteelSeries Computer Accessories Model 8. Engineered with precision and built to last, this computer accessories product combines innovative features with reliable performance. Backed by SteelSeries's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fb",
+      "name": "Computer Accessories",
+      "path": "/electronics/computers-tablets/computer-accessories"
+    },
+    "brand": "SteelSeries",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 466.44,
+      "price": 779.55,
+      "compareAtPrice": 881.24,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 94,
+      "availableStock": 94,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 24,
+      "reorderQuantity": 47,
+      "minStockLevel": 10,
+      "stockValue": 43844.95,
+      "averageCost": 466.44,
+      "lastCostUpdate": "2025-07-05T22:21:40.333Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 18,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 18,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-STE-COMP-0080",
+        "cost": 436.95,
+        "leadTime": 11,
+        "minOrderQuantity": 19,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-STE-COMP-0081",
+        "cost": 434.84,
+        "leadTime": 10,
+        "minOrderQuantity": 14,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.06,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 49.92211978619985,
+      "width": 16.42514824005163,
+      "height": 23.030078757387752,
+      "unit": "cm"
+    },
+    "barcode": "0724056671199",
+    "upc": "272678932254",
+    "tags": [
+      "Computer Accessories",
+      "SteelSeries",
+      "Computer"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-09-22T23:11:29.423Z",
+    "updatedAt": "2025-05-26T22:44:42.606Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ee3",
+    "sku": "HYP-COMP-0080",
+    "name": "HyperX Computer Accessories Model 9",
+    "description": "Discover excellence with the HyperX Computer Accessories Model 9. Engineered with precision and built to last, this computer accessories product combines innovative features with reliable performance. Backed by HyperX's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fb",
+      "name": "Computer Accessories",
+      "path": "/electronics/computers-tablets/computer-accessories"
+    },
+    "brand": "HyperX",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 458.47,
+      "price": 743.77,
+      "compareAtPrice": 891.98,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 27,
+      "availableStock": 27,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 7,
+      "reorderQuantity": 14,
+      "minStockLevel": 3,
+      "stockValue": 12378.67,
+      "averageCost": 458.47,
+      "lastCostUpdate": "2025-07-02T20:09:02.999Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 5,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 5,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-HYP-COMP-0081",
+        "cost": 429.57,
+        "leadTime": 6,
+        "minOrderQuantity": 18,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-HYP-COMP-0082",
+        "cost": 415.91,
+        "leadTime": 6,
+        "minOrderQuantity": 15,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.26,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 37.24431070395138,
+      "width": 10.822705738995868,
+      "height": 26.308172703535316,
+      "unit": "cm"
+    },
+    "barcode": "3836140713928",
+    "upc": "163774603209",
+    "tags": [
+      "Computer Accessories",
+      "HyperX",
+      "Computer"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-06-22T12:56:24.289Z",
+    "updatedAt": "2025-07-22T14:53:35.872Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ee4",
+    "sku": "RAZ-COMP-0081",
+    "name": "Razer Computer Accessories Model 10",
+    "description": "Discover excellence with the Razer Computer Accessories Model 10. Engineered with precision and built to last, this computer accessories product combines innovative features with reliable performance. Backed by Razer's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fb",
+      "name": "Computer Accessories",
+      "path": "/electronics/computers-tablets/computer-accessories"
+    },
+    "brand": "Razer",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 550.32,
+      "price": 739.45,
+      "compareAtPrice": 910.56,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 54,
+      "availableStock": 54,
+      "reservedStock": 0,
+      "incomingStock": 31,
+      "reorderPoint": 14,
+      "reorderQuantity": 27,
+      "minStockLevel": 6,
+      "stockValue": 29717.04,
+      "averageCost": 550.32,
+      "lastCostUpdate": "2025-07-22T08:31:07.315Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 10,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 10,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-RAZ-COMP-0082",
+        "cost": 495.54,
+        "leadTime": 5,
+        "minOrderQuantity": 14,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-RAZ-COMP-0083",
+        "cost": 504.26,
+        "leadTime": 14,
+        "minOrderQuantity": 8,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.2,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 22.984370149863853,
+      "width": 10.558135012202507,
+      "height": 27.62929592775896,
+      "unit": "cm"
+    },
+    "barcode": "9250667794127",
+    "upc": "708427566172",
+    "tags": [
+      "Computer Accessories",
+      "Razer",
+      "Computer"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-10-18T16:24:00.105Z",
+    "updatedAt": "2025-07-10T09:09:21.401Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ee5",
+    "sku": "STE-COMP-0082",
+    "name": "SteelSeries Computer Accessories Model 11",
+    "description": "Discover excellence with the SteelSeries Computer Accessories Model 11. Engineered with precision and built to last, this computer accessories product combines innovative features with reliable performance. Backed by SteelSeries's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fb",
+      "name": "Computer Accessories",
+      "path": "/electronics/computers-tablets/computer-accessories"
+    },
+    "brand": "SteelSeries",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 434.72,
+      "price": 692.74,
+      "compareAtPrice": 779.82,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 2,
+      "availableStock": 2,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 21,
+      "reorderQuantity": 42,
+      "minStockLevel": 9,
+      "stockValue": 36516.19,
+      "averageCost": 434.72,
+      "lastCostUpdate": "2025-07-14T00:41:04.541Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 16,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 16,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-STE-COMP-0083",
+        "cost": 398.82,
+        "leadTime": 11,
+        "minOrderQuantity": 13,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-STE-COMP-0084",
+        "cost": 425.57,
+        "leadTime": 8,
+        "minOrderQuantity": 8,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.27,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 16.112661406495477,
+      "width": 26.244108603553048,
+      "height": 12.934816619848162,
+      "unit": "cm"
+    },
+    "barcode": "5843764511861",
+    "upc": "704415215260",
+    "tags": [
+      "Computer Accessories",
+      "SteelSeries",
+      "Computer"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-08-26T14:09:27.180Z",
+    "updatedAt": "2025-07-01T18:10:26.572Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ee6",
+    "sku": "COR-COMP-0083",
+    "name": "Corsair Computer Accessories Model 12",
+    "description": "Discover excellence with the Corsair Computer Accessories Model 12. Engineered with precision and built to last, this computer accessories product combines innovative features with reliable performance. Backed by Corsair's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fb",
+      "name": "Computer Accessories",
+      "path": "/electronics/computers-tablets/computer-accessories"
+    },
+    "brand": "Corsair",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 578.48,
+      "price": 941.16,
+      "compareAtPrice": 1062.47,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 70,
+      "availableStock": 70,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 18,
+      "reorderQuantity": 35,
+      "minStockLevel": 7,
+      "stockValue": 40493.95,
+      "averageCost": 578.48,
+      "lastCostUpdate": "2025-07-16T02:30:54.274Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 14,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 14,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-COR-COMP-0084",
+        "cost": 532.55,
+        "leadTime": 10,
+        "minOrderQuantity": 6,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-COR-COMP-0085",
+        "cost": 560.21,
+        "leadTime": 11,
+        "minOrderQuantity": 17,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.99,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 21.821761653629697,
+      "width": 35.613441257114964,
+      "height": 21.58945337825891,
+      "unit": "cm"
+    },
+    "barcode": "6259697806649",
+    "upc": "675057029148",
+    "tags": [
+      "Computer Accessories",
+      "Corsair",
+      "Computer"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-04-22T00:36:09.359Z",
+    "updatedAt": "2025-05-26T14:04:22.413Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ee7",
+    "sku": "LOG-COMP-0084",
+    "name": "Logitech Computer Accessories Model 13",
+    "description": "Discover excellence with the Logitech Computer Accessories Model 13. Engineered with precision and built to last, this computer accessories product combines innovative features with reliable performance. Backed by Logitech's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fb",
+      "name": "Computer Accessories",
+      "path": "/electronics/computers-tablets/computer-accessories"
+    },
+    "brand": "Logitech",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 378.7,
+      "price": 669.96,
+      "compareAtPrice": 749.45,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 27,
+      "availableStock": 27,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 7,
+      "reorderQuantity": 14,
+      "minStockLevel": 3,
+      "stockValue": 10224.94,
+      "averageCost": 378.7,
+      "lastCostUpdate": "2025-06-24T05:42:05.230Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 5,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 5,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-LOG-COMP-0085",
+        "cost": 345.43,
+        "leadTime": 9,
+        "minOrderQuantity": 11,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-LOG-COMP-0086",
+        "cost": 347.22,
+        "leadTime": 12,
+        "minOrderQuantity": 15,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.99,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 18.786329084271046,
+      "width": 33.99985010916631,
+      "height": 14.208229366031873,
+      "unit": "cm"
+    },
+    "barcode": "0195662760384",
+    "upc": "541605535591",
+    "tags": [
+      "Computer Accessories",
+      "Logitech",
+      "Computer"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-10-20T03:00:24.745Z",
+    "updatedAt": "2025-07-23T06:48:18.766Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ee8",
+    "sku": "LOG-COMP-0085",
+    "name": "Logitech Computer Accessories Model 14",
+    "description": "Discover excellence with the Logitech Computer Accessories Model 14. Engineered with precision and built to last, this computer accessories product combines innovative features with reliable performance. Backed by Logitech's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fb",
+      "name": "Computer Accessories",
+      "path": "/electronics/computers-tablets/computer-accessories"
+    },
+    "brand": "Logitech",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 430.25,
+      "price": 602.59,
+      "compareAtPrice": 742.43,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 37,
+      "availableStock": 37,
+      "reservedStock": 0,
+      "incomingStock": 11,
+      "reorderPoint": 10,
+      "reorderQuantity": 19,
+      "minStockLevel": 4,
+      "stockValue": 15919.25,
+      "averageCost": 430.25,
+      "lastCostUpdate": "2025-07-23T05:08:49.721Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 7,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 7,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-LOG-COMP-0086",
+        "cost": 389.73,
+        "leadTime": 7,
+        "minOrderQuantity": 7,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-LOG-COMP-0087",
+        "cost": 414.42,
+        "leadTime": 14,
+        "minOrderQuantity": 8,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.27,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 14.594424903486276,
+      "width": 32.14331065266955,
+      "height": 29.442686189605872,
+      "unit": "cm"
+    },
+    "barcode": "4189011632773",
+    "upc": "871101069128",
+    "tags": [
+      "Computer Accessories",
+      "Logitech",
+      "Computer"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-03-16T13:08:38.928Z",
+    "updatedAt": "2025-07-16T10:31:58.011Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ee9",
+    "sku": "LOG-COMP-0086",
+    "name": "Logitech Computer Accessories Model 15",
+    "description": "Discover excellence with the Logitech Computer Accessories Model 15. Engineered with precision and built to last, this computer accessories product combines innovative features with reliable performance. Backed by Logitech's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fb",
+      "name": "Computer Accessories",
+      "path": "/electronics/computers-tablets/computer-accessories"
+    },
+    "brand": "Logitech",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 627.57,
+      "price": 860.95,
+      "compareAtPrice": 977.07,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 37,
+      "availableStock": 37,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 10,
+      "reorderQuantity": 19,
+      "minStockLevel": 4,
+      "stockValue": 23220.07,
+      "averageCost": 627.57,
+      "lastCostUpdate": "2025-07-13T07:35:18.017Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 7,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 7,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-LOG-COMP-0087",
+        "cost": 582.43,
+        "leadTime": 10,
+        "minOrderQuantity": 19,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-LOG-COMP-0088",
+        "cost": 612.08,
+        "leadTime": 11,
+        "minOrderQuantity": 15,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.57,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 33.37516089075761,
+      "width": 14.139380020539205,
+      "height": 6.681742630428482,
+      "unit": "cm"
+    },
+    "barcode": "8571032311343",
+    "upc": "616685321762",
+    "tags": [
+      "Computer Accessories",
+      "Logitech",
+      "Computer"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-03-19T06:46:24.825Z",
+    "updatedAt": "2025-07-06T05:02:06.742Z"
+  },
+  {
+    "_id": "68811caa975c12956e900eea",
+    "sku": "COR-COMP-0087",
+    "name": "Corsair Computer Accessories Model 16",
+    "description": "Discover excellence with the Corsair Computer Accessories Model 16. Engineered with precision and built to last, this computer accessories product combines innovative features with reliable performance. Backed by Corsair's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fb",
+      "name": "Computer Accessories",
+      "path": "/electronics/computers-tablets/computer-accessories"
+    },
+    "brand": "Corsair",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 561.96,
+      "price": 908.57,
+      "compareAtPrice": 1135.01,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 2,
+      "availableStock": 2,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 12,
+      "reorderQuantity": 24,
+      "minStockLevel": 5,
+      "stockValue": 26412.12,
+      "averageCost": 561.96,
+      "lastCostUpdate": "2025-07-08T03:21:34.207Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 9,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 9,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-COR-COMP-0088",
+        "cost": 525.21,
+        "leadTime": 7,
+        "minOrderQuantity": 19,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-COR-COMP-0089",
+        "cost": 541.43,
+        "leadTime": 11,
+        "minOrderQuantity": 23,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.43,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 28.469536115065644,
+      "width": 31.56058184833807,
+      "height": 18.912228562485303,
+      "unit": "cm"
+    },
+    "barcode": "7252716994792",
+    "upc": "849401840745",
+    "tags": [
+      "Computer Accessories",
+      "Corsair",
+      "Computer"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-02-28T05:54:43.278Z",
+    "updatedAt": "2025-07-07T04:19:21.660Z"
+  },
+  {
+    "_id": "68811caa975c12956e900eeb",
+    "sku": "ELG-COMP-0088",
+    "name": "Elgato Computer Accessories Model 17",
+    "description": "Discover excellence with the Elgato Computer Accessories Model 17. Engineered with precision and built to last, this computer accessories product combines innovative features with reliable performance. Backed by Elgato's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fb",
+      "name": "Computer Accessories",
+      "path": "/electronics/computers-tablets/computer-accessories"
+    },
+    "brand": "Elgato",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 388.03,
+      "price": 538.88,
+      "compareAtPrice": 669.26,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 36,
+      "availableStock": 36,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 9,
+      "reorderQuantity": 18,
+      "minStockLevel": 4,
+      "stockValue": 13969.23,
+      "averageCost": 388.03,
+      "lastCostUpdate": "2025-06-24T03:18:07.498Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 7,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 7,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-ELG-COMP-0089",
+        "cost": 365.56,
+        "leadTime": 5,
+        "minOrderQuantity": 9,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-ELG-COMP-0090",
+        "cost": 379.92,
+        "leadTime": 3,
+        "minOrderQuantity": 19,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.81,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 26.84999343598975,
+      "width": 10.720581584102984,
+      "height": 19.490344130664283,
+      "unit": "cm"
+    },
+    "barcode": "0874314010192",
+    "upc": "435809314940",
+    "tags": [
+      "Computer Accessories",
+      "Elgato",
+      "Computer"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-04-05T00:25:27.982Z",
+    "updatedAt": "2025-07-07T00:52:38.345Z"
+  },
+  {
+    "_id": "68811caa975c12956e900eec",
+    "sku": "RAZ-COMP-0089",
+    "name": "Razer Computer Accessories Model 18",
+    "description": "Discover excellence with the Razer Computer Accessories Model 18. Engineered with precision and built to last, this computer accessories product combines innovative features with reliable performance. Backed by Razer's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fb",
+      "name": "Computer Accessories",
+      "path": "/electronics/computers-tablets/computer-accessories"
+    },
+    "brand": "Razer",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 448.36,
+      "price": 637.23,
+      "compareAtPrice": 705.29,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 72,
+      "availableStock": 72,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 18,
+      "reorderQuantity": 36,
+      "minStockLevel": 8,
+      "stockValue": 32281.66,
+      "averageCost": 448.36,
+      "lastCostUpdate": "2025-07-06T10:43:03.937Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 14,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 14,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-RAZ-COMP-0090",
+        "cost": 418.14,
+        "leadTime": 3,
+        "minOrderQuantity": 21,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-RAZ-COMP-0091",
+        "cost": 436.14,
+        "leadTime": 7,
+        "minOrderQuantity": 15,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.9,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 28.655105700111623,
+      "width": 46.98922254385415,
+      "height": 29.105425720373294,
+      "unit": "cm"
+    },
+    "barcode": "0632962836304",
+    "upc": "194838996727",
+    "tags": [
+      "Computer Accessories",
+      "Razer",
+      "Computer"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-07-01T16:48:40.785Z",
+    "updatedAt": "2025-04-25T07:59:39.079Z"
+  },
+  {
+    "_id": "68811caa975c12956e900eed",
+    "sku": "LOG-COMP-0090",
+    "name": "Logitech Computer Accessories Model 19",
+    "description": "Discover excellence with the Logitech Computer Accessories Model 19. Engineered with precision and built to last, this computer accessories product combines innovative features with reliable performance. Backed by Logitech's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fb",
+      "name": "Computer Accessories",
+      "path": "/electronics/computers-tablets/computer-accessories"
+    },
+    "brand": "Logitech",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 512.2,
+      "price": 715.02,
+      "compareAtPrice": 870.21,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 92,
+      "availableStock": 92,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 23,
+      "reorderQuantity": 46,
+      "minStockLevel": 10,
+      "stockValue": 47122.85,
+      "averageCost": 512.2,
+      "lastCostUpdate": "2025-07-16T13:22:09.647Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 18,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 18,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-LOG-COMP-0091",
+        "cost": 461.72,
+        "leadTime": 12,
+        "minOrderQuantity": 6,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-LOG-COMP-0092",
+        "cost": 487.9,
+        "leadTime": 9,
+        "minOrderQuantity": 20,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.83,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 28.69458929440032,
+      "width": 41.691890971424826,
+      "height": 21.665363283661378,
+      "unit": "cm"
+    },
+    "barcode": "0293531616689",
+    "upc": "806448459080",
+    "tags": [
+      "Computer Accessories",
+      "Logitech",
+      "Computer"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-03-22T15:11:11.692Z",
+    "updatedAt": "2025-06-20T11:20:26.393Z"
+  },
+  {
+    "_id": "68811caa975c12956e900eee",
+    "sku": "COR-COMP-0091",
+    "name": "Corsair Computer Accessories Model 20",
+    "description": "Discover excellence with the Corsair Computer Accessories Model 20. Engineered with precision and built to last, this computer accessories product combines innovative features with reliable performance. Backed by Corsair's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fb",
+      "name": "Computer Accessories",
+      "path": "/electronics/computers-tablets/computer-accessories"
+    },
+    "brand": "Corsair",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 712.92,
+      "price": 963.77,
+      "compareAtPrice": 1128.55,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 91,
+      "availableStock": 91,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 23,
+      "reorderQuantity": 46,
+      "minStockLevel": 10,
+      "stockValue": 64875.86,
+      "averageCost": 712.92,
+      "lastCostUpdate": "2025-07-04T23:52:26.442Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 18,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 18,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-COR-COMP-0092",
+        "cost": 679.62,
+        "leadTime": 11,
+        "minOrderQuantity": 19,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-COR-COMP-0093",
+        "cost": 695.29,
+        "leadTime": 10,
+        "minOrderQuantity": 21,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.55,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 34.515213434021696,
+      "width": 10.90085795145586,
+      "height": 29.960745748000527,
+      "unit": "cm"
+    },
+    "barcode": "6395585866346",
+    "upc": "567110311370",
+    "tags": [
+      "Computer Accessories",
+      "Corsair",
+      "Computer"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-10-20T00:13:26.879Z",
+    "updatedAt": "2025-06-15T12:18:40.458Z"
+  },
+  {
+    "_id": "68811caa975c12956e900eef",
+    "sku": "STE-COMP-0092",
+    "name": "SteelSeries Computer Accessories Model 21",
+    "description": "Discover excellence with the SteelSeries Computer Accessories Model 21. Engineered with precision and built to last, this computer accessories product combines innovative features with reliable performance. Backed by SteelSeries's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fb",
+      "name": "Computer Accessories",
+      "path": "/electronics/computers-tablets/computer-accessories"
+    },
+    "brand": "SteelSeries",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 606.32,
+      "price": 860.71,
+      "compareAtPrice": 1047.38,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 55,
+      "availableStock": 55,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 14,
+      "reorderQuantity": 28,
+      "minStockLevel": 6,
+      "stockValue": 33347.51,
+      "averageCost": 606.32,
+      "lastCostUpdate": "2025-06-30T07:08:28.445Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 11,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 11,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-STE-COMP-0093",
+        "cost": 558.52,
+        "leadTime": 5,
+        "minOrderQuantity": 12,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-STE-COMP-0094",
+        "cost": 587.59,
+        "leadTime": 3,
+        "minOrderQuantity": 15,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.83,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 47.719340143238604,
+      "width": 19.954984773412914,
+      "height": 10.622945476388146,
+      "unit": "cm"
+    },
+    "barcode": "2420046248927",
+    "upc": "347650928683",
+    "tags": [
+      "Computer Accessories",
+      "SteelSeries",
+      "Computer"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-07-12T12:32:55.879Z",
+    "updatedAt": "2025-07-19T20:54:01.124Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ef0",
+    "sku": "HYP-COMP-0093",
+    "name": "HyperX Computer Accessories Model 22",
+    "description": "Discover excellence with the HyperX Computer Accessories Model 22. Engineered with precision and built to last, this computer accessories product combines innovative features with reliable performance. Backed by HyperX's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fb",
+      "name": "Computer Accessories",
+      "path": "/electronics/computers-tablets/computer-accessories"
+    },
+    "brand": "HyperX",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 279.69,
+      "price": 489.59,
+      "compareAtPrice": 608.1,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 34,
+      "availableStock": 34,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 9,
+      "reorderQuantity": 17,
+      "minStockLevel": 4,
+      "stockValue": 9509.5,
+      "averageCost": 279.69,
+      "lastCostUpdate": "2025-06-30T13:58:46.834Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 6,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 6,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-HYP-COMP-0094",
+        "cost": 261.72,
+        "leadTime": 6,
+        "minOrderQuantity": 15,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-HYP-COMP-0095",
+        "cost": 258.63,
+        "leadTime": 5,
+        "minOrderQuantity": 14,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.73,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 25.792019459435927,
+      "width": 21.908213234931516,
+      "height": 7.758144484918548,
+      "unit": "cm"
+    },
+    "barcode": "7201007134881",
+    "upc": "961243439129",
+    "tags": [
+      "Computer Accessories",
+      "HyperX",
+      "Computer"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-06-19T02:44:24.492Z",
+    "updatedAt": "2025-05-02T08:44:07.891Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ef1",
+    "sku": "HYP-COMP-0094",
+    "name": "HyperX Computer Accessories Model 23",
+    "description": "Discover excellence with the HyperX Computer Accessories Model 23. Engineered with precision and built to last, this computer accessories product combines innovative features with reliable performance. Backed by HyperX's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fb",
+      "name": "Computer Accessories",
+      "path": "/electronics/computers-tablets/computer-accessories"
+    },
+    "brand": "HyperX",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 601.26,
+      "price": 909.52,
+      "compareAtPrice": 1061.22,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 0,
+      "availableStock": 0,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 16,
+      "reorderQuantity": 31,
+      "minStockLevel": 7,
+      "stockValue": 37277.82,
+      "averageCost": 601.26,
+      "lastCostUpdate": "2025-07-03T16:59:07.114Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 12,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 12,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-HYP-COMP-0095",
+        "cost": 588.16,
+        "leadTime": 7,
+        "minOrderQuantity": 8,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-HYP-COMP-0096",
+        "cost": 544.54,
+        "leadTime": 13,
+        "minOrderQuantity": 21,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.66,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 32.63791818142703,
+      "width": 42.10852064592924,
+      "height": 9.183891453523259,
+      "unit": "cm"
+    },
+    "barcode": "7025010524732",
+    "upc": "233848054469",
+    "tags": [
+      "Computer Accessories",
+      "HyperX",
+      "Computer"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-07-13T12:59:20.688Z",
+    "updatedAt": "2025-06-09T09:53:07.565Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ef2",
+    "sku": "SON-TELE-0095",
+    "name": "Sony X90K",
+    "description": "Experience cinema at home with the Sony X90K 55\" 8K UHD TV. Advanced Intel Core i5 enhances all content to near-8K quality. Features VRR and ALLM for responsive gaming, Dolby Vision IQ for optimized HDR, and ultra-slim profile that sits flush against the wall.",
+    "category": {
+      "id": "6880316114bfcd086db913fc",
+      "name": "Televisions",
+      "path": "/electronics/tv-audio/televisions"
+    },
+    "brand": "Sony",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 2102.44,
+      "price": 2872.06,
+      "compareAtPrice": 3297.58,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 2,
+      "availableStock": 2,
+      "reservedStock": 0,
+      "incomingStock": 21,
+      "reorderPoint": 3,
+      "reorderQuantity": 5,
+      "minStockLevel": 1,
+      "stockValue": 18921.96,
+      "averageCost": 2102.44,
+      "lastCostUpdate": "2025-07-07T21:47:03.206Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 1,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 1,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 1,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 1,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 1,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-SON-TELE-0096",
+        "cost": 1938.52,
+        "leadTime": 7,
+        "minOrderQuantity": 19,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-SON-TELE-0097",
+        "cost": 2028.41,
+        "leadTime": 12,
+        "minOrderQuantity": 20,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 17.43,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 115.14821414452085,
+      "width": 7.503699519381457,
+      "height": 56.15837664414519,
+      "unit": "cm"
+    },
+    "barcode": "6257952521325",
+    "upc": "124885670503",
+    "tags": [
+      "Televisions",
+      "Sony",
+      "X90K"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-02-14T22:49:29.010Z",
+    "updatedAt": "2025-07-04T18:46:23.211Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ef3",
+    "sku": "SON-TELE-0096",
+    "name": "Sony X90K",
+    "description": "Experience cinema at home with the Sony X90K 65\" Full HD TV. Advanced AMD Ryzen 7 enhances all content to near-8K quality. Features VRR and ALLM for responsive gaming, Dolby Vision IQ for optimized HDR, and ultra-slim profile that sits flush against the wall.",
+    "category": {
+      "id": "6880316114bfcd086db913fc",
+      "name": "Televisions",
+      "path": "/electronics/tv-audio/televisions"
+    },
+    "brand": "Sony",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 1106.7,
+      "price": 1605.89,
+      "compareAtPrice": 1933.96,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 6,
+      "availableStock": 6,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 2,
+      "reorderQuantity": 3,
+      "minStockLevel": 1,
+      "stockValue": 6640.22,
+      "averageCost": 1106.7,
+      "lastCostUpdate": "2025-07-10T02:52:26.392Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 1,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 1,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 1,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 1,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 1,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-SON-TELE-0097",
+        "cost": 1003.36,
+        "leadTime": 3,
+        "minOrderQuantity": 19,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-SON-TELE-0098",
+        "cost": 1001.52,
+        "leadTime": 8,
+        "minOrderQuantity": 14,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 29.8,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 138.19782718744375,
+      "width": 8.683310216993068,
+      "height": 71.63378034589482,
+      "unit": "cm"
+    },
+    "barcode": "4001799081449",
+    "upc": "987899125078",
+    "tags": [
+      "Televisions",
+      "Sony",
+      "X90K"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-02-19T13:41:41.561Z",
+    "updatedAt": "2025-04-27T06:32:12.620Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ef4",
+    "sku": "LG-TELE-0097",
+    "name": "LG QNED80",
+    "description": "The LG QNED80 55\" QLED TV delivers exceptional picture quality with Full HD resolution and full array local dimming. Smart features include built-in Alexa, Apple AirPlay 2, and access to thousands of apps. The sleek, minimalist design complements any modern home while premium speakers provide theater-quality sound.",
+    "category": {
+      "id": "6880316114bfcd086db913fc",
+      "name": "Televisions",
+      "path": "/electronics/tv-audio/televisions"
+    },
+    "brand": "LG",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 1502.2,
+      "price": 2273.61,
+      "compareAtPrice": 2795.98,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 0,
+      "availableStock": 0,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 4,
+      "reorderQuantity": 8,
+      "minStockLevel": 2,
+      "stockValue": 24035.23,
+      "averageCost": 1502.2,
+      "lastCostUpdate": "2025-07-09T12:07:03.412Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 3,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 3,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 3,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 3,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 3,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-LG-TELE-0098",
+        "cost": 1448.86,
+        "leadTime": 6,
+        "minOrderQuantity": 12,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-LG-TELE-0099",
+        "cost": 1425.53,
+        "leadTime": 12,
+        "minOrderQuantity": 10,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 34.03,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 99.121518798643,
+      "width": 5.705351169470484,
+      "height": 55.6187783638716,
+      "unit": "cm"
+    },
+    "barcode": "3049288055402",
+    "upc": "319514801949",
+    "tags": [
+      "Televisions",
+      "LG",
+      "QNED80"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-12-08T19:08:19.719Z",
+    "updatedAt": "2025-05-18T23:24:28.143Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ef5",
+    "sku": "SON-TELE-0098",
+    "name": "Sony A95K QD-OLED",
+    "description": "The Sony A95K QD-OLED 50\" QLED TV delivers exceptional picture quality with 4K UHD resolution and full array local dimming. Smart features include built-in Alexa, Apple AirPlay 2, and access to thousands of apps. The sleek, minimalist design complements any modern home while premium speakers provide theater-quality sound.",
+    "category": {
+      "id": "6880316114bfcd086db913fc",
+      "name": "Televisions",
+      "path": "/electronics/tv-audio/televisions"
+    },
+    "brand": "Sony",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 651.38,
+      "price": 1148.39,
+      "compareAtPrice": 1398.15,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 20,
+      "availableStock": 20,
+      "reservedStock": 0,
+      "incomingStock": 49,
+      "reorderPoint": 5,
+      "reorderQuantity": 10,
+      "minStockLevel": 2,
+      "stockValue": 13027.67,
+      "averageCost": 651.38,
+      "lastCostUpdate": "2025-07-20T11:45:50.554Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 4,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 4,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-SON-TELE-0099",
+        "cost": 617.95,
+        "leadTime": 3,
+        "minOrderQuantity": 14,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-SON-TELE-0100",
+        "cost": 625.43,
+        "leadTime": 10,
+        "minOrderQuantity": 13,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 25.55,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 121.4855116647622,
+      "width": 8.872253246671924,
+      "height": 57.22469553924359,
+      "unit": "cm"
+    },
+    "barcode": "7907112449557",
+    "upc": "506956083251",
+    "tags": [
+      "Televisions",
+      "Sony",
+      "A95K"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-11-01T17:58:37.167Z",
+    "updatedAt": "2025-05-17T17:22:16.885Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ef6",
+    "sku": "SON-TELE-0099",
+    "name": "Sony X95K Mini LED",
+    "description": "Transform your living room with the Sony X95K Mini LED 65\" Full HD Smart TV. Featuring HDR10+ for stunning contrast and 120Hz refresh rate for smooth motion. Built-in streaming apps, voice control, and Dolby Atmos sound create an immersive entertainment experience. HDMI 2.1 ports support next-gen gaming consoles.",
+    "category": {
+      "id": "6880316114bfcd086db913fc",
+      "name": "Televisions",
+      "path": "/electronics/tv-audio/televisions"
+    },
+    "brand": "Sony",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 969.97,
+      "price": 1644.67,
+      "compareAtPrice": 1959.19,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 7,
+      "availableStock": 7,
+      "reservedStock": 0,
+      "incomingStock": 50,
+      "reorderPoint": 2,
+      "reorderQuantity": 4,
+      "minStockLevel": 1,
+      "stockValue": 6789.76,
+      "averageCost": 969.97,
+      "lastCostUpdate": "2025-07-11T04:56:53.189Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 1,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 1,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 1,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 1,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 1,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-SON-TELE-0100",
+        "cost": 931.65,
+        "leadTime": 14,
+        "minOrderQuantity": 21,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-SON-TELE-0101",
+        "cost": 900.78,
+        "leadTime": 6,
+        "minOrderQuantity": 22,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 15.72,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 113.64407537812127,
+      "width": 7.825095979184864,
+      "height": 81.69254260193198,
+      "unit": "cm"
+    },
+    "barcode": "7375882964403",
+    "upc": "404635321137",
+    "tags": [
+      "Televisions",
+      "Sony",
+      "X95K"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-07-10T06:32:44.177Z",
+    "updatedAt": "2025-06-21T02:16:45.404Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ef7",
+    "sku": "LG-TELE-0100",
+    "name": "LG QNED80",
+    "description": "Transform your living room with the LG QNED80 75\" Full HD Smart TV. Featuring HDR10+ for stunning contrast and 120Hz refresh rate for smooth motion. Built-in streaming apps, voice control, and Dolby Atmos sound create an immersive entertainment experience. HDMI 2.1 ports support next-gen gaming consoles.",
+    "category": {
+      "id": "6880316114bfcd086db913fc",
+      "name": "Televisions",
+      "path": "/electronics/tv-audio/televisions"
+    },
+    "brand": "LG",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 254.73,
+      "price": 457.64,
+      "compareAtPrice": 530.76,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 86,
+      "availableStock": 86,
+      "reservedStock": 0,
+      "incomingStock": 46,
+      "reorderPoint": 22,
+      "reorderQuantity": 43,
+      "minStockLevel": 9,
+      "stockValue": 21907.08,
+      "averageCost": 254.73,
+      "lastCostUpdate": "2025-07-20T13:09:07.966Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 17,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 17,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-LG-TELE-0101",
+        "cost": 235.22,
+        "leadTime": 13,
+        "minOrderQuantity": 24,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-LG-TELE-0102",
+        "cost": 234.54,
+        "leadTime": 7,
+        "minOrderQuantity": 23,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 32.15,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 139.76475423810695,
+      "width": 5.481452503948931,
+      "height": 84.97939533203935,
+      "unit": "cm"
+    },
+    "barcode": "0632054641828",
+    "upc": "076876690726",
+    "tags": [
+      "Televisions",
+      "LG",
+      "QNED80"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-02-04T16:15:36.741Z",
+    "updatedAt": "2025-06-29T18:09:57.309Z"
+  }
+]

@@ -1,0 +1,5502 @@
+[
+  {
+    "_id": "68811caa975c12956e900e94",
+    "sku": "APP-LAPT-0001",
+    "name": "Apple MacBook Pro 14\"",
+    "description": "Unleash your productivity with the Apple MacBook Pro 14\", featuring a powerful Intel Core i7 processor, 16GB of lightning-fast RAM, and a spacious 1TB SSD. The 12.9\" display delivers crisp visuals, while the sleek design weighs just 1.8kg. Built for professionals who demand performance without compromise.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "Apple",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 1344.96,
+      "price": 1881.92,
+      "compareAtPrice": 2160.85,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 0,
+      "availableStock": 0,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 4,
+      "reorderQuantity": 7,
+      "minStockLevel": 2,
+      "stockValue": 17484.44,
+      "averageCost": 1344.96,
+      "lastCostUpdate": "2025-07-07T21:47:35.804Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 2,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 2,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 2,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 2,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 2,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-APP-LAPT-0002",
+        "cost": 1245.86,
+        "leadTime": 13,
+        "minOrderQuantity": 7,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-APP-LAPT-0003",
+        "cost": 1211.54,
+        "leadTime": 4,
+        "minOrderQuantity": 5,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.9,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 36.236771774657825,
+      "width": 24.585266277780388,
+      "height": 2.352075243214875,
+      "unit": "cm"
+    },
+    "barcode": "7862802437465",
+    "upc": "478322101429",
+    "tags": [
+      "Laptops",
+      "Apple",
+      "MacBook"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-10-31T01:14:58.318Z",
+    "updatedAt": "2025-07-06T23:39:51.991Z"
+  },
+  {
+    "_id": "68811caa975c12956e900e95",
+    "sku": "APP-LAPT-0002",
+    "name": "Apple MacBook Air M2",
+    "description": "Designed for the modern professional, the Apple MacBook Air M2 combines elegance with power. The Intel Core i5 processor handles multitasking with ease, while 32GB RAM ensures smooth performance. With 128GB of fast SSD storage and a stunning 12.9\" display, this laptop is perfect for both work and entertainment.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "Apple",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 1434.22,
+      "price": 2489.3,
+      "compareAtPrice": 3072.45,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 10,
+      "availableStock": 10,
+      "reservedStock": 0,
+      "incomingStock": 46,
+      "reorderPoint": 3,
+      "reorderQuantity": 5,
+      "minStockLevel": 1,
+      "stockValue": 14342.21,
+      "averageCost": 1434.22,
+      "lastCostUpdate": "2025-07-17T15:09:40.368Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 2,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 2,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 2,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 2,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 2,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-APP-LAPT-0003",
+        "cost": 1302.66,
+        "leadTime": 5,
+        "minOrderQuantity": 22,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-APP-LAPT-0004",
+        "cost": 1311.82,
+        "leadTime": 13,
+        "minOrderQuantity": 18,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.96,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 32.253104906421804,
+      "width": 22.12811235453801,
+      "height": 1.5100105852443089,
+      "unit": "cm"
+    },
+    "barcode": "8122822746753",
+    "upc": "362501898593",
+    "tags": [
+      "Laptops",
+      "Apple",
+      "MacBook"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-03-16T04:16:15.991Z",
+    "updatedAt": "2025-05-04T01:57:07.637Z"
+  },
+  {
+    "_id": "68811caa975c12956e900e96",
+    "sku": "LEN-LAPT-0003",
+    "name": "Lenovo ThinkPad T14",
+    "description": "Experience next-generation computing with the Lenovo ThinkPad T14. Powered by AMD Ryzen 7, this laptop delivers exceptional performance and energy efficiency. The 10.9\" display brings your content to life, while 256GB of storage provides ample space for your creative projects. All-day battery life keeps you productive on the go.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "Lenovo",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 638.86,
+      "price": 947.57,
+      "compareAtPrice": 1168.85,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 54,
+      "availableStock": 54,
+      "reservedStock": 0,
+      "incomingStock": 10,
+      "reorderPoint": 14,
+      "reorderQuantity": 27,
+      "minStockLevel": 6,
+      "stockValue": 34498.42,
+      "averageCost": 638.86,
+      "lastCostUpdate": "2025-07-16T07:24:49.503Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 10,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 10,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-LEN-LAPT-0004",
+        "cost": 610.71,
+        "leadTime": 13,
+        "minOrderQuantity": 14,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-LEN-LAPT-0005",
+        "cost": 607.09,
+        "leadTime": 5,
+        "minOrderQuantity": 19,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.64,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 38.30140781319869,
+      "width": 25.24224861801836,
+      "height": 2.1420114072891256,
+      "unit": "cm"
+    },
+    "barcode": "9723099397727",
+    "upc": "171650552807",
+    "tags": [
+      "Laptops",
+      "Lenovo",
+      "ThinkPad"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-01-07T01:44:49.012Z",
+    "updatedAt": "2025-07-07T05:28:10.583Z"
+  },
+  {
+    "_id": "68811caa975c12956e900e97",
+    "sku": "LEN-LAPT-0004",
+    "name": "Lenovo Yoga 9i",
+    "description": "Experience next-generation computing with the Lenovo Yoga 9i. Powered by AMD Ryzen 5, this laptop delivers exceptional performance and energy efficiency. The 10.9\" display brings your content to life, while 128GB of storage provides ample space for your creative projects. All-day battery life keeps you productive on the go.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "Lenovo",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 541.11,
+      "price": 978.44,
+      "compareAtPrice": 1131.8,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 53,
+      "availableStock": 53,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 14,
+      "reorderQuantity": 27,
+      "minStockLevel": 6,
+      "stockValue": 28678.9,
+      "averageCost": 541.11,
+      "lastCostUpdate": "2025-07-04T02:51:26.716Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 10,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 10,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-LEN-LAPT-0005",
+        "cost": 512.48,
+        "leadTime": 5,
+        "minOrderQuantity": 5,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-LEN-LAPT-0006",
+        "cost": 489.18,
+        "leadTime": 10,
+        "minOrderQuantity": 22,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.56,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 31.634516982711457,
+      "width": 21.12508594812431,
+      "height": 2.2166364026171426,
+      "unit": "cm"
+    },
+    "barcode": "4843205049770",
+    "upc": "911366175595",
+    "tags": [
+      "Laptops",
+      "Lenovo",
+      "Yoga"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-05-28T14:46:20.400Z",
+    "updatedAt": "2025-06-20T06:32:44.621Z"
+  },
+  {
+    "_id": "68811caa975c12956e900e98",
+    "sku": "ACE-LAPT-0005",
+    "name": "Acer Laptops Model 5",
+    "description": "Unleash your productivity with the Acer Laptops Model 5, featuring a powerful Apple M2 processor, 32GB of lightning-fast RAM, and a spacious 512GB SSD. The 12.9\" display delivers crisp visuals, while the sleek design weighs just 1.8kg. Built for professionals who demand performance without compromise.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "Acer",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 600.07,
+      "price": 838.17,
+      "compareAtPrice": 1017.06,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 99,
+      "availableStock": 99,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 25,
+      "reorderQuantity": 50,
+      "minStockLevel": 10,
+      "stockValue": 59406.9,
+      "averageCost": 600.07,
+      "lastCostUpdate": "2025-07-03T08:06:17.011Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 19,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 19,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-ACE-LAPT-0006",
+        "cost": 575.4,
+        "leadTime": 10,
+        "minOrderQuantity": 12,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-ACE-LAPT-0007",
+        "cost": 580.07,
+        "leadTime": 9,
+        "minOrderQuantity": 13,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.66,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 34.98292513075365,
+      "width": 24.866370487962655,
+      "height": 2.686160555898376,
+      "unit": "cm"
+    },
+    "barcode": "4684143701809",
+    "upc": "677835593988",
+    "tags": [
+      "Laptops",
+      "Acer",
+      "Laptops"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-07-31T01:16:59.452Z",
+    "updatedAt": "2025-06-10T12:21:15.247Z"
+  },
+  {
+    "_id": "68811caa975c12956e900e99",
+    "sku": "MIC-LAPT-0006",
+    "name": "Microsoft Laptops Model 6",
+    "description": "Experience next-generation computing with the Microsoft Laptops Model 6. Powered by Apple M2, this laptop delivers exceptional performance and energy efficiency. The 12.9\" display brings your content to life, while 128GB of storage provides ample space for your creative projects. All-day battery life keeps you productive on the go.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "Microsoft",
+    "type": "physical",
+    "status": "draft",
+    "pricing": {
+      "cost": 358.08,
+      "price": 495.92,
+      "compareAtPrice": 579.29,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 25,
+      "availableStock": 25,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 7,
+      "reorderQuantity": 13,
+      "minStockLevel": 3,
+      "stockValue": 8952.03,
+      "averageCost": 358.08,
+      "lastCostUpdate": "2025-06-25T15:27:46.216Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 5,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 5,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-MIC-LAPT-0007",
+        "cost": 349.98,
+        "leadTime": 9,
+        "minOrderQuantity": 10,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-MIC-LAPT-0008",
+        "cost": 344.33,
+        "leadTime": 8,
+        "minOrderQuantity": 19,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.8,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 36.939173141808006,
+      "width": 28.62525157339344,
+      "height": 1.9689449209119028,
+      "unit": "cm"
+    },
+    "barcode": "4485550698103",
+    "upc": "044681497170",
+    "tags": [
+      "Laptops",
+      "Microsoft",
+      "Laptops"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-03-11T01:22:00.514Z",
+    "updatedAt": "2025-05-26T09:38:57.941Z"
+  },
+  {
+    "_id": "68811caa975c12956e900e9a",
+    "sku": "APP-LAPT-0007",
+    "name": "Apple MacBook Pro 14\"",
+    "description": "Experience next-generation computing with the Apple MacBook Pro 14\". Powered by Intel Core i5, this laptop delivers exceptional performance and energy efficiency. The 10.9\" display brings your content to life, while 128GB of storage provides ample space for your creative projects. All-day battery life keeps you productive on the go.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "Apple",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 810.03,
+      "price": 1081.33,
+      "compareAtPrice": 1328.64,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 15,
+      "availableStock": 15,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 4,
+      "reorderQuantity": 8,
+      "minStockLevel": 2,
+      "stockValue": 12150.41,
+      "averageCost": 810.03,
+      "lastCostUpdate": "2025-07-15T05:06:53.729Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 3,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 3,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 3,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 3,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 3,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-APP-LAPT-0008",
+        "cost": 759.35,
+        "leadTime": 5,
+        "minOrderQuantity": 7,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-APP-LAPT-0009",
+        "cost": 733.79,
+        "leadTime": 8,
+        "minOrderQuantity": 14,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.08,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 34.36967426618518,
+      "width": 23.543315680558607,
+      "height": 2.813119512993909,
+      "unit": "cm"
+    },
+    "barcode": "0066616920333",
+    "upc": "839997634977",
+    "tags": [
+      "Laptops",
+      "Apple",
+      "MacBook"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-10-20T06:12:34.548Z",
+    "updatedAt": "2025-06-30T22:22:25.814Z"
+  },
+  {
+    "_id": "68811caa975c12956e900e9b",
+    "sku": "MIC-LAPT-0008",
+    "name": "Microsoft Laptops Model 8",
+    "description": "Experience next-generation computing with the Microsoft Laptops Model 8. Powered by Apple M2, this laptop delivers exceptional performance and energy efficiency. The 10.9\" display brings your content to life, while 128GB of storage provides ample space for your creative projects. All-day battery life keeps you productive on the go.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "Microsoft",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 186.23,
+      "price": 263.03,
+      "compareAtPrice": 311.32,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 5,
+      "availableStock": 5,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 23,
+      "reorderQuantity": 46,
+      "minStockLevel": 10,
+      "stockValue": 16946.56,
+      "averageCost": 186.23,
+      "lastCostUpdate": "2025-07-06T16:22:17.756Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 18,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 18,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-MIC-LAPT-0009",
+        "cost": 177.2,
+        "leadTime": 10,
+        "minOrderQuantity": 8,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-MIC-LAPT-0010",
+        "cost": 168.65,
+        "leadTime": 11,
+        "minOrderQuantity": 12,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.39,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 31.309712551307847,
+      "width": 20.94395506828361,
+      "height": 2.787672427652293,
+      "unit": "cm"
+    },
+    "barcode": "2332245713889",
+    "upc": "360202814625",
+    "tags": [
+      "Laptops",
+      "Microsoft",
+      "Laptops"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-08-07T09:56:24.569Z",
+    "updatedAt": "2025-06-29T14:05:40.671Z"
+  },
+  {
+    "_id": "68811caa975c12956e900e9c",
+    "sku": "RAZ-LAPT-0009",
+    "name": "Razer Laptops Model 9",
+    "description": "Unleash your productivity with the Razer Laptops Model 9, featuring a powerful AMD Ryzen 7 processor, 32GB of lightning-fast RAM, and a spacious 128GB SSD. The 12.9\" display delivers crisp visuals, while the sleek design weighs just 1.8kg. Built for professionals who demand performance without compromise.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "Razer",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 284.49,
+      "price": 466.19,
+      "compareAtPrice": 534.3,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 5,
+      "availableStock": 5,
+      "reservedStock": 0,
+      "incomingStock": 42,
+      "reorderPoint": 10,
+      "reorderQuantity": 20,
+      "minStockLevel": 4,
+      "stockValue": 11379.4,
+      "averageCost": 284.49,
+      "lastCostUpdate": "2025-07-15T13:19:46.290Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 8,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 8,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-RAZ-LAPT-0010",
+        "cost": 258.24,
+        "leadTime": 11,
+        "minOrderQuantity": 8,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-RAZ-LAPT-0011",
+        "cost": 268.06,
+        "leadTime": 9,
+        "minOrderQuantity": 12,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.31,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 39.06180051434637,
+      "width": 23.81221356546194,
+      "height": 2.5990584013967126,
+      "unit": "cm"
+    },
+    "barcode": "9978496324745",
+    "upc": "537713583287",
+    "tags": [
+      "Laptops",
+      "Razer",
+      "Laptops"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-11-21T15:10:57.759Z",
+    "updatedAt": "2025-07-19T03:20:08.530Z"
+  },
+  {
+    "_id": "68811caa975c12956e900e9d",
+    "sku": "ASU-LAPT-0010",
+    "name": "ASUS VivoBook 15",
+    "description": "Unleash your productivity with the ASUS VivoBook 15, featuring a powerful AMD Ryzen 5 processor, 32GB of lightning-fast RAM, and a spacious 256GB SSD. The 12.9\" display delivers crisp visuals, while the sleek design weighs just 1.8kg. Built for professionals who demand performance without compromise.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "ASUS",
+    "type": "physical",
+    "status": "draft",
+    "pricing": {
+      "cost": 619.82,
+      "price": 935.84,
+      "compareAtPrice": 1157.21,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 62,
+      "availableStock": 62,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 16,
+      "reorderQuantity": 31,
+      "minStockLevel": 7,
+      "stockValue": 38428.66,
+      "averageCost": 619.82,
+      "lastCostUpdate": "2025-07-12T17:22:03.442Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 12,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 12,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-ASU-LAPT-0011",
+        "cost": 574.69,
+        "leadTime": 4,
+        "minOrderQuantity": 17,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-ASU-LAPT-0012",
+        "cost": 598.78,
+        "leadTime": 7,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.17,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 30.800843098594363,
+      "width": 27.268924511649686,
+      "height": 1.5747981892220408,
+      "unit": "cm"
+    },
+    "barcode": "9205167689486",
+    "upc": "848951100986",
+    "tags": [
+      "Laptops",
+      "ASUS",
+      "VivoBook"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-09-01T11:28:45.620Z",
+    "updatedAt": "2025-06-27T06:04:17.591Z"
+  },
+  {
+    "_id": "68811caa975c12956e900e9e",
+    "sku": "APP-LAPT-0011",
+    "name": "Apple MacBook Air M2",
+    "description": "Unleash your productivity with the Apple MacBook Air M2, featuring a powerful Intel Core i7 processor, 8GB of lightning-fast RAM, and a spacious 128GB SSD. The 12.9\" display delivers crisp visuals, while the sleek design weighs just 1.8kg. Built for professionals who demand performance without compromise.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "Apple",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 1697.47,
+      "price": 2430.11,
+      "compareAtPrice": 2866.38,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 1,
+      "availableStock": 1,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 4,
+      "reorderQuantity": 7,
+      "minStockLevel": 2,
+      "stockValue": 23764.64,
+      "averageCost": 1697.47,
+      "lastCostUpdate": "2025-07-11T20:50:09.208Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 2,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 2,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 2,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 2,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 2,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-APP-LAPT-0012",
+        "cost": 1640.25,
+        "leadTime": 6,
+        "minOrderQuantity": 22,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-APP-LAPT-0013",
+        "cost": 1548.08,
+        "leadTime": 4,
+        "minOrderQuantity": 10,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.9,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 31.7372490721911,
+      "width": 24.08909363358965,
+      "height": 1.5033022463897932,
+      "unit": "cm"
+    },
+    "barcode": "2736821260562",
+    "upc": "290085903547",
+    "tags": [
+      "Laptops",
+      "Apple",
+      "MacBook"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-09-05T13:10:43.104Z",
+    "updatedAt": "2025-06-11T20:00:35.990Z"
+  },
+  {
+    "_id": "68811caa975c12956e900e9f",
+    "sku": "ASU-LAPT-0012",
+    "name": "ASUS ROG Strix G15",
+    "description": "Experience next-generation computing with the ASUS ROG Strix G15. Powered by AMD Ryzen 5, this laptop delivers exceptional performance and energy efficiency. The 10.9\" display brings your content to life, while 1TB of storage provides ample space for your creative projects. All-day battery life keeps you productive on the go.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "ASUS",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 1250.77,
+      "price": 1950.24,
+      "compareAtPrice": 2298.57,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 18,
+      "availableStock": 18,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 5,
+      "reorderQuantity": 9,
+      "minStockLevel": 2,
+      "stockValue": 22513.93,
+      "averageCost": 1250.77,
+      "lastCostUpdate": "2025-07-16T02:04:17.186Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 3,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 3,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 3,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 3,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 3,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-ASU-LAPT-0013",
+        "cost": 1194.62,
+        "leadTime": 6,
+        "minOrderQuantity": 9,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-ASU-LAPT-0014",
+        "cost": 1181.92,
+        "leadTime": 6,
+        "minOrderQuantity": 10,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.26,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 32.894636334724005,
+      "width": 24.187592528612896,
+      "height": 2.1526139179207586,
+      "unit": "cm"
+    },
+    "barcode": "7664241758821",
+    "upc": "217444487874",
+    "tags": [
+      "Laptops",
+      "ASUS",
+      "ROG"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-11-26T01:02:05.113Z",
+    "updatedAt": "2025-07-03T13:23:35.493Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ea0",
+    "sku": "ACE-LAPT-0013",
+    "name": "Acer Laptops Model 13",
+    "description": "The Acer Laptops Model 13 redefines portable computing with its AMD Ryzen 5 processor and 8GB memory configuration. Store all your files on the 256GB NVMe SSD while enjoying up to 10 hours of battery life. Features include backlit keyboard, fingerprint reader, and premium aluminum chassis.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "Acer",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 401.54,
+      "price": 603.53,
+      "compareAtPrice": 723.62,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 83,
+      "availableStock": 83,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 21,
+      "reorderQuantity": 42,
+      "minStockLevel": 9,
+      "stockValue": 33327.67,
+      "averageCost": 401.54,
+      "lastCostUpdate": "2025-07-20T19:02:08.810Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 16,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 16,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-ACE-LAPT-0014",
+        "cost": 384.15,
+        "leadTime": 10,
+        "minOrderQuantity": 21,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-ACE-LAPT-0015",
+        "cost": 361.85,
+        "leadTime": 11,
+        "minOrderQuantity": 19,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.41,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 34.19514088455706,
+      "width": 21.619588048719013,
+      "height": 1.8432735162702887,
+      "unit": "cm"
+    },
+    "barcode": "6839607388132",
+    "upc": "359300337587",
+    "tags": [
+      "Laptops",
+      "Acer",
+      "Laptops"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-12-16T05:20:21.346Z",
+    "updatedAt": "2025-05-29T00:18:22.400Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ea1",
+    "sku": "RAZ-LAPT-0014",
+    "name": "Razer Laptops Model 14",
+    "description": "The Razer Laptops Model 14 redefines portable computing with its AMD Ryzen 5 processor and 8GB memory configuration. Store all your files on the 1TB NVMe SSD while enjoying up to 10 hours of battery life. Features include backlit keyboard, fingerprint reader, and premium aluminum chassis.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "Razer",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 487.53,
+      "price": 881.82,
+      "compareAtPrice": 1094.1,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 62,
+      "availableStock": 62,
+      "reservedStock": 0,
+      "incomingStock": 16,
+      "reorderPoint": 16,
+      "reorderQuantity": 31,
+      "minStockLevel": 7,
+      "stockValue": 30227.03,
+      "averageCost": 487.53,
+      "lastCostUpdate": "2025-07-12T23:37:18.572Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 12,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 12,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-RAZ-LAPT-0015",
+        "cost": 457.54,
+        "leadTime": 7,
+        "minOrderQuantity": 21,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-RAZ-LAPT-0016",
+        "cost": 448.53,
+        "leadTime": 7,
+        "minOrderQuantity": 17,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.58,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 30.98075482256937,
+      "width": 24.576012328592853,
+      "height": 2.8749636925181603,
+      "unit": "cm"
+    },
+    "barcode": "4866128922604",
+    "upc": "322432997028",
+    "tags": [
+      "Laptops",
+      "Razer",
+      "Laptops"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-02-13T10:08:09.604Z",
+    "updatedAt": "2025-07-17T09:48:46.281Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ea2",
+    "sku": "RAZ-LAPT-0015",
+    "name": "Razer Laptops Model 15",
+    "description": "The Razer Laptops Model 15 redefines portable computing with its AMD Ryzen 5 processor and 32GB memory configuration. Store all your files on the 128GB NVMe SSD while enjoying up to 10 hours of battery life. Features include backlit keyboard, fingerprint reader, and premium aluminum chassis.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "Razer",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 462.24,
+      "price": 740.03,
+      "compareAtPrice": 815.77,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 100,
+      "availableStock": 100,
+      "reservedStock": 0,
+      "incomingStock": 24,
+      "reorderPoint": 25,
+      "reorderQuantity": 50,
+      "minStockLevel": 10,
+      "stockValue": 46223.72,
+      "averageCost": 462.24,
+      "lastCostUpdate": "2025-07-18T21:42:14.136Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 20,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 20,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 20,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 20,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 20,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-RAZ-LAPT-0016",
+        "cost": 446.19,
+        "leadTime": 4,
+        "minOrderQuantity": 24,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-RAZ-LAPT-0017",
+        "cost": 432,
+        "leadTime": 11,
+        "minOrderQuantity": 24,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.09,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 39.53783451213313,
+      "width": 22.298839105669757,
+      "height": 1.8109568632998754,
+      "unit": "cm"
+    },
+    "barcode": "5768613037336",
+    "upc": "502878475134",
+    "tags": [
+      "Laptops",
+      "Razer",
+      "Laptops"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-03-05T02:19:04.255Z",
+    "updatedAt": "2025-06-27T06:49:02.018Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ea3",
+    "sku": "RAZ-LAPT-0016",
+    "name": "Razer Laptops Model 16",
+    "description": "Experience next-generation computing with the Razer Laptops Model 16. Powered by AMD Ryzen 7, this laptop delivers exceptional performance and energy efficiency. The 10.9\" display brings your content to life, while 128GB of storage provides ample space for your creative projects. All-day battery life keeps you productive on the go.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "Razer",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 151.41,
+      "price": 225.51,
+      "compareAtPrice": 261.68,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 97,
+      "availableStock": 97,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 25,
+      "reorderQuantity": 49,
+      "minStockLevel": 10,
+      "stockValue": 14686.93,
+      "averageCost": 151.41,
+      "lastCostUpdate": "2025-07-15T13:53:21.663Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 19,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 19,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-RAZ-LAPT-0017",
+        "cost": 136.72,
+        "leadTime": 6,
+        "minOrderQuantity": 17,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-RAZ-LAPT-0018",
+        "cost": 145.57,
+        "leadTime": 10,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.3,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 39.636884632684804,
+      "width": 23.70755866414483,
+      "height": 2.26255492621028,
+      "unit": "cm"
+    },
+    "barcode": "0217086934789",
+    "upc": "739690999907",
+    "tags": [
+      "Laptops",
+      "Razer",
+      "Laptops"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-11-13T07:51:13.172Z",
+    "updatedAt": "2025-06-27T18:46:33.529Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ea4",
+    "sku": "ACE-LAPT-0017",
+    "name": "Acer Laptops Model 17",
+    "description": "Unleash your productivity with the Acer Laptops Model 17, featuring a powerful AMD Ryzen 7 processor, 16GB of lightning-fast RAM, and a spacious 128GB SSD. The 10.9\" display delivers crisp visuals, while the sleek design weighs just 1.8kg. Built for professionals who demand performance without compromise.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "Acer",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 663.6,
+      "price": 927.14,
+      "compareAtPrice": 1129.66,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 5,
+      "availableStock": 5,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 6,
+      "reorderQuantity": 11,
+      "minStockLevel": 3,
+      "stockValue": 14599.21,
+      "averageCost": 663.6,
+      "lastCostUpdate": "2025-07-21T09:36:23.122Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 4,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 4,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-ACE-LAPT-0018",
+        "cost": 605.15,
+        "leadTime": 5,
+        "minOrderQuantity": 23,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-ACE-LAPT-0019",
+        "cost": 620.48,
+        "leadTime": 10,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.54,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 36.6593523852091,
+      "width": 20.120420006126437,
+      "height": 2.499883780583276,
+      "unit": "cm"
+    },
+    "barcode": "3157922914742",
+    "upc": "927788553313",
+    "tags": [
+      "Laptops",
+      "Acer",
+      "Laptops"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-04-20T05:56:01.273Z",
+    "updatedAt": "2025-05-12T04:02:01.998Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ea5",
+    "sku": "MIC-LAPT-0018",
+    "name": "Microsoft Laptops Model 18",
+    "description": "Unleash your productivity with the Microsoft Laptops Model 18, featuring a powerful AMD Ryzen 7 processor, 16GB of lightning-fast RAM, and a spacious 1TB SSD. The 10.9\" display delivers crisp visuals, while the sleek design weighs just 1.8kg. Built for professionals who demand performance without compromise.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "Microsoft",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 643.32,
+      "price": 926.84,
+      "compareAtPrice": 1101.14,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 0,
+      "availableStock": 0,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 13,
+      "reorderQuantity": 25,
+      "minStockLevel": 5,
+      "stockValue": 31522.74,
+      "averageCost": 643.32,
+      "lastCostUpdate": "2025-07-13T13:22:50.460Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 9,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 9,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-MIC-LAPT-0019",
+        "cost": 604.03,
+        "leadTime": 7,
+        "minOrderQuantity": 17,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-MIC-LAPT-0020",
+        "cost": 608.67,
+        "leadTime": 11,
+        "minOrderQuantity": 6,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.07,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 35.53772910893973,
+      "width": 21.978686585576774,
+      "height": 1.548856333864772,
+      "unit": "cm"
+    },
+    "barcode": "4219709863678",
+    "upc": "679823126494",
+    "tags": [
+      "Laptops",
+      "Microsoft",
+      "Laptops"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-02-22T17:28:16.388Z",
+    "updatedAt": "2025-06-04T21:47:48.875Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ea6",
+    "sku": "RAZ-LAPT-0019",
+    "name": "Razer Laptops Model 19",
+    "description": "Designed for the modern professional, the Razer Laptops Model 19 combines elegance with power. The AMD Ryzen 5 processor handles multitasking with ease, while 8GB RAM ensures smooth performance. With 128GB of fast SSD storage and a stunning 12.9\" display, this laptop is perfect for both work and entertainment.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "Razer",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 457.04,
+      "price": 626.83,
+      "compareAtPrice": 717.8,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 82,
+      "availableStock": 82,
+      "reservedStock": 0,
+      "incomingStock": 26,
+      "reorderPoint": 21,
+      "reorderQuantity": 41,
+      "minStockLevel": 9,
+      "stockValue": 37477.59,
+      "averageCost": 457.04,
+      "lastCostUpdate": "2025-07-18T19:29:16.654Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 16,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 16,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-RAZ-LAPT-0020",
+        "cost": 412.71,
+        "leadTime": 7,
+        "minOrderQuantity": 18,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-RAZ-LAPT-0021",
+        "cost": 423.26,
+        "leadTime": 5,
+        "minOrderQuantity": 14,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.22,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 33.08562240092016,
+      "width": 29.4504088383907,
+      "height": 2.436418701430319,
+      "unit": "cm"
+    },
+    "barcode": "9558749428532",
+    "upc": "266384585298",
+    "tags": [
+      "Laptops",
+      "Razer",
+      "Laptops"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-11-09T22:47:08.476Z",
+    "updatedAt": "2025-05-22T05:02:22.891Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ea7",
+    "sku": "ACE-LAPT-0020",
+    "name": "Acer Laptops Model 20",
+    "description": "The Acer Laptops Model 20 redefines portable computing with its Intel Core i7 processor and 16GB memory configuration. Store all your files on the 512GB NVMe SSD while enjoying up to 10 hours of battery life. Features include backlit keyboard, fingerprint reader, and premium aluminum chassis.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "Acer",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 266.81,
+      "price": 425.91,
+      "compareAtPrice": 474.54,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 23,
+      "availableStock": 23,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 6,
+      "reorderQuantity": 12,
+      "minStockLevel": 3,
+      "stockValue": 6136.64,
+      "averageCost": 266.81,
+      "lastCostUpdate": "2025-06-25T10:23:29.713Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 4,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 4,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-ACE-LAPT-0021",
+        "cost": 255.47,
+        "leadTime": 13,
+        "minOrderQuantity": 24,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-ACE-LAPT-0022",
+        "cost": 248.64,
+        "leadTime": 12,
+        "minOrderQuantity": 20,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.91,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 33.07276744073478,
+      "width": 24.839683127533192,
+      "height": 2.55229713169264,
+      "unit": "cm"
+    },
+    "barcode": "6222916771857",
+    "upc": "063568224726",
+    "tags": [
+      "Laptops",
+      "Acer",
+      "Laptops"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-03-08T01:46:31.155Z",
+    "updatedAt": "2025-05-18T01:48:03.588Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ea8",
+    "sku": "ASU-LAPT-0021",
+    "name": "ASUS ROG Strix G15",
+    "description": "The ASUS ROG Strix G15 redefines portable computing with its Intel Core i7 processor and 16GB memory configuration. Store all your files on the 256GB NVMe SSD while enjoying up to 10 hours of battery life. Features include backlit keyboard, fingerprint reader, and premium aluminum chassis.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "ASUS",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 411.84,
+      "price": 732.07,
+      "compareAtPrice": 849.51,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 79,
+      "availableStock": 79,
+      "reservedStock": 0,
+      "incomingStock": 19,
+      "reorderPoint": 20,
+      "reorderQuantity": 40,
+      "minStockLevel": 8,
+      "stockValue": 32535.08,
+      "averageCost": 411.84,
+      "lastCostUpdate": "2025-07-06T04:35:37.717Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 15,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 15,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-ASU-LAPT-0022",
+        "cost": 391.52,
+        "leadTime": 13,
+        "minOrderQuantity": 15,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-ASU-LAPT-0023",
+        "cost": 373.99,
+        "leadTime": 6,
+        "minOrderQuantity": 18,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.86,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 36.80214731057678,
+      "width": 24.601515068295846,
+      "height": 2.967480044050027,
+      "unit": "cm"
+    },
+    "barcode": "6256708680385",
+    "upc": "498751980465",
+    "tags": [
+      "Laptops",
+      "ASUS",
+      "ROG"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-05-07T21:50:22.251Z",
+    "updatedAt": "2025-04-27T11:10:39.154Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ea9",
+    "sku": "MIC-LAPT-0022",
+    "name": "Microsoft Laptops Model 22",
+    "description": "Unleash your productivity with the Microsoft Laptops Model 22, featuring a powerful AMD Ryzen 7 processor, 16GB of lightning-fast RAM, and a spacious 1TB SSD. The 12.9\" display delivers crisp visuals, while the sleek design weighs just 1.8kg. Built for professionals who demand performance without compromise.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "Microsoft",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 209.01,
+      "price": 320.22,
+      "compareAtPrice": 368.66,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 67,
+      "availableStock": 67,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 17,
+      "reorderQuantity": 34,
+      "minStockLevel": 7,
+      "stockValue": 14003.54,
+      "averageCost": 209.01,
+      "lastCostUpdate": "2025-07-17T22:01:04.890Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 13,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 13,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-MIC-LAPT-0023",
+        "cost": 200.57,
+        "leadTime": 14,
+        "minOrderQuantity": 7,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-MIC-LAPT-0024",
+        "cost": 201.63,
+        "leadTime": 10,
+        "minOrderQuantity": 23,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.78,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 36.885416424085406,
+      "width": 29.53361614623694,
+      "height": 2.7686962392559806,
+      "unit": "cm"
+    },
+    "barcode": "0209612613766",
+    "upc": "434769243268",
+    "tags": [
+      "Laptops",
+      "Microsoft",
+      "Laptops"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-12-19T11:50:42.402Z",
+    "updatedAt": "2025-06-15T16:27:19.119Z"
+  },
+  {
+    "_id": "68811caa975c12956e900eaa",
+    "sku": "RAZ-LAPT-0023",
+    "name": "Razer Laptops Model 23",
+    "description": "Experience next-generation computing with the Razer Laptops Model 23. Powered by Intel Core i5, this laptop delivers exceptional performance and energy efficiency. The 11\" display brings your content to life, while 256GB of storage provides ample space for your creative projects. All-day battery life keeps you productive on the go.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "Razer",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 391.59,
+      "price": 522.51,
+      "compareAtPrice": 607.64,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 81,
+      "availableStock": 81,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 21,
+      "reorderQuantity": 41,
+      "minStockLevel": 9,
+      "stockValue": 31718.75,
+      "averageCost": 391.59,
+      "lastCostUpdate": "2025-07-11T12:21:28.480Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 16,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 16,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-RAZ-LAPT-0024",
+        "cost": 360.84,
+        "leadTime": 14,
+        "minOrderQuantity": 7,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-RAZ-LAPT-0025",
+        "cost": 365.91,
+        "leadTime": 7,
+        "minOrderQuantity": 22,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.22,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 35.553746372578374,
+      "width": 24.326852399631843,
+      "height": 2.6368006406079103,
+      "unit": "cm"
+    },
+    "barcode": "0927677747951",
+    "upc": "598749227084",
+    "tags": [
+      "Laptops",
+      "Razer",
+      "Laptops"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-01-12T14:37:15.796Z",
+    "updatedAt": "2025-07-18T18:04:33.635Z"
+  },
+  {
+    "_id": "68811caa975c12956e900eab",
+    "sku": "APP-LAPT-0024",
+    "name": "Apple MacBook Air M2",
+    "description": "The Apple MacBook Air M2 redefines portable computing with its AMD Ryzen 7 processor and 8GB memory configuration. Store all your files on the 256GB NVMe SSD while enjoying up to 10 hours of battery life. Features include backlit keyboard, fingerprint reader, and premium aluminum chassis.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "Apple",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 2417.62,
+      "price": 3918.67,
+      "compareAtPrice": 4661.76,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 17,
+      "availableStock": 17,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 5,
+      "reorderQuantity": 9,
+      "minStockLevel": 2,
+      "stockValue": 41099.57,
+      "averageCost": 2417.62,
+      "lastCostUpdate": "2025-07-14T07:17:12.104Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 3,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 3,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 3,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 3,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 3,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-APP-LAPT-0025",
+        "cost": 2183.55,
+        "leadTime": 12,
+        "minOrderQuantity": 7,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-APP-LAPT-0026",
+        "cost": 2346.39,
+        "leadTime": 10,
+        "minOrderQuantity": 17,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.83,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 33.84366040998927,
+      "width": 23.499216570502707,
+      "height": 2.053276314723294,
+      "unit": "cm"
+    },
+    "barcode": "6313603353366",
+    "upc": "790717451243",
+    "tags": [
+      "Laptops",
+      "Apple",
+      "MacBook"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-11-20T04:35:51.914Z",
+    "updatedAt": "2025-07-14T17:33:15.588Z"
+  },
+  {
+    "_id": "68811caa975c12956e900eac",
+    "sku": "MIC-LAPT-0025",
+    "name": "Microsoft Laptops Model 25",
+    "description": "Designed for the modern professional, the Microsoft Laptops Model 25 combines elegance with power. The AMD Ryzen 7 processor handles multitasking with ease, while 8GB RAM ensures smooth performance. With 128GB of fast SSD storage and a stunning 12.9\" display, this laptop is perfect for both work and entertainment.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "Microsoft",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 598.55,
+      "price": 894.12,
+      "compareAtPrice": 1096.97,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 50,
+      "availableStock": 50,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 13,
+      "reorderQuantity": 25,
+      "minStockLevel": 5,
+      "stockValue": 29927.73,
+      "averageCost": 598.55,
+      "lastCostUpdate": "2025-07-04T15:25:34.645Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 10,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 10,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-MIC-LAPT-0026",
+        "cost": 556.75,
+        "leadTime": 14,
+        "minOrderQuantity": 5,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-MIC-LAPT-0027",
+        "cost": 567.77,
+        "leadTime": 11,
+        "minOrderQuantity": 23,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.84,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 32.88573725044472,
+      "width": 20.02634158827743,
+      "height": 2.6112735470055526,
+      "unit": "cm"
+    },
+    "barcode": "9680921358715",
+    "upc": "538061444547",
+    "tags": [
+      "Laptops",
+      "Microsoft",
+      "Laptops"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-02-02T05:02:00.114Z",
+    "updatedAt": "2025-06-21T16:55:31.847Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ead",
+    "sku": "MSI-LAPT-0026",
+    "name": "MSI Laptops Model 26",
+    "description": "Experience next-generation computing with the MSI Laptops Model 26. Powered by AMD Ryzen 7, this laptop delivers exceptional performance and energy efficiency. The 11\" display brings your content to life, while 128GB of storage provides ample space for your creative projects. All-day battery life keeps you productive on the go.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "MSI",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 286.31,
+      "price": 404.72,
+      "compareAtPrice": 451.46,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 83,
+      "availableStock": 83,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 21,
+      "reorderQuantity": 42,
+      "minStockLevel": 9,
+      "stockValue": 23763.85,
+      "averageCost": 286.31,
+      "lastCostUpdate": "2025-07-05T15:15:44.160Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 16,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 16,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-MSI-LAPT-0027",
+        "cost": 264.79,
+        "leadTime": 4,
+        "minOrderQuantity": 25,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-MSI-LAPT-0028",
+        "cost": 258.39,
+        "leadTime": 7,
+        "minOrderQuantity": 15,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.98,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 34.49425678894719,
+      "width": 29.248230812542577,
+      "height": 1.8819690297363225,
+      "unit": "cm"
+    },
+    "barcode": "1966494788736",
+    "upc": "304478812907",
+    "tags": [
+      "Laptops",
+      "MSI",
+      "Laptops"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-11-03T10:29:31.422Z",
+    "updatedAt": "2025-07-23T10:57:33.466Z"
+  },
+  {
+    "_id": "68811caa975c12956e900eae",
+    "sku": "HP-LAPT-0027",
+    "name": "HP Spectre x360",
+    "description": "The HP Spectre x360 redefines portable computing with its Intel Core i5 processor and 8GB memory configuration. Store all your files on the 512GB NVMe SSD while enjoying up to 10 hours of battery life. Features include backlit keyboard, fingerprint reader, and premium aluminum chassis.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "HP",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 368.05,
+      "price": 514.54,
+      "compareAtPrice": 641.95,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 52,
+      "availableStock": 52,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 13,
+      "reorderQuantity": 26,
+      "minStockLevel": 6,
+      "stockValue": 19138.5,
+      "averageCost": 368.05,
+      "lastCostUpdate": "2025-07-23T10:08:00.045Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 10,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 10,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-HP-LAPT-0028",
+        "cost": 340.94,
+        "leadTime": 7,
+        "minOrderQuantity": 14,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-HP-LAPT-0029",
+        "cost": 351.38,
+        "leadTime": 3,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.33,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 33.17141615945851,
+      "width": 28.18242253660153,
+      "height": 1.5531756069980296,
+      "unit": "cm"
+    },
+    "barcode": "7725324175595",
+    "upc": "341088258434",
+    "tags": [
+      "Laptops",
+      "HP",
+      "Spectre"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-08-13T19:33:53.337Z",
+    "updatedAt": "2025-06-07T08:48:43.612Z"
+  },
+  {
+    "_id": "68811caa975c12956e900eaf",
+    "sku": "MSI-LAPT-0028",
+    "name": "MSI Laptops Model 28",
+    "description": "Experience next-generation computing with the MSI Laptops Model 28. Powered by AMD Ryzen 7, this laptop delivers exceptional performance and energy efficiency. The 12.9\" display brings your content to life, while 256GB of storage provides ample space for your creative projects. All-day battery life keeps you productive on the go.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "MSI",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 315.74,
+      "price": 426.72,
+      "compareAtPrice": 510.78,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 49,
+      "availableStock": 49,
+      "reservedStock": 0,
+      "incomingStock": 16,
+      "reorderPoint": 13,
+      "reorderQuantity": 25,
+      "minStockLevel": 5,
+      "stockValue": 15471.05,
+      "averageCost": 315.74,
+      "lastCostUpdate": "2025-06-24T03:21:25.519Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 9,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 9,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-MSI-LAPT-0029",
+        "cost": 305.71,
+        "leadTime": 8,
+        "minOrderQuantity": 20,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-MSI-LAPT-0030",
+        "cost": 288.61,
+        "leadTime": 9,
+        "minOrderQuantity": 10,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.03,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 35.76993087093907,
+      "width": 29.896750857973803,
+      "height": 1.8459140789146535,
+      "unit": "cm"
+    },
+    "barcode": "4619622886608",
+    "upc": "612164997495",
+    "tags": [
+      "Laptops",
+      "MSI",
+      "Laptops"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-12-11T16:57:39.411Z",
+    "updatedAt": "2025-05-19T01:46:57.802Z"
+  },
+  {
+    "_id": "68811caa975c12956e900eb0",
+    "sku": "HP-LAPT-0029",
+    "name": "HP EliteBook 840",
+    "description": "Unleash your productivity with the HP EliteBook 840, featuring a powerful Intel Core i5 processor, 32GB of lightning-fast RAM, and a spacious 1TB SSD. The 10.9\" display delivers crisp visuals, while the sleek design weighs just 1.8kg. Built for professionals who demand performance without compromise.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "HP",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 759.81,
+      "price": 1099.29,
+      "compareAtPrice": 1336.5,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 4,
+      "availableStock": 4,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 4,
+      "reorderQuantity": 7,
+      "minStockLevel": 2,
+      "stockValue": 10637.31,
+      "averageCost": 759.81,
+      "lastCostUpdate": "2025-07-05T00:47:29.605Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 2,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 2,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 2,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 2,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 2,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-HP-LAPT-0030",
+        "cost": 730.82,
+        "leadTime": 4,
+        "minOrderQuantity": 18,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-HP-LAPT-0031",
+        "cost": 739.66,
+        "leadTime": 9,
+        "minOrderQuantity": 23,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.2,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 36.70215299837811,
+      "width": 20.46957730465848,
+      "height": 2.707380791466902,
+      "unit": "cm"
+    },
+    "barcode": "1334020053743",
+    "upc": "263516307899",
+    "tags": [
+      "Laptops",
+      "HP",
+      "EliteBook"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-07-27T00:42:17.366Z",
+    "updatedAt": "2025-06-16T04:30:35.279Z"
+  },
+  {
+    "_id": "68811caa975c12956e900eb1",
+    "sku": "RAZ-LAPT-0030",
+    "name": "Razer Laptops Model 30",
+    "description": "Experience next-generation computing with the Razer Laptops Model 30. Powered by Apple M2, this laptop delivers exceptional performance and energy efficiency. The 12.9\" display brings your content to life, while 128GB of storage provides ample space for your creative projects. All-day battery life keeps you productive on the go.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "Razer",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 483.5,
+      "price": 873.95,
+      "compareAtPrice": 1031.62,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 2,
+      "availableStock": 2,
+      "reservedStock": 0,
+      "incomingStock": 22,
+      "reorderPoint": 13,
+      "reorderQuantity": 26,
+      "minStockLevel": 6,
+      "stockValue": 25142.18,
+      "averageCost": 483.5,
+      "lastCostUpdate": "2025-07-12T09:03:24.025Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 10,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 10,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-RAZ-LAPT-0031",
+        "cost": 443.45,
+        "leadTime": 9,
+        "minOrderQuantity": 25,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-RAZ-LAPT-0032",
+        "cost": 453.47,
+        "leadTime": 5,
+        "minOrderQuantity": 19,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.34,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 33.86549845098061,
+      "width": 22.134721291680243,
+      "height": 1.5758024240765143,
+      "unit": "cm"
+    },
+    "barcode": "2692383082936",
+    "upc": "737834638788",
+    "tags": [
+      "Laptops",
+      "Razer",
+      "Laptops"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-05-09T10:53:16.251Z",
+    "updatedAt": "2025-05-18T02:10:26.145Z"
+  },
+  {
+    "_id": "68811caa975c12956e900eb2",
+    "sku": "APP-LAPT-0031",
+    "name": "Apple MacBook Pro 16\"",
+    "description": "The Apple MacBook Pro 16\" redefines portable computing with its AMD Ryzen 7 processor and 32GB memory configuration. Store all your files on the 1TB NVMe SSD while enjoying up to 10 hours of battery life. Features include backlit keyboard, fingerprint reader, and premium aluminum chassis.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "Apple",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 2221.94,
+      "price": 3549.63,
+      "compareAtPrice": 4393.56,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 5,
+      "availableStock": 5,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 2,
+      "reorderQuantity": 3,
+      "minStockLevel": 1,
+      "stockValue": 11109.7,
+      "averageCost": 2221.94,
+      "lastCostUpdate": "2025-06-24T14:51:00.832Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 1,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 1,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 1,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 1,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 1,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-APP-LAPT-0032",
+        "cost": 2144.66,
+        "leadTime": 7,
+        "minOrderQuantity": 17,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-APP-LAPT-0033",
+        "cost": 2034.86,
+        "leadTime": 12,
+        "minOrderQuantity": 11,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.13,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 31.714849892144112,
+      "width": 25.332531589009456,
+      "height": 2.393788275393762,
+      "unit": "cm"
+    },
+    "barcode": "8670879316295",
+    "upc": "625647054824",
+    "tags": [
+      "Laptops",
+      "Apple",
+      "MacBook"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-10-13T08:21:16.778Z",
+    "updatedAt": "2025-04-26T06:29:18.008Z"
+  },
+  {
+    "_id": "68811caa975c12956e900eb3",
+    "sku": "APP-LAPT-0032",
+    "name": "Apple MacBook Pro 14\"",
+    "description": "Designed for the modern professional, the Apple MacBook Pro 14\" combines elegance with power. The AMD Ryzen 5 processor handles multitasking with ease, while 32GB RAM ensures smooth performance. With 128GB of fast SSD storage and a stunning 11\" display, this laptop is perfect for both work and entertainment.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "Apple",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 1794.16,
+      "price": 2997.69,
+      "compareAtPrice": 3659.66,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 11,
+      "availableStock": 11,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 3,
+      "reorderQuantity": 6,
+      "minStockLevel": 2,
+      "stockValue": 19735.75,
+      "averageCost": 1794.16,
+      "lastCostUpdate": "2025-07-14T19:10:14.577Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 2,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 2,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 2,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 2,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 2,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-APP-LAPT-0033",
+        "cost": 1733.06,
+        "leadTime": 11,
+        "minOrderQuantity": 8,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-APP-LAPT-0034",
+        "cost": 1637.55,
+        "leadTime": 14,
+        "minOrderQuantity": 19,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.24,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 37.679823330497165,
+      "width": 21.61373145424503,
+      "height": 2.5608078102467653,
+      "unit": "cm"
+    },
+    "barcode": "1753728155740",
+    "upc": "075226471866",
+    "tags": [
+      "Laptops",
+      "Apple",
+      "MacBook"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-04-12T01:17:33.363Z",
+    "updatedAt": "2025-04-28T18:57:09.915Z"
+  },
+  {
+    "_id": "68811caa975c12956e900eb4",
+    "sku": "LEN-LAPT-0033",
+    "name": "Lenovo Yoga 9i",
+    "description": "Designed for the modern professional, the Lenovo Yoga 9i combines elegance with power. The AMD Ryzen 5 processor handles multitasking with ease, while 8GB RAM ensures smooth performance. With 128GB of fast SSD storage and a stunning 12.9\" display, this laptop is perfect for both work and entertainment.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "Lenovo",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 141.12,
+      "price": 252.91,
+      "compareAtPrice": 301.49,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 39,
+      "availableStock": 39,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 10,
+      "reorderQuantity": 20,
+      "minStockLevel": 4,
+      "stockValue": 5503.69,
+      "averageCost": 141.12,
+      "lastCostUpdate": "2025-07-21T19:15:52.378Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 7,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 7,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-LEN-LAPT-0034",
+        "cost": 128.74,
+        "leadTime": 14,
+        "minOrderQuantity": 20,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-LEN-LAPT-0035",
+        "cost": 128.07,
+        "leadTime": 14,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.05,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 32.52640703297264,
+      "width": 26.23881770742859,
+      "height": 1.7737101955361823,
+      "unit": "cm"
+    },
+    "barcode": "5603386492462",
+    "upc": "509385950663",
+    "tags": [
+      "Laptops",
+      "Lenovo",
+      "Yoga"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-06-02T07:23:10.864Z",
+    "updatedAt": "2025-05-12T00:15:09.628Z"
+  },
+  {
+    "_id": "68811caa975c12956e900eb5",
+    "sku": "DEL-LAPT-0034",
+    "name": "Dell XPS 13",
+    "description": "Designed for the modern professional, the Dell XPS 13 combines elegance with power. The Apple M2 processor handles multitasking with ease, while 8GB RAM ensures smooth performance. With 512GB of fast SSD storage and a stunning 10.9\" display, this laptop is perfect for both work and entertainment.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "Dell",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 1300.3,
+      "price": 1763.74,
+      "compareAtPrice": 2030.61,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 0,
+      "availableStock": 0,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 2,
+      "reorderQuantity": 3,
+      "minStockLevel": 1,
+      "stockValue": 6501.49,
+      "averageCost": 1300.3,
+      "lastCostUpdate": "2025-06-26T06:04:15.533Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 1,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 1,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 1,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 1,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 1,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-DEL-LAPT-0035",
+        "cost": 1226.95,
+        "leadTime": 5,
+        "minOrderQuantity": 10,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-DEL-LAPT-0036",
+        "cost": 1211.8,
+        "leadTime": 13,
+        "minOrderQuantity": 10,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.78,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 39.445847936068326,
+      "width": 20.93682739965495,
+      "height": 1.7182198925869696,
+      "unit": "cm"
+    },
+    "barcode": "5537013513904",
+    "upc": "733067428388",
+    "tags": [
+      "Laptops",
+      "Dell",
+      "XPS"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-08-21T19:02:44.549Z",
+    "updatedAt": "2025-07-19T22:15:50.623Z"
+  },
+  {
+    "_id": "68811caa975c12956e900eb6",
+    "sku": "MIC-LAPT-0035",
+    "name": "Microsoft Laptops Model 35",
+    "description": "Unleash your productivity with the Microsoft Laptops Model 35, featuring a powerful Apple M2 processor, 16GB of lightning-fast RAM, and a spacious 512GB SSD. The 11\" display delivers crisp visuals, while the sleek design weighs just 1.8kg. Built for professionals who demand performance without compromise.",
+    "category": {
+      "id": "6880316114bfcd086db913f8",
+      "name": "Laptops",
+      "path": "/electronics/computers-tablets/laptops"
+    },
+    "brand": "Microsoft",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 173.33,
+      "price": 236.16,
+      "compareAtPrice": 285.01,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 63,
+      "availableStock": 63,
+      "reservedStock": 0,
+      "incomingStock": 46,
+      "reorderPoint": 16,
+      "reorderQuantity": 32,
+      "minStockLevel": 7,
+      "stockValue": 10919.58,
+      "averageCost": 173.33,
+      "lastCostUpdate": "2025-07-02T12:58:30.863Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 12,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 12,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-MIC-LAPT-0036",
+        "cost": 156.29,
+        "leadTime": 4,
+        "minOrderQuantity": 22,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-MIC-LAPT-0037",
+        "cost": 162.6,
+        "leadTime": 3,
+        "minOrderQuantity": 15,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.33,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 31.892276373270526,
+      "width": 29.758021589754662,
+      "height": 2.531910535856267,
+      "unit": "cm"
+    },
+    "barcode": "1006603003295",
+    "upc": "245869812489",
+    "tags": [
+      "Laptops",
+      "Microsoft",
+      "Laptops"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-05-07T17:25:19.152Z",
+    "updatedAt": "2025-06-24T22:07:19.477Z"
+  },
+  {
+    "_id": "68811caa975c12956e900eb7",
+    "sku": "ASU-DESK-0036",
+    "name": "ASUS Desktop Computers Model 1",
+    "description": "Power through demanding tasks with the ASUS Desktop Computers Model 1 desktop. Equipped with AMD Ryzen 5 processor, 32GB DDR5 RAM, and NVIDIA RTX 4070 graphics. The 1TB storage configuration provides speed and capacity. Extensive connectivity options and tool-free upgradability make this the ultimate workstation.",
+    "category": {
+      "id": "6880316114bfcd086db913f9",
+      "name": "Desktop Computers",
+      "path": "/electronics/computers-tablets/desktop-computers"
+    },
+    "brand": "ASUS",
+    "type": "physical",
+    "status": "draft",
+    "pricing": {
+      "cost": 537.17,
+      "price": 976.08,
+      "compareAtPrice": 1217.59,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 70,
+      "availableStock": 70,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 18,
+      "reorderQuantity": 35,
+      "minStockLevel": 7,
+      "stockValue": 37601.84,
+      "averageCost": 537.17,
+      "lastCostUpdate": "2025-07-18T20:24:10.968Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 14,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 14,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-ASU-DESK-0037",
+        "cost": 524.3,
+        "leadTime": 10,
+        "minOrderQuantity": 25,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-ASU-DESK-0038",
+        "cost": 489.96,
+        "leadTime": 9,
+        "minOrderQuantity": 14,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 10.59,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 33.19190169657817,
+      "width": 20.373995057448244,
+      "height": 9.054671918601557,
+      "unit": "cm"
+    },
+    "barcode": "1689146619878",
+    "upc": "787656495075",
+    "tags": [
+      "Desktop Computers",
+      "ASUS",
+      "Desktop"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-02-24T10:13:00.907Z",
+    "updatedAt": "2025-06-16T21:16:25.443Z"
+  },
+  {
+    "_id": "68811caa975c12956e900eb8",
+    "sku": "HP-DESK-0037",
+    "name": "HP Desktop Computers Model 2",
+    "description": "Power through demanding tasks with the HP Desktop Computers Model 2 desktop. Equipped with Intel Core i7 processor, 32GB DDR5 RAM, and NVIDIA RTX 4070 graphics. The 512GB storage configuration provides speed and capacity. Extensive connectivity options and tool-free upgradability make this the ultimate workstation.",
+    "category": {
+      "id": "6880316114bfcd086db913f9",
+      "name": "Desktop Computers",
+      "path": "/electronics/computers-tablets/desktop-computers"
+    },
+    "brand": "HP",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 143.11,
+      "price": 251.97,
+      "compareAtPrice": 283.8,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 70,
+      "availableStock": 70,
+      "reservedStock": 0,
+      "incomingStock": 42,
+      "reorderPoint": 18,
+      "reorderQuantity": 35,
+      "minStockLevel": 7,
+      "stockValue": 10017.72,
+      "averageCost": 143.11,
+      "lastCostUpdate": "2025-07-12T23:33:04.334Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 14,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 14,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-HP-DESK-0038",
+        "cost": 135.39,
+        "leadTime": 5,
+        "minOrderQuantity": 9,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-HP-DESK-0039",
+        "cost": 136.28,
+        "leadTime": 6,
+        "minOrderQuantity": 9,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 5.55,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 35.50933006869638,
+      "width": 42.70813564107693,
+      "height": 20.555834469288243,
+      "unit": "cm"
+    },
+    "barcode": "9276402166746",
+    "upc": "356632755974",
+    "tags": [
+      "Desktop Computers",
+      "HP",
+      "Desktop"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-01-21T05:19:24.280Z",
+    "updatedAt": "2025-05-21T05:02:04.282Z"
+  },
+  {
+    "_id": "68811caa975c12956e900eb9",
+    "sku": "ACE-DESK-0038",
+    "name": "Acer Desktop Computers Model 3",
+    "description": "The Acer Desktop Computers Model 3 delivers professional-grade performance in a compact form factor. Features AMD Ryzen 5 processor, 8GB memory, and 512GB. Whisper-quiet operation and efficient cooling ensure reliable performance during intensive workloads. Perfect for content creation, 3D rendering, and data analysis.",
+    "category": {
+      "id": "6880316114bfcd086db913f9",
+      "name": "Desktop Computers",
+      "path": "/electronics/computers-tablets/desktop-computers"
+    },
+    "brand": "Acer",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 619.34,
+      "price": 880.1,
+      "compareAtPrice": 1065.15,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 89,
+      "availableStock": 89,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 23,
+      "reorderQuantity": 45,
+      "minStockLevel": 9,
+      "stockValue": 55121.22,
+      "averageCost": 619.34,
+      "lastCostUpdate": "2025-07-14T18:16:14.798Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 17,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 17,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-ACE-DESK-0039",
+        "cost": 580.82,
+        "leadTime": 6,
+        "minOrderQuantity": 14,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-ACE-DESK-0040",
+        "cost": 604.99,
+        "leadTime": 8,
+        "minOrderQuantity": 18,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 12.55,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 45.76253438452032,
+      "width": 17.67996382843025,
+      "height": 5.629779395382101,
+      "unit": "cm"
+    },
+    "barcode": "1918766030151",
+    "upc": "961604233204",
+    "tags": [
+      "Desktop Computers",
+      "Acer",
+      "Desktop"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-11-08T21:03:43.886Z",
+    "updatedAt": "2025-06-10T14:31:40.775Z"
+  },
+  {
+    "_id": "68811caa975c12956e900eba",
+    "sku": "DEL-DESK-0039",
+    "name": "Dell Desktop Computers Model 4",
+    "description": "Power through demanding tasks with the Dell Desktop Computers Model 4 desktop. Equipped with AMD Ryzen 7 processor, 8GB DDR5 RAM, and NVIDIA RTX 4070 graphics. The 1TB storage configuration provides speed and capacity. Extensive connectivity options and tool-free upgradability make this the ultimate workstation.",
+    "category": {
+      "id": "6880316114bfcd086db913f9",
+      "name": "Desktop Computers",
+      "path": "/electronics/computers-tablets/desktop-computers"
+    },
+    "brand": "Dell",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 391.73,
+      "price": 534.36,
+      "compareAtPrice": 658.4,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 64,
+      "availableStock": 64,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 16,
+      "reorderQuantity": 32,
+      "minStockLevel": 7,
+      "stockValue": 25070.51,
+      "averageCost": 391.73,
+      "lastCostUpdate": "2025-07-16T11:45:46.402Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 12,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 12,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-DEL-DESK-0040",
+        "cost": 376.98,
+        "leadTime": 4,
+        "minOrderQuantity": 16,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-DEL-DESK-0041",
+        "cost": 383.8,
+        "leadTime": 8,
+        "minOrderQuantity": 5,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 6.01,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 14.70495296558413,
+      "width": 21.740540097548692,
+      "height": 23.835827123300177,
+      "unit": "cm"
+    },
+    "barcode": "0416061084241",
+    "upc": "089580660357",
+    "tags": [
+      "Desktop Computers",
+      "Dell",
+      "Desktop"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-06-13T18:18:09.639Z",
+    "updatedAt": "2025-05-22T22:35:49.983Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ebb",
+    "sku": "HP-DESK-0040",
+    "name": "HP Desktop Computers Model 5",
+    "description": "The HP Desktop Computers Model 5 delivers professional-grade performance in a compact form factor. Features Intel Core i5 processor, 8GB memory, and 1TB. Whisper-quiet operation and efficient cooling ensure reliable performance during intensive workloads. Perfect for content creation, 3D rendering, and data analysis.",
+    "category": {
+      "id": "6880316114bfcd086db913f9",
+      "name": "Desktop Computers",
+      "path": "/electronics/computers-tablets/desktop-computers"
+    },
+    "brand": "HP",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 500.76,
+      "price": 794.48,
+      "compareAtPrice": 936.6,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 34,
+      "availableStock": 34,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 9,
+      "reorderQuantity": 17,
+      "minStockLevel": 4,
+      "stockValue": 17025.78,
+      "averageCost": 500.76,
+      "lastCostUpdate": "2025-07-04T12:56:14.946Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 6,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 6,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-HP-DESK-0041",
+        "cost": 483.14,
+        "leadTime": 6,
+        "minOrderQuantity": 8,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-HP-DESK-0042",
+        "cost": 483.07,
+        "leadTime": 8,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 14.15,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 39.90331689371381,
+      "width": 42.73907955832327,
+      "height": 21.273975198581383,
+      "unit": "cm"
+    },
+    "barcode": "8917310831731",
+    "upc": "729025752673",
+    "tags": [
+      "Desktop Computers",
+      "HP",
+      "Desktop"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-05-06T16:36:49.700Z",
+    "updatedAt": "2025-06-25T05:01:54.253Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ebc",
+    "sku": "ASU-DESK-0041",
+    "name": "ASUS Desktop Computers Model 6",
+    "description": "The ASUS Desktop Computers Model 6 delivers professional-grade performance in a compact form factor. Features Intel Core i7 processor, 32GB memory, and 256GB. Whisper-quiet operation and efficient cooling ensure reliable performance during intensive workloads. Perfect for content creation, 3D rendering, and data analysis.",
+    "category": {
+      "id": "6880316114bfcd086db913f9",
+      "name": "Desktop Computers",
+      "path": "/electronics/computers-tablets/desktop-computers"
+    },
+    "brand": "ASUS",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 554.01,
+      "price": 925.4,
+      "compareAtPrice": 1045.32,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 47,
+      "availableStock": 47,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 12,
+      "reorderQuantity": 24,
+      "minStockLevel": 5,
+      "stockValue": 26038.68,
+      "averageCost": 554.01,
+      "lastCostUpdate": "2025-06-26T09:51:15.316Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 9,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 9,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-ASU-DESK-0042",
+        "cost": 535.42,
+        "leadTime": 12,
+        "minOrderQuantity": 17,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-ASU-DESK-0043",
+        "cost": 507.61,
+        "leadTime": 10,
+        "minOrderQuantity": 6,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 10.64,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 20.220375484347223,
+      "width": 40.101677100422314,
+      "height": 11.202116464380321,
+      "unit": "cm"
+    },
+    "barcode": "9917239005377",
+    "upc": "008442010948",
+    "tags": [
+      "Desktop Computers",
+      "ASUS",
+      "Desktop"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-02-14T08:52:11.578Z",
+    "updatedAt": "2025-06-24T11:48:22.655Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ebd",
+    "sku": "LEN-DESK-0042",
+    "name": "Lenovo Desktop Computers Model 7",
+    "description": "The Lenovo Desktop Computers Model 7 delivers professional-grade performance in a compact form factor. Features AMD Ryzen 5 processor, 32GB memory, and 512GB. Whisper-quiet operation and efficient cooling ensure reliable performance during intensive workloads. Perfect for content creation, 3D rendering, and data analysis.",
+    "category": {
+      "id": "6880316114bfcd086db913f9",
+      "name": "Desktop Computers",
+      "path": "/electronics/computers-tablets/desktop-computers"
+    },
+    "brand": "Lenovo",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 477.19,
+      "price": 715.07,
+      "compareAtPrice": 879.59,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 77,
+      "availableStock": 77,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 20,
+      "reorderQuantity": 39,
+      "minStockLevel": 8,
+      "stockValue": 36743.82,
+      "averageCost": 477.19,
+      "lastCostUpdate": "2025-07-16T15:01:54.298Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 15,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 15,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-LEN-DESK-0043",
+        "cost": 463.71,
+        "leadTime": 3,
+        "minOrderQuantity": 20,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-LEN-DESK-0044",
+        "cost": 460.71,
+        "leadTime": 9,
+        "minOrderQuantity": 6,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 6.65,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 37.51762663704261,
+      "width": 48.34585914224501,
+      "height": 26.666956243366144,
+      "unit": "cm"
+    },
+    "barcode": "2508415284746",
+    "upc": "466015261197",
+    "tags": [
+      "Desktop Computers",
+      "Lenovo",
+      "Desktop"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-08-02T15:52:00.105Z",
+    "updatedAt": "2025-07-02T08:14:35.235Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ebe",
+    "sku": "LEN-DESK-0043",
+    "name": "Lenovo Desktop Computers Model 8",
+    "description": "Power through demanding tasks with the Lenovo Desktop Computers Model 8 desktop. Equipped with Intel Core i7 processor, 32GB DDR5 RAM, and NVIDIA RTX 4070 graphics. The 256GB storage configuration provides speed and capacity. Extensive connectivity options and tool-free upgradability make this the ultimate workstation.",
+    "category": {
+      "id": "6880316114bfcd086db913f9",
+      "name": "Desktop Computers",
+      "path": "/electronics/computers-tablets/desktop-computers"
+    },
+    "brand": "Lenovo",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 660.59,
+      "price": 929.84,
+      "compareAtPrice": 1040.13,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 98,
+      "availableStock": 98,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 25,
+      "reorderQuantity": 49,
+      "minStockLevel": 10,
+      "stockValue": 64737.37,
+      "averageCost": 660.59,
+      "lastCostUpdate": "2025-07-09T19:03:09.163Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 19,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 19,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-LEN-DESK-0044",
+        "cost": 607.75,
+        "leadTime": 8,
+        "minOrderQuantity": 22,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-LEN-DESK-0045",
+        "cost": 627.97,
+        "leadTime": 8,
+        "minOrderQuantity": 18,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 12.86,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 29.82977141402348,
+      "width": 37.43057931842592,
+      "height": 18.775223711743436,
+      "unit": "cm"
+    },
+    "barcode": "2248515308610",
+    "upc": "527161756265",
+    "tags": [
+      "Desktop Computers",
+      "Lenovo",
+      "Desktop"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-12-30T20:15:16.266Z",
+    "updatedAt": "2025-06-18T21:32:51.893Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ebf",
+    "sku": "CYB-DESK-0044",
+    "name": "CyberPowerPC Desktop Computers Model 9",
+    "description": "The CyberPowerPC Desktop Computers Model 9 delivers professional-grade performance in a compact form factor. Features Apple M2 processor, 8GB memory, and 256GB. Whisper-quiet operation and efficient cooling ensure reliable performance during intensive workloads. Perfect for content creation, 3D rendering, and data analysis.",
+    "category": {
+      "id": "6880316114bfcd086db913f9",
+      "name": "Desktop Computers",
+      "path": "/electronics/computers-tablets/desktop-computers"
+    },
+    "brand": "CyberPowerPC",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 406.71,
+      "price": 694.05,
+      "compareAtPrice": 777.87,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 33,
+      "availableStock": 33,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 9,
+      "reorderQuantity": 17,
+      "minStockLevel": 4,
+      "stockValue": 13421.52,
+      "averageCost": 406.71,
+      "lastCostUpdate": "2025-07-19T03:51:53.308Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 6,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 6,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-CYB-DESK-0045",
+        "cost": 394.12,
+        "leadTime": 11,
+        "minOrderQuantity": 25,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-CYB-DESK-0046",
+        "cost": 373.88,
+        "leadTime": 11,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 11.53,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 45.96100555624183,
+      "width": 42.17327338998671,
+      "height": 26.96027890309356,
+      "unit": "cm"
+    },
+    "barcode": "0614484314124",
+    "upc": "519647547419",
+    "tags": [
+      "Desktop Computers",
+      "CyberPowerPC",
+      "Desktop"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-03-08T08:30:03.483Z",
+    "updatedAt": "2025-06-10T05:13:39.955Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ec0",
+    "sku": "ASU-DESK-0045",
+    "name": "ASUS Desktop Computers Model 10",
+    "description": "The ASUS Desktop Computers Model 10 delivers professional-grade performance in a compact form factor. Features Apple M2 processor, 16GB memory, and 128GB. Whisper-quiet operation and efficient cooling ensure reliable performance during intensive workloads. Perfect for content creation, 3D rendering, and data analysis.",
+    "category": {
+      "id": "6880316114bfcd086db913f9",
+      "name": "Desktop Computers",
+      "path": "/electronics/computers-tablets/desktop-computers"
+    },
+    "brand": "ASUS",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 345.22,
+      "price": 603.19,
+      "compareAtPrice": 678.91,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 4,
+      "availableStock": 4,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 23,
+      "reorderQuantity": 45,
+      "minStockLevel": 9,
+      "stockValue": 31069.41,
+      "averageCost": 345.22,
+      "lastCostUpdate": "2025-07-06T03:26:21.251Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 18,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 18,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-ASU-DESK-0046",
+        "cost": 322.52,
+        "leadTime": 9,
+        "minOrderQuantity": 11,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-ASU-DESK-0047",
+        "cost": 312.48,
+        "leadTime": 5,
+        "minOrderQuantity": 12,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 14.72,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 43.260939374161936,
+      "width": 38.887424423339816,
+      "height": 25.469742241143248,
+      "unit": "cm"
+    },
+    "barcode": "7432907600093",
+    "upc": "893102782833",
+    "tags": [
+      "Desktop Computers",
+      "ASUS",
+      "Desktop"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-08-23T12:31:38.524Z",
+    "updatedAt": "2025-05-17T05:08:58.940Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ec1",
+    "sku": "LEN-DESK-0046",
+    "name": "Lenovo Desktop Computers Model 11",
+    "description": "Power through demanding tasks with the Lenovo Desktop Computers Model 11 desktop. Equipped with Apple M2 processor, 8GB DDR5 RAM, and NVIDIA RTX 4070 graphics. The 128GB storage configuration provides speed and capacity. Extensive connectivity options and tool-free upgradability make this the ultimate workstation.",
+    "category": {
+      "id": "6880316114bfcd086db913f9",
+      "name": "Desktop Computers",
+      "path": "/electronics/computers-tablets/desktop-computers"
+    },
+    "brand": "Lenovo",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 192.81,
+      "price": 291.22,
+      "compareAtPrice": 324.09,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 26,
+      "availableStock": 26,
+      "reservedStock": 0,
+      "incomingStock": 39,
+      "reorderPoint": 7,
+      "reorderQuantity": 13,
+      "minStockLevel": 3,
+      "stockValue": 5013.12,
+      "averageCost": 192.81,
+      "lastCostUpdate": "2025-07-15T08:06:23.609Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 5,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 5,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-LEN-DESK-0047",
+        "cost": 187.44,
+        "leadTime": 8,
+        "minOrderQuantity": 19,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-LEN-DESK-0048",
+        "cost": 176.33,
+        "leadTime": 6,
+        "minOrderQuantity": 13,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 6.72,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 39.77894115352115,
+      "width": 17.27114795049598,
+      "height": 6.523543594124674,
+      "unit": "cm"
+    },
+    "barcode": "0166846658320",
+    "upc": "979337120289",
+    "tags": [
+      "Desktop Computers",
+      "Lenovo",
+      "Desktop"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-05-02T12:43:14.182Z",
+    "updatedAt": "2025-06-04T17:27:29.843Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ec2",
+    "sku": "ASU-DESK-0047",
+    "name": "ASUS Desktop Computers Model 12",
+    "description": "The ASUS Desktop Computers Model 12 delivers professional-grade performance in a compact form factor. Features AMD Ryzen 5 processor, 16GB memory, and 512GB. Whisper-quiet operation and efficient cooling ensure reliable performance during intensive workloads. Perfect for content creation, 3D rendering, and data analysis.",
+    "category": {
+      "id": "6880316114bfcd086db913f9",
+      "name": "Desktop Computers",
+      "path": "/electronics/computers-tablets/desktop-computers"
+    },
+    "brand": "ASUS",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 284.4,
+      "price": 431.76,
+      "compareAtPrice": 485.92,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 43,
+      "availableStock": 43,
+      "reservedStock": 0,
+      "incomingStock": 49,
+      "reorderPoint": 11,
+      "reorderQuantity": 22,
+      "minStockLevel": 5,
+      "stockValue": 12229.38,
+      "averageCost": 284.4,
+      "lastCostUpdate": "2025-07-08T12:48:06.736Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 8,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 8,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-ASU-DESK-0048",
+        "cost": 257.58,
+        "leadTime": 4,
+        "minOrderQuantity": 18,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-ASU-DESK-0049",
+        "cost": 259.1,
+        "leadTime": 12,
+        "minOrderQuantity": 5,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 14.68,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 44.90624504609421,
+      "width": 11.668060022703477,
+      "height": 10.143878532311236,
+      "unit": "cm"
+    },
+    "barcode": "9285609014162",
+    "upc": "097157472995",
+    "tags": [
+      "Desktop Computers",
+      "ASUS",
+      "Desktop"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-07-16T09:09:33.935Z",
+    "updatedAt": "2025-05-31T19:36:18.955Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ec3",
+    "sku": "APP-DESK-0048",
+    "name": "Apple Desktop Computers Model 13",
+    "description": "The Apple Desktop Computers Model 13 delivers professional-grade performance in a compact form factor. Features Intel Core i7 processor, 8GB memory, and 1TB. Whisper-quiet operation and efficient cooling ensure reliable performance during intensive workloads. Perfect for content creation, 3D rendering, and data analysis.",
+    "category": {
+      "id": "6880316114bfcd086db913f9",
+      "name": "Desktop Computers",
+      "path": "/electronics/computers-tablets/desktop-computers"
+    },
+    "brand": "Apple",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 511.09,
+      "price": 868.65,
+      "compareAtPrice": 1040.17,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 29,
+      "availableStock": 29,
+      "reservedStock": 0,
+      "incomingStock": 18,
+      "reorderPoint": 8,
+      "reorderQuantity": 15,
+      "minStockLevel": 3,
+      "stockValue": 14821.52,
+      "averageCost": 511.09,
+      "lastCostUpdate": "2025-07-20T02:40:56.578Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 5,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 5,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-APP-DESK-0049",
+        "cost": 486.29,
+        "leadTime": 13,
+        "minOrderQuantity": 25,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-APP-DESK-0050",
+        "cost": 463.15,
+        "leadTime": 14,
+        "minOrderQuantity": 17,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 12.67,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 38.90349939437648,
+      "width": 17.176078203579202,
+      "height": 22.040383465035774,
+      "unit": "cm"
+    },
+    "barcode": "6797118541172",
+    "upc": "905973986938",
+    "tags": [
+      "Desktop Computers",
+      "Apple",
+      "Desktop"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-04-28T20:24:55.400Z",
+    "updatedAt": "2025-06-18T17:05:21.441Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ec4",
+    "sku": "HP-DESK-0049",
+    "name": "HP Desktop Computers Model 14",
+    "description": "Power through demanding tasks with the HP Desktop Computers Model 14 desktop. Equipped with AMD Ryzen 7 processor, 32GB DDR5 RAM, and NVIDIA RTX 4070 graphics. The 256GB storage configuration provides speed and capacity. Extensive connectivity options and tool-free upgradability make this the ultimate workstation.",
+    "category": {
+      "id": "6880316114bfcd086db913f9",
+      "name": "Desktop Computers",
+      "path": "/electronics/computers-tablets/desktop-computers"
+    },
+    "brand": "HP",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 535.49,
+      "price": 806.93,
+      "compareAtPrice": 986.59,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 37,
+      "availableStock": 37,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 10,
+      "reorderQuantity": 19,
+      "minStockLevel": 4,
+      "stockValue": 19813.2,
+      "averageCost": 535.49,
+      "lastCostUpdate": "2025-07-04T04:47:39.212Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 7,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 7,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-HP-DESK-0050",
+        "cost": 503.45,
+        "leadTime": 3,
+        "minOrderQuantity": 10,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-HP-DESK-0051",
+        "cost": 490.04,
+        "leadTime": 3,
+        "minOrderQuantity": 12,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 14.05,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 15.897268641305953,
+      "width": 41.43207348822399,
+      "height": 25.650041564090365,
+      "unit": "cm"
+    },
+    "barcode": "8107197441392",
+    "upc": "330584488820",
+    "tags": [
+      "Desktop Computers",
+      "HP",
+      "Desktop"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-07-28T23:22:55.649Z",
+    "updatedAt": "2025-05-26T14:21:44.621Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ec5",
+    "sku": "LEN-DESK-0050",
+    "name": "Lenovo Desktop Computers Model 15",
+    "description": "Power through demanding tasks with the Lenovo Desktop Computers Model 15 desktop. Equipped with Intel Core i5 processor, 32GB DDR5 RAM, and NVIDIA RTX 4070 graphics. The 256GB storage configuration provides speed and capacity. Extensive connectivity options and tool-free upgradability make this the ultimate workstation.",
+    "category": {
+      "id": "6880316114bfcd086db913f9",
+      "name": "Desktop Computers",
+      "path": "/electronics/computers-tablets/desktop-computers"
+    },
+    "brand": "Lenovo",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 551.94,
+      "price": 879.19,
+      "compareAtPrice": 1032,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 39,
+      "availableStock": 39,
+      "reservedStock": 0,
+      "incomingStock": 39,
+      "reorderPoint": 10,
+      "reorderQuantity": 20,
+      "minStockLevel": 4,
+      "stockValue": 21525.59,
+      "averageCost": 551.94,
+      "lastCostUpdate": "2025-07-17T12:24:59.004Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 7,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 7,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-LEN-DESK-0051",
+        "cost": 497.42,
+        "leadTime": 7,
+        "minOrderQuantity": 14,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-LEN-DESK-0052",
+        "cost": 500.03,
+        "leadTime": 6,
+        "minOrderQuantity": 6,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 8.92,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 22.873513626561373,
+      "width": 36.47538225558695,
+      "height": 11.740298714233397,
+      "unit": "cm"
+    },
+    "barcode": "2617248700797",
+    "upc": "844549269125",
+    "tags": [
+      "Desktop Computers",
+      "Lenovo",
+      "Desktop"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-11-26T14:15:30.778Z",
+    "updatedAt": "2025-05-30T06:46:15.182Z"
+  }
+]

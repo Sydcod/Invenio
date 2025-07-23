@@ -1,0 +1,222 @@
+[
+  {
+    "_id": "68811caa975c12956e900ff2",
+    "sku": "GEN-PHOT-0351",
+    "name": "Generic Photography Accessories Model 14",
+    "description": "Discover excellence with the Generic Photography Accessories Model 14. Engineered with precision and built to last, this photography accessories product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140c",
+      "name": "Photography Accessories",
+      "path": "/electronics/cameras-photography/photography-accessories"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 562.85,
+      "price": 771.04,
+      "compareAtPrice": 866.44,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 26,
+      "availableStock": 26,
+      "reservedStock": 0,
+      "incomingStock": 17,
+      "reorderPoint": 7,
+      "reorderQuantity": 13,
+      "minStockLevel": 3,
+      "stockValue": 14634,
+      "averageCost": 562.85,
+      "lastCostUpdate": "2025-07-19T00:48:43.403Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 5,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 5,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-PHOT-0352",
+        "cost": 526.18,
+        "leadTime": 8,
+        "minOrderQuantity": 6,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-PHOT-0353",
+        "cost": 550.61,
+        "leadTime": 10,
+        "minOrderQuantity": 23,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.86,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 18.014933942021273,
+      "width": 25.456380881318744,
+      "height": 29.728697164208338,
+      "unit": "cm"
+    },
+    "barcode": "2264228998767",
+    "upc": "053811667127",
+    "tags": [
+      "Photography Accessories",
+      "Generic",
+      "Photography"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-06-19T23:05:59.937Z",
+    "updatedAt": "2025-04-25T15:51:44.887Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ff3",
+    "sku": "GEN-PHOT-0352",
+    "name": "Generic Photography Accessories Model 15",
+    "description": "Discover excellence with the Generic Photography Accessories Model 15. Engineered with precision and built to last, this photography accessories product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140c",
+      "name": "Photography Accessories",
+      "path": "/electronics/cameras-photography/photography-accessories"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 170.05,
+      "price": 297.42,
+      "compareAtPrice": 342.95,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 0,
+      "availableStock": 0,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 7,
+      "reorderQuantity": 13,
+      "minStockLevel": 3,
+      "stockValue": 4421.25,
+      "averageCost": 170.05,
+      "lastCostUpdate": "2025-06-26T14:10:40.718Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 5,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 5,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-PHOT-0353",
+        "cost": 160.28,
+        "leadTime": 7,
+        "minOrderQuantity": 11,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-PHOT-0354",
+        "cost": 161.99,
+        "leadTime": 14,
+        "minOrderQuantity": 6,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.23,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 32.07935929108982,
+      "width": 27.437089144621943,
+      "height": 22.411544511354915,
+      "unit": "cm"
+    },
+    "barcode": "1429871147842",
+    "upc": "796726159830",
+    "tags": [
+      "Photography Accessories",
+      "Generic",
+      "Photography"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-02-25T18:33:00.167Z",
+    "updatedAt": "2025-07-03T09:02:13.457Z"
+  }
+]

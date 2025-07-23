@@ -1,0 +1,5502 @@
+[
+  {
+    "_id": "68811caa975c12956e900f5c",
+    "sku": "GEN-SMAR-0201",
+    "name": "Generic Smart Climate Model 4",
+    "description": "Discover excellence with the Generic Smart Climate Model 4. Engineered with precision and built to last, this smart climate product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91402",
+      "name": "Smart Climate",
+      "path": "/electronics/smart-home/smart-climate"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 514.91,
+      "price": 695.16,
+      "compareAtPrice": 854.65,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 92,
+      "availableStock": 92,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 23,
+      "reorderQuantity": 46,
+      "minStockLevel": 10,
+      "stockValue": 47371.67,
+      "averageCost": 514.91,
+      "lastCostUpdate": "2025-06-30T03:29:35.109Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 18,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 18,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0202",
+        "cost": 472.53,
+        "leadTime": 12,
+        "minOrderQuantity": 11,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0203",
+        "cost": 487.84,
+        "leadTime": 10,
+        "minOrderQuantity": 11,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.77,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 26.561450992390554,
+      "width": 23.694182557816845,
+      "height": 26.49965188478051,
+      "unit": "cm"
+    },
+    "barcode": "4615413841703",
+    "upc": "856020156833",
+    "tags": [
+      "Smart Climate",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-01-23T04:33:55.519Z",
+    "updatedAt": "2025-07-10T15:33:48.841Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f5d",
+    "sku": "GEN-SMAR-0202",
+    "name": "Generic Smart Climate Model 5",
+    "description": "Discover excellence with the Generic Smart Climate Model 5. Engineered with precision and built to last, this smart climate product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91402",
+      "name": "Smart Climate",
+      "path": "/electronics/smart-home/smart-climate"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 387.07,
+      "price": 561.64,
+      "compareAtPrice": 636.92,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 57,
+      "availableStock": 57,
+      "reservedStock": 0,
+      "incomingStock": 40,
+      "reorderPoint": 15,
+      "reorderQuantity": 29,
+      "minStockLevel": 6,
+      "stockValue": 22062.78,
+      "averageCost": 387.07,
+      "lastCostUpdate": "2025-06-30T16:14:33.832Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 11,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 11,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0203",
+        "cost": 355.43,
+        "leadTime": 14,
+        "minOrderQuantity": 17,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0204",
+        "cost": 358.58,
+        "leadTime": 5,
+        "minOrderQuantity": 12,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.82,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 30.75093251732604,
+      "width": 36.980159164771216,
+      "height": 26.249668004881986,
+      "unit": "cm"
+    },
+    "barcode": "9916322457292",
+    "upc": "434353674204",
+    "tags": [
+      "Smart Climate",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-12-15T01:21:33.965Z",
+    "updatedAt": "2025-07-01T23:00:50.264Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f5e",
+    "sku": "GEN-SMAR-0203",
+    "name": "Generic Smart Climate Model 6",
+    "description": "Discover excellence with the Generic Smart Climate Model 6. Engineered with precision and built to last, this smart climate product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91402",
+      "name": "Smart Climate",
+      "path": "/electronics/smart-home/smart-climate"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "draft",
+    "pricing": {
+      "cost": 580.6,
+      "price": 952.15,
+      "compareAtPrice": 1112.07,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 80,
+      "availableStock": 80,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 20,
+      "reorderQuantity": 40,
+      "minStockLevel": 8,
+      "stockValue": 46447.86,
+      "averageCost": 580.6,
+      "lastCostUpdate": "2025-07-08T18:51:43.527Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 16,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 16,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0204",
+        "cost": 545.47,
+        "leadTime": 9,
+        "minOrderQuantity": 12,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0205",
+        "cost": 561.22,
+        "leadTime": 4,
+        "minOrderQuantity": 20,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.44,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 16.766997779038007,
+      "width": 48.267223444006994,
+      "height": 15.794174211071802,
+      "unit": "cm"
+    },
+    "barcode": "2469204280114",
+    "upc": "246692240547",
+    "tags": [
+      "Smart Climate",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-10-08T23:36:53.102Z",
+    "updatedAt": "2025-06-26T07:22:32.877Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f5f",
+    "sku": "GEN-SMAR-0204",
+    "name": "Generic Smart Climate Model 7",
+    "description": "Discover excellence with the Generic Smart Climate Model 7. Engineered with precision and built to last, this smart climate product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91402",
+      "name": "Smart Climate",
+      "path": "/electronics/smart-home/smart-climate"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 434.71,
+      "price": 600.8,
+      "compareAtPrice": 736.62,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 79,
+      "availableStock": 79,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 20,
+      "reorderQuantity": 40,
+      "minStockLevel": 8,
+      "stockValue": 34341.8,
+      "averageCost": 434.71,
+      "lastCostUpdate": "2025-07-05T00:52:35.033Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 15,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 15,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0205",
+        "cost": 411.98,
+        "leadTime": 9,
+        "minOrderQuantity": 9,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0206",
+        "cost": 395.22,
+        "leadTime": 4,
+        "minOrderQuantity": 17,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.33,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 24.621314569586747,
+      "width": 29.254833118679112,
+      "height": 10.089847587803675,
+      "unit": "cm"
+    },
+    "barcode": "1748792929706",
+    "upc": "624514125239",
+    "tags": [
+      "Smart Climate",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-12-22T03:49:26.898Z",
+    "updatedAt": "2025-06-13T11:09:49.715Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f60",
+    "sku": "GEN-SMAR-0205",
+    "name": "Generic Smart Climate Model 8",
+    "description": "Discover excellence with the Generic Smart Climate Model 8. Engineered with precision and built to last, this smart climate product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91402",
+      "name": "Smart Climate",
+      "path": "/electronics/smart-home/smart-climate"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 615.52,
+      "price": 945.47,
+      "compareAtPrice": 1121.13,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 77,
+      "availableStock": 77,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 20,
+      "reorderQuantity": 39,
+      "minStockLevel": 8,
+      "stockValue": 47395.02,
+      "averageCost": 615.52,
+      "lastCostUpdate": "2025-06-30T15:25:58.147Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 15,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 15,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0206",
+        "cost": 594.04,
+        "leadTime": 9,
+        "minOrderQuantity": 11,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0207",
+        "cost": 563.34,
+        "leadTime": 11,
+        "minOrderQuantity": 14,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.6,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 30.769707266534212,
+      "width": 24.04364517759501,
+      "height": 29.82561589650601,
+      "unit": "cm"
+    },
+    "barcode": "3821678764909",
+    "upc": "251921618213",
+    "tags": [
+      "Smart Climate",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-08-30T08:12:44.582Z",
+    "updatedAt": "2025-05-03T03:43:19.530Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f61",
+    "sku": "GEN-SMAR-0206",
+    "name": "Generic Smart Climate Model 9",
+    "description": "Discover excellence with the Generic Smart Climate Model 9. Engineered with precision and built to last, this smart climate product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91402",
+      "name": "Smart Climate",
+      "path": "/electronics/smart-home/smart-climate"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 408.08,
+      "price": 574.31,
+      "compareAtPrice": 636.26,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 90,
+      "availableStock": 90,
+      "reservedStock": 0,
+      "incomingStock": 18,
+      "reorderPoint": 23,
+      "reorderQuantity": 45,
+      "minStockLevel": 9,
+      "stockValue": 36726.78,
+      "averageCost": 408.08,
+      "lastCostUpdate": "2025-07-21T18:41:40.638Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 18,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 18,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0207",
+        "cost": 377.43,
+        "leadTime": 8,
+        "minOrderQuantity": 6,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0208",
+        "cost": 385.53,
+        "leadTime": 4,
+        "minOrderQuantity": 23,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.53,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 22.223253654470966,
+      "width": 35.9063257479812,
+      "height": 26.27969526678344,
+      "unit": "cm"
+    },
+    "barcode": "4859532106929",
+    "upc": "420327011150",
+    "tags": [
+      "Smart Climate",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-10-18T16:47:41.193Z",
+    "updatedAt": "2025-05-07T13:24:13.751Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f62",
+    "sku": "GEN-SMAR-0207",
+    "name": "Generic Smart Climate Model 10",
+    "description": "Discover excellence with the Generic Smart Climate Model 10. Engineered with precision and built to last, this smart climate product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91402",
+      "name": "Smart Climate",
+      "path": "/electronics/smart-home/smart-climate"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 585.7,
+      "price": 926.98,
+      "compareAtPrice": 1064.33,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 63,
+      "availableStock": 63,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 16,
+      "reorderQuantity": 32,
+      "minStockLevel": 7,
+      "stockValue": 36898.97,
+      "averageCost": 585.7,
+      "lastCostUpdate": "2025-07-07T19:09:00.339Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 12,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 12,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0208",
+        "cost": 563.75,
+        "leadTime": 9,
+        "minOrderQuantity": 5,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0209",
+        "cost": 533.47,
+        "leadTime": 3,
+        "minOrderQuantity": 25,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.64,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 15.101531106867583,
+      "width": 40.73633068102879,
+      "height": 19.279907843860084,
+      "unit": "cm"
+    },
+    "barcode": "9215321462984",
+    "upc": "187745126881",
+    "tags": [
+      "Smart Climate",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-03-05T00:44:16.531Z",
+    "updatedAt": "2025-07-06T10:20:12.316Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f63",
+    "sku": "GEN-SMAR-0208",
+    "name": "Generic Smart Climate Model 11",
+    "description": "Discover excellence with the Generic Smart Climate Model 11. Engineered with precision and built to last, this smart climate product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91402",
+      "name": "Smart Climate",
+      "path": "/electronics/smart-home/smart-climate"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 426.84,
+      "price": 689.59,
+      "compareAtPrice": 824.95,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 5,
+      "availableStock": 5,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 25,
+      "reorderQuantity": 50,
+      "minStockLevel": 10,
+      "stockValue": 42256.94,
+      "averageCost": 426.84,
+      "lastCostUpdate": "2025-07-03T03:56:33.919Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 19,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 19,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0209",
+        "cost": 397.05,
+        "leadTime": 6,
+        "minOrderQuantity": 11,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0210",
+        "cost": 408.61,
+        "leadTime": 12,
+        "minOrderQuantity": 24,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.56,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 23.117471273369933,
+      "width": 18.765347695190112,
+      "height": 16.313012139474807,
+      "unit": "cm"
+    },
+    "barcode": "5787090889477",
+    "upc": "924675748864",
+    "tags": [
+      "Smart Climate",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-10-06T08:21:20.362Z",
+    "updatedAt": "2025-07-05T06:24:52.855Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f64",
+    "sku": "GEN-SMAR-0209",
+    "name": "Generic Smart Climate Model 12",
+    "description": "Discover excellence with the Generic Smart Climate Model 12. Engineered with precision and built to last, this smart climate product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91402",
+      "name": "Smart Climate",
+      "path": "/electronics/smart-home/smart-climate"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 555.83,
+      "price": 931.29,
+      "compareAtPrice": 1027.68,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 69,
+      "availableStock": 69,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 18,
+      "reorderQuantity": 35,
+      "minStockLevel": 7,
+      "stockValue": 38352.32,
+      "averageCost": 555.83,
+      "lastCostUpdate": "2025-07-01T10:27:01.828Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 13,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 13,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0210",
+        "cost": 543.5,
+        "leadTime": 12,
+        "minOrderQuantity": 23,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0211",
+        "cost": 518.25,
+        "leadTime": 8,
+        "minOrderQuantity": 10,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.97,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 38.5141745275308,
+      "width": 47.032001663458466,
+      "height": 12.245793335365194,
+      "unit": "cm"
+    },
+    "barcode": "1103531325107",
+    "upc": "216358238439",
+    "tags": [
+      "Smart Climate",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-11-28T21:29:04.265Z",
+    "updatedAt": "2025-05-02T02:09:47.022Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f65",
+    "sku": "GEN-SMAR-0210",
+    "name": "Generic Smart Climate Model 13",
+    "description": "Discover excellence with the Generic Smart Climate Model 13. Engineered with precision and built to last, this smart climate product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91402",
+      "name": "Smart Climate",
+      "path": "/electronics/smart-home/smart-climate"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 156.28,
+      "price": 278.41,
+      "compareAtPrice": 345.76,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 80,
+      "availableStock": 80,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 20,
+      "reorderQuantity": 40,
+      "minStockLevel": 8,
+      "stockValue": 12502.1,
+      "averageCost": 156.28,
+      "lastCostUpdate": "2025-07-04T18:14:15.954Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 16,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 16,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0211",
+        "cost": 144.37,
+        "leadTime": 8,
+        "minOrderQuantity": 17,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0212",
+        "cost": 144.66,
+        "leadTime": 8,
+        "minOrderQuantity": 11,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.03,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 19.983160201967642,
+      "width": 18.938670412777512,
+      "height": 13.914905567008798,
+      "unit": "cm"
+    },
+    "barcode": "7912753460861",
+    "upc": "884614611571",
+    "tags": [
+      "Smart Climate",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-11-20T22:12:18.627Z",
+    "updatedAt": "2025-06-27T00:41:58.512Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f66",
+    "sku": "GEN-SMAR-0211",
+    "name": "Generic Smart Climate Model 14",
+    "description": "Discover excellence with the Generic Smart Climate Model 14. Engineered with precision and built to last, this smart climate product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91402",
+      "name": "Smart Climate",
+      "path": "/electronics/smart-home/smart-climate"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 336.5,
+      "price": 449.73,
+      "compareAtPrice": 556.91,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 4,
+      "availableStock": 4,
+      "reservedStock": 0,
+      "incomingStock": 31,
+      "reorderPoint": 11,
+      "reorderQuantity": 22,
+      "minStockLevel": 5,
+      "stockValue": 14469.29,
+      "averageCost": 336.5,
+      "lastCostUpdate": "2025-07-16T06:47:00.539Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 8,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 8,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0212",
+        "cost": 310.68,
+        "leadTime": 13,
+        "minOrderQuantity": 17,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0213",
+        "cost": 319.8,
+        "leadTime": 9,
+        "minOrderQuantity": 18,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.66,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 48.99010684730564,
+      "width": 42.75337632523574,
+      "height": 26.28593370255864,
+      "unit": "cm"
+    },
+    "barcode": "2567481756379",
+    "upc": "854887364991",
+    "tags": [
+      "Smart Climate",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-11-21T09:31:41.810Z",
+    "updatedAt": "2025-05-21T11:38:12.344Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f67",
+    "sku": "GEN-SMAR-0212",
+    "name": "Generic Smart Climate Model 15",
+    "description": "Discover excellence with the Generic Smart Climate Model 15. Engineered with precision and built to last, this smart climate product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91402",
+      "name": "Smart Climate",
+      "path": "/electronics/smart-home/smart-climate"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 129.55,
+      "price": 234.78,
+      "compareAtPrice": 269.63,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 0,
+      "availableStock": 0,
+      "reservedStock": 0,
+      "incomingStock": 34,
+      "reorderPoint": 8,
+      "reorderQuantity": 15,
+      "minStockLevel": 3,
+      "stockValue": 3757.05,
+      "averageCost": 129.55,
+      "lastCostUpdate": "2025-07-16T23:46:26.668Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 5,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 5,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0213",
+        "cost": 117.87,
+        "leadTime": 3,
+        "minOrderQuantity": 18,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0214",
+        "cost": 123.08,
+        "leadTime": 8,
+        "minOrderQuantity": 24,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.8,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 24.235065395027156,
+      "width": 13.260493358549258,
+      "height": 8.961488023441673,
+      "unit": "cm"
+    },
+    "barcode": "8230120899323",
+    "upc": "482739472039",
+    "tags": [
+      "Smart Climate",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-03-23T03:34:25.169Z",
+    "updatedAt": "2025-05-22T17:52:04.179Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f68",
+    "sku": "GEN-VOIC-0213",
+    "name": "Generic Voice Assistants Model 1",
+    "description": "Discover excellence with the Generic Voice Assistants Model 1. Engineered with precision and built to last, this voice assistants product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91403",
+      "name": "Voice Assistants",
+      "path": "/electronics/smart-home/voice-assistants"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 335.72,
+      "price": 537.86,
+      "compareAtPrice": 632.8,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 87,
+      "availableStock": 87,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 22,
+      "reorderQuantity": 44,
+      "minStockLevel": 9,
+      "stockValue": 29207.68,
+      "averageCost": 335.72,
+      "lastCostUpdate": "2025-07-13T08:55:47.750Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 17,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 17,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-VOIC-0214",
+        "cost": 309.71,
+        "leadTime": 13,
+        "minOrderQuantity": 8,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-VOIC-0215",
+        "cost": 305.89,
+        "leadTime": 7,
+        "minOrderQuantity": 5,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.66,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 38.55530892756322,
+      "width": 20.743444741954566,
+      "height": 10.708653258598336,
+      "unit": "cm"
+    },
+    "barcode": "6455915370381",
+    "upc": "760067282508",
+    "tags": [
+      "Voice Assistants",
+      "Generic",
+      "Voice"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-06-05T18:32:51.281Z",
+    "updatedAt": "2025-07-12T15:20:30.619Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f69",
+    "sku": "GEN-VOIC-0214",
+    "name": "Generic Voice Assistants Model 2",
+    "description": "Discover excellence with the Generic Voice Assistants Model 2. Engineered with precision and built to last, this voice assistants product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91403",
+      "name": "Voice Assistants",
+      "path": "/electronics/smart-home/voice-assistants"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 484.99,
+      "price": 775.67,
+      "compareAtPrice": 919.29,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 58,
+      "availableStock": 58,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 15,
+      "reorderQuantity": 29,
+      "minStockLevel": 6,
+      "stockValue": 28129.66,
+      "averageCost": 484.99,
+      "lastCostUpdate": "2025-07-14T14:07:29.178Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 11,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 11,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-VOIC-0215",
+        "cost": 467.89,
+        "leadTime": 12,
+        "minOrderQuantity": 18,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-VOIC-0216",
+        "cost": 469.72,
+        "leadTime": 7,
+        "minOrderQuantity": 5,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.54,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 19.476573951495734,
+      "width": 33.637401187165736,
+      "height": 26.729540355756367,
+      "unit": "cm"
+    },
+    "barcode": "3411555619651",
+    "upc": "514151517888",
+    "tags": [
+      "Voice Assistants",
+      "Generic",
+      "Voice"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-02-21T19:03:56.735Z",
+    "updatedAt": "2025-06-09T12:12:39.998Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f6a",
+    "sku": "GEN-VOIC-0215",
+    "name": "Generic Voice Assistants Model 3",
+    "description": "Discover excellence with the Generic Voice Assistants Model 3. Engineered with precision and built to last, this voice assistants product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91403",
+      "name": "Voice Assistants",
+      "path": "/electronics/smart-home/voice-assistants"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 292.82,
+      "price": 395.97,
+      "compareAtPrice": 486.08,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 23,
+      "availableStock": 23,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 6,
+      "reorderQuantity": 12,
+      "minStockLevel": 3,
+      "stockValue": 6734.92,
+      "averageCost": 292.82,
+      "lastCostUpdate": "2025-06-26T12:11:58.510Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 4,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 4,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-VOIC-0216",
+        "cost": 284.82,
+        "leadTime": 3,
+        "minOrderQuantity": 14,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-VOIC-0217",
+        "cost": 268.62,
+        "leadTime": 7,
+        "minOrderQuantity": 24,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.16,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 18.086195027096025,
+      "width": 25.967433994689515,
+      "height": 22.811002350400923,
+      "unit": "cm"
+    },
+    "barcode": "6690514992607",
+    "upc": "206217033656",
+    "tags": [
+      "Voice Assistants",
+      "Generic",
+      "Voice"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-12-30T11:10:51.110Z",
+    "updatedAt": "2025-05-05T21:09:15.013Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f6b",
+    "sku": "GEN-VOIC-0216",
+    "name": "Generic Voice Assistants Model 4",
+    "description": "Discover excellence with the Generic Voice Assistants Model 4. Engineered with precision and built to last, this voice assistants product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91403",
+      "name": "Voice Assistants",
+      "path": "/electronics/smart-home/voice-assistants"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 446.84,
+      "price": 749.67,
+      "compareAtPrice": 885.81,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 46,
+      "availableStock": 46,
+      "reservedStock": 0,
+      "incomingStock": 15,
+      "reorderPoint": 12,
+      "reorderQuantity": 23,
+      "minStockLevel": 5,
+      "stockValue": 20554.72,
+      "averageCost": 446.84,
+      "lastCostUpdate": "2025-07-09T18:32:30.579Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 9,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 9,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-VOIC-0217",
+        "cost": 405.28,
+        "leadTime": 7,
+        "minOrderQuantity": 6,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-VOIC-0218",
+        "cost": 416.05,
+        "leadTime": 3,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.29,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 15.466844505794626,
+      "width": 34.97984866878107,
+      "height": 17.90383953131792,
+      "unit": "cm"
+    },
+    "barcode": "3456297624655",
+    "upc": "693793344375",
+    "tags": [
+      "Voice Assistants",
+      "Generic",
+      "Voice"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-12-19T21:07:56.451Z",
+    "updatedAt": "2025-05-18T22:45:55.830Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f6c",
+    "sku": "GEN-VOIC-0217",
+    "name": "Generic Voice Assistants Model 5",
+    "description": "Discover excellence with the Generic Voice Assistants Model 5. Engineered with precision and built to last, this voice assistants product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91403",
+      "name": "Voice Assistants",
+      "path": "/electronics/smart-home/voice-assistants"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 292.15,
+      "price": 406.23,
+      "compareAtPrice": 467.86,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 76,
+      "availableStock": 76,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 19,
+      "reorderQuantity": 38,
+      "minStockLevel": 8,
+      "stockValue": 22203.14,
+      "averageCost": 292.15,
+      "lastCostUpdate": "2025-06-26T07:45:26.056Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 15,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 15,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-VOIC-0218",
+        "cost": 281.83,
+        "leadTime": 12,
+        "minOrderQuantity": 9,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-VOIC-0219",
+        "cost": 272.39,
+        "leadTime": 7,
+        "minOrderQuantity": 16,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.82,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 45.02022397041624,
+      "width": 20.729330238126447,
+      "height": 24.30623130370477,
+      "unit": "cm"
+    },
+    "barcode": "9920113393529",
+    "upc": "456686197946",
+    "tags": [
+      "Voice Assistants",
+      "Generic",
+      "Voice"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-12-06T16:02:50.640Z",
+    "updatedAt": "2025-05-04T22:23:57.986Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f6d",
+    "sku": "GEN-VOIC-0218",
+    "name": "Generic Voice Assistants Model 6",
+    "description": "Discover excellence with the Generic Voice Assistants Model 6. Engineered with precision and built to last, this voice assistants product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91403",
+      "name": "Voice Assistants",
+      "path": "/electronics/smart-home/voice-assistants"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 310.74,
+      "price": 551.47,
+      "compareAtPrice": 639.86,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 94,
+      "availableStock": 94,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 24,
+      "reorderQuantity": 47,
+      "minStockLevel": 10,
+      "stockValue": 29209.66,
+      "averageCost": 310.74,
+      "lastCostUpdate": "2025-06-24T22:31:25.108Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 18,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 18,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-VOIC-0219",
+        "cost": 304.26,
+        "leadTime": 5,
+        "minOrderQuantity": 15,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-VOIC-0220",
+        "cost": 292.78,
+        "leadTime": 6,
+        "minOrderQuantity": 25,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.82,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 11.513720056873854,
+      "width": 45.26612022063687,
+      "height": 15.437956155647157,
+      "unit": "cm"
+    },
+    "barcode": "7734433288033",
+    "upc": "007249184414",
+    "tags": [
+      "Voice Assistants",
+      "Generic",
+      "Voice"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-02-01T09:42:43.921Z",
+    "updatedAt": "2025-06-07T20:13:40.882Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f6e",
+    "sku": "GEN-VOIC-0219",
+    "name": "Generic Voice Assistants Model 7",
+    "description": "Discover excellence with the Generic Voice Assistants Model 7. Engineered with precision and built to last, this voice assistants product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91403",
+      "name": "Voice Assistants",
+      "path": "/electronics/smart-home/voice-assistants"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 129.76,
+      "price": 214.59,
+      "compareAtPrice": 237.15,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 98,
+      "availableStock": 98,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 25,
+      "reorderQuantity": 49,
+      "minStockLevel": 10,
+      "stockValue": 12716.18,
+      "averageCost": 129.76,
+      "lastCostUpdate": "2025-06-30T02:22:25.281Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 19,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 19,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-VOIC-0220",
+        "cost": 118.16,
+        "leadTime": 14,
+        "minOrderQuantity": 16,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-VOIC-0221",
+        "cost": 123.35,
+        "leadTime": 7,
+        "minOrderQuantity": 8,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.11,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 26.392394395977085,
+      "width": 14.152953763159243,
+      "height": 19.226815509528194,
+      "unit": "cm"
+    },
+    "barcode": "4978423439281",
+    "upc": "969336121444",
+    "tags": [
+      "Voice Assistants",
+      "Generic",
+      "Voice"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-07-21T00:38:44.483Z",
+    "updatedAt": "2025-06-25T00:02:28.179Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f6f",
+    "sku": "GEN-VOIC-0220",
+    "name": "Generic Voice Assistants Model 8",
+    "description": "Discover excellence with the Generic Voice Assistants Model 8. Engineered with precision and built to last, this voice assistants product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91403",
+      "name": "Voice Assistants",
+      "path": "/electronics/smart-home/voice-assistants"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 643.34,
+      "price": 930.56,
+      "compareAtPrice": 1129.11,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 30,
+      "availableStock": 30,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 8,
+      "reorderQuantity": 15,
+      "minStockLevel": 3,
+      "stockValue": 19300.32,
+      "averageCost": 643.34,
+      "lastCostUpdate": "2025-06-26T15:38:58.882Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 6,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 6,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-VOIC-0221",
+        "cost": 622.99,
+        "leadTime": 7,
+        "minOrderQuantity": 13,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-VOIC-0222",
+        "cost": 629.27,
+        "leadTime": 4,
+        "minOrderQuantity": 10,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.65,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 15.603203980468901,
+      "width": 42.4136266864241,
+      "height": 7.916339577650959,
+      "unit": "cm"
+    },
+    "barcode": "2301359062634",
+    "upc": "106260032979",
+    "tags": [
+      "Voice Assistants",
+      "Generic",
+      "Voice"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-05-06T00:07:09.565Z",
+    "updatedAt": "2025-04-25T10:13:55.530Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f70",
+    "sku": "GEN-VOIC-0221",
+    "name": "Generic Voice Assistants Model 9",
+    "description": "Discover excellence with the Generic Voice Assistants Model 9. Engineered with precision and built to last, this voice assistants product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91403",
+      "name": "Voice Assistants",
+      "path": "/electronics/smart-home/voice-assistants"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 650.61,
+      "price": 880.55,
+      "compareAtPrice": 1032.94,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 86,
+      "availableStock": 86,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 22,
+      "reorderQuantity": 43,
+      "minStockLevel": 9,
+      "stockValue": 55952.07,
+      "averageCost": 650.61,
+      "lastCostUpdate": "2025-07-08T09:23:50.262Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 17,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 17,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-VOIC-0222",
+        "cost": 602.25,
+        "leadTime": 8,
+        "minOrderQuantity": 24,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-VOIC-0223",
+        "cost": 598.75,
+        "leadTime": 3,
+        "minOrderQuantity": 23,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.47,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 31.81512413941838,
+      "width": 11.19851511997393,
+      "height": 22.449512176664232,
+      "unit": "cm"
+    },
+    "barcode": "1089113180326",
+    "upc": "081196266188",
+    "tags": [
+      "Voice Assistants",
+      "Generic",
+      "Voice"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-02-07T07:10:47.168Z",
+    "updatedAt": "2025-05-29T15:13:51.055Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f71",
+    "sku": "GEN-VOIC-0222",
+    "name": "Generic Voice Assistants Model 10",
+    "description": "Discover excellence with the Generic Voice Assistants Model 10. Engineered with precision and built to last, this voice assistants product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91403",
+      "name": "Voice Assistants",
+      "path": "/electronics/smart-home/voice-assistants"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 551.79,
+      "price": 993.46,
+      "compareAtPrice": 1174.81,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 57,
+      "availableStock": 57,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 15,
+      "reorderQuantity": 29,
+      "minStockLevel": 6,
+      "stockValue": 31452.25,
+      "averageCost": 551.79,
+      "lastCostUpdate": "2025-06-28T18:47:06.236Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 11,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 11,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-VOIC-0223",
+        "cost": 537.44,
+        "leadTime": 4,
+        "minOrderQuantity": 8,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-VOIC-0224",
+        "cost": 540.16,
+        "leadTime": 13,
+        "minOrderQuantity": 21,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.8,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 14.727781554338751,
+      "width": 28.134619899640512,
+      "height": 27.271991032565435,
+      "unit": "cm"
+    },
+    "barcode": "6362164017851",
+    "upc": "746480491803",
+    "tags": [
+      "Voice Assistants",
+      "Generic",
+      "Voice"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-02-19T14:57:57.716Z",
+    "updatedAt": "2025-05-28T06:02:51.316Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f72",
+    "sku": "GEN-VOIC-0223",
+    "name": "Generic Voice Assistants Model 11",
+    "description": "Discover excellence with the Generic Voice Assistants Model 11. Engineered with precision and built to last, this voice assistants product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91403",
+      "name": "Voice Assistants",
+      "path": "/electronics/smart-home/voice-assistants"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 328.21,
+      "price": 527.48,
+      "compareAtPrice": 596.74,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 32,
+      "availableStock": 32,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 8,
+      "reorderQuantity": 16,
+      "minStockLevel": 4,
+      "stockValue": 10502.77,
+      "averageCost": 328.21,
+      "lastCostUpdate": "2025-07-14T22:13:03.209Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 6,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 6,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-VOIC-0224",
+        "cost": 320.48,
+        "leadTime": 9,
+        "minOrderQuantity": 10,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-VOIC-0225",
+        "cost": 295.95,
+        "leadTime": 3,
+        "minOrderQuantity": 18,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.05,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 19.256886856698042,
+      "width": 42.81314481298833,
+      "height": 21.434143875473744,
+      "unit": "cm"
+    },
+    "barcode": "5395706806513",
+    "upc": "234170005647",
+    "tags": [
+      "Voice Assistants",
+      "Generic",
+      "Voice"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-03-23T14:39:14.860Z",
+    "updatedAt": "2025-07-03T03:34:17.013Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f73",
+    "sku": "GEN-VOIC-0224",
+    "name": "Generic Voice Assistants Model 12",
+    "description": "Discover excellence with the Generic Voice Assistants Model 12. Engineered with precision and built to last, this voice assistants product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91403",
+      "name": "Voice Assistants",
+      "path": "/electronics/smart-home/voice-assistants"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "draft",
+    "pricing": {
+      "cost": 469.12,
+      "price": 826.93,
+      "compareAtPrice": 1031.09,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 21,
+      "availableStock": 21,
+      "reservedStock": 0,
+      "incomingStock": 44,
+      "reorderPoint": 6,
+      "reorderQuantity": 11,
+      "minStockLevel": 3,
+      "stockValue": 9851.53,
+      "averageCost": 469.12,
+      "lastCostUpdate": "2025-07-12T09:24:45.107Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 4,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 4,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-VOIC-0225",
+        "cost": 429.98,
+        "leadTime": 3,
+        "minOrderQuantity": 12,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-VOIC-0226",
+        "cost": 440.67,
+        "leadTime": 10,
+        "minOrderQuantity": 9,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.59,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 40.22361948961887,
+      "width": 22.067028530441878,
+      "height": 25.553167476149564,
+      "unit": "cm"
+    },
+    "barcode": "0145884692773",
+    "upc": "999841923519",
+    "tags": [
+      "Voice Assistants",
+      "Generic",
+      "Voice"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-03-03T10:16:14.202Z",
+    "updatedAt": "2025-07-12T12:02:11.670Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f74",
+    "sku": "GEN-VOIC-0225",
+    "name": "Generic Voice Assistants Model 13",
+    "description": "Discover excellence with the Generic Voice Assistants Model 13. Engineered with precision and built to last, this voice assistants product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91403",
+      "name": "Voice Assistants",
+      "path": "/electronics/smart-home/voice-assistants"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 627.38,
+      "price": 880.07,
+      "compareAtPrice": 1021.11,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 86,
+      "availableStock": 86,
+      "reservedStock": 0,
+      "incomingStock": 34,
+      "reorderPoint": 22,
+      "reorderQuantity": 43,
+      "minStockLevel": 9,
+      "stockValue": 53954.5,
+      "averageCost": 627.38,
+      "lastCostUpdate": "2025-06-24T11:25:41.356Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 17,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 17,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-VOIC-0226",
+        "cost": 602.92,
+        "leadTime": 4,
+        "minOrderQuantity": 23,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-VOIC-0227",
+        "cost": 564.79,
+        "leadTime": 14,
+        "minOrderQuantity": 17,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.69,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 41.04352530978943,
+      "width": 25.80359864412329,
+      "height": 7.229962564187968,
+      "unit": "cm"
+    },
+    "barcode": "2136342693820",
+    "upc": "502050498874",
+    "tags": [
+      "Voice Assistants",
+      "Generic",
+      "Voice"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-12-07T02:02:33.555Z",
+    "updatedAt": "2025-05-22T16:35:53.105Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f75",
+    "sku": "GEN-VOIC-0226",
+    "name": "Generic Voice Assistants Model 14",
+    "description": "Discover excellence with the Generic Voice Assistants Model 14. Engineered with precision and built to last, this voice assistants product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91403",
+      "name": "Voice Assistants",
+      "path": "/electronics/smart-home/voice-assistants"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 342.21,
+      "price": 496.68,
+      "compareAtPrice": 563.4,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 28,
+      "availableStock": 28,
+      "reservedStock": 0,
+      "incomingStock": 23,
+      "reorderPoint": 7,
+      "reorderQuantity": 14,
+      "minStockLevel": 3,
+      "stockValue": 9581.87,
+      "averageCost": 342.21,
+      "lastCostUpdate": "2025-07-22T23:29:09.121Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 5,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 5,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-VOIC-0227",
+        "cost": 321.35,
+        "leadTime": 4,
+        "minOrderQuantity": 25,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-VOIC-0228",
+        "cost": 320,
+        "leadTime": 5,
+        "minOrderQuantity": 19,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.1,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 40.07397048063285,
+      "width": 25.49931570668758,
+      "height": 11.582034696714647,
+      "unit": "cm"
+    },
+    "barcode": "0022432349846",
+    "upc": "838336757497",
+    "tags": [
+      "Voice Assistants",
+      "Generic",
+      "Voice"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-05-08T07:39:46.391Z",
+    "updatedAt": "2025-05-26T15:20:26.795Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f76",
+    "sku": "GEN-VOIC-0227",
+    "name": "Generic Voice Assistants Model 15",
+    "description": "Discover excellence with the Generic Voice Assistants Model 15. Engineered with precision and built to last, this voice assistants product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91403",
+      "name": "Voice Assistants",
+      "path": "/electronics/smart-home/voice-assistants"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 412.98,
+      "price": 575.46,
+      "compareAtPrice": 660.62,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 26,
+      "availableStock": 26,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 7,
+      "reorderQuantity": 13,
+      "minStockLevel": 3,
+      "stockValue": 10737.55,
+      "averageCost": 412.98,
+      "lastCostUpdate": "2025-07-19T04:37:15.059Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 5,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 5,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-VOIC-0228",
+        "cost": 387.55,
+        "leadTime": 4,
+        "minOrderQuantity": 8,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-VOIC-0229",
+        "cost": 395.84,
+        "leadTime": 9,
+        "minOrderQuantity": 5,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.94,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 25.666833731153385,
+      "width": 39.090630661367584,
+      "height": 21.367852030178742,
+      "unit": "cm"
+    },
+    "barcode": "1391045464499",
+    "upc": "995188033545",
+    "tags": [
+      "Voice Assistants",
+      "Generic",
+      "Voice"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-09-24T20:58:33.760Z",
+    "updatedAt": "2025-05-17T07:26:35.795Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f77",
+    "sku": "SON-GAMI-0228",
+    "name": "Sony Gaming Consoles Model 1",
+    "description": "Discover excellence with the Sony Gaming Consoles Model 1. Engineered with precision and built to last, this gaming consoles product combines innovative features with reliable performance. Backed by Sony's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91404",
+      "name": "Gaming Consoles",
+      "path": "/electronics/gaming/gaming-consoles"
+    },
+    "brand": "Sony",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 497.8,
+      "price": 827.43,
+      "compareAtPrice": 1024.32,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 33,
+      "availableStock": 33,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 9,
+      "reorderQuantity": 17,
+      "minStockLevel": 4,
+      "stockValue": 16427.4,
+      "averageCost": 497.8,
+      "lastCostUpdate": "2025-07-23T08:53:01.350Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 6,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 6,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-SON-GAMI-0229",
+        "cost": 471.37,
+        "leadTime": 6,
+        "minOrderQuantity": 16,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-SON-GAMI-0230",
+        "cost": 487.59,
+        "leadTime": 6,
+        "minOrderQuantity": 19,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.26,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 38.23675010942588,
+      "width": 44.49126394753551,
+      "height": 25.86984664923716,
+      "unit": "cm"
+    },
+    "barcode": "3502125996013",
+    "upc": "983632933031",
+    "tags": [
+      "Gaming Consoles",
+      "Sony",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-06-12T17:31:48.099Z",
+    "updatedAt": "2025-07-06T09:01:29.968Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f78",
+    "sku": "SON-GAMI-0229",
+    "name": "Sony Gaming Consoles Model 2",
+    "description": "Discover excellence with the Sony Gaming Consoles Model 2. Engineered with precision and built to last, this gaming consoles product combines innovative features with reliable performance. Backed by Sony's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91404",
+      "name": "Gaming Consoles",
+      "path": "/electronics/gaming/gaming-consoles"
+    },
+    "brand": "Sony",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 289.29,
+      "price": 431.11,
+      "compareAtPrice": 538.43,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 3,
+      "availableStock": 3,
+      "reservedStock": 0,
+      "incomingStock": 13,
+      "reorderPoint": 12,
+      "reorderQuantity": 24,
+      "minStockLevel": 5,
+      "stockValue": 13596.8,
+      "averageCost": 289.29,
+      "lastCostUpdate": "2025-07-08T15:46:29.045Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 9,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 9,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-SON-GAMI-0230",
+        "cost": 264.74,
+        "leadTime": 6,
+        "minOrderQuantity": 12,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-SON-GAMI-0231",
+        "cost": 281.94,
+        "leadTime": 9,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 41.81413415929389,
+      "width": 46.87873918069628,
+      "height": 27.8104744298676,
+      "unit": "cm"
+    },
+    "barcode": "0706915757600",
+    "upc": "087656222838",
+    "tags": [
+      "Gaming Consoles",
+      "Sony",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-04-17T13:22:11.835Z",
+    "updatedAt": "2025-06-05T20:14:06.391Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f79",
+    "sku": "SON-GAMI-0230",
+    "name": "Sony Gaming Consoles Model 3",
+    "description": "Discover excellence with the Sony Gaming Consoles Model 3. Engineered with precision and built to last, this gaming consoles product combines innovative features with reliable performance. Backed by Sony's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91404",
+      "name": "Gaming Consoles",
+      "path": "/electronics/gaming/gaming-consoles"
+    },
+    "brand": "Sony",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 124.95,
+      "price": 217.23,
+      "compareAtPrice": 241.36,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 64,
+      "availableStock": 64,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 16,
+      "reorderQuantity": 32,
+      "minStockLevel": 7,
+      "stockValue": 7996.59,
+      "averageCost": 124.95,
+      "lastCostUpdate": "2025-06-29T09:55:17.044Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 12,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 12,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-SON-GAMI-0231",
+        "cost": 112.83,
+        "leadTime": 5,
+        "minOrderQuantity": 13,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-SON-GAMI-0232",
+        "cost": 116.62,
+        "leadTime": 8,
+        "minOrderQuantity": 24,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.58,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 22.032518719820118,
+      "width": 42.703576364016435,
+      "height": 5.8450211251597946,
+      "unit": "cm"
+    },
+    "barcode": "2373758508519",
+    "upc": "371581469419",
+    "tags": [
+      "Gaming Consoles",
+      "Sony",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-04-03T09:09:38.270Z",
+    "updatedAt": "2025-06-15T16:29:03.540Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f7a",
+    "sku": "NIN-GAMI-0231",
+    "name": "Nintendo Gaming Consoles Model 4",
+    "description": "Discover excellence with the Nintendo Gaming Consoles Model 4. Engineered with precision and built to last, this gaming consoles product combines innovative features with reliable performance. Backed by Nintendo's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91404",
+      "name": "Gaming Consoles",
+      "path": "/electronics/gaming/gaming-consoles"
+    },
+    "brand": "Nintendo",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 347.25,
+      "price": 620.54,
+      "compareAtPrice": 737.74,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 0,
+      "availableStock": 0,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 24,
+      "reorderQuantity": 48,
+      "minStockLevel": 10,
+      "stockValue": 32988.9,
+      "averageCost": 347.25,
+      "lastCostUpdate": "2025-07-02T03:14:45.493Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 19,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 19,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-NIN-GAMI-0232",
+        "cost": 319.35,
+        "leadTime": 12,
+        "minOrderQuantity": 5,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-NIN-GAMI-0233",
+        "cost": 339.02,
+        "leadTime": 4,
+        "minOrderQuantity": 14,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.59,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 41.535791808978374,
+      "width": 23.951431170425288,
+      "height": 25.92580709223345,
+      "unit": "cm"
+    },
+    "barcode": "5318233654399",
+    "upc": "148195300305",
+    "tags": [
+      "Gaming Consoles",
+      "Nintendo",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-02-22T16:49:39.081Z",
+    "updatedAt": "2025-07-23T01:05:14.466Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f7b",
+    "sku": "NIN-GAMI-0232",
+    "name": "Nintendo Gaming Consoles Model 5",
+    "description": "Discover excellence with the Nintendo Gaming Consoles Model 5. Engineered with precision and built to last, this gaming consoles product combines innovative features with reliable performance. Backed by Nintendo's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91404",
+      "name": "Gaming Consoles",
+      "path": "/electronics/gaming/gaming-consoles"
+    },
+    "brand": "Nintendo",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 565.7,
+      "price": 951.61,
+      "compareAtPrice": 1144.18,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 37,
+      "availableStock": 37,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 10,
+      "reorderQuantity": 19,
+      "minStockLevel": 4,
+      "stockValue": 20930.76,
+      "averageCost": 565.7,
+      "lastCostUpdate": "2025-07-13T22:49:03.838Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 7,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 7,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-NIN-GAMI-0233",
+        "cost": 510.85,
+        "leadTime": 7,
+        "minOrderQuantity": 23,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-NIN-GAMI-0234",
+        "cost": 540.73,
+        "leadTime": 13,
+        "minOrderQuantity": 25,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.69,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 20.459050443935904,
+      "width": 48.31396484429531,
+      "height": 12.319755881832823,
+      "unit": "cm"
+    },
+    "barcode": "1679522009239",
+    "upc": "744449664559",
+    "tags": [
+      "Gaming Consoles",
+      "Nintendo",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-03-14T21:19:29.329Z",
+    "updatedAt": "2025-05-04T23:37:58.738Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f7c",
+    "sku": "SON-GAMI-0233",
+    "name": "Sony Gaming Consoles Model 6",
+    "description": "Discover excellence with the Sony Gaming Consoles Model 6. Engineered with precision and built to last, this gaming consoles product combines innovative features with reliable performance. Backed by Sony's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91404",
+      "name": "Gaming Consoles",
+      "path": "/electronics/gaming/gaming-consoles"
+    },
+    "brand": "Sony",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 617.32,
+      "price": 849.25,
+      "compareAtPrice": 1056.35,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 93,
+      "availableStock": 93,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 24,
+      "reorderQuantity": 47,
+      "minStockLevel": 10,
+      "stockValue": 57411.16,
+      "averageCost": 617.32,
+      "lastCostUpdate": "2025-07-18T22:14:36.029Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 18,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 18,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-SON-GAMI-0234",
+        "cost": 598.85,
+        "leadTime": 12,
+        "minOrderQuantity": 11,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-SON-GAMI-0235",
+        "cost": 590.82,
+        "leadTime": 9,
+        "minOrderQuantity": 9,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.06,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 31.877109490981354,
+      "width": 26.116196784238014,
+      "height": 23.377016060242095,
+      "unit": "cm"
+    },
+    "barcode": "1683856143940",
+    "upc": "733738638865",
+    "tags": [
+      "Gaming Consoles",
+      "Sony",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-04-13T13:59:58.563Z",
+    "updatedAt": "2025-06-19T10:55:12.379Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f7d",
+    "sku": "SON-GAMI-0234",
+    "name": "Sony Gaming Consoles Model 7",
+    "description": "Discover excellence with the Sony Gaming Consoles Model 7. Engineered with precision and built to last, this gaming consoles product combines innovative features with reliable performance. Backed by Sony's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91404",
+      "name": "Gaming Consoles",
+      "path": "/electronics/gaming/gaming-consoles"
+    },
+    "brand": "Sony",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 414.65,
+      "price": 646.34,
+      "compareAtPrice": 745.38,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 50,
+      "availableStock": 50,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 13,
+      "reorderQuantity": 25,
+      "minStockLevel": 5,
+      "stockValue": 20732.65,
+      "averageCost": 414.65,
+      "lastCostUpdate": "2025-07-10T23:00:44.398Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 10,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 10,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-SON-GAMI-0235",
+        "cost": 386.88,
+        "leadTime": 12,
+        "minOrderQuantity": 14,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-SON-GAMI-0236",
+        "cost": 404.43,
+        "leadTime": 14,
+        "minOrderQuantity": 12,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.07,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 23.90285615986901,
+      "width": 26.959441204401795,
+      "height": 6.1421045768059574,
+      "unit": "cm"
+    },
+    "barcode": "6963514723500",
+    "upc": "778320609730",
+    "tags": [
+      "Gaming Consoles",
+      "Sony",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-03-20T13:44:15.683Z",
+    "updatedAt": "2025-05-26T23:45:35.501Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f7e",
+    "sku": "MIC-GAMI-0235",
+    "name": "Microsoft Gaming Consoles Model 8",
+    "description": "Discover excellence with the Microsoft Gaming Consoles Model 8. Engineered with precision and built to last, this gaming consoles product combines innovative features with reliable performance. Backed by Microsoft's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91404",
+      "name": "Gaming Consoles",
+      "path": "/electronics/gaming/gaming-consoles"
+    },
+    "brand": "Microsoft",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 165.09,
+      "price": 253.17,
+      "compareAtPrice": 307.01,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 78,
+      "availableStock": 78,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 20,
+      "reorderQuantity": 39,
+      "minStockLevel": 8,
+      "stockValue": 12877.16,
+      "averageCost": 165.09,
+      "lastCostUpdate": "2025-07-08T03:14:23.081Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 15,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 15,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-MIC-GAMI-0236",
+        "cost": 153.29,
+        "leadTime": 3,
+        "minOrderQuantity": 10,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-MIC-GAMI-0237",
+        "cost": 159.04,
+        "leadTime": 9,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.72,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 31.36538275404577,
+      "width": 13.655958567495077,
+      "height": 25.99401179925556,
+      "unit": "cm"
+    },
+    "barcode": "9291692400222",
+    "upc": "658256812016",
+    "tags": [
+      "Gaming Consoles",
+      "Microsoft",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-07-16T05:36:42.972Z",
+    "updatedAt": "2025-04-26T11:50:02.919Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f7f",
+    "sku": "SON-GAMI-0236",
+    "name": "Sony Gaming Consoles Model 9",
+    "description": "Discover excellence with the Sony Gaming Consoles Model 9. Engineered with precision and built to last, this gaming consoles product combines innovative features with reliable performance. Backed by Sony's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91404",
+      "name": "Gaming Consoles",
+      "path": "/electronics/gaming/gaming-consoles"
+    },
+    "brand": "Sony",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 200.2,
+      "price": 300,
+      "compareAtPrice": 372.34,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 26,
+      "availableStock": 26,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 7,
+      "reorderQuantity": 13,
+      "minStockLevel": 3,
+      "stockValue": 5205.28,
+      "averageCost": 200.2,
+      "lastCostUpdate": "2025-07-14T21:21:03.477Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 5,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 5,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-SON-GAMI-0237",
+        "cost": 181.34,
+        "leadTime": 9,
+        "minOrderQuantity": 16,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-SON-GAMI-0238",
+        "cost": 195.56,
+        "leadTime": 5,
+        "minOrderQuantity": 12,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.25,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 39.21371407597135,
+      "width": 20.956170845441193,
+      "height": 9.932593027570416,
+      "unit": "cm"
+    },
+    "barcode": "1275507666924",
+    "upc": "369369671873",
+    "tags": [
+      "Gaming Consoles",
+      "Sony",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-09-10T14:39:44.188Z",
+    "updatedAt": "2025-07-03T04:20:57.043Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f80",
+    "sku": "SON-GAMI-0237",
+    "name": "Sony Gaming Consoles Model 10",
+    "description": "Discover excellence with the Sony Gaming Consoles Model 10. Engineered with precision and built to last, this gaming consoles product combines innovative features with reliable performance. Backed by Sony's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91404",
+      "name": "Gaming Consoles",
+      "path": "/electronics/gaming/gaming-consoles"
+    },
+    "brand": "Sony",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 262.87,
+      "price": 420.7,
+      "compareAtPrice": 525.13,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 41,
+      "availableStock": 41,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 11,
+      "reorderQuantity": 21,
+      "minStockLevel": 5,
+      "stockValue": 10777.75,
+      "averageCost": 262.87,
+      "lastCostUpdate": "2025-06-27T04:58:28.009Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 8,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 8,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-SON-GAMI-0238",
+        "cost": 253.25,
+        "leadTime": 7,
+        "minOrderQuantity": 9,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-SON-GAMI-0239",
+        "cost": 253.63,
+        "leadTime": 12,
+        "minOrderQuantity": 9,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.96,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 19.18618638590527,
+      "width": 25.51327486497028,
+      "height": 18.521659500552197,
+      "unit": "cm"
+    },
+    "barcode": "3520745697378",
+    "upc": "836767912250",
+    "tags": [
+      "Gaming Consoles",
+      "Sony",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-08-26T01:58:37.099Z",
+    "updatedAt": "2025-05-30T18:12:26.325Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f81",
+    "sku": "HP -GAMI-0238",
+    "name": "HP Omen Gaming PCs Model 1",
+    "description": "Discover excellence with the HP Omen Gaming PCs Model 1. Engineered with precision and built to last, this gaming pcs product combines innovative features with reliable performance. Backed by HP Omen's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91405",
+      "name": "Gaming PCs",
+      "path": "/electronics/gaming/gaming-pcs"
+    },
+    "brand": "HP Omen",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 616.97,
+      "price": 972.45,
+      "compareAtPrice": 1115.93,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 71,
+      "availableStock": 71,
+      "reservedStock": 0,
+      "incomingStock": 34,
+      "reorderPoint": 18,
+      "reorderQuantity": 36,
+      "minStockLevel": 8,
+      "stockValue": 43804.8,
+      "averageCost": 616.97,
+      "lastCostUpdate": "2025-07-15T04:31:27.886Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 14,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 14,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-HP -GAMI-0239",
+        "cost": 591.84,
+        "leadTime": 12,
+        "minOrderQuantity": 24,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-HP -GAMI-0240",
+        "cost": 560,
+        "leadTime": 5,
+        "minOrderQuantity": 8,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.47,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 32.90895914488359,
+      "width": 30.58422112475425,
+      "height": 24.059056432288187,
+      "unit": "cm"
+    },
+    "barcode": "7266033902495",
+    "upc": "435700173513",
+    "tags": [
+      "Gaming PCs",
+      "HP Omen",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-12-25T08:29:46.384Z",
+    "updatedAt": "2025-07-23T11:31:42.803Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f82",
+    "sku": "ASU-GAMI-0239",
+    "name": "ASUS ROG Gaming PCs Model 2",
+    "description": "Discover excellence with the ASUS ROG Gaming PCs Model 2. Engineered with precision and built to last, this gaming pcs product combines innovative features with reliable performance. Backed by ASUS ROG's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91405",
+      "name": "Gaming PCs",
+      "path": "/electronics/gaming/gaming-pcs"
+    },
+    "brand": "ASUS ROG",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 533.31,
+      "price": 868.63,
+      "compareAtPrice": 1033.56,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 77,
+      "availableStock": 77,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 20,
+      "reorderQuantity": 39,
+      "minStockLevel": 8,
+      "stockValue": 41064.66,
+      "averageCost": 533.31,
+      "lastCostUpdate": "2025-07-23T06:20:22.179Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 15,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 15,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-ASU-GAMI-0240",
+        "cost": 514.28,
+        "leadTime": 12,
+        "minOrderQuantity": 10,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-ASU-GAMI-0241",
+        "cost": 496.12,
+        "leadTime": 4,
+        "minOrderQuantity": 15,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.29,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 11.26311896349225,
+      "width": 10.44806735008029,
+      "height": 12.690550546835382,
+      "unit": "cm"
+    },
+    "barcode": "9651160552996",
+    "upc": "462239246399",
+    "tags": [
+      "Gaming PCs",
+      "ASUS ROG",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-02-14T19:46:32.195Z",
+    "updatedAt": "2025-06-21T22:35:13.010Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f83",
+    "sku": "ALI-GAMI-0240",
+    "name": "Alienware Gaming PCs Model 3",
+    "description": "Discover excellence with the Alienware Gaming PCs Model 3. Engineered with precision and built to last, this gaming pcs product combines innovative features with reliable performance. Backed by Alienware's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91405",
+      "name": "Gaming PCs",
+      "path": "/electronics/gaming/gaming-pcs"
+    },
+    "brand": "Alienware",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 696.38,
+      "price": 940.26,
+      "compareAtPrice": 1118.85,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 21,
+      "availableStock": 21,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 6,
+      "reorderQuantity": 11,
+      "minStockLevel": 3,
+      "stockValue": 14624.08,
+      "averageCost": 696.38,
+      "lastCostUpdate": "2025-07-13T20:41:01.421Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 4,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 4,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-ALI-GAMI-0241",
+        "cost": 637.64,
+        "leadTime": 12,
+        "minOrderQuantity": 25,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-ALI-GAMI-0242",
+        "cost": 662.52,
+        "leadTime": 7,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.55,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 30.54479095045935,
+      "width": 29.385454344094143,
+      "height": 13.722595839561226,
+      "unit": "cm"
+    },
+    "barcode": "2164649277706",
+    "upc": "591284157919",
+    "tags": [
+      "Gaming PCs",
+      "Alienware",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-10-06T20:58:49.331Z",
+    "updatedAt": "2025-04-29T03:21:29.485Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f84",
+    "sku": "ASU-GAMI-0241",
+    "name": "ASUS ROG Gaming PCs Model 4",
+    "description": "Discover excellence with the ASUS ROG Gaming PCs Model 4. Engineered with precision and built to last, this gaming pcs product combines innovative features with reliable performance. Backed by ASUS ROG's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91405",
+      "name": "Gaming PCs",
+      "path": "/electronics/gaming/gaming-pcs"
+    },
+    "brand": "ASUS ROG",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 663.92,
+      "price": 947.31,
+      "compareAtPrice": 1088.36,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 28,
+      "availableStock": 28,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 7,
+      "reorderQuantity": 14,
+      "minStockLevel": 3,
+      "stockValue": 18589.68,
+      "averageCost": 663.92,
+      "lastCostUpdate": "2025-07-02T09:07:36.712Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 5,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 5,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-ASU-GAMI-0242",
+        "cost": 601.3,
+        "leadTime": 8,
+        "minOrderQuantity": 21,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-ASU-GAMI-0243",
+        "cost": 634.89,
+        "leadTime": 4,
+        "minOrderQuantity": 10,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.33,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 28.97686304282572,
+      "width": 24.86924315514056,
+      "height": 17.13395246488398,
+      "unit": "cm"
+    },
+    "barcode": "6269742726291",
+    "upc": "689671014688",
+    "tags": [
+      "Gaming PCs",
+      "ASUS ROG",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-07-27T14:57:04.146Z",
+    "updatedAt": "2025-05-08T08:31:04.837Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f85",
+    "sku": "ASU-GAMI-0242",
+    "name": "ASUS ROG Gaming PCs Model 5",
+    "description": "Discover excellence with the ASUS ROG Gaming PCs Model 5. Engineered with precision and built to last, this gaming pcs product combines innovative features with reliable performance. Backed by ASUS ROG's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91405",
+      "name": "Gaming PCs",
+      "path": "/electronics/gaming/gaming-pcs"
+    },
+    "brand": "ASUS ROG",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 436.57,
+      "price": 630.24,
+      "compareAtPrice": 765.8,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 76,
+      "availableStock": 76,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 19,
+      "reorderQuantity": 38,
+      "minStockLevel": 8,
+      "stockValue": 33179.14,
+      "averageCost": 436.57,
+      "lastCostUpdate": "2025-07-07T05:18:08.921Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 15,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 15,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-ASU-GAMI-0243",
+        "cost": 415.65,
+        "leadTime": 12,
+        "minOrderQuantity": 18,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-ASU-GAMI-0244",
+        "cost": 409.02,
+        "leadTime": 9,
+        "minOrderQuantity": 21,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.42,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 40.111782314786346,
+      "width": 35.56021499120811,
+      "height": 6.345094799765345,
+      "unit": "cm"
+    },
+    "barcode": "5274340041087",
+    "upc": "259431596183",
+    "tags": [
+      "Gaming PCs",
+      "ASUS ROG",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-11-26T20:13:47.822Z",
+    "updatedAt": "2025-04-29T08:54:07.305Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f86",
+    "sku": "COR-GAMI-0243",
+    "name": "Corsair Gaming PCs Model 6",
+    "description": "Discover excellence with the Corsair Gaming PCs Model 6. Engineered with precision and built to last, this gaming pcs product combines innovative features with reliable performance. Backed by Corsair's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91405",
+      "name": "Gaming PCs",
+      "path": "/electronics/gaming/gaming-pcs"
+    },
+    "brand": "Corsair",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 268.57,
+      "price": 418.57,
+      "compareAtPrice": 518.11,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 40,
+      "availableStock": 40,
+      "reservedStock": 0,
+      "incomingStock": 50,
+      "reorderPoint": 10,
+      "reorderQuantity": 20,
+      "minStockLevel": 4,
+      "stockValue": 10742.95,
+      "averageCost": 268.57,
+      "lastCostUpdate": "2025-07-05T06:56:01.296Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 8,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 8,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-COR-GAMI-0244",
+        "cost": 255.91,
+        "leadTime": 14,
+        "minOrderQuantity": 13,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-COR-GAMI-0245",
+        "cost": 244.61,
+        "leadTime": 6,
+        "minOrderQuantity": 21,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.97,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 43.09412653915606,
+      "width": 45.48663526075392,
+      "height": 26.14104217084072,
+      "unit": "cm"
+    },
+    "barcode": "8737393042282",
+    "upc": "326357944827",
+    "tags": [
+      "Gaming PCs",
+      "Corsair",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-05-08T18:37:06.539Z",
+    "updatedAt": "2025-05-06T17:48:33.227Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f87",
+    "sku": "HP -GAMI-0244",
+    "name": "HP Omen Gaming PCs Model 7",
+    "description": "Discover excellence with the HP Omen Gaming PCs Model 7. Engineered with precision and built to last, this gaming pcs product combines innovative features with reliable performance. Backed by HP Omen's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91405",
+      "name": "Gaming PCs",
+      "path": "/electronics/gaming/gaming-pcs"
+    },
+    "brand": "HP Omen",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 327.69,
+      "price": 516.41,
+      "compareAtPrice": 569.12,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 21,
+      "availableStock": 21,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 6,
+      "reorderQuantity": 11,
+      "minStockLevel": 3,
+      "stockValue": 6881.48,
+      "averageCost": 327.69,
+      "lastCostUpdate": "2025-07-22T21:12:27.118Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 4,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 4,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-HP -GAMI-0245",
+        "cost": 310.19,
+        "leadTime": 5,
+        "minOrderQuantity": 5,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-HP -GAMI-0246",
+        "cost": 305.5,
+        "leadTime": 7,
+        "minOrderQuantity": 25,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.16,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 45.924774700297355,
+      "width": 40.95033415915,
+      "height": 7.727410265068647,
+      "unit": "cm"
+    },
+    "barcode": "0883660793214",
+    "upc": "768398497888",
+    "tags": [
+      "Gaming PCs",
+      "HP Omen",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-08-10T20:42:06.500Z",
+    "updatedAt": "2025-05-19T23:55:48.734Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f88",
+    "sku": "MSI-GAMI-0245",
+    "name": "MSI Gaming Gaming PCs Model 8",
+    "description": "Discover excellence with the MSI Gaming Gaming PCs Model 8. Engineered with precision and built to last, this gaming pcs product combines innovative features with reliable performance. Backed by MSI Gaming's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91405",
+      "name": "Gaming PCs",
+      "path": "/electronics/gaming/gaming-pcs"
+    },
+    "brand": "MSI Gaming",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 598.49,
+      "price": 980.24,
+      "compareAtPrice": 1108.53,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 66,
+      "availableStock": 66,
+      "reservedStock": 0,
+      "incomingStock": 15,
+      "reorderPoint": 17,
+      "reorderQuantity": 33,
+      "minStockLevel": 7,
+      "stockValue": 39500.14,
+      "averageCost": 598.49,
+      "lastCostUpdate": "2025-07-02T20:52:39.723Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 13,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 13,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-MSI-GAMI-0246",
+        "cost": 549.26,
+        "leadTime": 12,
+        "minOrderQuantity": 16,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-MSI-GAMI-0247",
+        "cost": 585.06,
+        "leadTime": 10,
+        "minOrderQuantity": 17,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.33,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 34.72555016144682,
+      "width": 19.62315427818102,
+      "height": 29.670038783196595,
+      "unit": "cm"
+    },
+    "barcode": "8547329324247",
+    "upc": "724806934812",
+    "tags": [
+      "Gaming PCs",
+      "MSI Gaming",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-05-23T03:28:09.162Z",
+    "updatedAt": "2025-06-11T23:22:48.375Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f89",
+    "sku": "MSI-GAMI-0246",
+    "name": "MSI Gaming Gaming PCs Model 9",
+    "description": "Discover excellence with the MSI Gaming Gaming PCs Model 9. Engineered with precision and built to last, this gaming pcs product combines innovative features with reliable performance. Backed by MSI Gaming's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91405",
+      "name": "Gaming PCs",
+      "path": "/electronics/gaming/gaming-pcs"
+    },
+    "brand": "MSI Gaming",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 171.99,
+      "price": 269.56,
+      "compareAtPrice": 303.41,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 5,
+      "availableStock": 5,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 13,
+      "reorderQuantity": 26,
+      "minStockLevel": 6,
+      "stockValue": 8771.68,
+      "averageCost": 171.99,
+      "lastCostUpdate": "2025-07-10T12:57:43.471Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 10,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 10,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-MSI-GAMI-0247",
+        "cost": 165.11,
+        "leadTime": 6,
+        "minOrderQuantity": 17,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-MSI-GAMI-0248",
+        "cost": 159.51,
+        "leadTime": 8,
+        "minOrderQuantity": 16,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.79,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 24.096172977393174,
+      "width": 40.964481731250594,
+      "height": 13.176875154939154,
+      "unit": "cm"
+    },
+    "barcode": "6826010426746",
+    "upc": "461905778881",
+    "tags": [
+      "Gaming PCs",
+      "MSI Gaming",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-01-04T23:56:36.608Z",
+    "updatedAt": "2025-05-07T03:13:51.665Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f8a",
+    "sku": "HP -GAMI-0247",
+    "name": "HP Omen Gaming PCs Model 10",
+    "description": "Discover excellence with the HP Omen Gaming PCs Model 10. Engineered with precision and built to last, this gaming pcs product combines innovative features with reliable performance. Backed by HP Omen's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91405",
+      "name": "Gaming PCs",
+      "path": "/electronics/gaming/gaming-pcs"
+    },
+    "brand": "HP Omen",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 143.05,
+      "price": 252.09,
+      "compareAtPrice": 310.33,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 63,
+      "availableStock": 63,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 16,
+      "reorderQuantity": 32,
+      "minStockLevel": 7,
+      "stockValue": 9012.02,
+      "averageCost": 143.05,
+      "lastCostUpdate": "2025-07-06T03:38:00.281Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 12,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 12,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-HP -GAMI-0248",
+        "cost": 131.8,
+        "leadTime": 4,
+        "minOrderQuantity": 23,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-HP -GAMI-0249",
+        "cost": 129.75,
+        "leadTime": 12,
+        "minOrderQuantity": 19,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.96,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 22.953382959074222,
+      "width": 16.599991111177754,
+      "height": 26.783241445086233,
+      "unit": "cm"
+    },
+    "barcode": "3435985407322",
+    "upc": "053084157858",
+    "tags": [
+      "Gaming PCs",
+      "HP Omen",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-05-16T20:06:28.922Z",
+    "updatedAt": "2025-05-30T14:19:41.965Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f8b",
+    "sku": "GEN-GAMI-0248",
+    "name": "Generic Gaming Accessories Model 1",
+    "description": "Discover excellence with the Generic Gaming Accessories Model 1. Engineered with precision and built to last, this gaming accessories product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91406",
+      "name": "Gaming Accessories",
+      "path": "/electronics/gaming/gaming-accessories"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 290.28,
+      "price": 402.12,
+      "compareAtPrice": 451.54,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 5,
+      "availableStock": 5,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 25,
+      "reorderQuantity": 50,
+      "minStockLevel": 10,
+      "stockValue": 29027.87,
+      "averageCost": 290.28,
+      "lastCostUpdate": "2025-07-06T10:59:33.580Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 20,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 20,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 20,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 20,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 20,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-GAMI-0249",
+        "cost": 284.37,
+        "leadTime": 3,
+        "minOrderQuantity": 6,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-GAMI-0250",
+        "cost": 267.02,
+        "leadTime": 8,
+        "minOrderQuantity": 18,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.45,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 46.25954947756909,
+      "width": 40.10939504544117,
+      "height": 24.955685827598366,
+      "unit": "cm"
+    },
+    "barcode": "5183595175348",
+    "upc": "974139266587",
+    "tags": [
+      "Gaming Accessories",
+      "Generic",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-11-22T18:32:17.545Z",
+    "updatedAt": "2025-07-20T16:53:34.144Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f8c",
+    "sku": "GEN-GAMI-0249",
+    "name": "Generic Gaming Accessories Model 2",
+    "description": "Discover excellence with the Generic Gaming Accessories Model 2. Engineered with precision and built to last, this gaming accessories product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91406",
+      "name": "Gaming Accessories",
+      "path": "/electronics/gaming/gaming-accessories"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 201.94,
+      "price": 273.82,
+      "compareAtPrice": 306.71,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 40,
+      "availableStock": 40,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 10,
+      "reorderQuantity": 20,
+      "minStockLevel": 4,
+      "stockValue": 8077.7,
+      "averageCost": 201.94,
+      "lastCostUpdate": "2025-06-28T04:32:14.794Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 8,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 8,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-GAMI-0250",
+        "cost": 194.67,
+        "leadTime": 5,
+        "minOrderQuantity": 24,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-GAMI-0251",
+        "cost": 185.48,
+        "leadTime": 13,
+        "minOrderQuantity": 5,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.29,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 12.573581508526562,
+      "width": 10.132653516279353,
+      "height": 12.282653942296925,
+      "unit": "cm"
+    },
+    "barcode": "0203146629635",
+    "upc": "583296953218",
+    "tags": [
+      "Gaming Accessories",
+      "Generic",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-11-18T06:59:13.997Z",
+    "updatedAt": "2025-05-15T06:39:02.134Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f8d",
+    "sku": "GEN-GAMI-0250",
+    "name": "Generic Gaming Accessories Model 3",
+    "description": "Discover excellence with the Generic Gaming Accessories Model 3. Engineered with precision and built to last, this gaming accessories product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91406",
+      "name": "Gaming Accessories",
+      "path": "/electronics/gaming/gaming-accessories"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 118.15,
+      "price": 211.91,
+      "compareAtPrice": 264.14,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 76,
+      "availableStock": 76,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 19,
+      "reorderQuantity": 38,
+      "minStockLevel": 8,
+      "stockValue": 8979.78,
+      "averageCost": 118.15,
+      "lastCostUpdate": "2025-07-19T13:05:05.569Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 15,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 15,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-GAMI-0251",
+        "cost": 106.46,
+        "leadTime": 3,
+        "minOrderQuantity": 6,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-GAMI-0252",
+        "cost": 107,
+        "leadTime": 14,
+        "minOrderQuantity": 6,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.87,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 10.963317556902727,
+      "width": 40.79479777300681,
+      "height": 8.994906430611872,
+      "unit": "cm"
+    },
+    "barcode": "2675126284520",
+    "upc": "899341814487",
+    "tags": [
+      "Gaming Accessories",
+      "Generic",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-05-31T13:38:27.154Z",
+    "updatedAt": "2025-05-08T17:51:46.721Z"
+  }
+]

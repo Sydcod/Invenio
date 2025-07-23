@@ -91,9 +91,9 @@ export default async function WarehousesPage() {
                 <div className="mt-4 space-y-3">
                   <div>
                     <p className="text-sm text-gray-500">
-                      {warehouse.location.city}, {warehouse.location.state}
+                      {warehouse.address.city}, {warehouse.address.state}
                     </p>
-                    <p className="text-xs text-gray-400">{warehouse.location.country}</p>
+                    <p className="text-xs text-gray-400">{warehouse.address.country}</p>
                   </div>
 
                   <div>

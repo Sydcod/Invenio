@@ -21,7 +21,7 @@ async function getProducts(searchQuery?: string) {
   }
   
   const products = await Product.find(query)
-    .populate('categoryId', 'name')
+
     .sort({ createdAt: -1 })
     .limit(100)
     .lean();
@@ -133,7 +133,7 @@ export default async function ProductsPage({
                           {product.sku}
                         </td>
                         <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-900">
-                          {product.categoryId?.name || '-'}
+                          {product.category?.name || '-'}
                         </td>
                         <td className="whitespace-nowrap px-3 py-4 text-sm">
                           <div className={`font-medium ${
@@ -151,8 +151,8 @@ export default async function ProductsPage({
                           </div>
                         </td>
                         <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-900">
-                          ${product.pricing.salePrice.toFixed(2)}
-                          {product.pricing.compareAtPrice > product.pricing.salePrice && (
+                          ${product.pricing.price.toFixed(2)}
+                          {product.pricing.compareAtPrice > product.pricing.price && (
                             <div className="text-xs text-gray-500 line-through">
                               ${product.pricing.compareAtPrice.toFixed(2)}
                             </div>

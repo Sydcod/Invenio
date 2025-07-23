@@ -1,0 +1,5502 @@
+[
+  {
+    "_id": "68811caa975c12956e900ef8",
+    "sku": "SON-TELE-0101",
+    "name": "Sony X80K",
+    "description": "The Sony X80K 65\" QLED TV delivers exceptional picture quality with Full HD resolution and full array local dimming. Smart features include built-in Alexa, Apple AirPlay 2, and access to thousands of apps. The sleek, minimalist design complements any modern home while premium speakers provide theater-quality sound.",
+    "category": {
+      "id": "6880316114bfcd086db913fc",
+      "name": "Televisions",
+      "path": "/electronics/tv-audio/televisions"
+    },
+    "brand": "Sony",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 1366.63,
+      "price": 1897.65,
+      "compareAtPrice": 2348.65,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 5,
+      "availableStock": 5,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 2,
+      "reorderQuantity": 3,
+      "minStockLevel": 1,
+      "stockValue": 6833.16,
+      "averageCost": 1366.63,
+      "lastCostUpdate": "2025-07-07T19:11:05.283Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 1,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 1,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 1,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 1,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 1,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-SON-TELE-0102",
+        "cost": 1326.32,
+        "leadTime": 5,
+        "minOrderQuantity": 10,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-SON-TELE-0103",
+        "cost": 1254.34,
+        "leadTime": 13,
+        "minOrderQuantity": 15,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 26.07,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 147.6280712836755,
+      "width": 6.731802240450216,
+      "height": 65.75768742124286,
+      "unit": "cm"
+    },
+    "barcode": "0865667698936",
+    "upc": "258123027557",
+    "tags": [
+      "Televisions",
+      "Sony",
+      "X80K"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-10-08T22:05:30.386Z",
+    "updatedAt": "2025-06-16T06:09:22.655Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ef9",
+    "sku": "VIZ-TELE-0102",
+    "name": "Vizio Televisions Model 8",
+    "description": "Transform your living room with the Vizio Televisions Model 8 65\" 4K UHD Smart TV. Featuring HDR10+ for stunning contrast and 120Hz refresh rate for smooth motion. Built-in streaming apps, voice control, and Dolby Atmos sound create an immersive entertainment experience. HDMI 2.1 ports support next-gen gaming consoles.",
+    "category": {
+      "id": "6880316114bfcd086db913fc",
+      "name": "Televisions",
+      "path": "/electronics/tv-audio/televisions"
+    },
+    "brand": "Vizio",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 439.38,
+      "price": 742.39,
+      "compareAtPrice": 905.96,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 84,
+      "availableStock": 84,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 21,
+      "reorderQuantity": 42,
+      "minStockLevel": 9,
+      "stockValue": 36907.59,
+      "averageCost": 439.38,
+      "lastCostUpdate": "2025-07-22T21:13:53.242Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 16,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 16,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-VIZ-TELE-0103",
+        "cost": 408.08,
+        "leadTime": 11,
+        "minOrderQuantity": 15,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-VIZ-TELE-0104",
+        "cost": 401.19,
+        "leadTime": 11,
+        "minOrderQuantity": 10,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 33.69,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 123.09947435400257,
+      "width": 6.355242439031851,
+      "height": 83.98787085308835,
+      "unit": "cm"
+    },
+    "barcode": "3879144896611",
+    "upc": "290949182226",
+    "tags": [
+      "Televisions",
+      "Vizio",
+      "Televisions"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-08-14T10:27:56.722Z",
+    "updatedAt": "2025-04-26T04:59:36.459Z"
+  },
+  {
+    "_id": "68811caa975c12956e900efa",
+    "sku": "SON-TELE-0103",
+    "name": "Sony X90K",
+    "description": "Experience cinema at home with the Sony X90K 55\" 8K UHD TV. Advanced Intel Core i5 enhances all content to near-8K quality. Features VRR and ALLM for responsive gaming, Dolby Vision IQ for optimized HDR, and ultra-slim profile that sits flush against the wall.",
+    "category": {
+      "id": "6880316114bfcd086db913fc",
+      "name": "Televisions",
+      "path": "/electronics/tv-audio/televisions"
+    },
+    "brand": "Sony",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 351.88,
+      "price": 570.62,
+      "compareAtPrice": 653.01,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 48,
+      "availableStock": 48,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 12,
+      "reorderQuantity": 24,
+      "minStockLevel": 5,
+      "stockValue": 16890.16,
+      "averageCost": 351.88,
+      "lastCostUpdate": "2025-07-16T17:50:34.035Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 9,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 9,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-SON-TELE-0104",
+        "cost": 320.68,
+        "leadTime": 3,
+        "minOrderQuantity": 16,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-SON-TELE-0105",
+        "cost": 340.25,
+        "leadTime": 9,
+        "minOrderQuantity": 21,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 13.86,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 118.36252516103401,
+      "width": 5.169672118038193,
+      "height": 81.57938542181986,
+      "unit": "cm"
+    },
+    "barcode": "0785226813365",
+    "upc": "823020601155",
+    "tags": [
+      "Televisions",
+      "Sony",
+      "X90K"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-03-11T05:24:04.416Z",
+    "updatedAt": "2025-07-19T05:21:06.594Z"
+  },
+  {
+    "_id": "68811caa975c12956e900efb",
+    "sku": "SAM-TELE-0104",
+    "name": "Samsung Q80C QLED",
+    "description": "Experience cinema at home with the Samsung Q80C QLED 55\" 4K UHD TV. Advanced Apple M2 enhances all content to near-8K quality. Features VRR and ALLM for responsive gaming, Dolby Vision IQ for optimized HDR, and ultra-slim profile that sits flush against the wall.",
+    "category": {
+      "id": "6880316114bfcd086db913fc",
+      "name": "Televisions",
+      "path": "/electronics/tv-audio/televisions"
+    },
+    "brand": "Samsung",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 1309.49,
+      "price": 2278.56,
+      "compareAtPrice": 2624.84,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 18,
+      "availableStock": 18,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 5,
+      "reorderQuantity": 9,
+      "minStockLevel": 2,
+      "stockValue": 23570.76,
+      "averageCost": 1309.49,
+      "lastCostUpdate": "2025-07-15T06:11:06.832Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 3,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 3,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 3,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 3,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 3,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-SAM-TELE-0105",
+        "cost": 1219.78,
+        "leadTime": 13,
+        "minOrderQuantity": 18,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-SAM-TELE-0106",
+        "cost": 1195.3,
+        "leadTime": 12,
+        "minOrderQuantity": 8,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 25.52,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 109.47932700296676,
+      "width": 5.734605263799629,
+      "height": 63.83602954627494,
+      "unit": "cm"
+    },
+    "barcode": "1364510508544",
+    "upc": "573253684071",
+    "tags": [
+      "Televisions",
+      "Samsung",
+      "Q80C"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-07-13T23:26:16.381Z",
+    "updatedAt": "2025-05-10T08:08:00.619Z"
+  },
+  {
+    "_id": "68811caa975c12956e900efc",
+    "sku": "PAN-TELE-0105",
+    "name": "Panasonic Televisions Model 11",
+    "description": "Experience cinema at home with the Panasonic Televisions Model 11 75\" 8K UHD TV. Advanced AMD Ryzen 5 enhances all content to near-8K quality. Features VRR and ALLM for responsive gaming, Dolby Vision IQ for optimized HDR, and ultra-slim profile that sits flush against the wall.",
+    "category": {
+      "id": "6880316114bfcd086db913fc",
+      "name": "Televisions",
+      "path": "/electronics/tv-audio/televisions"
+    },
+    "brand": "Panasonic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 572.12,
+      "price": 985.61,
+      "compareAtPrice": 1149.6,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 85,
+      "availableStock": 85,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 22,
+      "reorderQuantity": 43,
+      "minStockLevel": 9,
+      "stockValue": 48630.2,
+      "averageCost": 572.12,
+      "lastCostUpdate": "2025-07-11T19:22:00.433Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 17,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 17,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-PAN-TELE-0106",
+        "cost": 520.56,
+        "leadTime": 9,
+        "minOrderQuantity": 15,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-PAN-TELE-0107",
+        "cost": 528.32,
+        "leadTime": 8,
+        "minOrderQuantity": 11,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 26.82,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 123.63745365532827,
+      "width": 7.950294362451203,
+      "height": 75.35342018342021,
+      "unit": "cm"
+    },
+    "barcode": "6071300437660",
+    "upc": "577992615739",
+    "tags": [
+      "Televisions",
+      "Panasonic",
+      "Televisions"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-09-08T07:28:37.445Z",
+    "updatedAt": "2025-06-26T17:41:00.068Z"
+  },
+  {
+    "_id": "68811caa975c12956e900efd",
+    "sku": "LG-TELE-0106",
+    "name": "LG B3 OLED",
+    "description": "Experience cinema at home with the LG B3 OLED 55\" Full HD TV. Advanced Apple M2 enhances all content to near-8K quality. Features VRR and ALLM for responsive gaming, Dolby Vision IQ for optimized HDR, and ultra-slim profile that sits flush against the wall.",
+    "category": {
+      "id": "6880316114bfcd086db913fc",
+      "name": "Televisions",
+      "path": "/electronics/tv-audio/televisions"
+    },
+    "brand": "LG",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 574.54,
+      "price": 828.24,
+      "compareAtPrice": 936.02,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 56,
+      "availableStock": 56,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 14,
+      "reorderQuantity": 28,
+      "minStockLevel": 6,
+      "stockValue": 32174.38,
+      "averageCost": 574.54,
+      "lastCostUpdate": "2025-07-23T07:03:38.922Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 11,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 11,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-LG-TELE-0107",
+        "cost": 524.93,
+        "leadTime": 7,
+        "minOrderQuantity": 24,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-LG-TELE-0108",
+        "cost": 535.51,
+        "leadTime": 6,
+        "minOrderQuantity": 21,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 21.68,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 98.45293439098363,
+      "width": 9.266486345813433,
+      "height": 56.99616168309065,
+      "unit": "cm"
+    },
+    "barcode": "7532028713264",
+    "upc": "160103357777",
+    "tags": [
+      "Televisions",
+      "LG",
+      "B3"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-09-25T01:22:37.102Z",
+    "updatedAt": "2025-05-09T06:49:44.506Z"
+  },
+  {
+    "_id": "68811caa975c12956e900efe",
+    "sku": "VIZ-TELE-0107",
+    "name": "Vizio Televisions Model 13",
+    "description": "The Vizio Televisions Model 13 75\" QLED TV delivers exceptional picture quality with 4K UHD resolution and full array local dimming. Smart features include built-in Alexa, Apple AirPlay 2, and access to thousands of apps. The sleek, minimalist design complements any modern home while premium speakers provide theater-quality sound.",
+    "category": {
+      "id": "6880316114bfcd086db913fc",
+      "name": "Televisions",
+      "path": "/electronics/tv-audio/televisions"
+    },
+    "brand": "Vizio",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 175.51,
+      "price": 312.22,
+      "compareAtPrice": 364.91,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 79,
+      "availableStock": 79,
+      "reservedStock": 0,
+      "incomingStock": 27,
+      "reorderPoint": 20,
+      "reorderQuantity": 40,
+      "minStockLevel": 8,
+      "stockValue": 13865.58,
+      "averageCost": 175.51,
+      "lastCostUpdate": "2025-07-16T00:25:12.713Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 15,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 15,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-VIZ-TELE-0108",
+        "cost": 164.28,
+        "leadTime": 13,
+        "minOrderQuantity": 8,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-VIZ-TELE-0109",
+        "cost": 166.17,
+        "leadTime": 12,
+        "minOrderQuantity": 15,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 15.57,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 120.65385880671994,
+      "width": 6.206748688893462,
+      "height": 55.63336791739404,
+      "unit": "cm"
+    },
+    "barcode": "7017343341273",
+    "upc": "899048382851",
+    "tags": [
+      "Televisions",
+      "Vizio",
+      "Televisions"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-12-16T12:15:15.818Z",
+    "updatedAt": "2025-06-22T01:58:53.290Z"
+  },
+  {
+    "_id": "68811caa975c12956e900eff",
+    "sku": "PAN-TELE-0108",
+    "name": "Panasonic Televisions Model 14",
+    "description": "Transform your living room with the Panasonic Televisions Model 14 75\" Full HD Smart TV. Featuring HDR10+ for stunning contrast and 120Hz refresh rate for smooth motion. Built-in streaming apps, voice control, and Dolby Atmos sound create an immersive entertainment experience. HDMI 2.1 ports support next-gen gaming consoles.",
+    "category": {
+      "id": "6880316114bfcd086db913fc",
+      "name": "Televisions",
+      "path": "/electronics/tv-audio/televisions"
+    },
+    "brand": "Panasonic",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 358.87,
+      "price": 620.57,
+      "compareAtPrice": 770.2,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 75,
+      "availableStock": 75,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 19,
+      "reorderQuantity": 38,
+      "minStockLevel": 8,
+      "stockValue": 26915.22,
+      "averageCost": 358.87,
+      "lastCostUpdate": "2025-07-07T06:08:40.380Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 15,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 15,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-PAN-TELE-0109",
+        "cost": 331.39,
+        "leadTime": 12,
+        "minOrderQuantity": 23,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-PAN-TELE-0110",
+        "cost": 351.02,
+        "leadTime": 12,
+        "minOrderQuantity": 5,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 17.84,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 132.4183757675389,
+      "width": 5.867491026679537,
+      "height": 72.61107771174534,
+      "unit": "cm"
+    },
+    "barcode": "1687790484298",
+    "upc": "320463969632",
+    "tags": [
+      "Televisions",
+      "Panasonic",
+      "Televisions"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-08-24T04:37:38.369Z",
+    "updatedAt": "2025-05-09T19:13:43.426Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f00",
+    "sku": "LG-TELE-0109",
+    "name": "LG G3 OLED",
+    "description": "Experience cinema at home with the LG G3 OLED 43\" 8K UHD TV. Advanced Apple M2 enhances all content to near-8K quality. Features VRR and ALLM for responsive gaming, Dolby Vision IQ for optimized HDR, and ultra-slim profile that sits flush against the wall.",
+    "category": {
+      "id": "6880316114bfcd086db913fc",
+      "name": "Televisions",
+      "path": "/electronics/tv-audio/televisions"
+    },
+    "brand": "LG",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 247.77,
+      "price": 406.07,
+      "compareAtPrice": 501.95,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 67,
+      "availableStock": 67,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 17,
+      "reorderQuantity": 34,
+      "minStockLevel": 7,
+      "stockValue": 16600.56,
+      "averageCost": 247.77,
+      "lastCostUpdate": "2025-07-10T14:05:32.061Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 13,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 13,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-LG-TELE-0110",
+        "cost": 234.77,
+        "leadTime": 9,
+        "minOrderQuantity": 22,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-LG-TELE-0111",
+        "cost": 226.96,
+        "leadTime": 8,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 14.01,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 144.96445983216842,
+      "width": 7.3062402063129905,
+      "height": 67.25183019305157,
+      "unit": "cm"
+    },
+    "barcode": "7948234436929",
+    "upc": "752439890178",
+    "tags": [
+      "Televisions",
+      "LG",
+      "G3"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-09-20T01:50:55.082Z",
+    "updatedAt": "2025-06-16T12:45:47.843Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f01",
+    "sku": "SAM-TELE-0110",
+    "name": "Samsung S95C OLED",
+    "description": "Experience cinema at home with the Samsung S95C OLED 65\" 4K UHD TV. Advanced AMD Ryzen 5 enhances all content to near-8K quality. Features VRR and ALLM for responsive gaming, Dolby Vision IQ for optimized HDR, and ultra-slim profile that sits flush against the wall.",
+    "category": {
+      "id": "6880316114bfcd086db913fc",
+      "name": "Televisions",
+      "path": "/electronics/tv-audio/televisions"
+    },
+    "brand": "Samsung",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 779.22,
+      "price": 1100.91,
+      "compareAtPrice": 1327.49,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 3,
+      "availableStock": 3,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 4,
+      "reorderQuantity": 7,
+      "minStockLevel": 2,
+      "stockValue": 10909.11,
+      "averageCost": 779.22,
+      "lastCostUpdate": "2025-07-23T15:07:19.503Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 2,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 2,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 2,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 2,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 2,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-SAM-TELE-0111",
+        "cost": 731.95,
+        "leadTime": 13,
+        "minOrderQuantity": 21,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-SAM-TELE-0112",
+        "cost": 712.95,
+        "leadTime": 11,
+        "minOrderQuantity": 17,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 26.78,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 126.66856194778632,
+      "width": 7.279129997504324,
+      "height": 62.591181410317056,
+      "unit": "cm"
+    },
+    "barcode": "4805724673858",
+    "upc": "404950123935",
+    "tags": [
+      "Televisions",
+      "Samsung",
+      "S95C"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-08-15T03:30:50.400Z",
+    "updatedAt": "2025-06-02T00:26:19.764Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f02",
+    "sku": "HIS-TELE-0111",
+    "name": "Hisense Televisions Model 17",
+    "description": "Experience cinema at home with the Hisense Televisions Model 17 65\" 8K UHD TV. Advanced Apple M2 enhances all content to near-8K quality. Features VRR and ALLM for responsive gaming, Dolby Vision IQ for optimized HDR, and ultra-slim profile that sits flush against the wall.",
+    "category": {
+      "id": "6880316114bfcd086db913fc",
+      "name": "Televisions",
+      "path": "/electronics/tv-audio/televisions"
+    },
+    "brand": "Hisense",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 409.72,
+      "price": 596.84,
+      "compareAtPrice": 686.74,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 76,
+      "availableStock": 76,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 19,
+      "reorderQuantity": 38,
+      "minStockLevel": 8,
+      "stockValue": 31138.55,
+      "averageCost": 409.72,
+      "lastCostUpdate": "2025-06-29T06:23:04.483Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 15,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 15,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-HIS-TELE-0112",
+        "cost": 374.67,
+        "leadTime": 12,
+        "minOrderQuantity": 22,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-HIS-TELE-0113",
+        "cost": 398.95,
+        "leadTime": 9,
+        "minOrderQuantity": 21,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 14.47,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 102.4376563235569,
+      "width": 8.399192802681528,
+      "height": 56.8694947764019,
+      "unit": "cm"
+    },
+    "barcode": "5227711895706",
+    "upc": "898778702770",
+    "tags": [
+      "Televisions",
+      "Hisense",
+      "Televisions"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-08-18T23:50:36.859Z",
+    "updatedAt": "2025-04-29T11:05:20.802Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f03",
+    "sku": "SON-TELE-0112",
+    "name": "Sony X80K",
+    "description": "Experience cinema at home with the Sony X80K 65\" 8K UHD TV. Advanced Apple M2 enhances all content to near-8K quality. Features VRR and ALLM for responsive gaming, Dolby Vision IQ for optimized HDR, and ultra-slim profile that sits flush against the wall.",
+    "category": {
+      "id": "6880316114bfcd086db913fc",
+      "name": "Televisions",
+      "path": "/electronics/tv-audio/televisions"
+    },
+    "brand": "Sony",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 1502.26,
+      "price": 2600.62,
+      "compareAtPrice": 3153.03,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 11,
+      "availableStock": 11,
+      "reservedStock": 0,
+      "incomingStock": 13,
+      "reorderPoint": 3,
+      "reorderQuantity": 6,
+      "minStockLevel": 2,
+      "stockValue": 16524.84,
+      "averageCost": 1502.26,
+      "lastCostUpdate": "2025-07-17T14:58:06.918Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 2,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 2,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 2,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 2,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 2,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-SON-TELE-0113",
+        "cost": 1458.88,
+        "leadTime": 10,
+        "minOrderQuantity": 14,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-SON-TELE-0114",
+        "cost": 1380.01,
+        "leadTime": 13,
+        "minOrderQuantity": 13,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 13.73,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 128.02907930471687,
+      "width": 8.830862730202327,
+      "height": 57.47375725217281,
+      "unit": "cm"
+    },
+    "barcode": "4074347561309",
+    "upc": "077440429520",
+    "tags": [
+      "Televisions",
+      "Sony",
+      "X80K"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-04-06T16:03:33.423Z",
+    "updatedAt": "2025-06-20T22:22:23.012Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f04",
+    "sku": "SAM-TELE-0113",
+    "name": "Samsung QN90C Neo QLED",
+    "description": "Experience cinema at home with the Samsung QN90C Neo QLED 43\" 4K UHD TV. Advanced Intel Core i7 enhances all content to near-8K quality. Features VRR and ALLM for responsive gaming, Dolby Vision IQ for optimized HDR, and ultra-slim profile that sits flush against the wall.",
+    "category": {
+      "id": "6880316114bfcd086db913fc",
+      "name": "Televisions",
+      "path": "/electronics/tv-audio/televisions"
+    },
+    "brand": "Samsung",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 1692.93,
+      "price": 2481.17,
+      "compareAtPrice": 3001.77,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 17,
+      "availableStock": 17,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 5,
+      "reorderQuantity": 9,
+      "minStockLevel": 2,
+      "stockValue": 28779.82,
+      "averageCost": 1692.93,
+      "lastCostUpdate": "2025-07-04T03:36:42.737Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 3,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 3,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 3,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 3,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 3,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-SAM-TELE-0114",
+        "cost": 1654.49,
+        "leadTime": 3,
+        "minOrderQuantity": 8,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-SAM-TELE-0115",
+        "cost": 1647.51,
+        "leadTime": 6,
+        "minOrderQuantity": 20,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 8.66,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 117.11574753445505,
+      "width": 5.351564191281586,
+      "height": 59.63240509790178,
+      "unit": "cm"
+    },
+    "barcode": "4613551972050",
+    "upc": "252656027874",
+    "tags": [
+      "Televisions",
+      "Samsung",
+      "QN90C"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-05-04T03:23:37.039Z",
+    "updatedAt": "2025-07-21T11:28:32.756Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f05",
+    "sku": "PAN-TELE-0114",
+    "name": "Panasonic Televisions Model 20",
+    "description": "Transform your living room with the Panasonic Televisions Model 20 50\" 8K UHD Smart TV. Featuring HDR10+ for stunning contrast and 120Hz refresh rate for smooth motion. Built-in streaming apps, voice control, and Dolby Atmos sound create an immersive entertainment experience. HDMI 2.1 ports support next-gen gaming consoles.",
+    "category": {
+      "id": "6880316114bfcd086db913fc",
+      "name": "Televisions",
+      "path": "/electronics/tv-audio/televisions"
+    },
+    "brand": "Panasonic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 689.11,
+      "price": 989.84,
+      "compareAtPrice": 1190.34,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 99,
+      "availableStock": 99,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 25,
+      "reorderQuantity": 50,
+      "minStockLevel": 10,
+      "stockValue": 68221.99,
+      "averageCost": 689.11,
+      "lastCostUpdate": "2025-06-24T14:52:48.289Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 19,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 19,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-PAN-TELE-0115",
+        "cost": 629.25,
+        "leadTime": 11,
+        "minOrderQuantity": 23,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-PAN-TELE-0116",
+        "cost": 664.72,
+        "leadTime": 9,
+        "minOrderQuantity": 8,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 11.35,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 116.11044647647638,
+      "width": 8.608482592592086,
+      "height": 68.29555485398521,
+      "unit": "cm"
+    },
+    "barcode": "4593351023212",
+    "upc": "856769079319",
+    "tags": [
+      "Televisions",
+      "Panasonic",
+      "Televisions"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-03-14T23:48:27.950Z",
+    "updatedAt": "2025-07-10T23:48:48.408Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f06",
+    "sku": "SON-TELE-0115",
+    "name": "Sony X80K",
+    "description": "Experience cinema at home with the Sony X80K 43\" 8K UHD TV. Advanced Intel Core i7 enhances all content to near-8K quality. Features VRR and ALLM for responsive gaming, Dolby Vision IQ for optimized HDR, and ultra-slim profile that sits flush against the wall.",
+    "category": {
+      "id": "6880316114bfcd086db913fc",
+      "name": "Televisions",
+      "path": "/electronics/tv-audio/televisions"
+    },
+    "brand": "Sony",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 732,
+      "price": 1243.42,
+      "compareAtPrice": 1471.38,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 6,
+      "availableStock": 6,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 2,
+      "reorderQuantity": 3,
+      "minStockLevel": 1,
+      "stockValue": 4391.98,
+      "averageCost": 732,
+      "lastCostUpdate": "2025-07-23T06:18:36.664Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 1,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 1,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 1,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 1,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 1,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-SON-TELE-0116",
+        "cost": 674.38,
+        "leadTime": 12,
+        "minOrderQuantity": 15,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-SON-TELE-0117",
+        "cost": 697.36,
+        "leadTime": 6,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 17.67,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 110.78661339324697,
+      "width": 7.350230018435115,
+      "height": 68.19054651202731,
+      "unit": "cm"
+    },
+    "barcode": "3548262398610",
+    "upc": "969788143279",
+    "tags": [
+      "Televisions",
+      "Sony",
+      "X80K"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-03-03T00:58:08.521Z",
+    "updatedAt": "2025-05-17T06:54:54.611Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f07",
+    "sku": "SAM-TELE-0116",
+    "name": "Samsung The Frame",
+    "description": "Transform your living room with the Samsung The Frame 75\" Full HD Smart TV. Featuring HDR10+ for stunning contrast and 120Hz refresh rate for smooth motion. Built-in streaming apps, voice control, and Dolby Atmos sound create an immersive entertainment experience. HDMI 2.1 ports support next-gen gaming consoles.",
+    "category": {
+      "id": "6880316114bfcd086db913fc",
+      "name": "Televisions",
+      "path": "/electronics/tv-audio/televisions"
+    },
+    "brand": "Samsung",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 1062.89,
+      "price": 1880.27,
+      "compareAtPrice": 2124.68,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 12,
+      "availableStock": 12,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 3,
+      "reorderQuantity": 6,
+      "minStockLevel": 2,
+      "stockValue": 12754.73,
+      "averageCost": 1062.89,
+      "lastCostUpdate": "2025-06-27T20:37:14.951Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 2,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 2,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 2,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 2,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 2,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-SAM-TELE-0117",
+        "cost": 1004.84,
+        "leadTime": 5,
+        "minOrderQuantity": 23,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-SAM-TELE-0118",
+        "cost": 962.26,
+        "leadTime": 13,
+        "minOrderQuantity": 6,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 8.81,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 119.57347303334616,
+      "width": 9.422407472191995,
+      "height": 74.4240141090626,
+      "unit": "cm"
+    },
+    "barcode": "8836310532071",
+    "upc": "864449759476",
+    "tags": [
+      "Televisions",
+      "Samsung",
+      "The"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-05-22T19:14:17.730Z",
+    "updatedAt": "2025-05-26T22:10:04.095Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f08",
+    "sku": "LG-TELE-0117",
+    "name": "LG QNED80",
+    "description": "Transform your living room with the LG QNED80 65\" Full HD Smart TV. Featuring HDR10+ for stunning contrast and 120Hz refresh rate for smooth motion. Built-in streaming apps, voice control, and Dolby Atmos sound create an immersive entertainment experience. HDMI 2.1 ports support next-gen gaming consoles.",
+    "category": {
+      "id": "6880316114bfcd086db913fc",
+      "name": "Televisions",
+      "path": "/electronics/tv-audio/televisions"
+    },
+    "brand": "LG",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 1268.82,
+      "price": 2036.74,
+      "compareAtPrice": 2380.55,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 14,
+      "availableStock": 14,
+      "reservedStock": 0,
+      "incomingStock": 20,
+      "reorderPoint": 4,
+      "reorderQuantity": 7,
+      "minStockLevel": 2,
+      "stockValue": 17763.52,
+      "averageCost": 1268.82,
+      "lastCostUpdate": "2025-07-19T04:05:19.334Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 2,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 2,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 2,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 2,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 2,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-LG-TELE-0118",
+        "cost": 1195.07,
+        "leadTime": 4,
+        "minOrderQuantity": 7,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-LG-TELE-0119",
+        "cost": 1224.16,
+        "leadTime": 13,
+        "minOrderQuantity": 12,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 22.57,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 109.28097060034777,
+      "width": 7.619356286845249,
+      "height": 64.53752410535311,
+      "unit": "cm"
+    },
+    "barcode": "5551452498287",
+    "upc": "402779036114",
+    "tags": [
+      "Televisions",
+      "LG",
+      "QNED80"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-09-23T06:15:25.440Z",
+    "updatedAt": "2025-07-22T03:00:28.462Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f09",
+    "sku": "SAM-TELE-0118",
+    "name": "Samsung QN90C Neo QLED",
+    "description": "The Samsung QN90C Neo QLED 43\" QLED TV delivers exceptional picture quality with 4K UHD resolution and full array local dimming. Smart features include built-in Alexa, Apple AirPlay 2, and access to thousands of apps. The sleek, minimalist design complements any modern home while premium speakers provide theater-quality sound.",
+    "category": {
+      "id": "6880316114bfcd086db913fc",
+      "name": "Televisions",
+      "path": "/electronics/tv-audio/televisions"
+    },
+    "brand": "Samsung",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 1568.29,
+      "price": 2425.43,
+      "compareAtPrice": 2957.46,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 17,
+      "availableStock": 17,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 5,
+      "reorderQuantity": 9,
+      "minStockLevel": 2,
+      "stockValue": 26660.87,
+      "averageCost": 1568.29,
+      "lastCostUpdate": "2025-07-22T20:54:28.594Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 3,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 3,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 3,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 3,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 3,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-SAM-TELE-0119",
+        "cost": 1493.06,
+        "leadTime": 12,
+        "minOrderQuantity": 22,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-SAM-TELE-0120",
+        "cost": 1413.39,
+        "leadTime": 7,
+        "minOrderQuantity": 20,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 34.88,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 111.4914576730063,
+      "width": 7.115320331863131,
+      "height": 78.0268085110297,
+      "unit": "cm"
+    },
+    "barcode": "6196052822114",
+    "upc": "982509664141",
+    "tags": [
+      "Televisions",
+      "Samsung",
+      "QN90C"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-01-23T03:11:07.682Z",
+    "updatedAt": "2025-06-02T00:28:48.635Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f0a",
+    "sku": "VIZ-TELE-0119",
+    "name": "Vizio Televisions Model 25",
+    "description": "The Vizio Televisions Model 25 50\" QLED TV delivers exceptional picture quality with 4K UHD resolution and full array local dimming. Smart features include built-in Alexa, Apple AirPlay 2, and access to thousands of apps. The sleek, minimalist design complements any modern home while premium speakers provide theater-quality sound.",
+    "category": {
+      "id": "6880316114bfcd086db913fc",
+      "name": "Televisions",
+      "path": "/electronics/tv-audio/televisions"
+    },
+    "brand": "Vizio",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 250.01,
+      "price": 429.42,
+      "compareAtPrice": 479.21,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 54,
+      "availableStock": 54,
+      "reservedStock": 0,
+      "incomingStock": 39,
+      "reorderPoint": 14,
+      "reorderQuantity": 27,
+      "minStockLevel": 6,
+      "stockValue": 13500.34,
+      "averageCost": 250.01,
+      "lastCostUpdate": "2025-06-28T13:35:01.748Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 10,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 10,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-VIZ-TELE-0120",
+        "cost": 237.43,
+        "leadTime": 6,
+        "minOrderQuantity": 12,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-VIZ-TELE-0121",
+        "cost": 238,
+        "leadTime": 13,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 9.75,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 138.47936143795712,
+      "width": 7.65350416841237,
+      "height": 57.904132637250775,
+      "unit": "cm"
+    },
+    "barcode": "1199473023689",
+    "upc": "922979896111",
+    "tags": [
+      "Televisions",
+      "Vizio",
+      "Televisions"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-07-21T23:33:08.259Z",
+    "updatedAt": "2025-05-23T06:17:40.031Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f0b",
+    "sku": "HIS-TELE-0120",
+    "name": "Hisense Televisions Model 26",
+    "description": "Experience cinema at home with the Hisense Televisions Model 26 43\" 8K UHD TV. Advanced AMD Ryzen 7 enhances all content to near-8K quality. Features VRR and ALLM for responsive gaming, Dolby Vision IQ for optimized HDR, and ultra-slim profile that sits flush against the wall.",
+    "category": {
+      "id": "6880316114bfcd086db913fc",
+      "name": "Televisions",
+      "path": "/electronics/tv-audio/televisions"
+    },
+    "brand": "Hisense",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 483.09,
+      "price": 793.99,
+      "compareAtPrice": 923.9,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 65,
+      "availableStock": 65,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 17,
+      "reorderQuantity": 33,
+      "minStockLevel": 7,
+      "stockValue": 31400.59,
+      "averageCost": 483.09,
+      "lastCostUpdate": "2025-07-18T03:23:52.406Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 13,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 13,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-HIS-TELE-0121",
+        "cost": 450.83,
+        "leadTime": 9,
+        "minOrderQuantity": 12,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-HIS-TELE-0122",
+        "cost": 440.22,
+        "leadTime": 8,
+        "minOrderQuantity": 20,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 22.4,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 134.76439053063368,
+      "width": 8.763852489357593,
+      "height": 82.6696521165662,
+      "unit": "cm"
+    },
+    "barcode": "1683534609025",
+    "upc": "048657811733",
+    "tags": [
+      "Televisions",
+      "Hisense",
+      "Televisions"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-04-28T09:57:42.593Z",
+    "updatedAt": "2025-05-21T13:35:35.566Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f0c",
+    "sku": "LG-TELE-0121",
+    "name": "LG C3 OLED",
+    "description": "The LG C3 OLED 55\" QLED TV delivers exceptional picture quality with 4K UHD resolution and full array local dimming. Smart features include built-in Alexa, Apple AirPlay 2, and access to thousands of apps. The sleek, minimalist design complements any modern home while premium speakers provide theater-quality sound.",
+    "category": {
+      "id": "6880316114bfcd086db913fc",
+      "name": "Televisions",
+      "path": "/electronics/tv-audio/televisions"
+    },
+    "brand": "LG",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 1377.35,
+      "price": 1930.76,
+      "compareAtPrice": 2199.45,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 8,
+      "availableStock": 8,
+      "reservedStock": 0,
+      "incomingStock": 23,
+      "reorderPoint": 2,
+      "reorderQuantity": 4,
+      "minStockLevel": 1,
+      "stockValue": 11018.79,
+      "averageCost": 1377.35,
+      "lastCostUpdate": "2025-06-25T07:47:41.623Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 1,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 1,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 1,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 1,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 1,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-LG-TELE-0122",
+        "cost": 1301.01,
+        "leadTime": 10,
+        "minOrderQuantity": 12,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-LG-TELE-0123",
+        "cost": 1287.25,
+        "leadTime": 11,
+        "minOrderQuantity": 10,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 32.27,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 119.38561525106901,
+      "width": 9.556108952068108,
+      "height": 78.531652903204,
+      "unit": "cm"
+    },
+    "barcode": "1764785421868",
+    "upc": "343672749355",
+    "tags": [
+      "Televisions",
+      "LG",
+      "C3"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-02-14T03:19:49.725Z",
+    "updatedAt": "2025-04-30T10:57:30.337Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f0d",
+    "sku": "HIS-TELE-0122",
+    "name": "Hisense Televisions Model 28",
+    "description": "The Hisense Televisions Model 28 75\" QLED TV delivers exceptional picture quality with 4K UHD resolution and full array local dimming. Smart features include built-in Alexa, Apple AirPlay 2, and access to thousands of apps. The sleek, minimalist design complements any modern home while premium speakers provide theater-quality sound.",
+    "category": {
+      "id": "6880316114bfcd086db913fc",
+      "name": "Televisions",
+      "path": "/electronics/tv-audio/televisions"
+    },
+    "brand": "Hisense",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 179.2,
+      "price": 249.71,
+      "compareAtPrice": 285.15,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 95,
+      "availableStock": 95,
+      "reservedStock": 0,
+      "incomingStock": 22,
+      "reorderPoint": 24,
+      "reorderQuantity": 48,
+      "minStockLevel": 10,
+      "stockValue": 17024.27,
+      "averageCost": 179.2,
+      "lastCostUpdate": "2025-06-24T22:10:34.160Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 19,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 19,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-HIS-TELE-0123",
+        "cost": 162.69,
+        "leadTime": 4,
+        "minOrderQuantity": 17,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-HIS-TELE-0124",
+        "cost": 169.49,
+        "leadTime": 6,
+        "minOrderQuantity": 12,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 27.27,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 101.69150550837246,
+      "width": 5.6894709593948765,
+      "height": 81.97522083511642,
+      "unit": "cm"
+    },
+    "barcode": "6141170568807",
+    "upc": "632462586066",
+    "tags": [
+      "Televisions",
+      "Hisense",
+      "Televisions"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-03-09T11:37:03.165Z",
+    "updatedAt": "2025-06-22T23:09:46.397Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f0e",
+    "sku": "GEN-SPEA-0123",
+    "name": "Generic Speakers Model 1",
+    "description": "Discover excellence with the Generic Speakers Model 1. Engineered with precision and built to last, this speakers product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fd",
+      "name": "Speakers",
+      "path": "/electronics/tv-audio/speakers"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 198.87,
+      "price": 270.08,
+      "compareAtPrice": 335.47,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 67,
+      "availableStock": 67,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 17,
+      "reorderQuantity": 34,
+      "minStockLevel": 7,
+      "stockValue": 13324.55,
+      "averageCost": 198.87,
+      "lastCostUpdate": "2025-07-06T13:38:52.971Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 13,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 13,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SPEA-0124",
+        "cost": 180.86,
+        "leadTime": 10,
+        "minOrderQuantity": 19,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SPEA-0125",
+        "cost": 187.71,
+        "leadTime": 5,
+        "minOrderQuantity": 13,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.02,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 34.735539853079366,
+      "width": 36.12611911290198,
+      "height": 17.203517796360675,
+      "unit": "cm"
+    },
+    "barcode": "1434824317500",
+    "upc": "723143924051",
+    "tags": [
+      "Speakers",
+      "Generic",
+      "Speakers"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-04-15T01:59:00.022Z",
+    "updatedAt": "2025-05-04T18:09:40.456Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f0f",
+    "sku": "GEN-SPEA-0124",
+    "name": "Generic Speakers Model 2",
+    "description": "Discover excellence with the Generic Speakers Model 2. Engineered with precision and built to last, this speakers product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fd",
+      "name": "Speakers",
+      "path": "/electronics/tv-audio/speakers"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 559.31,
+      "price": 887.05,
+      "compareAtPrice": 1054.21,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 94,
+      "availableStock": 94,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 24,
+      "reorderQuantity": 47,
+      "minStockLevel": 10,
+      "stockValue": 52575.13,
+      "averageCost": 559.31,
+      "lastCostUpdate": "2025-07-01T02:43:05.454Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 18,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 18,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SPEA-0125",
+        "cost": 541.24,
+        "leadTime": 11,
+        "minOrderQuantity": 13,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SPEA-0126",
+        "cost": 512.75,
+        "leadTime": 12,
+        "minOrderQuantity": 13,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.57,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 36.84663187710683,
+      "width": 27.930964202922056,
+      "height": 27.161398644909973,
+      "unit": "cm"
+    },
+    "barcode": "7990178144913",
+    "upc": "832559080114",
+    "tags": [
+      "Speakers",
+      "Generic",
+      "Speakers"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-01-19T15:13:32.164Z",
+    "updatedAt": "2025-07-06T12:58:47.966Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f10",
+    "sku": "GEN-SPEA-0125",
+    "name": "Generic Speakers Model 3",
+    "description": "Discover excellence with the Generic Speakers Model 3. Engineered with precision and built to last, this speakers product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fd",
+      "name": "Speakers",
+      "path": "/electronics/tv-audio/speakers"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "draft",
+    "pricing": {
+      "cost": 282.96,
+      "price": 417.44,
+      "compareAtPrice": 515.63,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 2,
+      "availableStock": 2,
+      "reservedStock": 0,
+      "incomingStock": 34,
+      "reorderPoint": 15,
+      "reorderQuantity": 30,
+      "minStockLevel": 6,
+      "stockValue": 16694.89,
+      "averageCost": 282.96,
+      "lastCostUpdate": "2025-06-28T23:39:39.262Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 11,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 11,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SPEA-0126",
+        "cost": 260.62,
+        "leadTime": 11,
+        "minOrderQuantity": 10,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SPEA-0127",
+        "cost": 261.35,
+        "leadTime": 8,
+        "minOrderQuantity": 10,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.31,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 18.872509784078176,
+      "width": 47.42706040466434,
+      "height": 29.454068668052127,
+      "unit": "cm"
+    },
+    "barcode": "9172127694036",
+    "upc": "004372690181",
+    "tags": [
+      "Speakers",
+      "Generic",
+      "Speakers"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-12-08T19:50:21.843Z",
+    "updatedAt": "2025-07-01T10:02:57.563Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f11",
+    "sku": "GEN-SPEA-0126",
+    "name": "Generic Speakers Model 4",
+    "description": "Discover excellence with the Generic Speakers Model 4. Engineered with precision and built to last, this speakers product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fd",
+      "name": "Speakers",
+      "path": "/electronics/tv-audio/speakers"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 467.21,
+      "price": 842.78,
+      "compareAtPrice": 936.71,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 48,
+      "availableStock": 48,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 12,
+      "reorderQuantity": 24,
+      "minStockLevel": 5,
+      "stockValue": 22426.22,
+      "averageCost": 467.21,
+      "lastCostUpdate": "2025-07-05T06:12:09.324Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 9,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 9,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SPEA-0127",
+        "cost": 431.9,
+        "leadTime": 10,
+        "minOrderQuantity": 16,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SPEA-0128",
+        "cost": 437.71,
+        "leadTime": 7,
+        "minOrderQuantity": 17,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.99,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 25.374158210422337,
+      "width": 19.721211945194298,
+      "height": 29.588116092547985,
+      "unit": "cm"
+    },
+    "barcode": "4148609140980",
+    "upc": "900183204127",
+    "tags": [
+      "Speakers",
+      "Generic",
+      "Speakers"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-09-20T16:57:08.646Z",
+    "updatedAt": "2025-04-25T14:48:40.705Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f12",
+    "sku": "GEN-SPEA-0127",
+    "name": "Generic Speakers Model 5",
+    "description": "Discover excellence with the Generic Speakers Model 5. Engineered with precision and built to last, this speakers product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fd",
+      "name": "Speakers",
+      "path": "/electronics/tv-audio/speakers"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 369.63,
+      "price": 669.61,
+      "compareAtPrice": 762.55,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 97,
+      "availableStock": 97,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 25,
+      "reorderQuantity": 49,
+      "minStockLevel": 10,
+      "stockValue": 35854.16,
+      "averageCost": 369.63,
+      "lastCostUpdate": "2025-07-18T17:52:54.390Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 19,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 19,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SPEA-0128",
+        "cost": 342.4,
+        "leadTime": 13,
+        "minOrderQuantity": 20,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SPEA-0129",
+        "cost": 352.71,
+        "leadTime": 11,
+        "minOrderQuantity": 12,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.21,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 21.222967310662334,
+      "width": 15.942273912570023,
+      "height": 12.928409946167978,
+      "unit": "cm"
+    },
+    "barcode": "8475059816512",
+    "upc": "443726300314",
+    "tags": [
+      "Speakers",
+      "Generic",
+      "Speakers"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-12-25T09:29:14.093Z",
+    "updatedAt": "2025-06-25T13:54:56.278Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f13",
+    "sku": "GEN-SPEA-0128",
+    "name": "Generic Speakers Model 6",
+    "description": "Discover excellence with the Generic Speakers Model 6. Engineered with precision and built to last, this speakers product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fd",
+      "name": "Speakers",
+      "path": "/electronics/tv-audio/speakers"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 266.69,
+      "price": 388.41,
+      "compareAtPrice": 438.18,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 51,
+      "availableStock": 51,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 13,
+      "reorderQuantity": 26,
+      "minStockLevel": 6,
+      "stockValue": 13601.19,
+      "averageCost": 266.69,
+      "lastCostUpdate": "2025-07-01T14:35:13.144Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 10,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 10,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SPEA-0129",
+        "cost": 254.05,
+        "leadTime": 13,
+        "minOrderQuantity": 10,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SPEA-0130",
+        "cost": 242.38,
+        "leadTime": 14,
+        "minOrderQuantity": 19,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.19,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 21.997642096715143,
+      "width": 13.401767306115389,
+      "height": 5.934139619324573,
+      "unit": "cm"
+    },
+    "barcode": "2387777582411",
+    "upc": "837238491981",
+    "tags": [
+      "Speakers",
+      "Generic",
+      "Speakers"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-08-28T10:13:38.462Z",
+    "updatedAt": "2025-06-29T10:31:27.663Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f14",
+    "sku": "GEN-SPEA-0129",
+    "name": "Generic Speakers Model 7",
+    "description": "Discover excellence with the Generic Speakers Model 7. Engineered with precision and built to last, this speakers product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fd",
+      "name": "Speakers",
+      "path": "/electronics/tv-audio/speakers"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 239.75,
+      "price": 434.45,
+      "compareAtPrice": 539.59,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 61,
+      "availableStock": 61,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 16,
+      "reorderQuantity": 31,
+      "minStockLevel": 7,
+      "stockValue": 14624.92,
+      "averageCost": 239.75,
+      "lastCostUpdate": "2025-07-20T11:50:32.113Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 12,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 12,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SPEA-0130",
+        "cost": 221.4,
+        "leadTime": 13,
+        "minOrderQuantity": 14,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SPEA-0131",
+        "cost": 234.67,
+        "leadTime": 7,
+        "minOrderQuantity": 10,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.42,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 31.918243549885442,
+      "width": 18.884401019679267,
+      "height": 21.076054191143843,
+      "unit": "cm"
+    },
+    "barcode": "8056486124910",
+    "upc": "934573909828",
+    "tags": [
+      "Speakers",
+      "Generic",
+      "Speakers"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-07-29T06:03:21.410Z",
+    "updatedAt": "2025-06-22T09:43:41.606Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f15",
+    "sku": "GEN-SPEA-0130",
+    "name": "Generic Speakers Model 8",
+    "description": "Discover excellence with the Generic Speakers Model 8. Engineered with precision and built to last, this speakers product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fd",
+      "name": "Speakers",
+      "path": "/electronics/tv-audio/speakers"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 717.64,
+      "price": 995.27,
+      "compareAtPrice": 1169.73,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 91,
+      "availableStock": 91,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 23,
+      "reorderQuantity": 46,
+      "minStockLevel": 10,
+      "stockValue": 65305.04,
+      "averageCost": 717.64,
+      "lastCostUpdate": "2025-06-30T01:08:07.183Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 18,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 18,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SPEA-0131",
+        "cost": 684.43,
+        "leadTime": 12,
+        "minOrderQuantity": 8,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SPEA-0132",
+        "cost": 665.52,
+        "leadTime": 13,
+        "minOrderQuantity": 18,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.49,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 21.611777010353194,
+      "width": 26.748446044608865,
+      "height": 14.253434369741592,
+      "unit": "cm"
+    },
+    "barcode": "4169953926790",
+    "upc": "667119004466",
+    "tags": [
+      "Speakers",
+      "Generic",
+      "Speakers"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-11-16T23:00:34.335Z",
+    "updatedAt": "2025-05-29T07:14:57.927Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f16",
+    "sku": "GEN-SPEA-0131",
+    "name": "Generic Speakers Model 9",
+    "description": "Discover excellence with the Generic Speakers Model 9. Engineered with precision and built to last, this speakers product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fd",
+      "name": "Speakers",
+      "path": "/electronics/tv-audio/speakers"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 470,
+      "price": 840.05,
+      "compareAtPrice": 924.98,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 54,
+      "availableStock": 54,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 14,
+      "reorderQuantity": 27,
+      "minStockLevel": 6,
+      "stockValue": 25379.77,
+      "averageCost": 470,
+      "lastCostUpdate": "2025-07-06T01:49:07.886Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 10,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 10,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SPEA-0132",
+        "cost": 435.86,
+        "leadTime": 4,
+        "minOrderQuantity": 25,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SPEA-0133",
+        "cost": 446.1,
+        "leadTime": 11,
+        "minOrderQuantity": 13,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.52,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 48.713351035661354,
+      "width": 18.307319818433626,
+      "height": 7.668362943784198,
+      "unit": "cm"
+    },
+    "barcode": "3150178037492",
+    "upc": "537172327064",
+    "tags": [
+      "Speakers",
+      "Generic",
+      "Speakers"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-03-28T06:39:27.998Z",
+    "updatedAt": "2025-05-19T22:41:20.425Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f17",
+    "sku": "GEN-SPEA-0132",
+    "name": "Generic Speakers Model 10",
+    "description": "Discover excellence with the Generic Speakers Model 10. Engineered with precision and built to last, this speakers product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fd",
+      "name": "Speakers",
+      "path": "/electronics/tv-audio/speakers"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 193.36,
+      "price": 333.58,
+      "compareAtPrice": 383,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 0,
+      "availableStock": 0,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 22,
+      "reorderQuantity": 43,
+      "minStockLevel": 9,
+      "stockValue": 16435.89,
+      "averageCost": 193.36,
+      "lastCostUpdate": "2025-07-01T11:01:35.560Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 17,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 17,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SPEA-0133",
+        "cost": 189.31,
+        "leadTime": 14,
+        "minOrderQuantity": 20,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SPEA-0134",
+        "cost": 185.65,
+        "leadTime": 8,
+        "minOrderQuantity": 13,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.38,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 10.486834855197774,
+      "width": 35.829073625141376,
+      "height": 13.218472468483332,
+      "unit": "cm"
+    },
+    "barcode": "0449426960501",
+    "upc": "245828737455",
+    "tags": [
+      "Speakers",
+      "Generic",
+      "Speakers"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-03-21T20:28:33.160Z",
+    "updatedAt": "2025-05-03T10:25:29.728Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f18",
+    "sku": "GEN-SPEA-0133",
+    "name": "Generic Speakers Model 11",
+    "description": "Discover excellence with the Generic Speakers Model 11. Engineered with precision and built to last, this speakers product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fd",
+      "name": "Speakers",
+      "path": "/electronics/tv-audio/speakers"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 138.34,
+      "price": 226.24,
+      "compareAtPrice": 263.9,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 75,
+      "availableStock": 75,
+      "reservedStock": 0,
+      "incomingStock": 29,
+      "reorderPoint": 19,
+      "reorderQuantity": 38,
+      "minStockLevel": 8,
+      "stockValue": 10375.62,
+      "averageCost": 138.34,
+      "lastCostUpdate": "2025-07-05T22:23:26.657Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 15,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 15,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SPEA-0134",
+        "cost": 127.11,
+        "leadTime": 12,
+        "minOrderQuantity": 7,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SPEA-0135",
+        "cost": 126.92,
+        "leadTime": 10,
+        "minOrderQuantity": 14,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.63,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 43.18606351274178,
+      "width": 16.08905073725465,
+      "height": 28.017274088561283,
+      "unit": "cm"
+    },
+    "barcode": "4676546948998",
+    "upc": "354348338730",
+    "tags": [
+      "Speakers",
+      "Generic",
+      "Speakers"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-07-13T23:49:50.564Z",
+    "updatedAt": "2025-04-27T08:06:03.543Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f19",
+    "sku": "GEN-SPEA-0134",
+    "name": "Generic Speakers Model 12",
+    "description": "Discover excellence with the Generic Speakers Model 12. Engineered with precision and built to last, this speakers product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fd",
+      "name": "Speakers",
+      "path": "/electronics/tv-audio/speakers"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 344.02,
+      "price": 517.36,
+      "compareAtPrice": 583.08,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 100,
+      "availableStock": 100,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 25,
+      "reorderQuantity": 50,
+      "minStockLevel": 10,
+      "stockValue": 34402.32,
+      "averageCost": 344.02,
+      "lastCostUpdate": "2025-07-04T07:47:01.753Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 20,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 20,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 20,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 20,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 20,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SPEA-0135",
+        "cost": 330.33,
+        "leadTime": 8,
+        "minOrderQuantity": 22,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SPEA-0136",
+        "cost": 316.43,
+        "leadTime": 6,
+        "minOrderQuantity": 25,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.52,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 18.123252221357244,
+      "width": 19.238502857745704,
+      "height": 10.896331750656724,
+      "unit": "cm"
+    },
+    "barcode": "2668213134668",
+    "upc": "219618538167",
+    "tags": [
+      "Speakers",
+      "Generic",
+      "Speakers"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-05-21T06:13:44.443Z",
+    "updatedAt": "2025-05-08T19:24:24.889Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f1a",
+    "sku": "GEN-SPEA-0135",
+    "name": "Generic Speakers Model 13",
+    "description": "Discover excellence with the Generic Speakers Model 13. Engineered with precision and built to last, this speakers product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fd",
+      "name": "Speakers",
+      "path": "/electronics/tv-audio/speakers"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 706.56,
+      "price": 980.78,
+      "compareAtPrice": 1080.4,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 0,
+      "availableStock": 0,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 18,
+      "reorderQuantity": 35,
+      "minStockLevel": 7,
+      "stockValue": 49458.87,
+      "averageCost": 706.56,
+      "lastCostUpdate": "2025-07-23T08:54:07.883Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 14,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 14,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SPEA-0136",
+        "cost": 664.48,
+        "leadTime": 14,
+        "minOrderQuantity": 11,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SPEA-0137",
+        "cost": 647.16,
+        "leadTime": 14,
+        "minOrderQuantity": 12,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.43,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 10.88477470227389,
+      "width": 14.726529095663556,
+      "height": 24.75326369553726,
+      "unit": "cm"
+    },
+    "barcode": "6160795994485",
+    "upc": "798571530885",
+    "tags": [
+      "Speakers",
+      "Generic",
+      "Speakers"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-02-27T08:32:13.459Z",
+    "updatedAt": "2025-05-16T23:28:03.877Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f1b",
+    "sku": "GEN-SPEA-0136",
+    "name": "Generic Speakers Model 14",
+    "description": "Discover excellence with the Generic Speakers Model 14. Engineered with precision and built to last, this speakers product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fd",
+      "name": "Speakers",
+      "path": "/electronics/tv-audio/speakers"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 238.18,
+      "price": 365.61,
+      "compareAtPrice": 416.43,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 22,
+      "availableStock": 22,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 6,
+      "reorderQuantity": 11,
+      "minStockLevel": 3,
+      "stockValue": 5239.92,
+      "averageCost": 238.18,
+      "lastCostUpdate": "2025-06-27T18:21:29.557Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 4,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 4,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SPEA-0137",
+        "cost": 231.22,
+        "leadTime": 12,
+        "minOrderQuantity": 13,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SPEA-0138",
+        "cost": 219.04,
+        "leadTime": 7,
+        "minOrderQuantity": 8,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.17,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 41.078795334810444,
+      "width": 26.948031094530343,
+      "height": 12.457678749763977,
+      "unit": "cm"
+    },
+    "barcode": "2885360825003",
+    "upc": "460359679043",
+    "tags": [
+      "Speakers",
+      "Generic",
+      "Speakers"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-03-03T09:12:25.464Z",
+    "updatedAt": "2025-07-11T04:48:42.086Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f1c",
+    "sku": "GEN-SPEA-0137",
+    "name": "Generic Speakers Model 15",
+    "description": "Discover excellence with the Generic Speakers Model 15. Engineered with precision and built to last, this speakers product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fd",
+      "name": "Speakers",
+      "path": "/electronics/tv-audio/speakers"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 586.95,
+      "price": 890.68,
+      "compareAtPrice": 1007.72,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 83,
+      "availableStock": 83,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 21,
+      "reorderQuantity": 42,
+      "minStockLevel": 9,
+      "stockValue": 48716.44,
+      "averageCost": 586.95,
+      "lastCostUpdate": "2025-07-21T10:08:20.381Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 16,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 16,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SPEA-0138",
+        "cost": 529.71,
+        "leadTime": 7,
+        "minOrderQuantity": 9,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SPEA-0139",
+        "cost": 534.89,
+        "leadTime": 14,
+        "minOrderQuantity": 17,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.62,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 11.220131714474334,
+      "width": 21.75906040976317,
+      "height": 5.314376030479238,
+      "unit": "cm"
+    },
+    "barcode": "8128808104759",
+    "upc": "243781656943",
+    "tags": [
+      "Speakers",
+      "Generic",
+      "Speakers"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-08-25T12:51:09.793Z",
+    "updatedAt": "2025-06-23T04:46:12.422Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f1d",
+    "sku": "GEN-SOUN-0138",
+    "name": "Generic Soundbars Model 1",
+    "description": "Discover excellence with the Generic Soundbars Model 1. Engineered with precision and built to last, this soundbars product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fe",
+      "name": "Soundbars",
+      "path": "/electronics/tv-audio/soundbars"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 381.17,
+      "price": 670.92,
+      "compareAtPrice": 822.85,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 29,
+      "availableStock": 29,
+      "reservedStock": 0,
+      "incomingStock": 39,
+      "reorderPoint": 8,
+      "reorderQuantity": 15,
+      "minStockLevel": 3,
+      "stockValue": 11053.99,
+      "averageCost": 381.17,
+      "lastCostUpdate": "2025-07-02T00:13:37.575Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 5,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 5,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SOUN-0139",
+        "cost": 346.92,
+        "leadTime": 6,
+        "minOrderQuantity": 19,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SOUN-0140",
+        "cost": 360.5,
+        "leadTime": 3,
+        "minOrderQuantity": 12,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.91,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 26.34914165827986,
+      "width": 40.10772473550485,
+      "height": 7.608963202699127,
+      "unit": "cm"
+    },
+    "barcode": "5244888085873",
+    "upc": "534170014657",
+    "tags": [
+      "Soundbars",
+      "Generic",
+      "Soundbars"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-01-07T17:02:11.299Z",
+    "updatedAt": "2025-05-14T16:58:35.999Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f1e",
+    "sku": "GEN-SOUN-0139",
+    "name": "Generic Soundbars Model 2",
+    "description": "Discover excellence with the Generic Soundbars Model 2. Engineered with precision and built to last, this soundbars product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fe",
+      "name": "Soundbars",
+      "path": "/electronics/tv-audio/soundbars"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 243.79,
+      "price": 397.23,
+      "compareAtPrice": 483.67,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 42,
+      "availableStock": 42,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 11,
+      "reorderQuantity": 21,
+      "minStockLevel": 5,
+      "stockValue": 10239.14,
+      "averageCost": 243.79,
+      "lastCostUpdate": "2025-07-20T05:56:34.576Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 8,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 8,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SOUN-0140",
+        "cost": 223.45,
+        "leadTime": 12,
+        "minOrderQuantity": 21,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SOUN-0141",
+        "cost": 219.43,
+        "leadTime": 3,
+        "minOrderQuantity": 15,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.23,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 28.589551660095097,
+      "width": 40.81448283357882,
+      "height": 8.455119336034446,
+      "unit": "cm"
+    },
+    "barcode": "6081006334106",
+    "upc": "706363732935",
+    "tags": [
+      "Soundbars",
+      "Generic",
+      "Soundbars"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-12-11T15:36:54.615Z",
+    "updatedAt": "2025-06-27T00:33:33.339Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f1f",
+    "sku": "GEN-SOUN-0140",
+    "name": "Generic Soundbars Model 3",
+    "description": "Discover excellence with the Generic Soundbars Model 3. Engineered with precision and built to last, this soundbars product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fe",
+      "name": "Soundbars",
+      "path": "/electronics/tv-audio/soundbars"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 592.28,
+      "price": 867.48,
+      "compareAtPrice": 1078.74,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 49,
+      "availableStock": 49,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 13,
+      "reorderQuantity": 25,
+      "minStockLevel": 5,
+      "stockValue": 29021.54,
+      "averageCost": 592.28,
+      "lastCostUpdate": "2025-07-14T02:43:38.545Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 9,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 9,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SOUN-0141",
+        "cost": 560.31,
+        "leadTime": 9,
+        "minOrderQuantity": 25,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SOUN-0142",
+        "cost": 571.2,
+        "leadTime": 4,
+        "minOrderQuantity": 21,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.78,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 45.556030328927676,
+      "width": 44.92482091440637,
+      "height": 11.66201588564325,
+      "unit": "cm"
+    },
+    "barcode": "6820320246760",
+    "upc": "953383336227",
+    "tags": [
+      "Soundbars",
+      "Generic",
+      "Soundbars"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-05-27T07:51:11.244Z",
+    "updatedAt": "2025-06-20T17:14:11.938Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f20",
+    "sku": "GEN-SOUN-0141",
+    "name": "Generic Soundbars Model 4",
+    "description": "Discover excellence with the Generic Soundbars Model 4. Engineered with precision and built to last, this soundbars product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fe",
+      "name": "Soundbars",
+      "path": "/electronics/tv-audio/soundbars"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 116.4,
+      "price": 210.63,
+      "compareAtPrice": 241.02,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 49,
+      "availableStock": 49,
+      "reservedStock": 0,
+      "incomingStock": 26,
+      "reorderPoint": 13,
+      "reorderQuantity": 25,
+      "minStockLevel": 5,
+      "stockValue": 5703.63,
+      "averageCost": 116.4,
+      "lastCostUpdate": "2025-06-27T21:28:36.998Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 9,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 9,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SOUN-0142",
+        "cost": 108.85,
+        "leadTime": 8,
+        "minOrderQuantity": 5,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SOUN-0143",
+        "cost": 106.69,
+        "leadTime": 8,
+        "minOrderQuantity": 14,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.76,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 32.19487497129393,
+      "width": 23.35353216646684,
+      "height": 21.826779350063795,
+      "unit": "cm"
+    },
+    "barcode": "3507406632211",
+    "upc": "022806605196",
+    "tags": [
+      "Soundbars",
+      "Generic",
+      "Soundbars"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-10-14T01:51:38.294Z",
+    "updatedAt": "2025-05-25T04:07:41.403Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f21",
+    "sku": "GEN-SOUN-0142",
+    "name": "Generic Soundbars Model 5",
+    "description": "Discover excellence with the Generic Soundbars Model 5. Engineered with precision and built to last, this soundbars product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fe",
+      "name": "Soundbars",
+      "path": "/electronics/tv-audio/soundbars"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 592.98,
+      "price": 918.33,
+      "compareAtPrice": 1079.95,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 32,
+      "availableStock": 32,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 8,
+      "reorderQuantity": 16,
+      "minStockLevel": 4,
+      "stockValue": 18975.25,
+      "averageCost": 592.98,
+      "lastCostUpdate": "2025-07-18T08:46:46.962Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 6,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 6,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SOUN-0143",
+        "cost": 561.13,
+        "leadTime": 10,
+        "minOrderQuantity": 6,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SOUN-0144",
+        "cost": 537.96,
+        "leadTime": 8,
+        "minOrderQuantity": 8,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.64,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 17.907188801862446,
+      "width": 44.968560987609095,
+      "height": 12.824346847205103,
+      "unit": "cm"
+    },
+    "barcode": "0670397426453",
+    "upc": "587353179240",
+    "tags": [
+      "Soundbars",
+      "Generic",
+      "Soundbars"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-08-23T15:40:06.623Z",
+    "updatedAt": "2025-05-29T14:21:20.170Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f22",
+    "sku": "GEN-SOUN-0143",
+    "name": "Generic Soundbars Model 6",
+    "description": "Discover excellence with the Generic Soundbars Model 6. Engineered with precision and built to last, this soundbars product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fe",
+      "name": "Soundbars",
+      "path": "/electronics/tv-audio/soundbars"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 396.22,
+      "price": 714.65,
+      "compareAtPrice": 839.44,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 22,
+      "availableStock": 22,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 6,
+      "reorderQuantity": 11,
+      "minStockLevel": 3,
+      "stockValue": 8716.75,
+      "averageCost": 396.22,
+      "lastCostUpdate": "2025-07-12T21:47:43.874Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 4,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 4,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SOUN-0144",
+        "cost": 357.83,
+        "leadTime": 13,
+        "minOrderQuantity": 11,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SOUN-0145",
+        "cost": 360.84,
+        "leadTime": 9,
+        "minOrderQuantity": 19,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.5,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 30.070748849378354,
+      "width": 20.0474174486417,
+      "height": 22.437975643050127,
+      "unit": "cm"
+    },
+    "barcode": "6616148241688",
+    "upc": "653506824836",
+    "tags": [
+      "Soundbars",
+      "Generic",
+      "Soundbars"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-01-30T01:53:23.960Z",
+    "updatedAt": "2025-06-11T19:20:54.037Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f23",
+    "sku": "GEN-SOUN-0144",
+    "name": "Generic Soundbars Model 7",
+    "description": "Discover excellence with the Generic Soundbars Model 7. Engineered with precision and built to last, this soundbars product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fe",
+      "name": "Soundbars",
+      "path": "/electronics/tv-audio/soundbars"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 316.86,
+      "price": 509.28,
+      "compareAtPrice": 561.29,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 49,
+      "availableStock": 49,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 13,
+      "reorderQuantity": 25,
+      "minStockLevel": 5,
+      "stockValue": 15526.05,
+      "averageCost": 316.86,
+      "lastCostUpdate": "2025-07-10T18:08:38.820Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 9,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 9,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SOUN-0145",
+        "cost": 307.74,
+        "leadTime": 6,
+        "minOrderQuantity": 11,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SOUN-0146",
+        "cost": 306.42,
+        "leadTime": 9,
+        "minOrderQuantity": 18,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.16,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 36.25209671418011,
+      "width": 22.330563873019706,
+      "height": 14.285835793600631,
+      "unit": "cm"
+    },
+    "barcode": "8503338143407",
+    "upc": "497813103528",
+    "tags": [
+      "Soundbars",
+      "Generic",
+      "Soundbars"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-12-07T15:31:14.951Z",
+    "updatedAt": "2025-06-26T07:47:39.314Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f24",
+    "sku": "GEN-SOUN-0145",
+    "name": "Generic Soundbars Model 8",
+    "description": "Discover excellence with the Generic Soundbars Model 8. Engineered with precision and built to last, this soundbars product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fe",
+      "name": "Soundbars",
+      "path": "/electronics/tv-audio/soundbars"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 315.53,
+      "price": 465.78,
+      "compareAtPrice": 557.25,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 0,
+      "availableStock": 0,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 22,
+      "reorderQuantity": 43,
+      "minStockLevel": 9,
+      "stockValue": 26820.2,
+      "averageCost": 315.53,
+      "lastCostUpdate": "2025-06-24T01:10:09.451Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 17,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 17,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SOUN-0146",
+        "cost": 298.74,
+        "leadTime": 13,
+        "minOrderQuantity": 23,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SOUN-0147",
+        "cost": 306.28,
+        "leadTime": 14,
+        "minOrderQuantity": 8,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.01,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 21.419845383961743,
+      "width": 45.65170057762793,
+      "height": 21.119070584009677,
+      "unit": "cm"
+    },
+    "barcode": "1712503787631",
+    "upc": "315760609311",
+    "tags": [
+      "Soundbars",
+      "Generic",
+      "Soundbars"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-04-08T18:48:18.556Z",
+    "updatedAt": "2025-05-29T04:14:47.606Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f25",
+    "sku": "GEN-SOUN-0146",
+    "name": "Generic Soundbars Model 9",
+    "description": "Discover excellence with the Generic Soundbars Model 9. Engineered with precision and built to last, this soundbars product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fe",
+      "name": "Soundbars",
+      "path": "/electronics/tv-audio/soundbars"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 468.24,
+      "price": 695.88,
+      "compareAtPrice": 848.03,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 60,
+      "availableStock": 60,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 15,
+      "reorderQuantity": 30,
+      "minStockLevel": 6,
+      "stockValue": 28094.12,
+      "averageCost": 468.24,
+      "lastCostUpdate": "2025-06-24T23:23:07.349Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 12,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 12,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SOUN-0147",
+        "cost": 457.26,
+        "leadTime": 14,
+        "minOrderQuantity": 18,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SOUN-0148",
+        "cost": 438.69,
+        "leadTime": 12,
+        "minOrderQuantity": 21,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.09,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 13.608210113324173,
+      "width": 34.54713862313848,
+      "height": 15.978056886864836,
+      "unit": "cm"
+    },
+    "barcode": "7923585634925",
+    "upc": "964530741390",
+    "tags": [
+      "Soundbars",
+      "Generic",
+      "Soundbars"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-05-31T03:08:31.945Z",
+    "updatedAt": "2025-06-11T03:18:12.573Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f26",
+    "sku": "GEN-SOUN-0147",
+    "name": "Generic Soundbars Model 10",
+    "description": "Discover excellence with the Generic Soundbars Model 10. Engineered with precision and built to last, this soundbars product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fe",
+      "name": "Soundbars",
+      "path": "/electronics/tv-audio/soundbars"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 338.08,
+      "price": 531.11,
+      "compareAtPrice": 635.6,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 20,
+      "availableStock": 20,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 5,
+      "reorderQuantity": 10,
+      "minStockLevel": 2,
+      "stockValue": 6761.53,
+      "averageCost": 338.08,
+      "lastCostUpdate": "2025-07-08T07:46:55.590Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 4,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 4,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SOUN-0148",
+        "cost": 315.75,
+        "leadTime": 13,
+        "minOrderQuantity": 13,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SOUN-0149",
+        "cost": 314.93,
+        "leadTime": 5,
+        "minOrderQuantity": 8,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.56,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 49.12856453490788,
+      "width": 33.34614060152582,
+      "height": 15.541865137648232,
+      "unit": "cm"
+    },
+    "barcode": "6251892379868",
+    "upc": "759425438908",
+    "tags": [
+      "Soundbars",
+      "Generic",
+      "Soundbars"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-02-24T22:28:42.239Z",
+    "updatedAt": "2025-07-15T11:54:59.839Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f27",
+    "sku": "GEN-SOUN-0148",
+    "name": "Generic Soundbars Model 11",
+    "description": "Discover excellence with the Generic Soundbars Model 11. Engineered with precision and built to last, this soundbars product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fe",
+      "name": "Soundbars",
+      "path": "/electronics/tv-audio/soundbars"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 229.98,
+      "price": 338.43,
+      "compareAtPrice": 378.18,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 77,
+      "availableStock": 77,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 20,
+      "reorderQuantity": 39,
+      "minStockLevel": 8,
+      "stockValue": 17708.6,
+      "averageCost": 229.98,
+      "lastCostUpdate": "2025-06-29T10:14:32.069Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 15,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 15,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SOUN-0149",
+        "cost": 207.87,
+        "leadTime": 14,
+        "minOrderQuantity": 10,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SOUN-0150",
+        "cost": 207.28,
+        "leadTime": 10,
+        "minOrderQuantity": 13,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.25,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 14.989564967888636,
+      "width": 39.383347753046834,
+      "height": 6.372435074921718,
+      "unit": "cm"
+    },
+    "barcode": "0386682388862",
+    "upc": "630509252520",
+    "tags": [
+      "Soundbars",
+      "Generic",
+      "Soundbars"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-03-07T12:18:47.700Z",
+    "updatedAt": "2025-07-12T01:52:46.967Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f28",
+    "sku": "GEN-SOUN-0149",
+    "name": "Generic Soundbars Model 12",
+    "description": "Discover excellence with the Generic Soundbars Model 12. Engineered with precision and built to last, this soundbars product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fe",
+      "name": "Soundbars",
+      "path": "/electronics/tv-audio/soundbars"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 202.37,
+      "price": 317.05,
+      "compareAtPrice": 387.56,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 37,
+      "availableStock": 37,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 10,
+      "reorderQuantity": 19,
+      "minStockLevel": 4,
+      "stockValue": 7487.73,
+      "averageCost": 202.37,
+      "lastCostUpdate": "2025-07-16T09:38:04.456Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 7,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 7,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SOUN-0150",
+        "cost": 196.5,
+        "leadTime": 10,
+        "minOrderQuantity": 20,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SOUN-0151",
+        "cost": 192.93,
+        "leadTime": 10,
+        "minOrderQuantity": 16,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.89,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 41.897113037325624,
+      "width": 28.29754752604094,
+      "height": 12.641589811866186,
+      "unit": "cm"
+    },
+    "barcode": "1329005246105",
+    "upc": "820756131235",
+    "tags": [
+      "Soundbars",
+      "Generic",
+      "Soundbars"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-09-01T03:53:19.490Z",
+    "updatedAt": "2025-07-18T09:00:19.003Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f29",
+    "sku": "GEN-SOUN-0150",
+    "name": "Generic Soundbars Model 13",
+    "description": "Discover excellence with the Generic Soundbars Model 13. Engineered with precision and built to last, this soundbars product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fe",
+      "name": "Soundbars",
+      "path": "/electronics/tv-audio/soundbars"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 234.93,
+      "price": 386.29,
+      "compareAtPrice": 451.74,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 42,
+      "availableStock": 42,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 11,
+      "reorderQuantity": 21,
+      "minStockLevel": 5,
+      "stockValue": 9867.18,
+      "averageCost": 234.93,
+      "lastCostUpdate": "2025-07-03T08:20:19.884Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 8,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 8,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SOUN-0151",
+        "cost": 217.05,
+        "leadTime": 8,
+        "minOrderQuantity": 10,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SOUN-0152",
+        "cost": 218.39,
+        "leadTime": 7,
+        "minOrderQuantity": 20,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.63,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 45.366993862175114,
+      "width": 11.643172674845852,
+      "height": 7.5661750292048255,
+      "unit": "cm"
+    },
+    "barcode": "9830940803459",
+    "upc": "494266551335",
+    "tags": [
+      "Soundbars",
+      "Generic",
+      "Soundbars"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-06-15T17:56:28.363Z",
+    "updatedAt": "2025-07-09T16:11:00.049Z"
+  }
+]

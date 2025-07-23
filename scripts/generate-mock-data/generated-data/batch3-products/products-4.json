@@ -1,0 +1,5502 @@
+[
+  {
+    "_id": "68811caa975c12956e900f2a",
+    "sku": "GEN-SOUN-0151",
+    "name": "Generic Soundbars Model 14",
+    "description": "Discover excellence with the Generic Soundbars Model 14. Engineered with precision and built to last, this soundbars product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fe",
+      "name": "Soundbars",
+      "path": "/electronics/tv-audio/soundbars"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 553.05,
+      "price": 887.59,
+      "compareAtPrice": 1002.64,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 1,
+      "availableStock": 1,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 6,
+      "reorderQuantity": 11,
+      "minStockLevel": 3,
+      "stockValue": 11614.02,
+      "averageCost": 553.05,
+      "lastCostUpdate": "2025-07-04T09:20:36.254Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 4,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 4,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SOUN-0152",
+        "cost": 505.01,
+        "leadTime": 9,
+        "minOrderQuantity": 20,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SOUN-0153",
+        "cost": 536.04,
+        "leadTime": 9,
+        "minOrderQuantity": 9,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.37,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 41.515698186385066,
+      "width": 49.27133117682833,
+      "height": 14.431040830323855,
+      "unit": "cm"
+    },
+    "barcode": "8888039086460",
+    "upc": "016134597957",
+    "tags": [
+      "Soundbars",
+      "Generic",
+      "Soundbars"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-04-13T05:36:59.469Z",
+    "updatedAt": "2025-06-29T18:52:50.033Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f2b",
+    "sku": "GEN-SOUN-0152",
+    "name": "Generic Soundbars Model 15",
+    "description": "Discover excellence with the Generic Soundbars Model 15. Engineered with precision and built to last, this soundbars product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913fe",
+      "name": "Soundbars",
+      "path": "/electronics/tv-audio/soundbars"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "draft",
+    "pricing": {
+      "cost": 567.62,
+      "price": 930.74,
+      "compareAtPrice": 1028.13,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 25,
+      "availableStock": 25,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 7,
+      "reorderQuantity": 13,
+      "minStockLevel": 3,
+      "stockValue": 14190.62,
+      "averageCost": 567.62,
+      "lastCostUpdate": "2025-06-30T04:03:42.450Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 5,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 5,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SOUN-0153",
+        "cost": 543.58,
+        "leadTime": 3,
+        "minOrderQuantity": 10,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SOUN-0154",
+        "cost": 555.87,
+        "leadTime": 8,
+        "minOrderQuantity": 14,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.7,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 31.25651593097721,
+      "width": 42.39908984878403,
+      "height": 17.029358263630165,
+      "unit": "cm"
+    },
+    "barcode": "1690318829243",
+    "upc": "622890368939",
+    "tags": [
+      "Soundbars",
+      "Generic",
+      "Soundbars"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-05-24T22:22:37.425Z",
+    "updatedAt": "2025-07-15T04:11:13.740Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f2c",
+    "sku": "GEN-HEAD-0153",
+    "name": "Generic Headphones Model 1",
+    "description": "Discover excellence with the Generic Headphones Model 1. Engineered with precision and built to last, this headphones product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913ff",
+      "name": "Headphones",
+      "path": "/electronics/tv-audio/headphones"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 164.74,
+      "price": 257.81,
+      "compareAtPrice": 307.41,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 50,
+      "availableStock": 50,
+      "reservedStock": 0,
+      "incomingStock": 10,
+      "reorderPoint": 13,
+      "reorderQuantity": 25,
+      "minStockLevel": 5,
+      "stockValue": 8236.9,
+      "averageCost": 164.74,
+      "lastCostUpdate": "2025-07-03T10:58:21.597Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 10,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 10,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-HEAD-0154",
+        "cost": 160.7,
+        "leadTime": 3,
+        "minOrderQuantity": 14,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-HEAD-0155",
+        "cost": 156.74,
+        "leadTime": 6,
+        "minOrderQuantity": 9,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.11,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 44.25740620518112,
+      "width": 27.060051839900083,
+      "height": 23.31487083521616,
+      "unit": "cm"
+    },
+    "barcode": "8854392601566",
+    "upc": "613685909134",
+    "tags": [
+      "Headphones",
+      "Generic",
+      "Headphones"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-12-26T07:42:01.205Z",
+    "updatedAt": "2025-05-23T00:15:23.762Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f2d",
+    "sku": "GEN-HEAD-0154",
+    "name": "Generic Headphones Model 2",
+    "description": "Discover excellence with the Generic Headphones Model 2. Engineered with precision and built to last, this headphones product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913ff",
+      "name": "Headphones",
+      "path": "/electronics/tv-audio/headphones"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 381.67,
+      "price": 560.25,
+      "compareAtPrice": 618.74,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 57,
+      "availableStock": 57,
+      "reservedStock": 0,
+      "incomingStock": 10,
+      "reorderPoint": 15,
+      "reorderQuantity": 29,
+      "minStockLevel": 6,
+      "stockValue": 21755.35,
+      "averageCost": 381.67,
+      "lastCostUpdate": "2025-06-26T13:12:21.167Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 11,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 11,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-HEAD-0155",
+        "cost": 354.15,
+        "leadTime": 13,
+        "minOrderQuantity": 11,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-HEAD-0156",
+        "cost": 369.54,
+        "leadTime": 12,
+        "minOrderQuantity": 23,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.51,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 34.11474726154381,
+      "width": 15.14725749535316,
+      "height": 28.882130241285925,
+      "unit": "cm"
+    },
+    "barcode": "5058983532747",
+    "upc": "586236903585",
+    "tags": [
+      "Headphones",
+      "Generic",
+      "Headphones"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-10-02T16:17:25.511Z",
+    "updatedAt": "2025-05-16T18:40:02.043Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f2e",
+    "sku": "GEN-HEAD-0155",
+    "name": "Generic Headphones Model 3",
+    "description": "Discover excellence with the Generic Headphones Model 3. Engineered with precision and built to last, this headphones product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913ff",
+      "name": "Headphones",
+      "path": "/electronics/tv-audio/headphones"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 263.2,
+      "price": 354.64,
+      "compareAtPrice": 413.69,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 58,
+      "availableStock": 58,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 15,
+      "reorderQuantity": 29,
+      "minStockLevel": 6,
+      "stockValue": 15265.77,
+      "averageCost": 263.2,
+      "lastCostUpdate": "2025-06-30T08:49:01.809Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 11,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 11,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-HEAD-0156",
+        "cost": 254.04,
+        "leadTime": 7,
+        "minOrderQuantity": 9,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-HEAD-0157",
+        "cost": 240.96,
+        "leadTime": 7,
+        "minOrderQuantity": 19,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.03,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 48.717276150069694,
+      "width": 16.53764780999568,
+      "height": 9.478126677248126,
+      "unit": "cm"
+    },
+    "barcode": "3821740379268",
+    "upc": "182264916207",
+    "tags": [
+      "Headphones",
+      "Generic",
+      "Headphones"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-11-30T11:07:10.321Z",
+    "updatedAt": "2025-06-18T11:59:55.877Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f2f",
+    "sku": "GEN-HEAD-0156",
+    "name": "Generic Headphones Model 4",
+    "description": "Discover excellence with the Generic Headphones Model 4. Engineered with precision and built to last, this headphones product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913ff",
+      "name": "Headphones",
+      "path": "/electronics/tv-audio/headphones"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 256.25,
+      "price": 373.01,
+      "compareAtPrice": 454.67,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 32,
+      "availableStock": 32,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 8,
+      "reorderQuantity": 16,
+      "minStockLevel": 4,
+      "stockValue": 8199.94,
+      "averageCost": 256.25,
+      "lastCostUpdate": "2025-07-16T22:25:01.249Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 6,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 6,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-HEAD-0157",
+        "cost": 240.2,
+        "leadTime": 11,
+        "minOrderQuantity": 25,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-HEAD-0158",
+        "cost": 243.02,
+        "leadTime": 9,
+        "minOrderQuantity": 14,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.23,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 44.85673857801595,
+      "width": 39.78181668081359,
+      "height": 20.329707691038536,
+      "unit": "cm"
+    },
+    "barcode": "3356952171175",
+    "upc": "169131362518",
+    "tags": [
+      "Headphones",
+      "Generic",
+      "Headphones"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-05-29T01:24:48.653Z",
+    "updatedAt": "2025-07-03T20:10:41.436Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f30",
+    "sku": "GEN-HEAD-0157",
+    "name": "Generic Headphones Model 5",
+    "description": "Discover excellence with the Generic Headphones Model 5. Engineered with precision and built to last, this headphones product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913ff",
+      "name": "Headphones",
+      "path": "/electronics/tv-audio/headphones"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 450.73,
+      "price": 638.34,
+      "compareAtPrice": 761.08,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 40,
+      "availableStock": 40,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 10,
+      "reorderQuantity": 20,
+      "minStockLevel": 4,
+      "stockValue": 18029.08,
+      "averageCost": 450.73,
+      "lastCostUpdate": "2025-07-10T04:07:20.712Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 8,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 8,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-HEAD-0158",
+        "cost": 411.66,
+        "leadTime": 4,
+        "minOrderQuantity": 10,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-HEAD-0159",
+        "cost": 435.11,
+        "leadTime": 11,
+        "minOrderQuantity": 20,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.27,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 16.472327972154062,
+      "width": 28.413892983369074,
+      "height": 17.339864396614395,
+      "unit": "cm"
+    },
+    "barcode": "4462586675120",
+    "upc": "398437305971",
+    "tags": [
+      "Headphones",
+      "Generic",
+      "Headphones"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-02-05T05:10:02.124Z",
+    "updatedAt": "2025-06-04T02:28:57.970Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f31",
+    "sku": "GEN-HEAD-0158",
+    "name": "Generic Headphones Model 6",
+    "description": "Discover excellence with the Generic Headphones Model 6. Engineered with precision and built to last, this headphones product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913ff",
+      "name": "Headphones",
+      "path": "/electronics/tv-audio/headphones"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 608.78,
+      "price": 827.84,
+      "compareAtPrice": 980.34,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 3,
+      "availableStock": 3,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 12,
+      "reorderQuantity": 23,
+      "minStockLevel": 5,
+      "stockValue": 27395.04,
+      "averageCost": 608.78,
+      "lastCostUpdate": "2025-06-26T05:55:52.245Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 9,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 9,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-HEAD-0159",
+        "cost": 581.55,
+        "leadTime": 13,
+        "minOrderQuantity": 12,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-HEAD-0160",
+        "cost": 566.4,
+        "leadTime": 3,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.33,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 25.57744397187344,
+      "width": 46.15658639713932,
+      "height": 25.53988533402774,
+      "unit": "cm"
+    },
+    "barcode": "2342232705762",
+    "upc": "467814965079",
+    "tags": [
+      "Headphones",
+      "Generic",
+      "Headphones"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-10-15T02:24:32.557Z",
+    "updatedAt": "2025-05-10T21:06:06.776Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f32",
+    "sku": "GEN-HEAD-0159",
+    "name": "Generic Headphones Model 7",
+    "description": "Discover excellence with the Generic Headphones Model 7. Engineered with precision and built to last, this headphones product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913ff",
+      "name": "Headphones",
+      "path": "/electronics/tv-audio/headphones"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 324.23,
+      "price": 506.4,
+      "compareAtPrice": 566.62,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 22,
+      "availableStock": 22,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 6,
+      "reorderQuantity": 11,
+      "minStockLevel": 3,
+      "stockValue": 7132.97,
+      "averageCost": 324.23,
+      "lastCostUpdate": "2025-06-27T20:28:10.911Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 4,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 4,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-HEAD-0160",
+        "cost": 292.48,
+        "leadTime": 3,
+        "minOrderQuantity": 9,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-HEAD-0161",
+        "cost": 301,
+        "leadTime": 6,
+        "minOrderQuantity": 19,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.69,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 16.531700200750535,
+      "width": 30.899970007045837,
+      "height": 5.501107955615987,
+      "unit": "cm"
+    },
+    "barcode": "1962189914126",
+    "upc": "058798566219",
+    "tags": [
+      "Headphones",
+      "Generic",
+      "Headphones"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-11-29T14:05:55.761Z",
+    "updatedAt": "2025-06-27T16:11:06.365Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f33",
+    "sku": "GEN-HEAD-0160",
+    "name": "Generic Headphones Model 8",
+    "description": "Discover excellence with the Generic Headphones Model 8. Engineered with precision and built to last, this headphones product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913ff",
+      "name": "Headphones",
+      "path": "/electronics/tv-audio/headphones"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 663.78,
+      "price": 933.78,
+      "compareAtPrice": 1037.24,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 58,
+      "availableStock": 58,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 15,
+      "reorderQuantity": 29,
+      "minStockLevel": 6,
+      "stockValue": 38499.19,
+      "averageCost": 663.78,
+      "lastCostUpdate": "2025-07-05T22:19:44.035Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 11,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 11,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-HEAD-0161",
+        "cost": 617.77,
+        "leadTime": 10,
+        "minOrderQuantity": 17,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-HEAD-0162",
+        "cost": 599.37,
+        "leadTime": 6,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.91,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 35.236073434843064,
+      "width": 21.109312756209484,
+      "height": 19.780507997403177,
+      "unit": "cm"
+    },
+    "barcode": "9118091565504",
+    "upc": "854014660756",
+    "tags": [
+      "Headphones",
+      "Generic",
+      "Headphones"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-01-20T08:20:04.597Z",
+    "updatedAt": "2025-04-29T07:33:23.246Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f34",
+    "sku": "GEN-HEAD-0161",
+    "name": "Generic Headphones Model 9",
+    "description": "Discover excellence with the Generic Headphones Model 9. Engineered with precision and built to last, this headphones product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913ff",
+      "name": "Headphones",
+      "path": "/electronics/tv-audio/headphones"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 419.09,
+      "price": 753.03,
+      "compareAtPrice": 885.08,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 51,
+      "availableStock": 51,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 13,
+      "reorderQuantity": 26,
+      "minStockLevel": 6,
+      "stockValue": 21373.64,
+      "averageCost": 419.09,
+      "lastCostUpdate": "2025-07-03T06:17:00.944Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 10,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 10,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-HEAD-0162",
+        "cost": 383,
+        "leadTime": 5,
+        "minOrderQuantity": 25,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-HEAD-0163",
+        "cost": 397.91,
+        "leadTime": 14,
+        "minOrderQuantity": 10,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.69,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 40.6011122537946,
+      "width": 45.17443089763717,
+      "height": 22.050164917409813,
+      "unit": "cm"
+    },
+    "barcode": "9045137357574",
+    "upc": "859191584688",
+    "tags": [
+      "Headphones",
+      "Generic",
+      "Headphones"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-04-11T06:27:24.283Z",
+    "updatedAt": "2025-05-01T08:40:23.909Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f35",
+    "sku": "GEN-HEAD-0162",
+    "name": "Generic Headphones Model 10",
+    "description": "Discover excellence with the Generic Headphones Model 10. Engineered with precision and built to last, this headphones product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913ff",
+      "name": "Headphones",
+      "path": "/electronics/tv-audio/headphones"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 603.8,
+      "price": 921.04,
+      "compareAtPrice": 1036.75,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 39,
+      "availableStock": 39,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 10,
+      "reorderQuantity": 20,
+      "minStockLevel": 4,
+      "stockValue": 23548.21,
+      "averageCost": 603.8,
+      "lastCostUpdate": "2025-06-28T11:12:42.795Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 7,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 7,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-HEAD-0163",
+        "cost": 555.21,
+        "leadTime": 7,
+        "minOrderQuantity": 17,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-HEAD-0164",
+        "cost": 569.91,
+        "leadTime": 6,
+        "minOrderQuantity": 12,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.43,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 10.862556893289375,
+      "width": 19.631423451326437,
+      "height": 23.328128745820262,
+      "unit": "cm"
+    },
+    "barcode": "7636924963250",
+    "upc": "595825195208",
+    "tags": [
+      "Headphones",
+      "Generic",
+      "Headphones"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-01-03T06:45:52.806Z",
+    "updatedAt": "2025-07-17T09:35:56.011Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f36",
+    "sku": "GEN-HEAD-0163",
+    "name": "Generic Headphones Model 11",
+    "description": "Discover excellence with the Generic Headphones Model 11. Engineered with precision and built to last, this headphones product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913ff",
+      "name": "Headphones",
+      "path": "/electronics/tv-audio/headphones"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 232.28,
+      "price": 403.66,
+      "compareAtPrice": 477.25,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 64,
+      "availableStock": 64,
+      "reservedStock": 0,
+      "incomingStock": 33,
+      "reorderPoint": 16,
+      "reorderQuantity": 32,
+      "minStockLevel": 7,
+      "stockValue": 14865.76,
+      "averageCost": 232.28,
+      "lastCostUpdate": "2025-06-27T02:16:35.327Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 12,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 12,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-HEAD-0164",
+        "cost": 214.27,
+        "leadTime": 6,
+        "minOrderQuantity": 20,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-HEAD-0165",
+        "cost": 218.15,
+        "leadTime": 5,
+        "minOrderQuantity": 10,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.06,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 40.061149853794774,
+      "width": 33.901006505711194,
+      "height": 14.715541646867488,
+      "unit": "cm"
+    },
+    "barcode": "4030282843022",
+    "upc": "667403405222",
+    "tags": [
+      "Headphones",
+      "Generic",
+      "Headphones"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-01-04T14:32:18.600Z",
+    "updatedAt": "2025-05-01T16:00:09.444Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f37",
+    "sku": "GEN-HEAD-0164",
+    "name": "Generic Headphones Model 12",
+    "description": "Discover excellence with the Generic Headphones Model 12. Engineered with precision and built to last, this headphones product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913ff",
+      "name": "Headphones",
+      "path": "/electronics/tv-audio/headphones"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 203.27,
+      "price": 320.14,
+      "compareAtPrice": 374.73,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 40,
+      "availableStock": 40,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 10,
+      "reorderQuantity": 20,
+      "minStockLevel": 4,
+      "stockValue": 8130.88,
+      "averageCost": 203.27,
+      "lastCostUpdate": "2025-07-18T03:35:52.606Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 8,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 8,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-HEAD-0165",
+        "cost": 194.83,
+        "leadTime": 3,
+        "minOrderQuantity": 10,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-HEAD-0166",
+        "cost": 184.6,
+        "leadTime": 5,
+        "minOrderQuantity": 15,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.94,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 35.93886994043331,
+      "width": 14.345119085177377,
+      "height": 6.024402617731959,
+      "unit": "cm"
+    },
+    "barcode": "3782390438009",
+    "upc": "165556992213",
+    "tags": [
+      "Headphones",
+      "Generic",
+      "Headphones"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-07-10T09:50:30.716Z",
+    "updatedAt": "2025-05-21T01:13:37.504Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f38",
+    "sku": "GEN-HEAD-0165",
+    "name": "Generic Headphones Model 13",
+    "description": "Discover excellence with the Generic Headphones Model 13. Engineered with precision and built to last, this headphones product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913ff",
+      "name": "Headphones",
+      "path": "/electronics/tv-audio/headphones"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 540.14,
+      "price": 779.96,
+      "compareAtPrice": 877.38,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 70,
+      "availableStock": 70,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 18,
+      "reorderQuantity": 35,
+      "minStockLevel": 7,
+      "stockValue": 37809.63,
+      "averageCost": 540.14,
+      "lastCostUpdate": "2025-07-03T17:08:06.711Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 14,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 14,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-HEAD-0166",
+        "cost": 495.38,
+        "leadTime": 7,
+        "minOrderQuantity": 14,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-HEAD-0167",
+        "cost": 498.39,
+        "leadTime": 5,
+        "minOrderQuantity": 23,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.01,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 39.69676240594346,
+      "width": 21.369951935812512,
+      "height": 8.63836481153437,
+      "unit": "cm"
+    },
+    "barcode": "6804234117365",
+    "upc": "744537784590",
+    "tags": [
+      "Headphones",
+      "Generic",
+      "Headphones"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-12-03T22:53:01.393Z",
+    "updatedAt": "2025-06-09T14:00:03.582Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f39",
+    "sku": "GEN-HEAD-0166",
+    "name": "Generic Headphones Model 14",
+    "description": "Discover excellence with the Generic Headphones Model 14. Engineered with precision and built to last, this headphones product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913ff",
+      "name": "Headphones",
+      "path": "/electronics/tv-audio/headphones"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 369.65,
+      "price": 522,
+      "compareAtPrice": 621.11,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 97,
+      "availableStock": 97,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 25,
+      "reorderQuantity": 49,
+      "minStockLevel": 10,
+      "stockValue": 35855.77,
+      "averageCost": 369.65,
+      "lastCostUpdate": "2025-07-20T12:25:10.561Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 19,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 19,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-HEAD-0167",
+        "cost": 356.08,
+        "leadTime": 5,
+        "minOrderQuantity": 17,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-HEAD-0168",
+        "cost": 354.67,
+        "leadTime": 7,
+        "minOrderQuantity": 9,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.43,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 21.717351429417803,
+      "width": 28.90805522194467,
+      "height": 15.807099689673338,
+      "unit": "cm"
+    },
+    "barcode": "7239003387622",
+    "upc": "041695175898",
+    "tags": [
+      "Headphones",
+      "Generic",
+      "Headphones"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-07-07T23:32:58.007Z",
+    "updatedAt": "2025-05-12T00:35:29.419Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f3a",
+    "sku": "GEN-HEAD-0167",
+    "name": "Generic Headphones Model 15",
+    "description": "Discover excellence with the Generic Headphones Model 15. Engineered with precision and built to last, this headphones product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db913ff",
+      "name": "Headphones",
+      "path": "/electronics/tv-audio/headphones"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 703.58,
+      "price": 946.9,
+      "compareAtPrice": 1155.73,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 28,
+      "availableStock": 28,
+      "reservedStock": 0,
+      "incomingStock": 36,
+      "reorderPoint": 7,
+      "reorderQuantity": 14,
+      "minStockLevel": 3,
+      "stockValue": 19700.19,
+      "averageCost": 703.58,
+      "lastCostUpdate": "2025-07-16T09:45:44.397Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 5,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 5,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-HEAD-0168",
+        "cost": 681.33,
+        "leadTime": 3,
+        "minOrderQuantity": 19,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-HEAD-0169",
+        "cost": 641.93,
+        "leadTime": 12,
+        "minOrderQuantity": 11,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.66,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 11.465986032697826,
+      "width": 39.641907728435335,
+      "height": 20.63905567197135,
+      "unit": "cm"
+    },
+    "barcode": "8321797017283",
+    "upc": "966437982906",
+    "tags": [
+      "Headphones",
+      "Generic",
+      "Headphones"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-07-22T14:12:21.104Z",
+    "updatedAt": "2025-06-19T12:44:03.685Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f3b",
+    "sku": "GEN-SMAR-0168",
+    "name": "Generic Smart Lighting Model 1",
+    "description": "Discover excellence with the Generic Smart Lighting Model 1. Engineered with precision and built to last, this smart lighting product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91400",
+      "name": "Smart Lighting",
+      "path": "/electronics/smart-home/smart-lighting"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 371.71,
+      "price": 523.58,
+      "compareAtPrice": 595.86,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 96,
+      "availableStock": 96,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 24,
+      "reorderQuantity": 48,
+      "minStockLevel": 10,
+      "stockValue": 35683.92,
+      "averageCost": 371.71,
+      "lastCostUpdate": "2025-07-13T01:55:39.428Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 19,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 19,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0169",
+        "cost": 360.68,
+        "leadTime": 9,
+        "minOrderQuantity": 17,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0170",
+        "cost": 362.12,
+        "leadTime": 10,
+        "minOrderQuantity": 6,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.5,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 43.27798271918961,
+      "width": 22.360971009358117,
+      "height": 27.558954593936615,
+      "unit": "cm"
+    },
+    "barcode": "9247243758574",
+    "upc": "015376199247",
+    "tags": [
+      "Smart Lighting",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-09-27T20:42:14.064Z",
+    "updatedAt": "2025-05-09T22:22:55.650Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f3c",
+    "sku": "GEN-SMAR-0169",
+    "name": "Generic Smart Lighting Model 2",
+    "description": "Discover excellence with the Generic Smart Lighting Model 2. Engineered with precision and built to last, this smart lighting product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91400",
+      "name": "Smart Lighting",
+      "path": "/electronics/smart-home/smart-lighting"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 201.07,
+      "price": 334.46,
+      "compareAtPrice": 398.88,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 25,
+      "availableStock": 25,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 7,
+      "reorderQuantity": 13,
+      "minStockLevel": 3,
+      "stockValue": 5026.78,
+      "averageCost": 201.07,
+      "lastCostUpdate": "2025-07-12T03:37:16.392Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 5,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 5,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0170",
+        "cost": 193.97,
+        "leadTime": 8,
+        "minOrderQuantity": 13,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0171",
+        "cost": 184.14,
+        "leadTime": 13,
+        "minOrderQuantity": 8,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.04,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 43.64631344445432,
+      "width": 32.51608233981694,
+      "height": 11.844898086595745,
+      "unit": "cm"
+    },
+    "barcode": "8765350478502",
+    "upc": "796392286272",
+    "tags": [
+      "Smart Lighting",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-01-31T22:49:39.255Z",
+    "updatedAt": "2025-07-13T00:56:46.890Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f3d",
+    "sku": "GEN-SMAR-0170",
+    "name": "Generic Smart Lighting Model 3",
+    "description": "Discover excellence with the Generic Smart Lighting Model 3. Engineered with precision and built to last, this smart lighting product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91400",
+      "name": "Smart Lighting",
+      "path": "/electronics/smart-home/smart-lighting"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 166.38,
+      "price": 280.13,
+      "compareAtPrice": 309.98,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 29,
+      "availableStock": 29,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 8,
+      "reorderQuantity": 15,
+      "minStockLevel": 3,
+      "stockValue": 4825.09,
+      "averageCost": 166.38,
+      "lastCostUpdate": "2025-07-06T16:45:28.801Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 5,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 5,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0171",
+        "cost": 162.55,
+        "leadTime": 14,
+        "minOrderQuantity": 15,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0172",
+        "cost": 156.85,
+        "leadTime": 10,
+        "minOrderQuantity": 13,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.17,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 19.455618732550278,
+      "width": 29.38699894029764,
+      "height": 21.828970371967053,
+      "unit": "cm"
+    },
+    "barcode": "7389403072052",
+    "upc": "903602937690",
+    "tags": [
+      "Smart Lighting",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-06-24T04:07:57.354Z",
+    "updatedAt": "2025-06-15T20:29:29.175Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f3e",
+    "sku": "GEN-SMAR-0171",
+    "name": "Generic Smart Lighting Model 4",
+    "description": "Discover excellence with the Generic Smart Lighting Model 4. Engineered with precision and built to last, this smart lighting product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91400",
+      "name": "Smart Lighting",
+      "path": "/electronics/smart-home/smart-lighting"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 203.11,
+      "price": 277.24,
+      "compareAtPrice": 322.4,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 89,
+      "availableStock": 89,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 23,
+      "reorderQuantity": 45,
+      "minStockLevel": 9,
+      "stockValue": 18076.48,
+      "averageCost": 203.11,
+      "lastCostUpdate": "2025-06-29T13:32:43.694Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 17,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 17,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0172",
+        "cost": 188.43,
+        "leadTime": 8,
+        "minOrderQuantity": 25,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0173",
+        "cost": 195.64,
+        "leadTime": 3,
+        "minOrderQuantity": 25,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.69,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 17.310968487215025,
+      "width": 16.781777097871778,
+      "height": 11.863474014779142,
+      "unit": "cm"
+    },
+    "barcode": "1451734463014",
+    "upc": "145975006554",
+    "tags": [
+      "Smart Lighting",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-08-17T20:16:32.455Z",
+    "updatedAt": "2025-05-31T22:25:28.054Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f3f",
+    "sku": "GEN-SMAR-0172",
+    "name": "Generic Smart Lighting Model 5",
+    "description": "Discover excellence with the Generic Smart Lighting Model 5. Engineered with precision and built to last, this smart lighting product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91400",
+      "name": "Smart Lighting",
+      "path": "/electronics/smart-home/smart-lighting"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 270.31,
+      "price": 480.98,
+      "compareAtPrice": 529.71,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 3,
+      "availableStock": 3,
+      "reservedStock": 0,
+      "incomingStock": 46,
+      "reorderPoint": 16,
+      "reorderQuantity": 31,
+      "minStockLevel": 7,
+      "stockValue": 16758.97,
+      "averageCost": 270.31,
+      "lastCostUpdate": "2025-07-21T14:30:22.331Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 12,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 12,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0173",
+        "cost": 264.12,
+        "leadTime": 6,
+        "minOrderQuantity": 5,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0174",
+        "cost": 252.97,
+        "leadTime": 10,
+        "minOrderQuantity": 20,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.64,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 44.99476305332277,
+      "width": 48.121123602761784,
+      "height": 5.8250344395978795,
+      "unit": "cm"
+    },
+    "barcode": "1208932198285",
+    "upc": "780153322530",
+    "tags": [
+      "Smart Lighting",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-07-13T16:41:47.866Z",
+    "updatedAt": "2025-07-16T19:23:32.462Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f40",
+    "sku": "GEN-SMAR-0173",
+    "name": "Generic Smart Lighting Model 6",
+    "description": "Discover excellence with the Generic Smart Lighting Model 6. Engineered with precision and built to last, this smart lighting product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91400",
+      "name": "Smart Lighting",
+      "path": "/electronics/smart-home/smart-lighting"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 213.35,
+      "price": 356.23,
+      "compareAtPrice": 429.78,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 66,
+      "availableStock": 66,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 17,
+      "reorderQuantity": 33,
+      "minStockLevel": 7,
+      "stockValue": 14080.94,
+      "averageCost": 213.35,
+      "lastCostUpdate": "2025-07-23T15:27:55.503Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 13,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 13,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0174",
+        "cost": 200.46,
+        "leadTime": 13,
+        "minOrderQuantity": 5,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0175",
+        "cost": 201.22,
+        "leadTime": 4,
+        "minOrderQuantity": 10,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.51,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 10.667663910767743,
+      "width": 32.15085537512837,
+      "height": 28.108316741226602,
+      "unit": "cm"
+    },
+    "barcode": "1422707027076",
+    "upc": "294698254667",
+    "tags": [
+      "Smart Lighting",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-05-14T01:03:00.781Z",
+    "updatedAt": "2025-06-21T23:04:30.493Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f41",
+    "sku": "GEN-SMAR-0174",
+    "name": "Generic Smart Lighting Model 7",
+    "description": "Discover excellence with the Generic Smart Lighting Model 7. Engineered with precision and built to last, this smart lighting product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91400",
+      "name": "Smart Lighting",
+      "path": "/electronics/smart-home/smart-lighting"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 317.22,
+      "price": 495.28,
+      "compareAtPrice": 570.04,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 4,
+      "availableStock": 4,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 21,
+      "reorderQuantity": 41,
+      "minStockLevel": 9,
+      "stockValue": 26011.93,
+      "averageCost": 317.22,
+      "lastCostUpdate": "2025-06-24T23:16:22.697Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 16,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 16,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0175",
+        "cost": 289.02,
+        "leadTime": 5,
+        "minOrderQuantity": 8,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0176",
+        "cost": 306.68,
+        "leadTime": 6,
+        "minOrderQuantity": 23,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.33,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 12.52848484130601,
+      "width": 41.38640254695035,
+      "height": 21.968648312305707,
+      "unit": "cm"
+    },
+    "barcode": "5746398433093",
+    "upc": "027254295298",
+    "tags": [
+      "Smart Lighting",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-03-15T01:52:30.268Z",
+    "updatedAt": "2025-07-15T01:30:25.307Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f42",
+    "sku": "GEN-SMAR-0175",
+    "name": "Generic Smart Lighting Model 8",
+    "description": "Discover excellence with the Generic Smart Lighting Model 8. Engineered with precision and built to last, this smart lighting product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91400",
+      "name": "Smart Lighting",
+      "path": "/electronics/smart-home/smart-lighting"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 708.17,
+      "price": 957.25,
+      "compareAtPrice": 1113.82,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 26,
+      "availableStock": 26,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 7,
+      "reorderQuantity": 13,
+      "minStockLevel": 3,
+      "stockValue": 18412.55,
+      "averageCost": 708.17,
+      "lastCostUpdate": "2025-06-28T02:47:41.909Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 5,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 5,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0176",
+        "cost": 643.65,
+        "leadTime": 14,
+        "minOrderQuantity": 22,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0177",
+        "cost": 671.28,
+        "leadTime": 11,
+        "minOrderQuantity": 24,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.51,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 26.28504962908749,
+      "width": 12.331531540675371,
+      "height": 16.098676653109365,
+      "unit": "cm"
+    },
+    "barcode": "3106199712064",
+    "upc": "777203719219",
+    "tags": [
+      "Smart Lighting",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-05-01T14:54:57.119Z",
+    "updatedAt": "2025-07-13T06:11:20.430Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f43",
+    "sku": "GEN-SMAR-0176",
+    "name": "Generic Smart Lighting Model 9",
+    "description": "Discover excellence with the Generic Smart Lighting Model 9. Engineered with precision and built to last, this smart lighting product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91400",
+      "name": "Smart Lighting",
+      "path": "/electronics/smart-home/smart-lighting"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 342.19,
+      "price": 470.3,
+      "compareAtPrice": 552.55,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 69,
+      "availableStock": 69,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 18,
+      "reorderQuantity": 35,
+      "minStockLevel": 7,
+      "stockValue": 23611.28,
+      "averageCost": 342.19,
+      "lastCostUpdate": "2025-07-23T05:05:47.686Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 13,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 13,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0177",
+        "cost": 326.56,
+        "leadTime": 6,
+        "minOrderQuantity": 19,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0178",
+        "cost": 308.58,
+        "leadTime": 5,
+        "minOrderQuantity": 15,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.48,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 34.82370596360635,
+      "width": 28.31679097451626,
+      "height": 19.735401772015614,
+      "unit": "cm"
+    },
+    "barcode": "5880420625271",
+    "upc": "954939397793",
+    "tags": [
+      "Smart Lighting",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-08-28T19:41:46.223Z",
+    "updatedAt": "2025-06-26T09:30:45.936Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f44",
+    "sku": "GEN-SMAR-0177",
+    "name": "Generic Smart Lighting Model 10",
+    "description": "Discover excellence with the Generic Smart Lighting Model 10. Engineered with precision and built to last, this smart lighting product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91400",
+      "name": "Smart Lighting",
+      "path": "/electronics/smart-home/smart-lighting"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 626.03,
+      "price": 901.37,
+      "compareAtPrice": 1071.69,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 81,
+      "availableStock": 81,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 21,
+      "reorderQuantity": 41,
+      "minStockLevel": 9,
+      "stockValue": 50708.22,
+      "averageCost": 626.03,
+      "lastCostUpdate": "2025-06-28T11:28:32.930Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 16,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 16,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0178",
+        "cost": 575.82,
+        "leadTime": 10,
+        "minOrderQuantity": 8,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0179",
+        "cost": 584.88,
+        "leadTime": 7,
+        "minOrderQuantity": 20,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.26,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 21.37559639725921,
+      "width": 48.182082053079874,
+      "height": 7.48764105595905,
+      "unit": "cm"
+    },
+    "barcode": "5730075251730",
+    "upc": "779338881400",
+    "tags": [
+      "Smart Lighting",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-06-17T22:07:28.958Z",
+    "updatedAt": "2025-07-19T14:23:23.692Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f45",
+    "sku": "GEN-SMAR-0178",
+    "name": "Generic Smart Lighting Model 11",
+    "description": "Discover excellence with the Generic Smart Lighting Model 11. Engineered with precision and built to last, this smart lighting product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91400",
+      "name": "Smart Lighting",
+      "path": "/electronics/smart-home/smart-lighting"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 162.88,
+      "price": 279.93,
+      "compareAtPrice": 326.99,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 67,
+      "availableStock": 67,
+      "reservedStock": 0,
+      "incomingStock": 33,
+      "reorderPoint": 17,
+      "reorderQuantity": 34,
+      "minStockLevel": 7,
+      "stockValue": 10913.14,
+      "averageCost": 162.88,
+      "lastCostUpdate": "2025-07-09T00:56:27.875Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 13,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 13,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0179",
+        "cost": 147.11,
+        "leadTime": 7,
+        "minOrderQuantity": 21,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0180",
+        "cost": 150.69,
+        "leadTime": 13,
+        "minOrderQuantity": 14,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.96,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 28.33100703052279,
+      "width": 23.714450870975202,
+      "height": 8.52803672421733,
+      "unit": "cm"
+    },
+    "barcode": "5279862083050",
+    "upc": "405986779048",
+    "tags": [
+      "Smart Lighting",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-02-21T11:03:16.542Z",
+    "updatedAt": "2025-07-23T11:57:30.233Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f46",
+    "sku": "GEN-SMAR-0179",
+    "name": "Generic Smart Lighting Model 12",
+    "description": "Discover excellence with the Generic Smart Lighting Model 12. Engineered with precision and built to last, this smart lighting product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91400",
+      "name": "Smart Lighting",
+      "path": "/electronics/smart-home/smart-lighting"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 169.14,
+      "price": 265.35,
+      "compareAtPrice": 302.57,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 85,
+      "availableStock": 85,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 22,
+      "reorderQuantity": 43,
+      "minStockLevel": 9,
+      "stockValue": 14376.67,
+      "averageCost": 169.14,
+      "lastCostUpdate": "2025-07-11T13:25:20.593Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 17,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 17,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0180",
+        "cost": 159.08,
+        "leadTime": 14,
+        "minOrderQuantity": 10,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0181",
+        "cost": 158.99,
+        "leadTime": 8,
+        "minOrderQuantity": 19,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.75,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 13.166712867861454,
+      "width": 22.6138550281977,
+      "height": 5.601136949408923,
+      "unit": "cm"
+    },
+    "barcode": "1732070709915",
+    "upc": "620526188760",
+    "tags": [
+      "Smart Lighting",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-11-29T14:02:50.943Z",
+    "updatedAt": "2025-05-22T16:49:04.112Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f47",
+    "sku": "GEN-SMAR-0180",
+    "name": "Generic Smart Lighting Model 13",
+    "description": "Discover excellence with the Generic Smart Lighting Model 13. Engineered with precision and built to last, this smart lighting product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91400",
+      "name": "Smart Lighting",
+      "path": "/electronics/smart-home/smart-lighting"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 456.79,
+      "price": 772.03,
+      "compareAtPrice": 887.22,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 30,
+      "availableStock": 30,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 8,
+      "reorderQuantity": 15,
+      "minStockLevel": 3,
+      "stockValue": 13703.85,
+      "averageCost": 456.79,
+      "lastCostUpdate": "2025-07-11T01:12:28.451Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 6,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 6,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0181",
+        "cost": 418.05,
+        "leadTime": 7,
+        "minOrderQuantity": 23,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0182",
+        "cost": 436.35,
+        "leadTime": 12,
+        "minOrderQuantity": 25,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.91,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 40.05894944203426,
+      "width": 40.511816251227444,
+      "height": 17.91016812698183,
+      "unit": "cm"
+    },
+    "barcode": "9281814395252",
+    "upc": "240655993711",
+    "tags": [
+      "Smart Lighting",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-10-27T11:24:19.138Z",
+    "updatedAt": "2025-05-07T10:12:17.956Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f48",
+    "sku": "GEN-SMAR-0181",
+    "name": "Generic Smart Lighting Model 14",
+    "description": "Discover excellence with the Generic Smart Lighting Model 14. Engineered with precision and built to last, this smart lighting product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91400",
+      "name": "Smart Lighting",
+      "path": "/electronics/smart-home/smart-lighting"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 243.69,
+      "price": 356.45,
+      "compareAtPrice": 437.44,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 29,
+      "availableStock": 29,
+      "reservedStock": 0,
+      "incomingStock": 12,
+      "reorderPoint": 8,
+      "reorderQuantity": 15,
+      "minStockLevel": 3,
+      "stockValue": 7066.98,
+      "averageCost": 243.69,
+      "lastCostUpdate": "2025-07-12T08:57:16.073Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 5,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 5,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0182",
+        "cost": 238.27,
+        "leadTime": 10,
+        "minOrderQuantity": 21,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0183",
+        "cost": 236.09,
+        "leadTime": 11,
+        "minOrderQuantity": 23,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.13,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 10.79459738432937,
+      "width": 42.816870315212356,
+      "height": 26.04228193490026,
+      "unit": "cm"
+    },
+    "barcode": "5024456979748",
+    "upc": "483004214232",
+    "tags": [
+      "Smart Lighting",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-02-15T20:03:21.502Z",
+    "updatedAt": "2025-04-25T23:57:25.572Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f49",
+    "sku": "GEN-SMAR-0182",
+    "name": "Generic Smart Lighting Model 15",
+    "description": "Discover excellence with the Generic Smart Lighting Model 15. Engineered with precision and built to last, this smart lighting product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91400",
+      "name": "Smart Lighting",
+      "path": "/electronics/smart-home/smart-lighting"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "draft",
+    "pricing": {
+      "cost": 397.5,
+      "price": 685.56,
+      "compareAtPrice": 765.33,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 97,
+      "availableStock": 97,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 25,
+      "reorderQuantity": 49,
+      "minStockLevel": 10,
+      "stockValue": 38557.1,
+      "averageCost": 397.5,
+      "lastCostUpdate": "2025-06-30T02:05:39.081Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 19,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 19,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0183",
+        "cost": 367.22,
+        "leadTime": 4,
+        "minOrderQuantity": 25,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0184",
+        "cost": 369.22,
+        "leadTime": 6,
+        "minOrderQuantity": 9,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.88,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 31.242111857901925,
+      "width": 34.41448149164351,
+      "height": 19.031959596744535,
+      "unit": "cm"
+    },
+    "barcode": "4605354114678",
+    "upc": "825985173466",
+    "tags": [
+      "Smart Lighting",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-11-24T21:09:52.833Z",
+    "updatedAt": "2025-07-06T19:16:02.312Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f4a",
+    "sku": "GEN-SMAR-0183",
+    "name": "Generic Smart Security Model 1",
+    "description": "Discover excellence with the Generic Smart Security Model 1. Engineered with precision and built to last, this smart security product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91401",
+      "name": "Smart Security",
+      "path": "/electronics/smart-home/smart-security"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 198.65,
+      "price": 272.34,
+      "compareAtPrice": 313.57,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 1,
+      "availableStock": 1,
+      "reservedStock": 0,
+      "incomingStock": 11,
+      "reorderPoint": 20,
+      "reorderQuantity": 39,
+      "minStockLevel": 8,
+      "stockValue": 15295.72,
+      "averageCost": 198.65,
+      "lastCostUpdate": "2025-07-04T02:44:28.685Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 15,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 15,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0184",
+        "cost": 193.29,
+        "leadTime": 12,
+        "minOrderQuantity": 10,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0185",
+        "cost": 192.98,
+        "leadTime": 10,
+        "minOrderQuantity": 21,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.67,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 44.25968184699719,
+      "width": 10.641554658935908,
+      "height": 10.27209938954039,
+      "unit": "cm"
+    },
+    "barcode": "1359540520040",
+    "upc": "250101208244",
+    "tags": [
+      "Smart Security",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-07-01T15:30:09.557Z",
+    "updatedAt": "2025-05-28T04:39:34.773Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f4b",
+    "sku": "GEN-SMAR-0184",
+    "name": "Generic Smart Security Model 2",
+    "description": "Discover excellence with the Generic Smart Security Model 2. Engineered with precision and built to last, this smart security product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91401",
+      "name": "Smart Security",
+      "path": "/electronics/smart-home/smart-security"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 453.24,
+      "price": 699.01,
+      "compareAtPrice": 771.95,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 91,
+      "availableStock": 91,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 23,
+      "reorderQuantity": 46,
+      "minStockLevel": 10,
+      "stockValue": 41245.06,
+      "averageCost": 453.24,
+      "lastCostUpdate": "2025-07-12T14:06:01.381Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 18,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 18,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0185",
+        "cost": 442.21,
+        "leadTime": 14,
+        "minOrderQuantity": 8,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0186",
+        "cost": 437.57,
+        "leadTime": 12,
+        "minOrderQuantity": 9,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.93,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 26.558412502118493,
+      "width": 22.774265790071645,
+      "height": 7.389133116474387,
+      "unit": "cm"
+    },
+    "barcode": "0426257173515",
+    "upc": "997640912353",
+    "tags": [
+      "Smart Security",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-02-16T16:34:01.360Z",
+    "updatedAt": "2025-05-11T03:19:14.121Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f4c",
+    "sku": "GEN-SMAR-0185",
+    "name": "Generic Smart Security Model 3",
+    "description": "Discover excellence with the Generic Smart Security Model 3. Engineered with precision and built to last, this smart security product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91401",
+      "name": "Smart Security",
+      "path": "/electronics/smart-home/smart-security"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 311.04,
+      "price": 528.29,
+      "compareAtPrice": 657.47,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 0,
+      "availableStock": 0,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 13,
+      "reorderQuantity": 26,
+      "minStockLevel": 6,
+      "stockValue": 15863.2,
+      "averageCost": 311.04,
+      "lastCostUpdate": "2025-07-05T02:56:56.351Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 10,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 10,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0186",
+        "cost": 280.7,
+        "leadTime": 5,
+        "minOrderQuantity": 13,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0187",
+        "cost": 283.47,
+        "leadTime": 6,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.31,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 11.055734206025738,
+      "width": 19.815208840670792,
+      "height": 25.64280520269967,
+      "unit": "cm"
+    },
+    "barcode": "3108704838324",
+    "upc": "682323876323",
+    "tags": [
+      "Smart Security",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-12-19T00:29:16.261Z",
+    "updatedAt": "2025-07-06T00:46:47.067Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f4d",
+    "sku": "GEN-SMAR-0186",
+    "name": "Generic Smart Security Model 4",
+    "description": "Discover excellence with the Generic Smart Security Model 4. Engineered with precision and built to last, this smart security product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91401",
+      "name": "Smart Security",
+      "path": "/electronics/smart-home/smart-security"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 192.22,
+      "price": 302.11,
+      "compareAtPrice": 343.47,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 60,
+      "availableStock": 60,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 15,
+      "reorderQuantity": 30,
+      "minStockLevel": 6,
+      "stockValue": 11533.08,
+      "averageCost": 192.22,
+      "lastCostUpdate": "2025-06-23T23:46:31.885Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 12,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 12,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0187",
+        "cost": 185.16,
+        "leadTime": 7,
+        "minOrderQuantity": 12,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0188",
+        "cost": 183.91,
+        "leadTime": 13,
+        "minOrderQuantity": 6,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.26,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 40.21304327000011,
+      "width": 24.88768184464248,
+      "height": 28.41287577259721,
+      "unit": "cm"
+    },
+    "barcode": "2766751611181",
+    "upc": "573770620290",
+    "tags": [
+      "Smart Security",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-09-11T05:19:46.932Z",
+    "updatedAt": "2025-06-14T23:23:32.330Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f4e",
+    "sku": "GEN-SMAR-0187",
+    "name": "Generic Smart Security Model 5",
+    "description": "Discover excellence with the Generic Smart Security Model 5. Engineered with precision and built to last, this smart security product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91401",
+      "name": "Smart Security",
+      "path": "/electronics/smart-home/smart-security"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 516.47,
+      "price": 731.68,
+      "compareAtPrice": 854.43,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 83,
+      "availableStock": 83,
+      "reservedStock": 0,
+      "incomingStock": 19,
+      "reorderPoint": 21,
+      "reorderQuantity": 42,
+      "minStockLevel": 9,
+      "stockValue": 42866.71,
+      "averageCost": 516.47,
+      "lastCostUpdate": "2025-07-13T15:23:46.650Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 16,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 16,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0188",
+        "cost": 501.42,
+        "leadTime": 5,
+        "minOrderQuantity": 9,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0189",
+        "cost": 466.99,
+        "leadTime": 12,
+        "minOrderQuantity": 18,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.74,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 44.45266758301728,
+      "width": 45.24399733050109,
+      "height": 15.253033483770285,
+      "unit": "cm"
+    },
+    "barcode": "1459979086380",
+    "upc": "363508823045",
+    "tags": [
+      "Smart Security",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-04-09T03:29:53.649Z",
+    "updatedAt": "2025-06-07T23:42:35.308Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f4f",
+    "sku": "GEN-SMAR-0188",
+    "name": "Generic Smart Security Model 6",
+    "description": "Discover excellence with the Generic Smart Security Model 6. Engineered with precision and built to last, this smart security product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91401",
+      "name": "Smart Security",
+      "path": "/electronics/smart-home/smart-security"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 576.62,
+      "price": 884.38,
+      "compareAtPrice": 1064.38,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 51,
+      "availableStock": 51,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 13,
+      "reorderQuantity": 26,
+      "minStockLevel": 6,
+      "stockValue": 29407.46,
+      "averageCost": 576.62,
+      "lastCostUpdate": "2025-07-02T18:51:57.672Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 10,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 10,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0189",
+        "cost": 523.85,
+        "leadTime": 5,
+        "minOrderQuantity": 5,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0190",
+        "cost": 540.32,
+        "leadTime": 10,
+        "minOrderQuantity": 25,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.87,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 12.556640314159644,
+      "width": 11.818707345079318,
+      "height": 6.485183167582827,
+      "unit": "cm"
+    },
+    "barcode": "1408312750490",
+    "upc": "205711873242",
+    "tags": [
+      "Smart Security",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-04-15T14:39:06.568Z",
+    "updatedAt": "2025-04-25T21:01:19.301Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f50",
+    "sku": "GEN-SMAR-0189",
+    "name": "Generic Smart Security Model 7",
+    "description": "Discover excellence with the Generic Smart Security Model 7. Engineered with precision and built to last, this smart security product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91401",
+      "name": "Smart Security",
+      "path": "/electronics/smart-home/smart-security"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 536.18,
+      "price": 800.54,
+      "compareAtPrice": 923.97,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 54,
+      "availableStock": 54,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 14,
+      "reorderQuantity": 27,
+      "minStockLevel": 6,
+      "stockValue": 28953.75,
+      "averageCost": 536.18,
+      "lastCostUpdate": "2025-07-10T11:46:02.164Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 10,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 10,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0190",
+        "cost": 487.58,
+        "leadTime": 14,
+        "minOrderQuantity": 8,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0191",
+        "cost": 483.34,
+        "leadTime": 3,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.41,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 46.350477181596574,
+      "width": 24.029359177625036,
+      "height": 21.583822098755004,
+      "unit": "cm"
+    },
+    "barcode": "8876705158800",
+    "upc": "537973257039",
+    "tags": [
+      "Smart Security",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-12-20T11:47:46.083Z",
+    "updatedAt": "2025-05-10T03:09:23.750Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f51",
+    "sku": "GEN-SMAR-0190",
+    "name": "Generic Smart Security Model 8",
+    "description": "Discover excellence with the Generic Smart Security Model 8. Engineered with precision and built to last, this smart security product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91401",
+      "name": "Smart Security",
+      "path": "/electronics/smart-home/smart-security"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 394.77,
+      "price": 619.34,
+      "compareAtPrice": 705.93,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 41,
+      "availableStock": 41,
+      "reservedStock": 0,
+      "incomingStock": 35,
+      "reorderPoint": 11,
+      "reorderQuantity": 21,
+      "minStockLevel": 5,
+      "stockValue": 16185.42,
+      "averageCost": 394.77,
+      "lastCostUpdate": "2025-06-29T14:16:37.629Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 8,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 8,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0191",
+        "cost": 369.81,
+        "leadTime": 9,
+        "minOrderQuantity": 10,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0192",
+        "cost": 372.84,
+        "leadTime": 12,
+        "minOrderQuantity": 24,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.16,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 26.020442126604735,
+      "width": 26.891336656030642,
+      "height": 8.611778529688225,
+      "unit": "cm"
+    },
+    "barcode": "6267847597851",
+    "upc": "787453088273",
+    "tags": [
+      "Smart Security",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-10-06T16:22:54.040Z",
+    "updatedAt": "2025-07-01T17:32:15.675Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f52",
+    "sku": "GEN-SMAR-0191",
+    "name": "Generic Smart Security Model 9",
+    "description": "Discover excellence with the Generic Smart Security Model 9. Engineered with precision and built to last, this smart security product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91401",
+      "name": "Smart Security",
+      "path": "/electronics/smart-home/smart-security"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 388.45,
+      "price": 609.45,
+      "compareAtPrice": 712.99,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 43,
+      "availableStock": 43,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 11,
+      "reorderQuantity": 22,
+      "minStockLevel": 5,
+      "stockValue": 16703.47,
+      "averageCost": 388.45,
+      "lastCostUpdate": "2025-07-14T00:46:04.490Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 8,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 8,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0192",
+        "cost": 356.39,
+        "leadTime": 3,
+        "minOrderQuantity": 5,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0193",
+        "cost": 361.73,
+        "leadTime": 13,
+        "minOrderQuantity": 20,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.37,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 49.00055648284319,
+      "width": 11.253224638314506,
+      "height": 11.528916180984922,
+      "unit": "cm"
+    },
+    "barcode": "0113253877864",
+    "upc": "208071393539",
+    "tags": [
+      "Smart Security",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-02-11T22:21:03.805Z",
+    "updatedAt": "2025-06-22T16:07:55.046Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f53",
+    "sku": "GEN-SMAR-0192",
+    "name": "Generic Smart Security Model 10",
+    "description": "Discover excellence with the Generic Smart Security Model 10. Engineered with precision and built to last, this smart security product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91401",
+      "name": "Smart Security",
+      "path": "/electronics/smart-home/smart-security"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 519.97,
+      "price": 860.27,
+      "compareAtPrice": 1011.4,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 1,
+      "availableStock": 1,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 19,
+      "reorderQuantity": 37,
+      "minStockLevel": 8,
+      "stockValue": 37957.79,
+      "averageCost": 519.97,
+      "lastCostUpdate": "2025-07-13T20:15:07.198Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 14,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 14,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0193",
+        "cost": 483.76,
+        "leadTime": 6,
+        "minOrderQuantity": 25,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0194",
+        "cost": 473.14,
+        "leadTime": 13,
+        "minOrderQuantity": 24,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.64,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 13.087079331426388,
+      "width": 24.099544323427317,
+      "height": 17.456010349794525,
+      "unit": "cm"
+    },
+    "barcode": "6743931764769",
+    "upc": "115925055271",
+    "tags": [
+      "Smart Security",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-01-24T05:22:53.126Z",
+    "updatedAt": "2025-05-12T20:56:55.128Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f54",
+    "sku": "GEN-SMAR-0193",
+    "name": "Generic Smart Security Model 11",
+    "description": "Discover excellence with the Generic Smart Security Model 11. Engineered with precision and built to last, this smart security product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91401",
+      "name": "Smart Security",
+      "path": "/electronics/smart-home/smart-security"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 457.23,
+      "price": 724.5,
+      "compareAtPrice": 876.89,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 99,
+      "availableStock": 99,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 25,
+      "reorderQuantity": 50,
+      "minStockLevel": 10,
+      "stockValue": 45266.01,
+      "averageCost": 457.23,
+      "lastCostUpdate": "2025-07-08T23:17:28.209Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 19,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 19,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0194",
+        "cost": 437.46,
+        "leadTime": 5,
+        "minOrderQuantity": 10,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0195",
+        "cost": 434.87,
+        "leadTime": 9,
+        "minOrderQuantity": 23,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.34,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 46.90194748394919,
+      "width": 31.015131581804102,
+      "height": 25.45475594641377,
+      "unit": "cm"
+    },
+    "barcode": "5495875620885",
+    "upc": "009013380654",
+    "tags": [
+      "Smart Security",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-12-28T13:27:50.082Z",
+    "updatedAt": "2025-05-06T20:36:31.555Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f55",
+    "sku": "GEN-SMAR-0194",
+    "name": "Generic Smart Security Model 12",
+    "description": "Discover excellence with the Generic Smart Security Model 12. Engineered with precision and built to last, this smart security product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91401",
+      "name": "Smart Security",
+      "path": "/electronics/smart-home/smart-security"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 650.31,
+      "price": 980.46,
+      "compareAtPrice": 1190.93,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 3,
+      "availableStock": 3,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 19,
+      "reorderQuantity": 37,
+      "minStockLevel": 8,
+      "stockValue": 48123.29,
+      "averageCost": 650.31,
+      "lastCostUpdate": "2025-07-20T13:11:59.453Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 14,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 14,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0195",
+        "cost": 595.54,
+        "leadTime": 11,
+        "minOrderQuantity": 11,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0196",
+        "cost": 599.48,
+        "leadTime": 13,
+        "minOrderQuantity": 16,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.1,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 46.612415212919856,
+      "width": 48.871903364598175,
+      "height": 7.440102905485447,
+      "unit": "cm"
+    },
+    "barcode": "6282385993196",
+    "upc": "633843109535",
+    "tags": [
+      "Smart Security",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-03-31T05:22:01.949Z",
+    "updatedAt": "2025-07-21T11:51:33.558Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f56",
+    "sku": "GEN-SMAR-0195",
+    "name": "Generic Smart Security Model 13",
+    "description": "Discover excellence with the Generic Smart Security Model 13. Engineered with precision and built to last, this smart security product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91401",
+      "name": "Smart Security",
+      "path": "/electronics/smart-home/smart-security"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 226.69,
+      "price": 366.88,
+      "compareAtPrice": 425.21,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 4,
+      "availableStock": 4,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 8,
+      "reorderQuantity": 16,
+      "minStockLevel": 4,
+      "stockValue": 7254.07,
+      "averageCost": 226.69,
+      "lastCostUpdate": "2025-07-22T22:11:25.124Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 6,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 6,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0196",
+        "cost": 208.02,
+        "leadTime": 14,
+        "minOrderQuantity": 10,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0197",
+        "cost": 204.11,
+        "leadTime": 11,
+        "minOrderQuantity": 14,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.79,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 22.810846166113976,
+      "width": 47.07233994140454,
+      "height": 29.919168645724827,
+      "unit": "cm"
+    },
+    "barcode": "1918270436708",
+    "upc": "177053826734",
+    "tags": [
+      "Smart Security",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-09-30T17:07:55.535Z",
+    "updatedAt": "2025-05-05T12:05:29.007Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f57",
+    "sku": "GEN-SMAR-0196",
+    "name": "Generic Smart Security Model 14",
+    "description": "Discover excellence with the Generic Smart Security Model 14. Engineered with precision and built to last, this smart security product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91401",
+      "name": "Smart Security",
+      "path": "/electronics/smart-home/smart-security"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 474.81,
+      "price": 804.99,
+      "compareAtPrice": 988.36,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 27,
+      "availableStock": 27,
+      "reservedStock": 0,
+      "incomingStock": 38,
+      "reorderPoint": 7,
+      "reorderQuantity": 14,
+      "minStockLevel": 3,
+      "stockValue": 12819.91,
+      "averageCost": 474.81,
+      "lastCostUpdate": "2025-07-02T09:52:02.714Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 5,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 5,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0197",
+        "cost": 433.99,
+        "leadTime": 9,
+        "minOrderQuantity": 12,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0198",
+        "cost": 457.08,
+        "leadTime": 4,
+        "minOrderQuantity": 14,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.37,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 28.669377282875345,
+      "width": 39.27600225321064,
+      "height": 11.479624110056703,
+      "unit": "cm"
+    },
+    "barcode": "3158778370482",
+    "upc": "439431082445",
+    "tags": [
+      "Smart Security",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-03-12T04:07:41.408Z",
+    "updatedAt": "2025-05-08T17:49:54.124Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f58",
+    "sku": "GEN-SMAR-0197",
+    "name": "Generic Smart Security Model 15",
+    "description": "Discover excellence with the Generic Smart Security Model 15. Engineered with precision and built to last, this smart security product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91401",
+      "name": "Smart Security",
+      "path": "/electronics/smart-home/smart-security"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 697.32,
+      "price": 964.12,
+      "compareAtPrice": 1135.64,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 54,
+      "availableStock": 54,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 14,
+      "reorderQuantity": 27,
+      "minStockLevel": 6,
+      "stockValue": 37655.05,
+      "averageCost": 697.32,
+      "lastCostUpdate": "2025-07-14T16:11:25.454Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 10,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 10,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0198",
+        "cost": 662.06,
+        "leadTime": 13,
+        "minOrderQuantity": 12,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0199",
+        "cost": 633.38,
+        "leadTime": 14,
+        "minOrderQuantity": 10,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.47,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 42.15789079266634,
+      "width": 41.898736680120976,
+      "height": 8.801727607592623,
+      "unit": "cm"
+    },
+    "barcode": "2538427097960",
+    "upc": "139336927146",
+    "tags": [
+      "Smart Security",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-03-05T09:03:55.488Z",
+    "updatedAt": "2025-07-06T08:43:43.290Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f59",
+    "sku": "GEN-SMAR-0198",
+    "name": "Generic Smart Climate Model 1",
+    "description": "Discover excellence with the Generic Smart Climate Model 1. Engineered with precision and built to last, this smart climate product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91402",
+      "name": "Smart Climate",
+      "path": "/electronics/smart-home/smart-climate"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 213.75,
+      "price": 305.12,
+      "compareAtPrice": 356.36,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 30,
+      "availableStock": 30,
+      "reservedStock": 0,
+      "incomingStock": 24,
+      "reorderPoint": 8,
+      "reorderQuantity": 15,
+      "minStockLevel": 3,
+      "stockValue": 6412.58,
+      "averageCost": 213.75,
+      "lastCostUpdate": "2025-06-28T06:52:57.335Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 6,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 6,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0199",
+        "cost": 204.04,
+        "leadTime": 11,
+        "minOrderQuantity": 15,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0200",
+        "cost": 197.79,
+        "leadTime": 6,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.73,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 10.171814816684863,
+      "width": 16.610119731150487,
+      "height": 22.977805932983337,
+      "unit": "cm"
+    },
+    "barcode": "6809113141545",
+    "upc": "934899294386",
+    "tags": [
+      "Smart Climate",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-01-27T15:01:46.359Z",
+    "updatedAt": "2025-07-23T05:11:19.863Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f5a",
+    "sku": "GEN-SMAR-0199",
+    "name": "Generic Smart Climate Model 2",
+    "description": "Discover excellence with the Generic Smart Climate Model 2. Engineered with precision and built to last, this smart climate product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91402",
+      "name": "Smart Climate",
+      "path": "/electronics/smart-home/smart-climate"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 241.59,
+      "price": 326.72,
+      "compareAtPrice": 368.48,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 65,
+      "availableStock": 65,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 17,
+      "reorderQuantity": 33,
+      "minStockLevel": 7,
+      "stockValue": 15703.14,
+      "averageCost": 241.59,
+      "lastCostUpdate": "2025-07-21T16:16:17.848Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 13,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 13,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0200",
+        "cost": 217.46,
+        "leadTime": 9,
+        "minOrderQuantity": 9,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0201",
+        "cost": 230.83,
+        "leadTime": 8,
+        "minOrderQuantity": 16,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.92,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 21.679825969816065,
+      "width": 11.783509156024206,
+      "height": 16.472736506744486,
+      "unit": "cm"
+    },
+    "barcode": "9522706757669",
+    "upc": "874575768163",
+    "tags": [
+      "Smart Climate",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-02-07T23:13:17.656Z",
+    "updatedAt": "2025-06-04T12:26:15.004Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f5b",
+    "sku": "GEN-SMAR-0200",
+    "name": "Generic Smart Climate Model 3",
+    "description": "Discover excellence with the Generic Smart Climate Model 3. Engineered with precision and built to last, this smart climate product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91402",
+      "name": "Smart Climate",
+      "path": "/electronics/smart-home/smart-climate"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 329.67,
+      "price": 463.74,
+      "compareAtPrice": 553.17,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 20,
+      "availableStock": 20,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 5,
+      "reorderQuantity": 10,
+      "minStockLevel": 2,
+      "stockValue": 6593.34,
+      "averageCost": 329.67,
+      "lastCostUpdate": "2025-07-21T05:09:35.377Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 4,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 4,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SMAR-0201",
+        "cost": 308.79,
+        "leadTime": 6,
+        "minOrderQuantity": 7,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SMAR-0202",
+        "cost": 321.17,
+        "leadTime": 10,
+        "minOrderQuantity": 6,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.65,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 45.39283962586917,
+      "width": 24.436524147658716,
+      "height": 23.96551976169792,
+      "unit": "cm"
+    },
+    "barcode": "4520285226966",
+    "upc": "592377441222",
+    "tags": [
+      "Smart Climate",
+      "Generic",
+      "Smart"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-09-27T06:39:17.480Z",
+    "updatedAt": "2025-05-19T15:53:50.975Z"
+  }
+]

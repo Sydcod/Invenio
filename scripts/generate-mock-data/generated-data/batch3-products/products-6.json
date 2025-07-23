@@ -1,0 +1,5502 @@
+[
+  {
+    "_id": "68811caa975c12956e900f8e",
+    "sku": "GEN-GAMI-0251",
+    "name": "Generic Gaming Accessories Model 4",
+    "description": "Discover excellence with the Generic Gaming Accessories Model 4. Engineered with precision and built to last, this gaming accessories product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91406",
+      "name": "Gaming Accessories",
+      "path": "/electronics/gaming/gaming-accessories"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 359.85,
+      "price": 580.88,
+      "compareAtPrice": 691.46,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 25,
+      "availableStock": 25,
+      "reservedStock": 0,
+      "incomingStock": 17,
+      "reorderPoint": 7,
+      "reorderQuantity": 13,
+      "minStockLevel": 3,
+      "stockValue": 8996.3,
+      "averageCost": 359.85,
+      "lastCostUpdate": "2025-07-22T09:01:02.767Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 5,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 5,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-GAMI-0252",
+        "cost": 329.35,
+        "leadTime": 7,
+        "minOrderQuantity": 18,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-GAMI-0253",
+        "cost": 334,
+        "leadTime": 4,
+        "minOrderQuantity": 14,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.83,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 22.226485032139223,
+      "width": 48.77633081166781,
+      "height": 20.102257529039733,
+      "unit": "cm"
+    },
+    "barcode": "4890114548963",
+    "upc": "088093901252",
+    "tags": [
+      "Gaming Accessories",
+      "Generic",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-10-22T03:11:43.835Z",
+    "updatedAt": "2025-07-21T20:36:11.243Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f8f",
+    "sku": "GEN-GAMI-0252",
+    "name": "Generic Gaming Accessories Model 5",
+    "description": "Discover excellence with the Generic Gaming Accessories Model 5. Engineered with precision and built to last, this gaming accessories product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91406",
+      "name": "Gaming Accessories",
+      "path": "/electronics/gaming/gaming-accessories"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 338.55,
+      "price": 473.26,
+      "compareAtPrice": 582.52,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 97,
+      "availableStock": 97,
+      "reservedStock": 0,
+      "incomingStock": 46,
+      "reorderPoint": 25,
+      "reorderQuantity": 49,
+      "minStockLevel": 10,
+      "stockValue": 32839.22,
+      "averageCost": 338.55,
+      "lastCostUpdate": "2025-07-23T12:54:27.584Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 19,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 19,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-GAMI-0253",
+        "cost": 308.88,
+        "leadTime": 13,
+        "minOrderQuantity": 21,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-GAMI-0254",
+        "cost": 323.09,
+        "leadTime": 8,
+        "minOrderQuantity": 16,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.73,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 31.973656300426747,
+      "width": 22.472401646307397,
+      "height": 27.448791254401474,
+      "unit": "cm"
+    },
+    "barcode": "3027532707856",
+    "upc": "049127420656",
+    "tags": [
+      "Gaming Accessories",
+      "Generic",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-05-13T20:54:56.175Z",
+    "updatedAt": "2025-06-02T04:15:28.343Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f90",
+    "sku": "GEN-GAMI-0253",
+    "name": "Generic Gaming Accessories Model 6",
+    "description": "Discover excellence with the Generic Gaming Accessories Model 6. Engineered with precision and built to last, this gaming accessories product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91406",
+      "name": "Gaming Accessories",
+      "path": "/electronics/gaming/gaming-accessories"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 271.54,
+      "price": 435.88,
+      "compareAtPrice": 519.2,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 62,
+      "availableStock": 62,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 16,
+      "reorderQuantity": 31,
+      "minStockLevel": 7,
+      "stockValue": 16835.79,
+      "averageCost": 271.54,
+      "lastCostUpdate": "2025-07-06T01:44:26.973Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 12,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 12,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-GAMI-0254",
+        "cost": 257.36,
+        "leadTime": 7,
+        "minOrderQuantity": 14,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-GAMI-0255",
+        "cost": 249.91,
+        "leadTime": 5,
+        "minOrderQuantity": 10,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.23,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 33.831522564682544,
+      "width": 23.142519172881272,
+      "height": 29.121069788770455,
+      "unit": "cm"
+    },
+    "barcode": "3159916375615",
+    "upc": "764942183029",
+    "tags": [
+      "Gaming Accessories",
+      "Generic",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-01-14T16:19:39.967Z",
+    "updatedAt": "2025-06-12T15:59:03.121Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f91",
+    "sku": "GEN-GAMI-0254",
+    "name": "Generic Gaming Accessories Model 7",
+    "description": "Discover excellence with the Generic Gaming Accessories Model 7. Engineered with precision and built to last, this gaming accessories product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91406",
+      "name": "Gaming Accessories",
+      "path": "/electronics/gaming/gaming-accessories"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 409.45,
+      "price": 612.96,
+      "compareAtPrice": 749.47,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 23,
+      "availableStock": 23,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 6,
+      "reorderQuantity": 12,
+      "minStockLevel": 3,
+      "stockValue": 9417.31,
+      "averageCost": 409.45,
+      "lastCostUpdate": "2025-07-14T09:00:34.472Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 4,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 4,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-GAMI-0255",
+        "cost": 395.27,
+        "leadTime": 13,
+        "minOrderQuantity": 24,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-GAMI-0256",
+        "cost": 379.96,
+        "leadTime": 11,
+        "minOrderQuantity": 25,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.04,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 23.422350279255237,
+      "width": 34.2102621907876,
+      "height": 8.959556873669815,
+      "unit": "cm"
+    },
+    "barcode": "7013593199504",
+    "upc": "525188699362",
+    "tags": [
+      "Gaming Accessories",
+      "Generic",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-09-16T21:08:34.967Z",
+    "updatedAt": "2025-05-27T17:16:31.525Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f92",
+    "sku": "GEN-GAMI-0255",
+    "name": "Generic Gaming Accessories Model 8",
+    "description": "Discover excellence with the Generic Gaming Accessories Model 8. Engineered with precision and built to last, this gaming accessories product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91406",
+      "name": "Gaming Accessories",
+      "path": "/electronics/gaming/gaming-accessories"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 307.44,
+      "price": 432.01,
+      "compareAtPrice": 495.4,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 29,
+      "availableStock": 29,
+      "reservedStock": 0,
+      "incomingStock": 26,
+      "reorderPoint": 8,
+      "reorderQuantity": 15,
+      "minStockLevel": 3,
+      "stockValue": 8915.74,
+      "averageCost": 307.44,
+      "lastCostUpdate": "2025-07-02T08:33:41.160Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 5,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 5,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-GAMI-0256",
+        "cost": 294.62,
+        "leadTime": 9,
+        "minOrderQuantity": 9,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-GAMI-0257",
+        "cost": 283.45,
+        "leadTime": 9,
+        "minOrderQuantity": 11,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.06,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 44.93031795223024,
+      "width": 34.05311289874308,
+      "height": 27.91296329905278,
+      "unit": "cm"
+    },
+    "barcode": "1874807800695",
+    "upc": "629864966552",
+    "tags": [
+      "Gaming Accessories",
+      "Generic",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-04-09T09:02:37.963Z",
+    "updatedAt": "2025-05-06T09:26:23.704Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f93",
+    "sku": "GEN-GAMI-0256",
+    "name": "Generic Gaming Accessories Model 9",
+    "description": "Discover excellence with the Generic Gaming Accessories Model 9. Engineered with precision and built to last, this gaming accessories product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91406",
+      "name": "Gaming Accessories",
+      "path": "/electronics/gaming/gaming-accessories"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 409.43,
+      "price": 684.32,
+      "compareAtPrice": 850.28,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 39,
+      "availableStock": 39,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 10,
+      "reorderQuantity": 20,
+      "minStockLevel": 4,
+      "stockValue": 15967.77,
+      "averageCost": 409.43,
+      "lastCostUpdate": "2025-07-17T14:07:29.691Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 7,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 7,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-GAMI-0257",
+        "cost": 383.69,
+        "leadTime": 3,
+        "minOrderQuantity": 20,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-GAMI-0258",
+        "cost": 387.69,
+        "leadTime": 14,
+        "minOrderQuantity": 24,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.54,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 11.069433156925133,
+      "width": 22.335501924222964,
+      "height": 6.059280802569804,
+      "unit": "cm"
+    },
+    "barcode": "1025748754511",
+    "upc": "487846357780",
+    "tags": [
+      "Gaming Accessories",
+      "Generic",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-11-09T01:58:47.673Z",
+    "updatedAt": "2025-07-23T00:32:34.809Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f94",
+    "sku": "GEN-GAMI-0257",
+    "name": "Generic Gaming Accessories Model 10",
+    "description": "Discover excellence with the Generic Gaming Accessories Model 10. Engineered with precision and built to last, this gaming accessories product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91406",
+      "name": "Gaming Accessories",
+      "path": "/electronics/gaming/gaming-accessories"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 215.43,
+      "price": 369.1,
+      "compareAtPrice": 422.67,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 32,
+      "availableStock": 32,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 8,
+      "reorderQuantity": 16,
+      "minStockLevel": 4,
+      "stockValue": 6893.62,
+      "averageCost": 215.43,
+      "lastCostUpdate": "2025-07-20T12:09:39.953Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 6,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 6,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-GAMI-0258",
+        "cost": 197.54,
+        "leadTime": 7,
+        "minOrderQuantity": 18,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-GAMI-0259",
+        "cost": 195.73,
+        "leadTime": 3,
+        "minOrderQuantity": 5,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.81,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 33.69679424568436,
+      "width": 25.69862356988585,
+      "height": 18.043777506303442,
+      "unit": "cm"
+    },
+    "barcode": "2326895957464",
+    "upc": "298487012717",
+    "tags": [
+      "Gaming Accessories",
+      "Generic",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-01-19T05:26:35.519Z",
+    "updatedAt": "2025-07-12T08:53:49.965Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f95",
+    "sku": "GEN-GAMI-0258",
+    "name": "Generic Gaming Accessories Model 11",
+    "description": "Discover excellence with the Generic Gaming Accessories Model 11. Engineered with precision and built to last, this gaming accessories product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91406",
+      "name": "Gaming Accessories",
+      "path": "/electronics/gaming/gaming-accessories"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 326.66,
+      "price": 509.93,
+      "compareAtPrice": 585.22,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 38,
+      "availableStock": 38,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 10,
+      "reorderQuantity": 19,
+      "minStockLevel": 4,
+      "stockValue": 12413.21,
+      "averageCost": 326.66,
+      "lastCostUpdate": "2025-07-15T20:37:30.380Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 7,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 7,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-GAMI-0259",
+        "cost": 318.33,
+        "leadTime": 3,
+        "minOrderQuantity": 12,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-GAMI-0260",
+        "cost": 313.55,
+        "leadTime": 5,
+        "minOrderQuantity": 6,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.59,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 44.637767884046106,
+      "width": 40.44525799276253,
+      "height": 11.527222572909803,
+      "unit": "cm"
+    },
+    "barcode": "6308297334152",
+    "upc": "024825862515",
+    "tags": [
+      "Gaming Accessories",
+      "Generic",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-08-25T12:57:28.220Z",
+    "updatedAt": "2025-06-10T19:59:29.613Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f96",
+    "sku": "GEN-GAMI-0259",
+    "name": "Generic Gaming Accessories Model 12",
+    "description": "Discover excellence with the Generic Gaming Accessories Model 12. Engineered with precision and built to last, this gaming accessories product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91406",
+      "name": "Gaming Accessories",
+      "path": "/electronics/gaming/gaming-accessories"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 126.99,
+      "price": 200.56,
+      "compareAtPrice": 231.7,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 47,
+      "availableStock": 47,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 12,
+      "reorderQuantity": 24,
+      "minStockLevel": 5,
+      "stockValue": 5968.58,
+      "averageCost": 126.99,
+      "lastCostUpdate": "2025-07-20T07:53:23.119Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 9,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 9,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-GAMI-0260",
+        "cost": 123.27,
+        "leadTime": 12,
+        "minOrderQuantity": 12,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-GAMI-0261",
+        "cost": 117.88,
+        "leadTime": 8,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.92,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 26.059030411048738,
+      "width": 45.39496159357821,
+      "height": 13.649108312264865,
+      "unit": "cm"
+    },
+    "barcode": "2767941634277",
+    "upc": "421104592428",
+    "tags": [
+      "Gaming Accessories",
+      "Generic",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-12-13T14:39:10.873Z",
+    "updatedAt": "2025-04-28T13:51:17.177Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f97",
+    "sku": "GEN-GAMI-0260",
+    "name": "Generic Gaming Accessories Model 13",
+    "description": "Discover excellence with the Generic Gaming Accessories Model 13. Engineered with precision and built to last, this gaming accessories product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91406",
+      "name": "Gaming Accessories",
+      "path": "/electronics/gaming/gaming-accessories"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 363.08,
+      "price": 501.5,
+      "compareAtPrice": 571.03,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 62,
+      "availableStock": 62,
+      "reservedStock": 0,
+      "incomingStock": 30,
+      "reorderPoint": 16,
+      "reorderQuantity": 31,
+      "minStockLevel": 7,
+      "stockValue": 22511.16,
+      "averageCost": 363.08,
+      "lastCostUpdate": "2025-07-17T14:57:53.224Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 12,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 12,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-GAMI-0261",
+        "cost": 349.21,
+        "leadTime": 8,
+        "minOrderQuantity": 16,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-GAMI-0262",
+        "cost": 340.32,
+        "leadTime": 13,
+        "minOrderQuantity": 25,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.62,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 17.241064386077674,
+      "width": 32.78577627157456,
+      "height": 29.362502776624005,
+      "unit": "cm"
+    },
+    "barcode": "0031367823602",
+    "upc": "360055069229",
+    "tags": [
+      "Gaming Accessories",
+      "Generic",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-04-08T16:47:02.616Z",
+    "updatedAt": "2025-05-30T06:04:37.657Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f98",
+    "sku": "GEN-GAMI-0261",
+    "name": "Generic Gaming Accessories Model 14",
+    "description": "Discover excellence with the Generic Gaming Accessories Model 14. Engineered with precision and built to last, this gaming accessories product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91406",
+      "name": "Gaming Accessories",
+      "path": "/electronics/gaming/gaming-accessories"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 510.26,
+      "price": 863.52,
+      "compareAtPrice": 1032.9,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 65,
+      "availableStock": 65,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 17,
+      "reorderQuantity": 33,
+      "minStockLevel": 7,
+      "stockValue": 33166.6,
+      "averageCost": 510.26,
+      "lastCostUpdate": "2025-07-23T15:12:08.911Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 13,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 13,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-GAMI-0262",
+        "cost": 489.41,
+        "leadTime": 6,
+        "minOrderQuantity": 25,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-GAMI-0263",
+        "cost": 484.32,
+        "leadTime": 7,
+        "minOrderQuantity": 20,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.96,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 30.678856896879942,
+      "width": 35.69460660959216,
+      "height": 27.64981771270745,
+      "unit": "cm"
+    },
+    "barcode": "1471491808642",
+    "upc": "272744292801",
+    "tags": [
+      "Gaming Accessories",
+      "Generic",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-06-26T00:48:24.832Z",
+    "updatedAt": "2025-06-19T08:08:04.464Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f99",
+    "sku": "GEN-GAMI-0262",
+    "name": "Generic Gaming Accessories Model 15",
+    "description": "Discover excellence with the Generic Gaming Accessories Model 15. Engineered with precision and built to last, this gaming accessories product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91406",
+      "name": "Gaming Accessories",
+      "path": "/electronics/gaming/gaming-accessories"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 299.4,
+      "price": 451.83,
+      "compareAtPrice": 528.25,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 46,
+      "availableStock": 46,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 12,
+      "reorderQuantity": 23,
+      "minStockLevel": 5,
+      "stockValue": 13772.41,
+      "averageCost": 299.4,
+      "lastCostUpdate": "2025-07-11T05:12:15.905Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 9,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 9,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-GAMI-0263",
+        "cost": 279.08,
+        "leadTime": 3,
+        "minOrderQuantity": 19,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-GAMI-0264",
+        "cost": 283.87,
+        "leadTime": 11,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.96,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 44.25080597302507,
+      "width": 24.620868500859252,
+      "height": 10.671620295114346,
+      "unit": "cm"
+    },
+    "barcode": "2627413206016",
+    "upc": "449025768676",
+    "tags": [
+      "Gaming Accessories",
+      "Generic",
+      "Gaming"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-07-18T23:10:51.484Z",
+    "updatedAt": "2025-05-25T14:35:10.577Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f9a",
+    "sku": "GEN-PHON-0263",
+    "name": "Generic Phone Cases Model 1",
+    "description": "Discover excellence with the Generic Phone Cases Model 1. Engineered with precision and built to last, this phone cases product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91407",
+      "name": "Phone Cases",
+      "path": "/electronics/mobile-accessories/phone-cases"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 314.25,
+      "price": 544.44,
+      "compareAtPrice": 636.94,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 32,
+      "availableStock": 32,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 8,
+      "reorderQuantity": 16,
+      "minStockLevel": 4,
+      "stockValue": 10055.86,
+      "averageCost": 314.25,
+      "lastCostUpdate": "2025-06-30T14:32:46.685Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 6,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 6,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-PHON-0264",
+        "cost": 302.62,
+        "leadTime": 9,
+        "minOrderQuantity": 21,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-PHON-0265",
+        "cost": 300.86,
+        "leadTime": 9,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.33,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 16.838226748407283,
+      "width": 16.674954729167467,
+      "height": 28.49693190762856,
+      "unit": "cm"
+    },
+    "barcode": "8832803171101",
+    "upc": "587383201593",
+    "tags": [
+      "Phone Cases",
+      "Generic",
+      "Phone"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-07-27T17:05:56.833Z",
+    "updatedAt": "2025-04-25T17:14:14.499Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f9b",
+    "sku": "GEN-PHON-0264",
+    "name": "Generic Phone Cases Model 2",
+    "description": "Discover excellence with the Generic Phone Cases Model 2. Engineered with precision and built to last, this phone cases product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91407",
+      "name": "Phone Cases",
+      "path": "/electronics/mobile-accessories/phone-cases"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 287.06,
+      "price": 445.72,
+      "compareAtPrice": 500.38,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 61,
+      "availableStock": 61,
+      "reservedStock": 0,
+      "incomingStock": 34,
+      "reorderPoint": 16,
+      "reorderQuantity": 31,
+      "minStockLevel": 7,
+      "stockValue": 17510.85,
+      "averageCost": 287.06,
+      "lastCostUpdate": "2025-07-06T12:04:38.676Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 12,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 12,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-PHON-0265",
+        "cost": 279.14,
+        "leadTime": 4,
+        "minOrderQuantity": 23,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-PHON-0266",
+        "cost": 276.35,
+        "leadTime": 11,
+        "minOrderQuantity": 18,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.01,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 42.85621103507863,
+      "width": 24.052477482555776,
+      "height": 12.889075161517434,
+      "unit": "cm"
+    },
+    "barcode": "2875574243868",
+    "upc": "894486449521",
+    "tags": [
+      "Phone Cases",
+      "Generic",
+      "Phone"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-11-08T19:10:17.474Z",
+    "updatedAt": "2025-06-24T00:30:42.000Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f9c",
+    "sku": "GEN-PHON-0265",
+    "name": "Generic Phone Cases Model 3",
+    "description": "Discover excellence with the Generic Phone Cases Model 3. Engineered with precision and built to last, this phone cases product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91407",
+      "name": "Phone Cases",
+      "path": "/electronics/mobile-accessories/phone-cases"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 356.54,
+      "price": 510.71,
+      "compareAtPrice": 605.09,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 71,
+      "availableStock": 71,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 18,
+      "reorderQuantity": 36,
+      "minStockLevel": 8,
+      "stockValue": 25314.25,
+      "averageCost": 356.54,
+      "lastCostUpdate": "2025-07-17T06:18:27.409Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 14,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 14,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-PHON-0266",
+        "cost": 322.47,
+        "leadTime": 5,
+        "minOrderQuantity": 22,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-PHON-0267",
+        "cost": 345.45,
+        "leadTime": 12,
+        "minOrderQuantity": 13,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.06,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 10.902165268538173,
+      "width": 22.791910712112248,
+      "height": 16.85220859567187,
+      "unit": "cm"
+    },
+    "barcode": "6340009713569",
+    "upc": "925331818530",
+    "tags": [
+      "Phone Cases",
+      "Generic",
+      "Phone"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-11-17T20:17:37.658Z",
+    "updatedAt": "2025-06-16T20:22:17.367Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f9d",
+    "sku": "GEN-PHON-0266",
+    "name": "Generic Phone Cases Model 4",
+    "description": "Discover excellence with the Generic Phone Cases Model 4. Engineered with precision and built to last, this phone cases product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91407",
+      "name": "Phone Cases",
+      "path": "/electronics/mobile-accessories/phone-cases"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 672.74,
+      "price": 908.8,
+      "compareAtPrice": 1058.5,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 82,
+      "availableStock": 82,
+      "reservedStock": 0,
+      "incomingStock": 29,
+      "reorderPoint": 21,
+      "reorderQuantity": 41,
+      "minStockLevel": 9,
+      "stockValue": 55164.63,
+      "averageCost": 672.74,
+      "lastCostUpdate": "2025-07-04T04:26:57.825Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 16,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 16,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-PHON-0267",
+        "cost": 607.48,
+        "leadTime": 12,
+        "minOrderQuantity": 9,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-PHON-0268",
+        "cost": 615.07,
+        "leadTime": 11,
+        "minOrderQuantity": 10,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.03,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 42.15361974676331,
+      "width": 45.56818231057833,
+      "height": 6.746479284160454,
+      "unit": "cm"
+    },
+    "barcode": "6734564602230",
+    "upc": "383654507825",
+    "tags": [
+      "Phone Cases",
+      "Generic",
+      "Phone"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-02-28T08:24:26.577Z",
+    "updatedAt": "2025-05-01T08:09:00.831Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f9e",
+    "sku": "GEN-PHON-0267",
+    "name": "Generic Phone Cases Model 5",
+    "description": "Discover excellence with the Generic Phone Cases Model 5. Engineered with precision and built to last, this phone cases product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91407",
+      "name": "Phone Cases",
+      "path": "/electronics/mobile-accessories/phone-cases"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 371.82,
+      "price": 564.28,
+      "compareAtPrice": 666.15,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 86,
+      "availableStock": 86,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 22,
+      "reorderQuantity": 43,
+      "minStockLevel": 9,
+      "stockValue": 31976.65,
+      "averageCost": 371.82,
+      "lastCostUpdate": "2025-06-28T04:09:50.197Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 17,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 17,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-PHON-0268",
+        "cost": 340.46,
+        "leadTime": 11,
+        "minOrderQuantity": 14,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-PHON-0269",
+        "cost": 362.06,
+        "leadTime": 3,
+        "minOrderQuantity": 15,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.97,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 42.62276223131825,
+      "width": 17.527639989251913,
+      "height": 5.166312011281803,
+      "unit": "cm"
+    },
+    "barcode": "0807662587883",
+    "upc": "648630434077",
+    "tags": [
+      "Phone Cases",
+      "Generic",
+      "Phone"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-02-05T00:07:59.480Z",
+    "updatedAt": "2025-04-27T07:29:57.089Z"
+  },
+  {
+    "_id": "68811caa975c12956e900f9f",
+    "sku": "GEN-PHON-0268",
+    "name": "Generic Phone Cases Model 6",
+    "description": "Discover excellence with the Generic Phone Cases Model 6. Engineered with precision and built to last, this phone cases product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91407",
+      "name": "Phone Cases",
+      "path": "/electronics/mobile-accessories/phone-cases"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 658.11,
+      "price": 877.67,
+      "compareAtPrice": 970.67,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 0,
+      "availableStock": 0,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 23,
+      "reorderQuantity": 45,
+      "minStockLevel": 9,
+      "stockValue": 59229.89,
+      "averageCost": 658.11,
+      "lastCostUpdate": "2025-06-25T15:54:17.251Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 18,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 18,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-PHON-0269",
+        "cost": 616.11,
+        "leadTime": 13,
+        "minOrderQuantity": 16,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-PHON-0270",
+        "cost": 608.26,
+        "leadTime": 11,
+        "minOrderQuantity": 14,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.79,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 42.26732500840945,
+      "width": 36.61319374954246,
+      "height": 6.153290806329634,
+      "unit": "cm"
+    },
+    "barcode": "4446524986684",
+    "upc": "055255548737",
+    "tags": [
+      "Phone Cases",
+      "Generic",
+      "Phone"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-05-08T11:06:40.317Z",
+    "updatedAt": "2025-05-04T06:27:13.219Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fa0",
+    "sku": "GEN-PHON-0269",
+    "name": "Generic Phone Cases Model 7",
+    "description": "Discover excellence with the Generic Phone Cases Model 7. Engineered with precision and built to last, this phone cases product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91407",
+      "name": "Phone Cases",
+      "path": "/electronics/mobile-accessories/phone-cases"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 157.95,
+      "price": 271.24,
+      "compareAtPrice": 312.56,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 69,
+      "availableStock": 69,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 18,
+      "reorderQuantity": 35,
+      "minStockLevel": 7,
+      "stockValue": 10898.24,
+      "averageCost": 157.95,
+      "lastCostUpdate": "2025-07-20T13:08:53.319Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 13,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 13,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-PHON-0270",
+        "cost": 142.76,
+        "leadTime": 9,
+        "minOrderQuantity": 14,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-PHON-0271",
+        "cost": 152.64,
+        "leadTime": 13,
+        "minOrderQuantity": 11,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.95,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 38.73791241388747,
+      "width": 30.84545337552948,
+      "height": 14.30434075350705,
+      "unit": "cm"
+    },
+    "barcode": "0231098505832",
+    "upc": "669890779187",
+    "tags": [
+      "Phone Cases",
+      "Generic",
+      "Phone"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-05-30T23:37:39.720Z",
+    "updatedAt": "2025-05-30T04:23:32.222Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fa1",
+    "sku": "GEN-PHON-0270",
+    "name": "Generic Phone Cases Model 8",
+    "description": "Discover excellence with the Generic Phone Cases Model 8. Engineered with precision and built to last, this phone cases product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91407",
+      "name": "Phone Cases",
+      "path": "/electronics/mobile-accessories/phone-cases"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 421.47,
+      "price": 738.77,
+      "compareAtPrice": 873.28,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 5,
+      "availableStock": 5,
+      "reservedStock": 0,
+      "incomingStock": 29,
+      "reorderPoint": 21,
+      "reorderQuantity": 42,
+      "minStockLevel": 9,
+      "stockValue": 35403.21,
+      "averageCost": 421.47,
+      "lastCostUpdate": "2025-07-02T16:14:14.089Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 16,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 16,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-PHON-0271",
+        "cost": 381.93,
+        "leadTime": 10,
+        "minOrderQuantity": 14,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-PHON-0272",
+        "cost": 384.74,
+        "leadTime": 9,
+        "minOrderQuantity": 22,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.42,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 46.53472216698346,
+      "width": 47.77795495255733,
+      "height": 5.880728612449161,
+      "unit": "cm"
+    },
+    "barcode": "2207292953449",
+    "upc": "553716005612",
+    "tags": [
+      "Phone Cases",
+      "Generic",
+      "Phone"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-10-23T04:26:37.127Z",
+    "updatedAt": "2025-07-14T10:34:57.637Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fa2",
+    "sku": "GEN-PHON-0271",
+    "name": "Generic Phone Cases Model 9",
+    "description": "Discover excellence with the Generic Phone Cases Model 9. Engineered with precision and built to last, this phone cases product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91407",
+      "name": "Phone Cases",
+      "path": "/electronics/mobile-accessories/phone-cases"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 227.28,
+      "price": 317.51,
+      "compareAtPrice": 370.34,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 39,
+      "availableStock": 39,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 10,
+      "reorderQuantity": 20,
+      "minStockLevel": 4,
+      "stockValue": 8864.04,
+      "averageCost": 227.28,
+      "lastCostUpdate": "2025-07-13T22:29:23.890Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 7,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 7,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-PHON-0272",
+        "cost": 215.82,
+        "leadTime": 3,
+        "minOrderQuantity": 10,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-PHON-0273",
+        "cost": 208.5,
+        "leadTime": 13,
+        "minOrderQuantity": 22,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.32,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 45.93132295090638,
+      "width": 33.50093930311395,
+      "height": 6.891932956294884,
+      "unit": "cm"
+    },
+    "barcode": "5612188469388",
+    "upc": "662829535350",
+    "tags": [
+      "Phone Cases",
+      "Generic",
+      "Phone"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-05-07T01:45:44.346Z",
+    "updatedAt": "2025-05-03T05:56:04.252Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fa3",
+    "sku": "GEN-PHON-0272",
+    "name": "Generic Phone Cases Model 10",
+    "description": "Discover excellence with the Generic Phone Cases Model 10. Engineered with precision and built to last, this phone cases product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91407",
+      "name": "Phone Cases",
+      "path": "/electronics/mobile-accessories/phone-cases"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 511.66,
+      "price": 892.63,
+      "compareAtPrice": 1066.44,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 22,
+      "availableStock": 22,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 6,
+      "reorderQuantity": 11,
+      "minStockLevel": 3,
+      "stockValue": 11256.51,
+      "averageCost": 511.66,
+      "lastCostUpdate": "2025-07-17T03:56:55.692Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 4,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 4,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-PHON-0273",
+        "cost": 489.23,
+        "leadTime": 11,
+        "minOrderQuantity": 9,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-PHON-0274",
+        "cost": 488.98,
+        "leadTime": 6,
+        "minOrderQuantity": 22,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.22,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 11.409490271387476,
+      "width": 37.6108096234512,
+      "height": 14.139123363261081,
+      "unit": "cm"
+    },
+    "barcode": "3615271315002",
+    "upc": "528968536349",
+    "tags": [
+      "Phone Cases",
+      "Generic",
+      "Phone"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-01-13T04:43:11.424Z",
+    "updatedAt": "2025-05-08T11:38:58.686Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fa4",
+    "sku": "GEN-PHON-0273",
+    "name": "Generic Phone Cases Model 11",
+    "description": "Discover excellence with the Generic Phone Cases Model 11. Engineered with precision and built to last, this phone cases product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91407",
+      "name": "Phone Cases",
+      "path": "/electronics/mobile-accessories/phone-cases"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 324.75,
+      "price": 484.22,
+      "compareAtPrice": 542.03,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 30,
+      "availableStock": 30,
+      "reservedStock": 0,
+      "incomingStock": 22,
+      "reorderPoint": 8,
+      "reorderQuantity": 15,
+      "minStockLevel": 3,
+      "stockValue": 9742.43,
+      "averageCost": 324.75,
+      "lastCostUpdate": "2025-07-21T13:49:12.765Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 6,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 6,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-PHON-0274",
+        "cost": 302.9,
+        "leadTime": 6,
+        "minOrderQuantity": 7,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-PHON-0275",
+        "cost": 312.13,
+        "leadTime": 7,
+        "minOrderQuantity": 21,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.8,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 14.078520532136526,
+      "width": 49.37355549431239,
+      "height": 20.569773086194733,
+      "unit": "cm"
+    },
+    "barcode": "5184681561246",
+    "upc": "776960722752",
+    "tags": [
+      "Phone Cases",
+      "Generic",
+      "Phone"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-12-26T09:50:07.777Z",
+    "updatedAt": "2025-06-21T04:07:35.491Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fa5",
+    "sku": "GEN-PHON-0274",
+    "name": "Generic Phone Cases Model 12",
+    "description": "Discover excellence with the Generic Phone Cases Model 12. Engineered with precision and built to last, this phone cases product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91407",
+      "name": "Phone Cases",
+      "path": "/electronics/mobile-accessories/phone-cases"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 154.35,
+      "price": 238.21,
+      "compareAtPrice": 291.65,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 56,
+      "availableStock": 56,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 14,
+      "reorderQuantity": 28,
+      "minStockLevel": 6,
+      "stockValue": 8643.4,
+      "averageCost": 154.35,
+      "lastCostUpdate": "2025-07-02T19:08:00.429Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 11,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 11,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-PHON-0275",
+        "cost": 150.62,
+        "leadTime": 13,
+        "minOrderQuantity": 17,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-PHON-0276",
+        "cost": 141.08,
+        "leadTime": 14,
+        "minOrderQuantity": 5,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.26,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 35.129402769917476,
+      "width": 14.661963136862038,
+      "height": 21.58997621066714,
+      "unit": "cm"
+    },
+    "barcode": "4110563404360",
+    "upc": "409636472115",
+    "tags": [
+      "Phone Cases",
+      "Generic",
+      "Phone"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-08-22T23:24:42.470Z",
+    "updatedAt": "2025-07-09T11:43:40.255Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fa6",
+    "sku": "GEN-PHON-0275",
+    "name": "Generic Phone Cases Model 13",
+    "description": "Discover excellence with the Generic Phone Cases Model 13. Engineered with precision and built to last, this phone cases product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91407",
+      "name": "Phone Cases",
+      "path": "/electronics/mobile-accessories/phone-cases"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 496.25,
+      "price": 891.2,
+      "compareAtPrice": 984.23,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 67,
+      "availableStock": 67,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 17,
+      "reorderQuantity": 34,
+      "minStockLevel": 7,
+      "stockValue": 33248.64,
+      "averageCost": 496.25,
+      "lastCostUpdate": "2025-07-21T19:04:29.032Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 13,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 13,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-PHON-0276",
+        "cost": 451.86,
+        "leadTime": 3,
+        "minOrderQuantity": 15,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-PHON-0277",
+        "cost": 447.7,
+        "leadTime": 4,
+        "minOrderQuantity": 21,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.96,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 14.729257715141454,
+      "width": 27.253171899202734,
+      "height": 20.33804272975196,
+      "unit": "cm"
+    },
+    "barcode": "8760880009486",
+    "upc": "517774480876",
+    "tags": [
+      "Phone Cases",
+      "Generic",
+      "Phone"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-06-05T10:33:07.095Z",
+    "updatedAt": "2025-05-01T04:14:45.794Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fa7",
+    "sku": "GEN-PHON-0276",
+    "name": "Generic Phone Cases Model 14",
+    "description": "Discover excellence with the Generic Phone Cases Model 14. Engineered with precision and built to last, this phone cases product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91407",
+      "name": "Phone Cases",
+      "path": "/electronics/mobile-accessories/phone-cases"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 457.5,
+      "price": 703.4,
+      "compareAtPrice": 786.66,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 76,
+      "availableStock": 76,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 19,
+      "reorderQuantity": 38,
+      "minStockLevel": 8,
+      "stockValue": 34769.81,
+      "averageCost": 457.5,
+      "lastCostUpdate": "2025-07-14T05:26:36.034Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 15,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 15,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-PHON-0277",
+        "cost": 417.99,
+        "leadTime": 8,
+        "minOrderQuantity": 11,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-PHON-0278",
+        "cost": 445.84,
+        "leadTime": 7,
+        "minOrderQuantity": 6,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.31,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 11.096728535883912,
+      "width": 20.408915140901122,
+      "height": 16.31468298689098,
+      "unit": "cm"
+    },
+    "barcode": "4459032026103",
+    "upc": "221835818941",
+    "tags": [
+      "Phone Cases",
+      "Generic",
+      "Phone"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-04-30T10:36:11.140Z",
+    "updatedAt": "2025-06-14T19:51:03.002Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fa8",
+    "sku": "GEN-PHON-0277",
+    "name": "Generic Phone Cases Model 15",
+    "description": "Discover excellence with the Generic Phone Cases Model 15. Engineered with precision and built to last, this phone cases product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91407",
+      "name": "Phone Cases",
+      "path": "/electronics/mobile-accessories/phone-cases"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 272.47,
+      "price": 413.03,
+      "compareAtPrice": 490.11,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 33,
+      "availableStock": 33,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 9,
+      "reorderQuantity": 17,
+      "minStockLevel": 4,
+      "stockValue": 8991.55,
+      "averageCost": 272.47,
+      "lastCostUpdate": "2025-07-03T17:58:57.605Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 6,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 6,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-PHON-0278",
+        "cost": 245.5,
+        "leadTime": 14,
+        "minOrderQuantity": 21,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-PHON-0279",
+        "cost": 262.68,
+        "leadTime": 10,
+        "minOrderQuantity": 11,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.51,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 21.596368319468965,
+      "width": 27.44055998881695,
+      "height": 6.7004929375040945,
+      "unit": "cm"
+    },
+    "barcode": "3125148762390",
+    "upc": "866464129190",
+    "tags": [
+      "Phone Cases",
+      "Generic",
+      "Phone"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-09-02T07:32:22.375Z",
+    "updatedAt": "2025-06-20T01:19:17.456Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fa9",
+    "sku": "GEN-CHAR-0278",
+    "name": "Generic Chargers & Cables Model 1",
+    "description": "Discover excellence with the Generic Chargers & Cables Model 1. Engineered with precision and built to last, this chargers & cables product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91408",
+      "name": "Chargers & Cables",
+      "path": "/electronics/mobile-accessories/chargers-cables"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 549.65,
+      "price": 815.77,
+      "compareAtPrice": 912.53,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 100,
+      "availableStock": 100,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 25,
+      "reorderQuantity": 50,
+      "minStockLevel": 10,
+      "stockValue": 54965.46,
+      "averageCost": 549.65,
+      "lastCostUpdate": "2025-07-01T06:11:49.138Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 20,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 20,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 20,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 20,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 20,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-CHAR-0279",
+        "cost": 523.38,
+        "leadTime": 3,
+        "minOrderQuantity": 9,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-CHAR-0280",
+        "cost": 502.32,
+        "leadTime": 6,
+        "minOrderQuantity": 15,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.88,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 29.886666276074628,
+      "width": 45.13947822102085,
+      "height": 11.183163127616115,
+      "unit": "cm"
+    },
+    "barcode": "5341164643354",
+    "upc": "206702573431",
+    "tags": [
+      "Chargers & Cables",
+      "Generic",
+      "Chargers"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-09-24T23:00:14.310Z",
+    "updatedAt": "2025-05-28T17:14:06.894Z"
+  },
+  {
+    "_id": "68811caa975c12956e900faa",
+    "sku": "GEN-CHAR-0279",
+    "name": "Generic Chargers & Cables Model 2",
+    "description": "Discover excellence with the Generic Chargers & Cables Model 2. Engineered with precision and built to last, this chargers & cables product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91408",
+      "name": "Chargers & Cables",
+      "path": "/electronics/mobile-accessories/chargers-cables"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 496.64,
+      "price": 681.91,
+      "compareAtPrice": 837.45,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 5,
+      "availableStock": 5,
+      "reservedStock": 0,
+      "incomingStock": 19,
+      "reorderPoint": 12,
+      "reorderQuantity": 23,
+      "minStockLevel": 5,
+      "stockValue": 22845.38,
+      "averageCost": 496.64,
+      "lastCostUpdate": "2025-06-28T12:25:18.285Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 9,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 9,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-CHAR-0280",
+        "cost": 482.97,
+        "leadTime": 4,
+        "minOrderQuantity": 24,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-CHAR-0281",
+        "cost": 462.97,
+        "leadTime": 9,
+        "minOrderQuantity": 15,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.91,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 20.669202865755977,
+      "width": 24.67963049882808,
+      "height": 10.517987118939828,
+      "unit": "cm"
+    },
+    "barcode": "0257905237496",
+    "upc": "166050896367",
+    "tags": [
+      "Chargers & Cables",
+      "Generic",
+      "Chargers"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-06-20T18:24:34.209Z",
+    "updatedAt": "2025-06-26T07:44:11.451Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fab",
+    "sku": "GEN-CHAR-0280",
+    "name": "Generic Chargers & Cables Model 3",
+    "description": "Discover excellence with the Generic Chargers & Cables Model 3. Engineered with precision and built to last, this chargers & cables product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91408",
+      "name": "Chargers & Cables",
+      "path": "/electronics/mobile-accessories/chargers-cables"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "draft",
+    "pricing": {
+      "cost": 319.83,
+      "price": 455.05,
+      "compareAtPrice": 527.19,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 58,
+      "availableStock": 58,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 15,
+      "reorderQuantity": 29,
+      "minStockLevel": 6,
+      "stockValue": 18550.01,
+      "averageCost": 319.83,
+      "lastCostUpdate": "2025-06-28T22:50:18.426Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 11,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 11,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-CHAR-0281",
+        "cost": 289.93,
+        "leadTime": 14,
+        "minOrderQuantity": 8,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-CHAR-0282",
+        "cost": 288.04,
+        "leadTime": 7,
+        "minOrderQuantity": 22,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.12,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 11.6856052368834,
+      "width": 39.46642709366006,
+      "height": 21.501465311829293,
+      "unit": "cm"
+    },
+    "barcode": "5612972513944",
+    "upc": "313504118465",
+    "tags": [
+      "Chargers & Cables",
+      "Generic",
+      "Chargers"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-01-02T12:59:38.981Z",
+    "updatedAt": "2025-07-05T17:03:58.796Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fac",
+    "sku": "GEN-CHAR-0281",
+    "name": "Generic Chargers & Cables Model 4",
+    "description": "Discover excellence with the Generic Chargers & Cables Model 4. Engineered with precision and built to last, this chargers & cables product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91408",
+      "name": "Chargers & Cables",
+      "path": "/electronics/mobile-accessories/chargers-cables"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 362.15,
+      "price": 565.89,
+      "compareAtPrice": 641.32,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 66,
+      "availableStock": 66,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 17,
+      "reorderQuantity": 33,
+      "minStockLevel": 7,
+      "stockValue": 23901.88,
+      "averageCost": 362.15,
+      "lastCostUpdate": "2025-07-02T04:02:51.040Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 13,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 13,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-CHAR-0282",
+        "cost": 332.25,
+        "leadTime": 3,
+        "minOrderQuantity": 19,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-CHAR-0283",
+        "cost": 331.76,
+        "leadTime": 14,
+        "minOrderQuantity": 23,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.89,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 27.689256820963063,
+      "width": 38.57218997871783,
+      "height": 9.215243229613662,
+      "unit": "cm"
+    },
+    "barcode": "8896797926133",
+    "upc": "693291287248",
+    "tags": [
+      "Chargers & Cables",
+      "Generic",
+      "Chargers"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-10-08T09:27:52.132Z",
+    "updatedAt": "2025-06-10T10:28:05.301Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fad",
+    "sku": "GEN-CHAR-0282",
+    "name": "Generic Chargers & Cables Model 5",
+    "description": "Discover excellence with the Generic Chargers & Cables Model 5. Engineered with precision and built to last, this chargers & cables product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91408",
+      "name": "Chargers & Cables",
+      "path": "/electronics/mobile-accessories/chargers-cables"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 287.85,
+      "price": 467.5,
+      "compareAtPrice": 557.05,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 42,
+      "availableStock": 42,
+      "reservedStock": 0,
+      "incomingStock": 21,
+      "reorderPoint": 11,
+      "reorderQuantity": 21,
+      "minStockLevel": 5,
+      "stockValue": 12089.51,
+      "averageCost": 287.85,
+      "lastCostUpdate": "2025-06-29T07:44:43.343Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 8,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 8,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-CHAR-0283",
+        "cost": 261.07,
+        "leadTime": 10,
+        "minOrderQuantity": 14,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-CHAR-0284",
+        "cost": 274.93,
+        "leadTime": 3,
+        "minOrderQuantity": 18,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.86,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 19.830054234339034,
+      "width": 23.762726321332245,
+      "height": 5.197154996178858,
+      "unit": "cm"
+    },
+    "barcode": "6056685229691",
+    "upc": "317053405091",
+    "tags": [
+      "Chargers & Cables",
+      "Generic",
+      "Chargers"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-07-08T13:20:21.451Z",
+    "updatedAt": "2025-06-18T00:42:29.264Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fae",
+    "sku": "GEN-CHAR-0283",
+    "name": "Generic Chargers & Cables Model 6",
+    "description": "Discover excellence with the Generic Chargers & Cables Model 6. Engineered with precision and built to last, this chargers & cables product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91408",
+      "name": "Chargers & Cables",
+      "path": "/electronics/mobile-accessories/chargers-cables"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 304.06,
+      "price": 469.97,
+      "compareAtPrice": 572.64,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 79,
+      "availableStock": 79,
+      "reservedStock": 0,
+      "incomingStock": 42,
+      "reorderPoint": 20,
+      "reorderQuantity": 40,
+      "minStockLevel": 8,
+      "stockValue": 24021,
+      "averageCost": 304.06,
+      "lastCostUpdate": "2025-07-06T18:19:59.001Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 15,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 15,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-CHAR-0284",
+        "cost": 290.74,
+        "leadTime": 5,
+        "minOrderQuantity": 21,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-CHAR-0285",
+        "cost": 279.25,
+        "leadTime": 13,
+        "minOrderQuantity": 9,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.79,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 42.144824259341206,
+      "width": 48.20984345832946,
+      "height": 24.874533623541303,
+      "unit": "cm"
+    },
+    "barcode": "2091911651417",
+    "upc": "493961985318",
+    "tags": [
+      "Chargers & Cables",
+      "Generic",
+      "Chargers"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-04-07T00:12:35.860Z",
+    "updatedAt": "2025-07-10T00:02:50.552Z"
+  },
+  {
+    "_id": "68811caa975c12956e900faf",
+    "sku": "GEN-CHAR-0284",
+    "name": "Generic Chargers & Cables Model 7",
+    "description": "Discover excellence with the Generic Chargers & Cables Model 7. Engineered with precision and built to last, this chargers & cables product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91408",
+      "name": "Chargers & Cables",
+      "path": "/electronics/mobile-accessories/chargers-cables"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 360.97,
+      "price": 616.5,
+      "compareAtPrice": 746.97,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 94,
+      "availableStock": 94,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 24,
+      "reorderQuantity": 47,
+      "minStockLevel": 10,
+      "stockValue": 33930.98,
+      "averageCost": 360.97,
+      "lastCostUpdate": "2025-06-28T19:30:18.465Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 18,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 18,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-CHAR-0285",
+        "cost": 325.37,
+        "leadTime": 6,
+        "minOrderQuantity": 18,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-CHAR-0286",
+        "cost": 334.37,
+        "leadTime": 6,
+        "minOrderQuantity": 25,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.78,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 21.491566269196376,
+      "width": 23.081999174274216,
+      "height": 23.98998136405973,
+      "unit": "cm"
+    },
+    "barcode": "4296585695435",
+    "upc": "845508985550",
+    "tags": [
+      "Chargers & Cables",
+      "Generic",
+      "Chargers"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-07-17T21:35:00.442Z",
+    "updatedAt": "2025-06-20T03:03:53.122Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fb0",
+    "sku": "GEN-CHAR-0285",
+    "name": "Generic Chargers & Cables Model 8",
+    "description": "Discover excellence with the Generic Chargers & Cables Model 8. Engineered with precision and built to last, this chargers & cables product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91408",
+      "name": "Chargers & Cables",
+      "path": "/electronics/mobile-accessories/chargers-cables"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 193.5,
+      "price": 306.12,
+      "compareAtPrice": 346.52,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 28,
+      "availableStock": 28,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 7,
+      "reorderQuantity": 14,
+      "minStockLevel": 3,
+      "stockValue": 5418.11,
+      "averageCost": 193.5,
+      "lastCostUpdate": "2025-07-02T12:49:22.537Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 5,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 5,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-CHAR-0286",
+        "cost": 175.33,
+        "leadTime": 6,
+        "minOrderQuantity": 22,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-CHAR-0287",
+        "cost": 183.15,
+        "leadTime": 3,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.97,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 39.344426550729054,
+      "width": 14.255789047284729,
+      "height": 26.937571521330902,
+      "unit": "cm"
+    },
+    "barcode": "1418123994266",
+    "upc": "993288057696",
+    "tags": [
+      "Chargers & Cables",
+      "Generic",
+      "Chargers"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-10-06T23:00:15.298Z",
+    "updatedAt": "2025-04-29T18:21:06.347Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fb1",
+    "sku": "GEN-CHAR-0286",
+    "name": "Generic Chargers & Cables Model 9",
+    "description": "Discover excellence with the Generic Chargers & Cables Model 9. Engineered with precision and built to last, this chargers & cables product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91408",
+      "name": "Chargers & Cables",
+      "path": "/electronics/mobile-accessories/chargers-cables"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 430.14,
+      "price": 575.69,
+      "compareAtPrice": 666.07,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 75,
+      "availableStock": 75,
+      "reservedStock": 0,
+      "incomingStock": 16,
+      "reorderPoint": 19,
+      "reorderQuantity": 38,
+      "minStockLevel": 8,
+      "stockValue": 32260.72,
+      "averageCost": 430.14,
+      "lastCostUpdate": "2025-07-20T03:38:55.731Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 15,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 15,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-CHAR-0287",
+        "cost": 415.42,
+        "leadTime": 10,
+        "minOrderQuantity": 23,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-CHAR-0288",
+        "cost": 396.94,
+        "leadTime": 9,
+        "minOrderQuantity": 21,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.51,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 13.445797130144577,
+      "width": 38.269732893250975,
+      "height": 9.530313209294661,
+      "unit": "cm"
+    },
+    "barcode": "5482932957199",
+    "upc": "722009068996",
+    "tags": [
+      "Chargers & Cables",
+      "Generic",
+      "Chargers"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-10-19T19:03:53.215Z",
+    "updatedAt": "2025-07-16T17:29:08.067Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fb2",
+    "sku": "GEN-CHAR-0287",
+    "name": "Generic Chargers & Cables Model 10",
+    "description": "Discover excellence with the Generic Chargers & Cables Model 10. Engineered with precision and built to last, this chargers & cables product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91408",
+      "name": "Chargers & Cables",
+      "path": "/electronics/mobile-accessories/chargers-cables"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 523.69,
+      "price": 754.29,
+      "compareAtPrice": 914.22,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 80,
+      "availableStock": 80,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 20,
+      "reorderQuantity": 40,
+      "minStockLevel": 8,
+      "stockValue": 41895.49,
+      "averageCost": 523.69,
+      "lastCostUpdate": "2025-06-24T16:46:14.710Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 16,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 16,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-CHAR-0288",
+        "cost": 473.39,
+        "leadTime": 13,
+        "minOrderQuantity": 12,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-CHAR-0289",
+        "cost": 474.49,
+        "leadTime": 5,
+        "minOrderQuantity": 9,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.26,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 11.400726081770536,
+      "width": 34.488482386199486,
+      "height": 15.917847062683855,
+      "unit": "cm"
+    },
+    "barcode": "9526485046054",
+    "upc": "304921318021",
+    "tags": [
+      "Chargers & Cables",
+      "Generic",
+      "Chargers"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-02-02T07:04:28.150Z",
+    "updatedAt": "2025-06-10T07:11:50.083Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fb3",
+    "sku": "GEN-CHAR-0288",
+    "name": "Generic Chargers & Cables Model 11",
+    "description": "Discover excellence with the Generic Chargers & Cables Model 11. Engineered with precision and built to last, this chargers & cables product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91408",
+      "name": "Chargers & Cables",
+      "path": "/electronics/mobile-accessories/chargers-cables"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 187.32,
+      "price": 285.99,
+      "compareAtPrice": 337.9,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 34,
+      "availableStock": 34,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 9,
+      "reorderQuantity": 17,
+      "minStockLevel": 4,
+      "stockValue": 6369,
+      "averageCost": 187.32,
+      "lastCostUpdate": "2025-07-11T08:46:18.813Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 6,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 6,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-CHAR-0289",
+        "cost": 175.41,
+        "leadTime": 6,
+        "minOrderQuantity": 11,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-CHAR-0290",
+        "cost": 177.88,
+        "leadTime": 13,
+        "minOrderQuantity": 25,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.78,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 44.560954574163326,
+      "width": 47.33714773800698,
+      "height": 15.586439528357902,
+      "unit": "cm"
+    },
+    "barcode": "8343861049984",
+    "upc": "272919425698",
+    "tags": [
+      "Chargers & Cables",
+      "Generic",
+      "Chargers"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-07-05T02:33:29.179Z",
+    "updatedAt": "2025-07-18T07:23:22.436Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fb4",
+    "sku": "GEN-CHAR-0289",
+    "name": "Generic Chargers & Cables Model 12",
+    "description": "Discover excellence with the Generic Chargers & Cables Model 12. Engineered with precision and built to last, this chargers & cables product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91408",
+      "name": "Chargers & Cables",
+      "path": "/electronics/mobile-accessories/chargers-cables"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 536.72,
+      "price": 803.04,
+      "compareAtPrice": 1000.55,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 44,
+      "availableStock": 44,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 11,
+      "reorderQuantity": 22,
+      "minStockLevel": 5,
+      "stockValue": 23615.83,
+      "averageCost": 536.72,
+      "lastCostUpdate": "2025-06-25T18:34:32.941Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 8,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 8,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-CHAR-0290",
+        "cost": 517.02,
+        "leadTime": 12,
+        "minOrderQuantity": 22,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-CHAR-0291",
+        "cost": 511.64,
+        "leadTime": 3,
+        "minOrderQuantity": 17,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.3,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 27.567213258281818,
+      "width": 20.373382086804565,
+      "height": 17.68921784206682,
+      "unit": "cm"
+    },
+    "barcode": "9200217474979",
+    "upc": "066122747666",
+    "tags": [
+      "Chargers & Cables",
+      "Generic",
+      "Chargers"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-09-03T11:56:15.915Z",
+    "updatedAt": "2025-05-17T23:55:03.102Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fb5",
+    "sku": "GEN-CHAR-0290",
+    "name": "Generic Chargers & Cables Model 13",
+    "description": "Discover excellence with the Generic Chargers & Cables Model 13. Engineered with precision and built to last, this chargers & cables product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91408",
+      "name": "Chargers & Cables",
+      "path": "/electronics/mobile-accessories/chargers-cables"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 395.44,
+      "price": 557.07,
+      "compareAtPrice": 682.27,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 35,
+      "availableStock": 35,
+      "reservedStock": 0,
+      "incomingStock": 48,
+      "reorderPoint": 9,
+      "reorderQuantity": 18,
+      "minStockLevel": 4,
+      "stockValue": 13840.26,
+      "averageCost": 395.44,
+      "lastCostUpdate": "2025-07-01T17:31:57.900Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 7,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 7,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-CHAR-0291",
+        "cost": 366.47,
+        "leadTime": 11,
+        "minOrderQuantity": 19,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-CHAR-0292",
+        "cost": 373.9,
+        "leadTime": 8,
+        "minOrderQuantity": 22,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.43,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 28.50232869363014,
+      "width": 14.797678023755743,
+      "height": 6.214013495371985,
+      "unit": "cm"
+    },
+    "barcode": "9320720902603",
+    "upc": "731714429941",
+    "tags": [
+      "Chargers & Cables",
+      "Generic",
+      "Chargers"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-03-30T22:20:40.145Z",
+    "updatedAt": "2025-05-02T00:38:14.100Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fb6",
+    "sku": "GEN-CHAR-0291",
+    "name": "Generic Chargers & Cables Model 14",
+    "description": "Discover excellence with the Generic Chargers & Cables Model 14. Engineered with precision and built to last, this chargers & cables product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91408",
+      "name": "Chargers & Cables",
+      "path": "/electronics/mobile-accessories/chargers-cables"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 238.06,
+      "price": 324.43,
+      "compareAtPrice": 380.74,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 23,
+      "availableStock": 23,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 6,
+      "reorderQuantity": 12,
+      "minStockLevel": 3,
+      "stockValue": 5475.38,
+      "averageCost": 238.06,
+      "lastCostUpdate": "2025-07-07T22:29:50.007Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 4,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 4,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-CHAR-0292",
+        "cost": 221.43,
+        "leadTime": 4,
+        "minOrderQuantity": 11,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-CHAR-0293",
+        "cost": 222.48,
+        "leadTime": 9,
+        "minOrderQuantity": 5,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.74,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 14.434432517341538,
+      "width": 22.093944610400058,
+      "height": 18.851169344187802,
+      "unit": "cm"
+    },
+    "barcode": "8641098731469",
+    "upc": "422190629348",
+    "tags": [
+      "Chargers & Cables",
+      "Generic",
+      "Chargers"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-02-16T04:46:52.118Z",
+    "updatedAt": "2025-06-14T11:27:25.944Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fb7",
+    "sku": "GEN-CHAR-0292",
+    "name": "Generic Chargers & Cables Model 15",
+    "description": "Discover excellence with the Generic Chargers & Cables Model 15. Engineered with precision and built to last, this chargers & cables product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91408",
+      "name": "Chargers & Cables",
+      "path": "/electronics/mobile-accessories/chargers-cables"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 181.67,
+      "price": 313.74,
+      "compareAtPrice": 354.53,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 39,
+      "availableStock": 39,
+      "reservedStock": 0,
+      "incomingStock": 26,
+      "reorderPoint": 10,
+      "reorderQuantity": 20,
+      "minStockLevel": 4,
+      "stockValue": 7085.32,
+      "averageCost": 181.67,
+      "lastCostUpdate": "2025-07-14T06:13:57.141Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 7,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 7,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-CHAR-0293",
+        "cost": 174.23,
+        "leadTime": 5,
+        "minOrderQuantity": 14,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-CHAR-0294",
+        "cost": 176.08,
+        "leadTime": 10,
+        "minOrderQuantity": 24,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.97,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 41.76954994517045,
+      "width": 40.757829300075684,
+      "height": 29.232441274956035,
+      "unit": "cm"
+    },
+    "barcode": "4539236089486",
+    "upc": "865316444682",
+    "tags": [
+      "Chargers & Cables",
+      "Generic",
+      "Chargers"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-04-12T00:37:06.020Z",
+    "updatedAt": "2025-06-11T04:13:42.116Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fb8",
+    "sku": "GEN-SCRE-0293",
+    "name": "Generic Screen Protectors Model 1",
+    "description": "Discover excellence with the Generic Screen Protectors Model 1. Engineered with precision and built to last, this screen protectors product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91409",
+      "name": "Screen Protectors",
+      "path": "/electronics/mobile-accessories/screen-protectors"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 295.29,
+      "price": 519.19,
+      "compareAtPrice": 620.3,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 59,
+      "availableStock": 59,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 15,
+      "reorderQuantity": 30,
+      "minStockLevel": 6,
+      "stockValue": 17422.05,
+      "averageCost": 295.29,
+      "lastCostUpdate": "2025-07-22T15:50:59.229Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 11,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 11,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SCRE-0294",
+        "cost": 279.4,
+        "leadTime": 3,
+        "minOrderQuantity": 7,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SCRE-0295",
+        "cost": 287.98,
+        "leadTime": 13,
+        "minOrderQuantity": 19,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.37,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 17.991848702621954,
+      "width": 42.53672698618513,
+      "height": 23.220470044572405,
+      "unit": "cm"
+    },
+    "barcode": "1112461104314",
+    "upc": "784668575896",
+    "tags": [
+      "Screen Protectors",
+      "Generic",
+      "Screen"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-09-08T17:11:42.081Z",
+    "updatedAt": "2025-05-22T05:14:22.729Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fb9",
+    "sku": "GEN-SCRE-0294",
+    "name": "Generic Screen Protectors Model 2",
+    "description": "Discover excellence with the Generic Screen Protectors Model 2. Engineered with precision and built to last, this screen protectors product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91409",
+      "name": "Screen Protectors",
+      "path": "/electronics/mobile-accessories/screen-protectors"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 430.96,
+      "price": 742.13,
+      "compareAtPrice": 916.55,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 43,
+      "availableStock": 43,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 11,
+      "reorderQuantity": 22,
+      "minStockLevel": 5,
+      "stockValue": 18531.1,
+      "averageCost": 430.96,
+      "lastCostUpdate": "2025-07-10T03:52:36.564Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 8,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 8,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SCRE-0295",
+        "cost": 391.3,
+        "leadTime": 11,
+        "minOrderQuantity": 12,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SCRE-0296",
+        "cost": 418.72,
+        "leadTime": 12,
+        "minOrderQuantity": 12,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.14,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 23.969485867558483,
+      "width": 39.63496720667895,
+      "height": 8.82868197928557,
+      "unit": "cm"
+    },
+    "barcode": "2211949933413",
+    "upc": "894766746269",
+    "tags": [
+      "Screen Protectors",
+      "Generic",
+      "Screen"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-10-16T11:05:55.884Z",
+    "updatedAt": "2025-05-24T21:41:47.413Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fba",
+    "sku": "GEN-SCRE-0295",
+    "name": "Generic Screen Protectors Model 3",
+    "description": "Discover excellence with the Generic Screen Protectors Model 3. Engineered with precision and built to last, this screen protectors product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91409",
+      "name": "Screen Protectors",
+      "path": "/electronics/mobile-accessories/screen-protectors"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 311.98,
+      "price": 539.01,
+      "compareAtPrice": 649.12,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 98,
+      "availableStock": 98,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 25,
+      "reorderQuantity": 49,
+      "minStockLevel": 10,
+      "stockValue": 30574.33,
+      "averageCost": 311.98,
+      "lastCostUpdate": "2025-07-20T11:19:08.897Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 19,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 19,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SCRE-0296",
+        "cost": 280.96,
+        "leadTime": 10,
+        "minOrderQuantity": 17,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SCRE-0297",
+        "cost": 290.22,
+        "leadTime": 12,
+        "minOrderQuantity": 10,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.02,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 18.92696859569711,
+      "width": 39.156787217311916,
+      "height": 10.496569222002321,
+      "unit": "cm"
+    },
+    "barcode": "3817776050368",
+    "upc": "154348652503",
+    "tags": [
+      "Screen Protectors",
+      "Generic",
+      "Screen"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-03-04T22:43:33.719Z",
+    "updatedAt": "2025-05-17T16:38:06.844Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fbb",
+    "sku": "GEN-SCRE-0296",
+    "name": "Generic Screen Protectors Model 4",
+    "description": "Discover excellence with the Generic Screen Protectors Model 4. Engineered with precision and built to last, this screen protectors product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91409",
+      "name": "Screen Protectors",
+      "path": "/electronics/mobile-accessories/screen-protectors"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 387.47,
+      "price": 530.44,
+      "compareAtPrice": 632.36,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 34,
+      "availableStock": 34,
+      "reservedStock": 0,
+      "incomingStock": 19,
+      "reorderPoint": 9,
+      "reorderQuantity": 17,
+      "minStockLevel": 4,
+      "stockValue": 13174.07,
+      "averageCost": 387.47,
+      "lastCostUpdate": "2025-07-09T19:51:06.331Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 6,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 6,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SCRE-0297",
+        "cost": 372.43,
+        "leadTime": 14,
+        "minOrderQuantity": 5,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SCRE-0298",
+        "cost": 370.61,
+        "leadTime": 3,
+        "minOrderQuantity": 18,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.83,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 30.477663894373876,
+      "width": 47.346722809867586,
+      "height": 12.751857844021384,
+      "unit": "cm"
+    },
+    "barcode": "1223610989808",
+    "upc": "981935747655",
+    "tags": [
+      "Screen Protectors",
+      "Generic",
+      "Screen"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-12-05T03:47:50.175Z",
+    "updatedAt": "2025-06-02T13:57:09.439Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fbc",
+    "sku": "GEN-SCRE-0297",
+    "name": "Generic Screen Protectors Model 5",
+    "description": "Discover excellence with the Generic Screen Protectors Model 5. Engineered with precision and built to last, this screen protectors product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91409",
+      "name": "Screen Protectors",
+      "path": "/electronics/mobile-accessories/screen-protectors"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 143.01,
+      "price": 237.29,
+      "compareAtPrice": 279.65,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 40,
+      "availableStock": 40,
+      "reservedStock": 0,
+      "incomingStock": 37,
+      "reorderPoint": 10,
+      "reorderQuantity": 20,
+      "minStockLevel": 4,
+      "stockValue": 5720.41,
+      "averageCost": 143.01,
+      "lastCostUpdate": "2025-07-02T12:16:31.074Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 8,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 8,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SCRE-0298",
+        "cost": 129.07,
+        "leadTime": 14,
+        "minOrderQuantity": 25,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SCRE-0299",
+        "cost": 138.72,
+        "leadTime": 13,
+        "minOrderQuantity": 8,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.41,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 22.725160721454433,
+      "width": 33.153135929756395,
+      "height": 20.851072517404702,
+      "unit": "cm"
+    },
+    "barcode": "8712954911448",
+    "upc": "764564882690",
+    "tags": [
+      "Screen Protectors",
+      "Generic",
+      "Screen"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-02-25T20:06:56.415Z",
+    "updatedAt": "2025-07-15T10:35:10.812Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fbd",
+    "sku": "GEN-SCRE-0298",
+    "name": "Generic Screen Protectors Model 6",
+    "description": "Discover excellence with the Generic Screen Protectors Model 6. Engineered with precision and built to last, this screen protectors product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91409",
+      "name": "Screen Protectors",
+      "path": "/electronics/mobile-accessories/screen-protectors"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 633.92,
+      "price": 936,
+      "compareAtPrice": 1030.98,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 1,
+      "availableStock": 1,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 24,
+      "reorderQuantity": 48,
+      "minStockLevel": 10,
+      "stockValue": 60222.18,
+      "averageCost": 633.92,
+      "lastCostUpdate": "2025-06-26T04:25:16.766Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 19,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 19,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SCRE-0299",
+        "cost": 588.17,
+        "leadTime": 11,
+        "minOrderQuantity": 22,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SCRE-0300",
+        "cost": 613.92,
+        "leadTime": 4,
+        "minOrderQuantity": 6,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.64,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 22.841106895147064,
+      "width": 47.0984807817766,
+      "height": 27.831480538257043,
+      "unit": "cm"
+    },
+    "barcode": "4149702570928",
+    "upc": "966134500612",
+    "tags": [
+      "Screen Protectors",
+      "Generic",
+      "Screen"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-08-06T12:42:18.192Z",
+    "updatedAt": "2025-04-25T05:15:47.342Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fbe",
+    "sku": "GEN-SCRE-0299",
+    "name": "Generic Screen Protectors Model 7",
+    "description": "Discover excellence with the Generic Screen Protectors Model 7. Engineered with precision and built to last, this screen protectors product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91409",
+      "name": "Screen Protectors",
+      "path": "/electronics/mobile-accessories/screen-protectors"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 497.93,
+      "price": 729.01,
+      "compareAtPrice": 812.87,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 60,
+      "availableStock": 60,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 15,
+      "reorderQuantity": 30,
+      "minStockLevel": 6,
+      "stockValue": 29876.04,
+      "averageCost": 497.93,
+      "lastCostUpdate": "2025-06-24T00:07:44.727Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 12,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 12,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SCRE-0300",
+        "cost": 486.2,
+        "leadTime": 8,
+        "minOrderQuantity": 15,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SCRE-0301",
+        "cost": 458.69,
+        "leadTime": 6,
+        "minOrderQuantity": 17,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.52,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 21.205136881336294,
+      "width": 40.59052864419739,
+      "height": 27.699760975993126,
+      "unit": "cm"
+    },
+    "barcode": "4762062971661",
+    "upc": "706787814827",
+    "tags": [
+      "Screen Protectors",
+      "Generic",
+      "Screen"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-03-04T08:32:16.039Z",
+    "updatedAt": "2025-05-15T06:19:40.755Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fbf",
+    "sku": "GEN-SCRE-0300",
+    "name": "Generic Screen Protectors Model 8",
+    "description": "Discover excellence with the Generic Screen Protectors Model 8. Engineered with precision and built to last, this screen protectors product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91409",
+      "name": "Screen Protectors",
+      "path": "/electronics/mobile-accessories/screen-protectors"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 435.97,
+      "price": 759.46,
+      "compareAtPrice": 947.02,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 37,
+      "availableStock": 37,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 10,
+      "reorderQuantity": 19,
+      "minStockLevel": 4,
+      "stockValue": 16130.8,
+      "averageCost": 435.97,
+      "lastCostUpdate": "2025-07-15T19:20:27.479Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 7,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 7,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SCRE-0301",
+        "cost": 406.92,
+        "leadTime": 8,
+        "minOrderQuantity": 8,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SCRE-0302",
+        "cost": 394.53,
+        "leadTime": 6,
+        "minOrderQuantity": 9,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.1,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 20.671992741058688,
+      "width": 40.68306868474004,
+      "height": 25.49563950079143,
+      "unit": "cm"
+    },
+    "barcode": "2161709386852",
+    "upc": "157978469409",
+    "tags": [
+      "Screen Protectors",
+      "Generic",
+      "Screen"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-07-10T01:12:05.216Z",
+    "updatedAt": "2025-05-28T11:44:40.206Z"
+  }
+]

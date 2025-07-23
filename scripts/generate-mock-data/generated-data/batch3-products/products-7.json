@@ -1,0 +1,5502 @@
+[
+  {
+    "_id": "68811caa975c12956e900fc0",
+    "sku": "GEN-SCRE-0301",
+    "name": "Generic Screen Protectors Model 9",
+    "description": "Discover excellence with the Generic Screen Protectors Model 9. Engineered with precision and built to last, this screen protectors product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91409",
+      "name": "Screen Protectors",
+      "path": "/electronics/mobile-accessories/screen-protectors"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 710.72,
+      "price": 954.48,
+      "compareAtPrice": 1061.89,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 59,
+      "availableStock": 59,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 15,
+      "reorderQuantity": 30,
+      "minStockLevel": 6,
+      "stockValue": 41932.21,
+      "averageCost": 710.72,
+      "lastCostUpdate": "2025-07-10T17:36:20.301Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 11,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 11,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SCRE-0302",
+        "cost": 667.21,
+        "leadTime": 4,
+        "minOrderQuantity": 5,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SCRE-0303",
+        "cost": 669.73,
+        "leadTime": 3,
+        "minOrderQuantity": 25,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.04,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 32.15648675559671,
+      "width": 28.36233842556584,
+      "height": 22.958500938936726,
+      "unit": "cm"
+    },
+    "barcode": "9350595875590",
+    "upc": "006073274917",
+    "tags": [
+      "Screen Protectors",
+      "Generic",
+      "Screen"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-12-01T22:09:22.888Z",
+    "updatedAt": "2025-07-20T12:50:27.829Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fc1",
+    "sku": "GEN-SCRE-0302",
+    "name": "Generic Screen Protectors Model 10",
+    "description": "Discover excellence with the Generic Screen Protectors Model 10. Engineered with precision and built to last, this screen protectors product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91409",
+      "name": "Screen Protectors",
+      "path": "/electronics/mobile-accessories/screen-protectors"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 213.11,
+      "price": 326.67,
+      "compareAtPrice": 382.52,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 35,
+      "availableStock": 35,
+      "reservedStock": 0,
+      "incomingStock": 41,
+      "reorderPoint": 9,
+      "reorderQuantity": 18,
+      "minStockLevel": 4,
+      "stockValue": 7458.7,
+      "averageCost": 213.11,
+      "lastCostUpdate": "2025-07-07T16:38:20.060Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 7,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 7,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SCRE-0303",
+        "cost": 194.07,
+        "leadTime": 13,
+        "minOrderQuantity": 23,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SCRE-0304",
+        "cost": 206.59,
+        "leadTime": 10,
+        "minOrderQuantity": 16,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.51,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 28.97302076090353,
+      "width": 34.02492051259732,
+      "height": 6.754858279315696,
+      "unit": "cm"
+    },
+    "barcode": "4659557374741",
+    "upc": "203420243592",
+    "tags": [
+      "Screen Protectors",
+      "Generic",
+      "Screen"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-09-24T20:17:08.575Z",
+    "updatedAt": "2025-05-27T23:18:49.794Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fc2",
+    "sku": "GEN-SCRE-0303",
+    "name": "Generic Screen Protectors Model 11",
+    "description": "Discover excellence with the Generic Screen Protectors Model 11. Engineered with precision and built to last, this screen protectors product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91409",
+      "name": "Screen Protectors",
+      "path": "/electronics/mobile-accessories/screen-protectors"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 431.84,
+      "price": 688.98,
+      "compareAtPrice": 802.86,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 64,
+      "availableStock": 64,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 16,
+      "reorderQuantity": 32,
+      "minStockLevel": 7,
+      "stockValue": 27638.01,
+      "averageCost": 431.84,
+      "lastCostUpdate": "2025-07-06T12:18:04.669Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 12,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 12,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SCRE-0304",
+        "cost": 390.91,
+        "leadTime": 5,
+        "minOrderQuantity": 15,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SCRE-0305",
+        "cost": 415.7,
+        "leadTime": 14,
+        "minOrderQuantity": 9,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.6,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 32.67245789825802,
+      "width": 12.016019201138315,
+      "height": 5.842122032830583,
+      "unit": "cm"
+    },
+    "barcode": "4251120099603",
+    "upc": "489631300876",
+    "tags": [
+      "Screen Protectors",
+      "Generic",
+      "Screen"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-06-17T06:52:07.708Z",
+    "updatedAt": "2025-05-27T21:23:03.293Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fc3",
+    "sku": "GEN-SCRE-0304",
+    "name": "Generic Screen Protectors Model 12",
+    "description": "Discover excellence with the Generic Screen Protectors Model 12. Engineered with precision and built to last, this screen protectors product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91409",
+      "name": "Screen Protectors",
+      "path": "/electronics/mobile-accessories/screen-protectors"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 365.5,
+      "price": 558.8,
+      "compareAtPrice": 618.51,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 34,
+      "availableStock": 34,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 9,
+      "reorderQuantity": 17,
+      "minStockLevel": 4,
+      "stockValue": 12426.98,
+      "averageCost": 365.5,
+      "lastCostUpdate": "2025-06-28T08:00:30.368Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 6,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 6,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SCRE-0305",
+        "cost": 352.5,
+        "leadTime": 13,
+        "minOrderQuantity": 9,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SCRE-0306",
+        "cost": 354.13,
+        "leadTime": 9,
+        "minOrderQuantity": 20,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.97,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 49.280190487111156,
+      "width": 16.535685557265047,
+      "height": 28.457137229706923,
+      "unit": "cm"
+    },
+    "barcode": "4088709905652",
+    "upc": "328772804436",
+    "tags": [
+      "Screen Protectors",
+      "Generic",
+      "Screen"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-09-08T21:33:04.331Z",
+    "updatedAt": "2025-06-09T08:24:44.632Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fc4",
+    "sku": "GEN-SCRE-0305",
+    "name": "Generic Screen Protectors Model 13",
+    "description": "Discover excellence with the Generic Screen Protectors Model 13. Engineered with precision and built to last, this screen protectors product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91409",
+      "name": "Screen Protectors",
+      "path": "/electronics/mobile-accessories/screen-protectors"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 162.17,
+      "price": 288.93,
+      "compareAtPrice": 341.29,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 27,
+      "availableStock": 27,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 7,
+      "reorderQuantity": 14,
+      "minStockLevel": 3,
+      "stockValue": 4378.66,
+      "averageCost": 162.17,
+      "lastCostUpdate": "2025-07-02T08:24:11.921Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 5,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 5,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SCRE-0306",
+        "cost": 148.68,
+        "leadTime": 7,
+        "minOrderQuantity": 25,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SCRE-0307",
+        "cost": 149.57,
+        "leadTime": 9,
+        "minOrderQuantity": 16,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.89,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 24.917991436887892,
+      "width": 43.21278715696383,
+      "height": 21.2064404920993,
+      "unit": "cm"
+    },
+    "barcode": "2358923002531",
+    "upc": "738893862132",
+    "tags": [
+      "Screen Protectors",
+      "Generic",
+      "Screen"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-12-10T18:31:54.269Z",
+    "updatedAt": "2025-04-28T05:48:01.345Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fc5",
+    "sku": "GEN-SCRE-0306",
+    "name": "Generic Screen Protectors Model 14",
+    "description": "Discover excellence with the Generic Screen Protectors Model 14. Engineered with precision and built to last, this screen protectors product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91409",
+      "name": "Screen Protectors",
+      "path": "/electronics/mobile-accessories/screen-protectors"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 192.93,
+      "price": 258.19,
+      "compareAtPrice": 295.46,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 81,
+      "availableStock": 81,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 21,
+      "reorderQuantity": 41,
+      "minStockLevel": 9,
+      "stockValue": 15627.24,
+      "averageCost": 192.93,
+      "lastCostUpdate": "2025-06-25T04:22:02.333Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 16,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 16,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SCRE-0307",
+        "cost": 179.23,
+        "leadTime": 11,
+        "minOrderQuantity": 18,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SCRE-0308",
+        "cost": 180.92,
+        "leadTime": 9,
+        "minOrderQuantity": 15,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.64,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 39.13199723553838,
+      "width": 15.78251954847872,
+      "height": 11.022644429075132,
+      "unit": "cm"
+    },
+    "barcode": "1210273609587",
+    "upc": "661606089213",
+    "tags": [
+      "Screen Protectors",
+      "Generic",
+      "Screen"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-09-19T09:08:34.102Z",
+    "updatedAt": "2025-07-21T16:32:06.246Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fc6",
+    "sku": "GEN-SCRE-0307",
+    "name": "Generic Screen Protectors Model 15",
+    "description": "Discover excellence with the Generic Screen Protectors Model 15. Engineered with precision and built to last, this screen protectors product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db91409",
+      "name": "Screen Protectors",
+      "path": "/electronics/mobile-accessories/screen-protectors"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 379.65,
+      "price": 571.71,
+      "compareAtPrice": 640.2,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 5,
+      "availableStock": 5,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 7,
+      "reorderQuantity": 14,
+      "minStockLevel": 3,
+      "stockValue": 10250.56,
+      "averageCost": 379.65,
+      "lastCostUpdate": "2025-07-13T12:41:00.805Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 5,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 5,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-SCRE-0308",
+        "cost": 347.92,
+        "leadTime": 10,
+        "minOrderQuantity": 15,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-SCRE-0309",
+        "cost": 368.99,
+        "leadTime": 6,
+        "minOrderQuantity": 5,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.49,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 21.397374115319856,
+      "width": 38.63902537416744,
+      "height": 27.13015092521939,
+      "unit": "cm"
+    },
+    "barcode": "2403958931632",
+    "upc": "887436122591",
+    "tags": [
+      "Screen Protectors",
+      "Generic",
+      "Screen"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-08-14T17:27:42.158Z",
+    "updatedAt": "2025-05-23T01:34:57.813Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fc7",
+    "sku": "GEN-DIGI-0308",
+    "name": "Generic Digital Cameras Model 1",
+    "description": "Discover excellence with the Generic Digital Cameras Model 1. Engineered with precision and built to last, this digital cameras product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140a",
+      "name": "Digital Cameras",
+      "path": "/electronics/cameras-photography/digital-cameras"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 713.15,
+      "price": 987.12,
+      "compareAtPrice": 1156.2,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 0,
+      "availableStock": 0,
+      "reservedStock": 0,
+      "incomingStock": 39,
+      "reorderPoint": 11,
+      "reorderQuantity": 21,
+      "minStockLevel": 5,
+      "stockValue": 29239.2,
+      "averageCost": 713.15,
+      "lastCostUpdate": "2025-07-02T04:05:51.102Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 8,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 8,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 8,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-DIGI-0309",
+        "cost": 696.89,
+        "leadTime": 9,
+        "minOrderQuantity": 16,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-DIGI-0310",
+        "cost": 658.95,
+        "leadTime": 3,
+        "minOrderQuantity": 18,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.05,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 46.755636974536635,
+      "width": 15.667722639558015,
+      "height": 13.70740566134526,
+      "unit": "cm"
+    },
+    "barcode": "7075642668307",
+    "upc": "594699890689",
+    "tags": [
+      "Digital Cameras",
+      "Generic",
+      "Digital"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-04-21T17:59:57.963Z",
+    "updatedAt": "2025-05-31T17:10:32.539Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fc8",
+    "sku": "GEN-DIGI-0309",
+    "name": "Generic Digital Cameras Model 2",
+    "description": "Discover excellence with the Generic Digital Cameras Model 2. Engineered with precision and built to last, this digital cameras product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140a",
+      "name": "Digital Cameras",
+      "path": "/electronics/cameras-photography/digital-cameras"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 181.75,
+      "price": 251.72,
+      "compareAtPrice": 304.89,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 27,
+      "availableStock": 27,
+      "reservedStock": 0,
+      "incomingStock": 46,
+      "reorderPoint": 7,
+      "reorderQuantity": 14,
+      "minStockLevel": 3,
+      "stockValue": 4907.23,
+      "averageCost": 181.75,
+      "lastCostUpdate": "2025-07-12T09:28:17.845Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 5,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 5,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-DIGI-0310",
+        "cost": 171.62,
+        "leadTime": 10,
+        "minOrderQuantity": 23,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-DIGI-0311",
+        "cost": 168.74,
+        "leadTime": 7,
+        "minOrderQuantity": 17,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.27,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 33.99562645604536,
+      "width": 40.70569513756866,
+      "height": 23.11970693814022,
+      "unit": "cm"
+    },
+    "barcode": "1982500440877",
+    "upc": "152114354913",
+    "tags": [
+      "Digital Cameras",
+      "Generic",
+      "Digital"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-05-16T17:26:45.102Z",
+    "updatedAt": "2025-06-01T21:59:40.317Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fc9",
+    "sku": "GEN-DIGI-0310",
+    "name": "Generic Digital Cameras Model 3",
+    "description": "Discover excellence with the Generic Digital Cameras Model 3. Engineered with precision and built to last, this digital cameras product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140a",
+      "name": "Digital Cameras",
+      "path": "/electronics/cameras-photography/digital-cameras"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 661.14,
+      "price": 934.18,
+      "compareAtPrice": 1114.13,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 21,
+      "availableStock": 21,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 6,
+      "reorderQuantity": 11,
+      "minStockLevel": 3,
+      "stockValue": 13883.95,
+      "averageCost": 661.14,
+      "lastCostUpdate": "2025-07-22T14:27:15.066Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 4,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 4,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-DIGI-0311",
+        "cost": 645.53,
+        "leadTime": 10,
+        "minOrderQuantity": 24,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-DIGI-0312",
+        "cost": 597.57,
+        "leadTime": 3,
+        "minOrderQuantity": 25,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.87,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 13.38556828457952,
+      "width": 39.89294045341039,
+      "height": 14.817508324457446,
+      "unit": "cm"
+    },
+    "barcode": "5792352789152",
+    "upc": "681787971378",
+    "tags": [
+      "Digital Cameras",
+      "Generic",
+      "Digital"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-06-12T04:48:27.092Z",
+    "updatedAt": "2025-05-26T11:13:56.776Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fca",
+    "sku": "GEN-DIGI-0311",
+    "name": "Generic Digital Cameras Model 4",
+    "description": "Discover excellence with the Generic Digital Cameras Model 4. Engineered with precision and built to last, this digital cameras product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140a",
+      "name": "Digital Cameras",
+      "path": "/electronics/cameras-photography/digital-cameras"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 313.89,
+      "price": 517.46,
+      "compareAtPrice": 644.19,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 33,
+      "availableStock": 33,
+      "reservedStock": 0,
+      "incomingStock": 30,
+      "reorderPoint": 9,
+      "reorderQuantity": 17,
+      "minStockLevel": 4,
+      "stockValue": 10358.52,
+      "averageCost": 313.89,
+      "lastCostUpdate": "2025-07-14T05:51:20.637Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 6,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 6,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-DIGI-0312",
+        "cost": 284.69,
+        "leadTime": 4,
+        "minOrderQuantity": 21,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-DIGI-0313",
+        "cost": 301.5,
+        "leadTime": 10,
+        "minOrderQuantity": 11,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.11,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 34.636765125221004,
+      "width": 24.18900100545953,
+      "height": 9.315070677592619,
+      "unit": "cm"
+    },
+    "barcode": "3786332760722",
+    "upc": "739049226899",
+    "tags": [
+      "Digital Cameras",
+      "Generic",
+      "Digital"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-01-11T10:56:27.685Z",
+    "updatedAt": "2025-05-16T12:08:23.080Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fcb",
+    "sku": "GEN-DIGI-0312",
+    "name": "Generic Digital Cameras Model 5",
+    "description": "Discover excellence with the Generic Digital Cameras Model 5. Engineered with precision and built to last, this digital cameras product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140a",
+      "name": "Digital Cameras",
+      "path": "/electronics/cameras-photography/digital-cameras"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 209.47,
+      "price": 300.33,
+      "compareAtPrice": 357.22,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 75,
+      "availableStock": 75,
+      "reservedStock": 0,
+      "incomingStock": 23,
+      "reorderPoint": 19,
+      "reorderQuantity": 38,
+      "minStockLevel": 8,
+      "stockValue": 15710.11,
+      "averageCost": 209.47,
+      "lastCostUpdate": "2025-06-27T10:07:44.519Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 15,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 15,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-DIGI-0313",
+        "cost": 205.12,
+        "leadTime": 8,
+        "minOrderQuantity": 17,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-DIGI-0314",
+        "cost": 199.4,
+        "leadTime": 11,
+        "minOrderQuantity": 19,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.88,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 20.9568676148185,
+      "width": 18.54107280824374,
+      "height": 13.9550867062015,
+      "unit": "cm"
+    },
+    "barcode": "3198091400103",
+    "upc": "823537781196",
+    "tags": [
+      "Digital Cameras",
+      "Generic",
+      "Digital"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-06-13T19:39:25.480Z",
+    "updatedAt": "2025-05-08T13:33:58.589Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fcc",
+    "sku": "GEN-DIGI-0313",
+    "name": "Generic Digital Cameras Model 6",
+    "description": "Discover excellence with the Generic Digital Cameras Model 6. Engineered with precision and built to last, this digital cameras product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140a",
+      "name": "Digital Cameras",
+      "path": "/electronics/cameras-photography/digital-cameras"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 566.54,
+      "price": 999.1,
+      "compareAtPrice": 1218.81,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 23,
+      "availableStock": 23,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 6,
+      "reorderQuantity": 12,
+      "minStockLevel": 3,
+      "stockValue": 13030.33,
+      "averageCost": 566.54,
+      "lastCostUpdate": "2025-06-23T20:54:14.510Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 4,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 4,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-DIGI-0314",
+        "cost": 526.52,
+        "leadTime": 14,
+        "minOrderQuantity": 16,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-DIGI-0315",
+        "cost": 514.69,
+        "leadTime": 4,
+        "minOrderQuantity": 22,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.46,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 20.95239271812725,
+      "width": 33.62022074659475,
+      "height": 12.90110426007421,
+      "unit": "cm"
+    },
+    "barcode": "4918595454825",
+    "upc": "345274000874",
+    "tags": [
+      "Digital Cameras",
+      "Generic",
+      "Digital"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-05-05T11:29:00.940Z",
+    "updatedAt": "2025-06-25T20:10:01.992Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fcd",
+    "sku": "GEN-DIGI-0314",
+    "name": "Generic Digital Cameras Model 7",
+    "description": "Discover excellence with the Generic Digital Cameras Model 7. Engineered with precision and built to last, this digital cameras product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140a",
+      "name": "Digital Cameras",
+      "path": "/electronics/cameras-photography/digital-cameras"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 383.09,
+      "price": 648.36,
+      "compareAtPrice": 729.38,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 27,
+      "availableStock": 27,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 7,
+      "reorderQuantity": 14,
+      "minStockLevel": 3,
+      "stockValue": 10343.43,
+      "averageCost": 383.09,
+      "lastCostUpdate": "2025-07-12T01:05:16.740Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 5,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 5,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-DIGI-0315",
+        "cost": 357.35,
+        "leadTime": 13,
+        "minOrderQuantity": 23,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-DIGI-0316",
+        "cost": 350.79,
+        "leadTime": 5,
+        "minOrderQuantity": 15,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.86,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 46.60164878799223,
+      "width": 14.174312739056303,
+      "height": 14.206492411005765,
+      "unit": "cm"
+    },
+    "barcode": "0424485089985",
+    "upc": "332476998612",
+    "tags": [
+      "Digital Cameras",
+      "Generic",
+      "Digital"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-04-27T07:35:38.864Z",
+    "updatedAt": "2025-05-12T13:45:14.627Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fce",
+    "sku": "GEN-DIGI-0315",
+    "name": "Generic Digital Cameras Model 8",
+    "description": "Discover excellence with the Generic Digital Cameras Model 8. Engineered with precision and built to last, this digital cameras product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140a",
+      "name": "Digital Cameras",
+      "path": "/electronics/cameras-photography/digital-cameras"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 499.12,
+      "price": 822.35,
+      "compareAtPrice": 1019.28,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 68,
+      "availableStock": 68,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 17,
+      "reorderQuantity": 34,
+      "minStockLevel": 7,
+      "stockValue": 33940.4,
+      "averageCost": 499.12,
+      "lastCostUpdate": "2025-07-15T14:53:07.062Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 13,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 13,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-DIGI-0316",
+        "cost": 454.19,
+        "leadTime": 10,
+        "minOrderQuantity": 19,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-DIGI-0317",
+        "cost": 476.34,
+        "leadTime": 12,
+        "minOrderQuantity": 24,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.44,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 39.58754746617612,
+      "width": 39.053497858769276,
+      "height": 26.351891560916982,
+      "unit": "cm"
+    },
+    "barcode": "8691971736862",
+    "upc": "057599961051",
+    "tags": [
+      "Digital Cameras",
+      "Generic",
+      "Digital"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-09-25T01:28:47.781Z",
+    "updatedAt": "2025-07-20T18:21:40.549Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fcf",
+    "sku": "GEN-DIGI-0316",
+    "name": "Generic Digital Cameras Model 9",
+    "description": "Discover excellence with the Generic Digital Cameras Model 9. Engineered with precision and built to last, this digital cameras product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140a",
+      "name": "Digital Cameras",
+      "path": "/electronics/cameras-photography/digital-cameras"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 399.04,
+      "price": 682.81,
+      "compareAtPrice": 824.9,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 89,
+      "availableStock": 89,
+      "reservedStock": 0,
+      "incomingStock": 47,
+      "reorderPoint": 23,
+      "reorderQuantity": 45,
+      "minStockLevel": 9,
+      "stockValue": 35514.59,
+      "averageCost": 399.04,
+      "lastCostUpdate": "2025-07-21T07:49:39.255Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 17,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 17,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-DIGI-0317",
+        "cost": 380.17,
+        "leadTime": 12,
+        "minOrderQuantity": 17,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-DIGI-0318",
+        "cost": 362.36,
+        "leadTime": 14,
+        "minOrderQuantity": 10,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.31,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 22.046790746329293,
+      "width": 45.27633679318108,
+      "height": 19.27945794101521,
+      "unit": "cm"
+    },
+    "barcode": "2067513709313",
+    "upc": "701318985874",
+    "tags": [
+      "Digital Cameras",
+      "Generic",
+      "Digital"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-08-07T05:17:09.552Z",
+    "updatedAt": "2025-05-06T16:06:20.045Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fd0",
+    "sku": "GEN-DIGI-0317",
+    "name": "Generic Digital Cameras Model 10",
+    "description": "Discover excellence with the Generic Digital Cameras Model 10. Engineered with precision and built to last, this digital cameras product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140a",
+      "name": "Digital Cameras",
+      "path": "/electronics/cameras-photography/digital-cameras"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 132.44,
+      "price": 235,
+      "compareAtPrice": 286.43,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 32,
+      "availableStock": 32,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 8,
+      "reorderQuantity": 16,
+      "minStockLevel": 4,
+      "stockValue": 4237.93,
+      "averageCost": 132.44,
+      "lastCostUpdate": "2025-07-16T02:47:58.543Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 6,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 6,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-DIGI-0318",
+        "cost": 122.47,
+        "leadTime": 7,
+        "minOrderQuantity": 24,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-DIGI-0319",
+        "cost": 126.07,
+        "leadTime": 3,
+        "minOrderQuantity": 6,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.13,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 17.230668865817357,
+      "width": 28.36678326819474,
+      "height": 8.165366508679812,
+      "unit": "cm"
+    },
+    "barcode": "3117076134600",
+    "upc": "694909639833",
+    "tags": [
+      "Digital Cameras",
+      "Generic",
+      "Digital"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-08-15T04:09:47.974Z",
+    "updatedAt": "2025-07-20T18:53:29.137Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fd1",
+    "sku": "GEN-DIGI-0318",
+    "name": "Generic Digital Cameras Model 11",
+    "description": "Discover excellence with the Generic Digital Cameras Model 11. Engineered with precision and built to last, this digital cameras product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140a",
+      "name": "Digital Cameras",
+      "path": "/electronics/cameras-photography/digital-cameras"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 198.85,
+      "price": 278.07,
+      "compareAtPrice": 340.75,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 55,
+      "availableStock": 55,
+      "reservedStock": 0,
+      "incomingStock": 23,
+      "reorderPoint": 14,
+      "reorderQuantity": 28,
+      "minStockLevel": 6,
+      "stockValue": 10936.6,
+      "averageCost": 198.85,
+      "lastCostUpdate": "2025-07-06T04:42:41.978Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 11,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 11,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-DIGI-0319",
+        "cost": 182.09,
+        "leadTime": 7,
+        "minOrderQuantity": 23,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-DIGI-0320",
+        "cost": 189.34,
+        "leadTime": 6,
+        "minOrderQuantity": 22,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.09,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 13.40617276998004,
+      "width": 20.45597917342819,
+      "height": 8.901038718842964,
+      "unit": "cm"
+    },
+    "barcode": "8673062010542",
+    "upc": "195795178615",
+    "tags": [
+      "Digital Cameras",
+      "Generic",
+      "Digital"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-12-04T22:18:18.009Z",
+    "updatedAt": "2025-07-23T04:15:45.118Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fd2",
+    "sku": "GEN-DIGI-0319",
+    "name": "Generic Digital Cameras Model 12",
+    "description": "Discover excellence with the Generic Digital Cameras Model 12. Engineered with precision and built to last, this digital cameras product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140a",
+      "name": "Digital Cameras",
+      "path": "/electronics/cameras-photography/digital-cameras"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "draft",
+    "pricing": {
+      "cost": 202.91,
+      "price": 295,
+      "compareAtPrice": 359.96,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 46,
+      "availableStock": 46,
+      "reservedStock": 0,
+      "incomingStock": 19,
+      "reorderPoint": 12,
+      "reorderQuantity": 23,
+      "minStockLevel": 5,
+      "stockValue": 9333.94,
+      "averageCost": 202.91,
+      "lastCostUpdate": "2025-06-25T12:06:08.772Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 9,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 9,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-DIGI-0320",
+        "cost": 190.16,
+        "leadTime": 6,
+        "minOrderQuantity": 15,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-DIGI-0321",
+        "cost": 187.04,
+        "leadTime": 12,
+        "minOrderQuantity": 9,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.69,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 39.11675150338026,
+      "width": 32.622256177368634,
+      "height": 12.325855645828167,
+      "unit": "cm"
+    },
+    "barcode": "0035123703738",
+    "upc": "798165018273",
+    "tags": [
+      "Digital Cameras",
+      "Generic",
+      "Digital"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-03-03T04:03:36.757Z",
+    "updatedAt": "2025-07-18T02:19:06.773Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fd3",
+    "sku": "GEN-DIGI-0320",
+    "name": "Generic Digital Cameras Model 13",
+    "description": "Discover excellence with the Generic Digital Cameras Model 13. Engineered with precision and built to last, this digital cameras product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140a",
+      "name": "Digital Cameras",
+      "path": "/electronics/cameras-photography/digital-cameras"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 163.94,
+      "price": 293.76,
+      "compareAtPrice": 355.25,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 92,
+      "availableStock": 92,
+      "reservedStock": 0,
+      "incomingStock": 15,
+      "reorderPoint": 23,
+      "reorderQuantity": 46,
+      "minStockLevel": 10,
+      "stockValue": 15082.56,
+      "averageCost": 163.94,
+      "lastCostUpdate": "2025-07-11T11:08:03.213Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 18,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 18,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 18,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-DIGI-0321",
+        "cost": 148.79,
+        "leadTime": 4,
+        "minOrderQuantity": 17,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-DIGI-0322",
+        "cost": 160.54,
+        "leadTime": 6,
+        "minOrderQuantity": 23,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.14,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 28.990561516663202,
+      "width": 43.14339734110598,
+      "height": 8.450727886466106,
+      "unit": "cm"
+    },
+    "barcode": "8594907646581",
+    "upc": "121189203511",
+    "tags": [
+      "Digital Cameras",
+      "Generic",
+      "Digital"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-01-12T11:38:20.851Z",
+    "updatedAt": "2025-05-01T04:33:04.609Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fd4",
+    "sku": "GEN-DIGI-0321",
+    "name": "Generic Digital Cameras Model 14",
+    "description": "Discover excellence with the Generic Digital Cameras Model 14. Engineered with precision and built to last, this digital cameras product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140a",
+      "name": "Digital Cameras",
+      "path": "/electronics/cameras-photography/digital-cameras"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 289.63,
+      "price": 402.66,
+      "compareAtPrice": 459.16,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 52,
+      "availableStock": 52,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 13,
+      "reorderQuantity": 26,
+      "minStockLevel": 6,
+      "stockValue": 15060.59,
+      "averageCost": 289.63,
+      "lastCostUpdate": "2025-07-20T03:22:34.064Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 10,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 10,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 10,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-DIGI-0322",
+        "cost": 266.64,
+        "leadTime": 7,
+        "minOrderQuantity": 21,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-DIGI-0323",
+        "cost": 271.55,
+        "leadTime": 13,
+        "minOrderQuantity": 10,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.21,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 41.77081055325024,
+      "width": 40.85679902269819,
+      "height": 21.311888939427526,
+      "unit": "cm"
+    },
+    "barcode": "8128908876607",
+    "upc": "149873046520",
+    "tags": [
+      "Digital Cameras",
+      "Generic",
+      "Digital"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-07-30T07:38:57.504Z",
+    "updatedAt": "2025-07-05T13:04:34.492Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fd5",
+    "sku": "GEN-DIGI-0322",
+    "name": "Generic Digital Cameras Model 15",
+    "description": "Discover excellence with the Generic Digital Cameras Model 15. Engineered with precision and built to last, this digital cameras product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140a",
+      "name": "Digital Cameras",
+      "path": "/electronics/cameras-photography/digital-cameras"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 153.06,
+      "price": 272.39,
+      "compareAtPrice": 308.78,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 48,
+      "availableStock": 48,
+      "reservedStock": 0,
+      "incomingStock": 27,
+      "reorderPoint": 12,
+      "reorderQuantity": 24,
+      "minStockLevel": 5,
+      "stockValue": 7347.07,
+      "averageCost": 153.06,
+      "lastCostUpdate": "2025-07-20T03:34:29.138Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 9,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 9,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-DIGI-0323",
+        "cost": 145.42,
+        "leadTime": 4,
+        "minOrderQuantity": 17,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-DIGI-0324",
+        "cost": 143.36,
+        "leadTime": 12,
+        "minOrderQuantity": 25,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.67,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 46.62914373147453,
+      "width": 47.47396317826593,
+      "height": 23.302474638912564,
+      "unit": "cm"
+    },
+    "barcode": "0042720603136",
+    "upc": "000091850597",
+    "tags": [
+      "Digital Cameras",
+      "Generic",
+      "Digital"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-07-10T18:55:34.883Z",
+    "updatedAt": "2025-05-03T03:34:56.714Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fd6",
+    "sku": "GEN-CAME-0323",
+    "name": "Generic Camera Lenses Model 1",
+    "description": "Discover excellence with the Generic Camera Lenses Model 1. Engineered with precision and built to last, this camera lenses product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140b",
+      "name": "Camera Lenses",
+      "path": "/electronics/cameras-photography/camera-lenses"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 226.03,
+      "price": 309.83,
+      "compareAtPrice": 353.22,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 31,
+      "availableStock": 31,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 8,
+      "reorderQuantity": 16,
+      "minStockLevel": 4,
+      "stockValue": 7007.07,
+      "averageCost": 226.03,
+      "lastCostUpdate": "2025-07-17T03:56:36.920Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 6,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 6,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-CAME-0324",
+        "cost": 219.71,
+        "leadTime": 12,
+        "minOrderQuantity": 10,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-CAME-0325",
+        "cost": 205.09,
+        "leadTime": 11,
+        "minOrderQuantity": 19,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.67,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 35.62642265060117,
+      "width": 39.3902139465897,
+      "height": 13.046652700494658,
+      "unit": "cm"
+    },
+    "barcode": "0645116151545",
+    "upc": "754371502757",
+    "tags": [
+      "Camera Lenses",
+      "Generic",
+      "Camera"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-08-27T01:46:48.054Z",
+    "updatedAt": "2025-07-02T06:26:09.507Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fd7",
+    "sku": "GEN-CAME-0324",
+    "name": "Generic Camera Lenses Model 2",
+    "description": "Discover excellence with the Generic Camera Lenses Model 2. Engineered with precision and built to last, this camera lenses product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140b",
+      "name": "Camera Lenses",
+      "path": "/electronics/cameras-photography/camera-lenses"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 307.26,
+      "price": 529.62,
+      "compareAtPrice": 628.71,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 20,
+      "availableStock": 20,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 5,
+      "reorderQuantity": 10,
+      "minStockLevel": 2,
+      "stockValue": 6145.17,
+      "averageCost": 307.26,
+      "lastCostUpdate": "2025-07-15T23:07:24.585Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 4,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 4,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-CAME-0325",
+        "cost": 289.99,
+        "leadTime": 6,
+        "minOrderQuantity": 6,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-CAME-0326",
+        "cost": 278.54,
+        "leadTime": 7,
+        "minOrderQuantity": 23,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.63,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 30.70148546874014,
+      "width": 32.50093593484392,
+      "height": 11.210951571607321,
+      "unit": "cm"
+    },
+    "barcode": "4140161320631",
+    "upc": "384683610932",
+    "tags": [
+      "Camera Lenses",
+      "Generic",
+      "Camera"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-08-12T23:14:27.204Z",
+    "updatedAt": "2025-05-17T22:52:25.252Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fd8",
+    "sku": "GEN-CAME-0325",
+    "name": "Generic Camera Lenses Model 3",
+    "description": "Discover excellence with the Generic Camera Lenses Model 3. Engineered with precision and built to last, this camera lenses product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140b",
+      "name": "Camera Lenses",
+      "path": "/electronics/cameras-photography/camera-lenses"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 404.82,
+      "price": 662.68,
+      "compareAtPrice": 814.16,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 1,
+      "availableStock": 1,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 10,
+      "reorderQuantity": 19,
+      "minStockLevel": 4,
+      "stockValue": 14978.44,
+      "averageCost": 404.82,
+      "lastCostUpdate": "2025-07-04T09:44:04.238Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 7,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 7,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-CAME-0326",
+        "cost": 392.89,
+        "leadTime": 7,
+        "minOrderQuantity": 7,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-CAME-0327",
+        "cost": 376.32,
+        "leadTime": 6,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.77,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 47.98730753305389,
+      "width": 38.44227338892745,
+      "height": 29.445054665731075,
+      "unit": "cm"
+    },
+    "barcode": "6731542439907",
+    "upc": "353692060824",
+    "tags": [
+      "Camera Lenses",
+      "Generic",
+      "Camera"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-09-11T13:41:30.559Z",
+    "updatedAt": "2025-05-24T19:36:06.397Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fd9",
+    "sku": "GEN-CAME-0326",
+    "name": "Generic Camera Lenses Model 4",
+    "description": "Discover excellence with the Generic Camera Lenses Model 4. Engineered with precision and built to last, this camera lenses product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140b",
+      "name": "Camera Lenses",
+      "path": "/electronics/cameras-photography/camera-lenses"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "draft",
+    "pricing": {
+      "cost": 515.13,
+      "price": 720.81,
+      "compareAtPrice": 812.74,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 3,
+      "availableStock": 3,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 15,
+      "reorderQuantity": 29,
+      "minStockLevel": 6,
+      "stockValue": 29877.64,
+      "averageCost": 515.13,
+      "lastCostUpdate": "2025-06-30T11:52:06.231Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 11,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 11,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-CAME-0327",
+        "cost": 494.11,
+        "leadTime": 10,
+        "minOrderQuantity": 16,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-CAME-0328",
+        "cost": 467.65,
+        "leadTime": 5,
+        "minOrderQuantity": 20,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.62,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 18.123184299325324,
+      "width": 35.927350025909284,
+      "height": 19.680980059218335,
+      "unit": "cm"
+    },
+    "barcode": "7785152179464",
+    "upc": "570920027042",
+    "tags": [
+      "Camera Lenses",
+      "Generic",
+      "Camera"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-01-31T05:41:21.266Z",
+    "updatedAt": "2025-06-17T04:56:41.037Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fda",
+    "sku": "GEN-CAME-0327",
+    "name": "Generic Camera Lenses Model 5",
+    "description": "Discover excellence with the Generic Camera Lenses Model 5. Engineered with precision and built to last, this camera lenses product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140b",
+      "name": "Camera Lenses",
+      "path": "/electronics/cameras-photography/camera-lenses"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 345.53,
+      "price": 546.38,
+      "compareAtPrice": 604.35,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 68,
+      "availableStock": 68,
+      "reservedStock": 0,
+      "incomingStock": 11,
+      "reorderPoint": 17,
+      "reorderQuantity": 34,
+      "minStockLevel": 7,
+      "stockValue": 23496.23,
+      "averageCost": 345.53,
+      "lastCostUpdate": "2025-06-30T13:39:27.873Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 13,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 13,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-CAME-0328",
+        "cost": 313.85,
+        "leadTime": 5,
+        "minOrderQuantity": 20,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-CAME-0329",
+        "cost": 338.23,
+        "leadTime": 11,
+        "minOrderQuantity": 11,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.79,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 47.01121653729048,
+      "width": 27.055631107186112,
+      "height": 19.632778900463897,
+      "unit": "cm"
+    },
+    "barcode": "1308871740801",
+    "upc": "433916983653",
+    "tags": [
+      "Camera Lenses",
+      "Generic",
+      "Camera"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-06-15T23:42:40.999Z",
+    "updatedAt": "2025-05-03T22:21:37.411Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fdb",
+    "sku": "GEN-CAME-0328",
+    "name": "Generic Camera Lenses Model 6",
+    "description": "Discover excellence with the Generic Camera Lenses Model 6. Engineered with precision and built to last, this camera lenses product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140b",
+      "name": "Camera Lenses",
+      "path": "/electronics/cameras-photography/camera-lenses"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 430,
+      "price": 596.42,
+      "compareAtPrice": 682.21,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 39,
+      "availableStock": 39,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 10,
+      "reorderQuantity": 20,
+      "minStockLevel": 4,
+      "stockValue": 16769.95,
+      "averageCost": 430,
+      "lastCostUpdate": "2025-07-22T15:29:10.106Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 7,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 7,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-CAME-0329",
+        "cost": 421.32,
+        "leadTime": 8,
+        "minOrderQuantity": 24,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-CAME-0330",
+        "cost": 417.52,
+        "leadTime": 11,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.86,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 22.15200463571312,
+      "width": 13.980690139133586,
+      "height": 13.336987612254159,
+      "unit": "cm"
+    },
+    "barcode": "9332131226949",
+    "upc": "432679111901",
+    "tags": [
+      "Camera Lenses",
+      "Generic",
+      "Camera"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-09-18T14:35:35.454Z",
+    "updatedAt": "2025-05-17T16:54:46.255Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fdc",
+    "sku": "GEN-CAME-0329",
+    "name": "Generic Camera Lenses Model 7",
+    "description": "Discover excellence with the Generic Camera Lenses Model 7. Engineered with precision and built to last, this camera lenses product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140b",
+      "name": "Camera Lenses",
+      "path": "/electronics/cameras-photography/camera-lenses"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 435.66,
+      "price": 582.02,
+      "compareAtPrice": 701.94,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 35,
+      "availableStock": 35,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 9,
+      "reorderQuantity": 18,
+      "minStockLevel": 4,
+      "stockValue": 15248,
+      "averageCost": 435.66,
+      "lastCostUpdate": "2025-07-13T20:36:50.310Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 7,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 7,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-CAME-0330",
+        "cost": 404.31,
+        "leadTime": 4,
+        "minOrderQuantity": 16,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-CAME-0331",
+        "cost": 408.59,
+        "leadTime": 13,
+        "minOrderQuantity": 20,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.23,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 27.858294370515612,
+      "width": 46.10090800087822,
+      "height": 18.870704938982787,
+      "unit": "cm"
+    },
+    "barcode": "0138843010858",
+    "upc": "417779832858",
+    "tags": [
+      "Camera Lenses",
+      "Generic",
+      "Camera"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-03-05T06:47:12.968Z",
+    "updatedAt": "2025-06-18T14:36:08.387Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fdd",
+    "sku": "GEN-CAME-0330",
+    "name": "Generic Camera Lenses Model 8",
+    "description": "Discover excellence with the Generic Camera Lenses Model 8. Engineered with precision and built to last, this camera lenses product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140b",
+      "name": "Camera Lenses",
+      "path": "/electronics/cameras-photography/camera-lenses"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 458.83,
+      "price": 771.1,
+      "compareAtPrice": 874.6,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 73,
+      "availableStock": 73,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 19,
+      "reorderQuantity": 37,
+      "minStockLevel": 8,
+      "stockValue": 33494.54,
+      "averageCost": 458.83,
+      "lastCostUpdate": "2025-07-17T00:36:54.014Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 14,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 14,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-CAME-0331",
+        "cost": 447.11,
+        "leadTime": 11,
+        "minOrderQuantity": 18,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-CAME-0332",
+        "cost": 431.44,
+        "leadTime": 11,
+        "minOrderQuantity": 24,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.08,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 21.39255852497106,
+      "width": 30.003007377588386,
+      "height": 6.159144243150854,
+      "unit": "cm"
+    },
+    "barcode": "5977020510191",
+    "upc": "378623455297",
+    "tags": [
+      "Camera Lenses",
+      "Generic",
+      "Camera"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-03-22T01:30:24.400Z",
+    "updatedAt": "2025-06-15T14:10:06.670Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fde",
+    "sku": "GEN-CAME-0331",
+    "name": "Generic Camera Lenses Model 9",
+    "description": "Discover excellence with the Generic Camera Lenses Model 9. Engineered with precision and built to last, this camera lenses product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140b",
+      "name": "Camera Lenses",
+      "path": "/electronics/cameras-photography/camera-lenses"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 179.43,
+      "price": 277.99,
+      "compareAtPrice": 323.18,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 71,
+      "availableStock": 71,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 18,
+      "reorderQuantity": 36,
+      "minStockLevel": 8,
+      "stockValue": 12739.28,
+      "averageCost": 179.43,
+      "lastCostUpdate": "2025-06-23T19:58:33.440Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 14,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 14,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-CAME-0332",
+        "cost": 169.08,
+        "leadTime": 14,
+        "minOrderQuantity": 5,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-CAME-0333",
+        "cost": 169.98,
+        "leadTime": 4,
+        "minOrderQuantity": 12,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.7,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 23.83540730584702,
+      "width": 26.4061619237555,
+      "height": 28.567591183058926,
+      "unit": "cm"
+    },
+    "barcode": "0067010351866",
+    "upc": "380203533969",
+    "tags": [
+      "Camera Lenses",
+      "Generic",
+      "Camera"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-10-04T19:49:49.555Z",
+    "updatedAt": "2025-07-09T19:17:53.073Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fdf",
+    "sku": "GEN-CAME-0332",
+    "name": "Generic Camera Lenses Model 10",
+    "description": "Discover excellence with the Generic Camera Lenses Model 10. Engineered with precision and built to last, this camera lenses product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140b",
+      "name": "Camera Lenses",
+      "path": "/electronics/cameras-photography/camera-lenses"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 328.31,
+      "price": 472.61,
+      "compareAtPrice": 542.29,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 76,
+      "availableStock": 76,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 19,
+      "reorderQuantity": 38,
+      "minStockLevel": 8,
+      "stockValue": 24951.35,
+      "averageCost": 328.31,
+      "lastCostUpdate": "2025-07-12T14:12:57.559Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 15,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 15,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-CAME-0333",
+        "cost": 313.55,
+        "leadTime": 13,
+        "minOrderQuantity": 23,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-CAME-0334",
+        "cost": 315.87,
+        "leadTime": 3,
+        "minOrderQuantity": 5,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.23,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 18.420567877567215,
+      "width": 30.707319980477912,
+      "height": 13.716192996827976,
+      "unit": "cm"
+    },
+    "barcode": "6853457483064",
+    "upc": "027627341060",
+    "tags": [
+      "Camera Lenses",
+      "Generic",
+      "Camera"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-12-12T04:25:29.810Z",
+    "updatedAt": "2025-05-23T17:22:12.913Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fe0",
+    "sku": "GEN-CAME-0333",
+    "name": "Generic Camera Lenses Model 11",
+    "description": "Discover excellence with the Generic Camera Lenses Model 11. Engineered with precision and built to last, this camera lenses product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140b",
+      "name": "Camera Lenses",
+      "path": "/electronics/cameras-photography/camera-lenses"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 254.7,
+      "price": 457.15,
+      "compareAtPrice": 530.15,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 27,
+      "availableStock": 27,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 7,
+      "reorderQuantity": 14,
+      "minStockLevel": 3,
+      "stockValue": 6876.84,
+      "averageCost": 254.7,
+      "lastCostUpdate": "2025-06-26T01:19:48.010Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 5,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 5,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-CAME-0334",
+        "cost": 236.6,
+        "leadTime": 8,
+        "minOrderQuantity": 17,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-CAME-0335",
+        "cost": 235.74,
+        "leadTime": 5,
+        "minOrderQuantity": 22,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.69,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 14.015718682539525,
+      "width": 48.08913076640125,
+      "height": 13.74643507012372,
+      "unit": "cm"
+    },
+    "barcode": "3726571211337",
+    "upc": "683269956874",
+    "tags": [
+      "Camera Lenses",
+      "Generic",
+      "Camera"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-09-16T20:48:11.911Z",
+    "updatedAt": "2025-05-29T18:39:40.209Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fe1",
+    "sku": "GEN-CAME-0334",
+    "name": "Generic Camera Lenses Model 12",
+    "description": "Discover excellence with the Generic Camera Lenses Model 12. Engineered with precision and built to last, this camera lenses product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140b",
+      "name": "Camera Lenses",
+      "path": "/electronics/cameras-photography/camera-lenses"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 518.75,
+      "price": 785.34,
+      "compareAtPrice": 892.72,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 95,
+      "availableStock": 95,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 24,
+      "reorderQuantity": 48,
+      "minStockLevel": 10,
+      "stockValue": 49280.9,
+      "averageCost": 518.75,
+      "lastCostUpdate": "2025-07-07T02:34:12.384Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 19,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 19,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-CAME-0335",
+        "cost": 494.52,
+        "leadTime": 11,
+        "minOrderQuantity": 6,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-CAME-0336",
+        "cost": 481.58,
+        "leadTime": 14,
+        "minOrderQuantity": 23,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 0.6,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 21.57894828445798,
+      "width": 18.701565220030712,
+      "height": 23.49074881997069,
+      "unit": "cm"
+    },
+    "barcode": "2057282923335",
+    "upc": "890602688970",
+    "tags": [
+      "Camera Lenses",
+      "Generic",
+      "Camera"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-11-25T09:12:42.910Z",
+    "updatedAt": "2025-06-15T19:16:17.256Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fe2",
+    "sku": "GEN-CAME-0335",
+    "name": "Generic Camera Lenses Model 13",
+    "description": "Discover excellence with the Generic Camera Lenses Model 13. Engineered with precision and built to last, this camera lenses product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140b",
+      "name": "Camera Lenses",
+      "path": "/electronics/cameras-photography/camera-lenses"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 652.16,
+      "price": 870.03,
+      "compareAtPrice": 1066.53,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 87,
+      "availableStock": 87,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 22,
+      "reorderQuantity": 44,
+      "minStockLevel": 9,
+      "stockValue": 56737.67,
+      "averageCost": 652.16,
+      "lastCostUpdate": "2025-07-03T05:03:42.648Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 17,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 17,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-CAME-0336",
+        "cost": 614.06,
+        "leadTime": 14,
+        "minOrderQuantity": 18,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-CAME-0337",
+        "cost": 597.89,
+        "leadTime": 4,
+        "minOrderQuantity": 23,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.32,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 28.36974076891643,
+      "width": 27.458250803796446,
+      "height": 6.415889645156232,
+      "unit": "cm"
+    },
+    "barcode": "7717348162317",
+    "upc": "407714990415",
+    "tags": [
+      "Camera Lenses",
+      "Generic",
+      "Camera"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-12-14T17:15:16.146Z",
+    "updatedAt": "2025-07-12T15:35:45.713Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fe3",
+    "sku": "GEN-CAME-0336",
+    "name": "Generic Camera Lenses Model 14",
+    "description": "Discover excellence with the Generic Camera Lenses Model 14. Engineered with precision and built to last, this camera lenses product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140b",
+      "name": "Camera Lenses",
+      "path": "/electronics/cameras-photography/camera-lenses"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 131.71,
+      "price": 212.61,
+      "compareAtPrice": 243.41,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 47,
+      "availableStock": 47,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 12,
+      "reorderQuantity": 24,
+      "minStockLevel": 5,
+      "stockValue": 6190.51,
+      "averageCost": 131.71,
+      "lastCostUpdate": "2025-07-18T08:38:13.911Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 9,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 9,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 9,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-CAME-0337",
+        "cost": 122.54,
+        "leadTime": 12,
+        "minOrderQuantity": 11,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-CAME-0338",
+        "cost": 124.05,
+        "leadTime": 8,
+        "minOrderQuantity": 17,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.98,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 14.639055437152994,
+      "width": 40.780598187660004,
+      "height": 11.282014775463304,
+      "unit": "cm"
+    },
+    "barcode": "8847776160988",
+    "upc": "292647590439",
+    "tags": [
+      "Camera Lenses",
+      "Generic",
+      "Camera"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-01-30T05:26:58.173Z",
+    "updatedAt": "2025-06-23T15:19:35.661Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fe4",
+    "sku": "GEN-CAME-0337",
+    "name": "Generic Camera Lenses Model 15",
+    "description": "Discover excellence with the Generic Camera Lenses Model 15. Engineered with precision and built to last, this camera lenses product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140b",
+      "name": "Camera Lenses",
+      "path": "/electronics/cameras-photography/camera-lenses"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 219.21,
+      "price": 387.57,
+      "compareAtPrice": 428.63,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 23,
+      "availableStock": 23,
+      "reservedStock": 0,
+      "incomingStock": 36,
+      "reorderPoint": 6,
+      "reorderQuantity": 12,
+      "minStockLevel": 3,
+      "stockValue": 5041.92,
+      "averageCost": 219.21,
+      "lastCostUpdate": "2025-06-30T16:00:49.797Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 4,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 4,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 4,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-CAME-0338",
+        "cost": 213.36,
+        "leadTime": 9,
+        "minOrderQuantity": 14,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-CAME-0339",
+        "cost": 199.6,
+        "leadTime": 10,
+        "minOrderQuantity": 8,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.89,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 41.380027882286825,
+      "width": 37.12678364526966,
+      "height": 8.742058649338142,
+      "unit": "cm"
+    },
+    "barcode": "9514837433977",
+    "upc": "447515955089",
+    "tags": [
+      "Camera Lenses",
+      "Generic",
+      "Camera"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-10-31T19:44:14.104Z",
+    "updatedAt": "2025-05-03T08:53:34.922Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fe5",
+    "sku": "GEN-PHOT-0338",
+    "name": "Generic Photography Accessories Model 1",
+    "description": "Discover excellence with the Generic Photography Accessories Model 1. Engineered with precision and built to last, this photography accessories product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140c",
+      "name": "Photography Accessories",
+      "path": "/electronics/cameras-photography/photography-accessories"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 623.32,
+      "price": 896.06,
+      "compareAtPrice": 990.4,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 61,
+      "availableStock": 61,
+      "reservedStock": 0,
+      "incomingStock": 43,
+      "reorderPoint": 16,
+      "reorderQuantity": 31,
+      "minStockLevel": 7,
+      "stockValue": 38022.57,
+      "averageCost": 623.32,
+      "lastCostUpdate": "2025-06-26T17:47:44.761Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 12,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 12,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-PHOT-0339",
+        "cost": 581.53,
+        "leadTime": 12,
+        "minOrderQuantity": 16,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-PHOT-0340",
+        "cost": 603.4,
+        "leadTime": 9,
+        "minOrderQuantity": 8,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.04,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 39.124908870842276,
+      "width": 15.328396004722942,
+      "height": 5.197569083213186,
+      "unit": "cm"
+    },
+    "barcode": "5685384473572",
+    "upc": "373949123424",
+    "tags": [
+      "Photography Accessories",
+      "Generic",
+      "Photography"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-03-21T08:02:53.021Z",
+    "updatedAt": "2025-06-29T18:04:31.207Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fe6",
+    "sku": "GEN-PHOT-0339",
+    "name": "Generic Photography Accessories Model 2",
+    "description": "Discover excellence with the Generic Photography Accessories Model 2. Engineered with precision and built to last, this photography accessories product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140c",
+      "name": "Photography Accessories",
+      "path": "/electronics/cameras-photography/photography-accessories"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 541.5,
+      "price": 817.57,
+      "compareAtPrice": 950.54,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 0,
+      "availableStock": 0,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 18,
+      "reorderQuantity": 35,
+      "minStockLevel": 7,
+      "stockValue": 37363.39,
+      "averageCost": 541.5,
+      "lastCostUpdate": "2025-07-04T09:01:25.048Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 13,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 13,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 13,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-PHOT-0340",
+        "cost": 511.1,
+        "leadTime": 14,
+        "minOrderQuantity": 7,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-PHOT-0341",
+        "cost": 508.34,
+        "leadTime": 9,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.79,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 48.9984371765398,
+      "width": 25.122761372127165,
+      "height": 29.42097254818837,
+      "unit": "cm"
+    },
+    "barcode": "6857677981273",
+    "upc": "268347714101",
+    "tags": [
+      "Photography Accessories",
+      "Generic",
+      "Photography"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-05-21T01:12:44.033Z",
+    "updatedAt": "2025-06-03T22:19:13.880Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fe7",
+    "sku": "GEN-PHOT-0340",
+    "name": "Generic Photography Accessories Model 3",
+    "description": "Discover excellence with the Generic Photography Accessories Model 3. Engineered with precision and built to last, this photography accessories product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140c",
+      "name": "Photography Accessories",
+      "path": "/electronics/cameras-photography/photography-accessories"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 387.83,
+      "price": 553.83,
+      "compareAtPrice": 611.18,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 81,
+      "availableStock": 81,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 21,
+      "reorderQuantity": 41,
+      "minStockLevel": 9,
+      "stockValue": 31414.21,
+      "averageCost": 387.83,
+      "lastCostUpdate": "2025-07-22T23:27:11.784Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 16,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 16,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 16,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-PHOT-0341",
+        "cost": 375.45,
+        "leadTime": 14,
+        "minOrderQuantity": 6,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-PHOT-0342",
+        "cost": 360.27,
+        "leadTime": 12,
+        "minOrderQuantity": 9,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.75,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 36.16903645706982,
+      "width": 41.84509256818275,
+      "height": 22.639703960879384,
+      "unit": "cm"
+    },
+    "barcode": "9246394729408",
+    "upc": "550814200667",
+    "tags": [
+      "Photography Accessories",
+      "Generic",
+      "Photography"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-11-16T20:04:26.173Z",
+    "updatedAt": "2025-05-15T19:36:25.005Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fe8",
+    "sku": "GEN-PHOT-0341",
+    "name": "Generic Photography Accessories Model 4",
+    "description": "Discover excellence with the Generic Photography Accessories Model 4. Engineered with precision and built to last, this photography accessories product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140c",
+      "name": "Photography Accessories",
+      "path": "/electronics/cameras-photography/photography-accessories"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "discontinued",
+    "pricing": {
+      "cost": 498.16,
+      "price": 727.76,
+      "compareAtPrice": 868.36,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 29,
+      "availableStock": 29,
+      "reservedStock": 0,
+      "incomingStock": 25,
+      "reorderPoint": 8,
+      "reorderQuantity": 15,
+      "minStockLevel": 3,
+      "stockValue": 14446.69,
+      "averageCost": 498.16,
+      "lastCostUpdate": "2025-06-24T15:41:46.304Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 5,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 5,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 5,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-PHOT-0342",
+        "cost": 451.59,
+        "leadTime": 5,
+        "minOrderQuantity": 12,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-PHOT-0343",
+        "cost": 483.57,
+        "leadTime": 7,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.11,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 33.92708187393721,
+      "width": 22.619343409788573,
+      "height": 14.530165321518085,
+      "unit": "cm"
+    },
+    "barcode": "9198098864423",
+    "upc": "297456334089",
+    "tags": [
+      "Photography Accessories",
+      "Generic",
+      "Photography"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-04-08T23:15:04.151Z",
+    "updatedAt": "2025-07-04T04:46:11.286Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fe9",
+    "sku": "GEN-PHOT-0342",
+    "name": "Generic Photography Accessories Model 5",
+    "description": "Discover excellence with the Generic Photography Accessories Model 5. Engineered with precision and built to last, this photography accessories product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140c",
+      "name": "Photography Accessories",
+      "path": "/electronics/cameras-photography/photography-accessories"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 481.72,
+      "price": 664.38,
+      "compareAtPrice": 755.88,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 56,
+      "availableStock": 56,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 14,
+      "reorderQuantity": 28,
+      "minStockLevel": 6,
+      "stockValue": 26976.48,
+      "averageCost": 481.72,
+      "lastCostUpdate": "2025-07-01T03:07:07.958Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 11,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 11,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 11,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-PHOT-0343",
+        "cost": 462.49,
+        "leadTime": 8,
+        "minOrderQuantity": 20,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-PHOT-0344",
+        "cost": 449.26,
+        "leadTime": 4,
+        "minOrderQuantity": 24,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.86,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 16.008915964707214,
+      "width": 23.399706287353467,
+      "height": 22.628681438396193,
+      "unit": "cm"
+    },
+    "barcode": "1340472873044",
+    "upc": "549940573938",
+    "tags": [
+      "Photography Accessories",
+      "Generic",
+      "Photography"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-03-23T04:15:26.032Z",
+    "updatedAt": "2025-05-31T13:55:37.344Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fea",
+    "sku": "GEN-PHOT-0343",
+    "name": "Generic Photography Accessories Model 6",
+    "description": "Discover excellence with the Generic Photography Accessories Model 6. Engineered with precision and built to last, this photography accessories product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140c",
+      "name": "Photography Accessories",
+      "path": "/electronics/cameras-photography/photography-accessories"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 435.05,
+      "price": 744.07,
+      "compareAtPrice": 928.26,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 74,
+      "availableStock": 74,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 19,
+      "reorderQuantity": 37,
+      "minStockLevel": 8,
+      "stockValue": 32193.71,
+      "averageCost": 435.05,
+      "lastCostUpdate": "2025-07-18T11:12:17.828Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 14,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 14,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-PHOT-0344",
+        "cost": 422.88,
+        "leadTime": 12,
+        "minOrderQuantity": 13,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-PHOT-0345",
+        "cost": 404.37,
+        "leadTime": 3,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 4.91,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 47.00438535415616,
+      "width": 22.900899362329582,
+      "height": 21.73168566295271,
+      "unit": "cm"
+    },
+    "barcode": "0371687720370",
+    "upc": "146140171079",
+    "tags": [
+      "Photography Accessories",
+      "Generic",
+      "Photography"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-06-10T02:46:43.306Z",
+    "updatedAt": "2025-07-10T16:27:32.962Z"
+  },
+  {
+    "_id": "68811caa975c12956e900feb",
+    "sku": "GEN-PHOT-0344",
+    "name": "Generic Photography Accessories Model 7",
+    "description": "Discover excellence with the Generic Photography Accessories Model 7. Engineered with precision and built to last, this photography accessories product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140c",
+      "name": "Photography Accessories",
+      "path": "/electronics/cameras-photography/photography-accessories"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 657.31,
+      "price": 972.99,
+      "compareAtPrice": 1075.24,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 89,
+      "availableStock": 89,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 23,
+      "reorderQuantity": 45,
+      "minStockLevel": 9,
+      "stockValue": 58500.98,
+      "averageCost": 657.31,
+      "lastCostUpdate": "2025-07-03T06:40:16.717Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 17,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 17,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 17,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-PHOT-0345",
+        "cost": 632.91,
+        "leadTime": 11,
+        "minOrderQuantity": 22,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-PHOT-0346",
+        "cost": 608.61,
+        "leadTime": 11,
+        "minOrderQuantity": 23,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.39,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 37.96233600553364,
+      "width": 37.12927197507734,
+      "height": 23.394925698323313,
+      "unit": "cm"
+    },
+    "barcode": "3371868270077",
+    "upc": "916520426503",
+    "tags": [
+      "Photography Accessories",
+      "Generic",
+      "Photography"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2024-09-01T10:56:06.783Z",
+    "updatedAt": "2025-06-04T12:42:30.922Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fec",
+    "sku": "GEN-PHOT-0345",
+    "name": "Generic Photography Accessories Model 8",
+    "description": "Discover excellence with the Generic Photography Accessories Model 8. Engineered with precision and built to last, this photography accessories product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140c",
+      "name": "Photography Accessories",
+      "path": "/electronics/cameras-photography/photography-accessories"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 239.61,
+      "price": 385.15,
+      "compareAtPrice": 427.19,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 72,
+      "availableStock": 72,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 18,
+      "reorderQuantity": 36,
+      "minStockLevel": 8,
+      "stockValue": 17252.01,
+      "averageCost": 239.61,
+      "lastCostUpdate": "2025-07-16T17:07:53.445Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 14,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 14,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 14,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-PHOT-0346",
+        "cost": 215.93,
+        "leadTime": 4,
+        "minOrderQuantity": 18,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-PHOT-0347",
+        "cost": 215.7,
+        "leadTime": 10,
+        "minOrderQuantity": 16,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 15.998210871855004,
+      "width": 32.60017736340322,
+      "height": 8.674878327955504,
+      "unit": "cm"
+    },
+    "barcode": "6937215755644",
+    "upc": "775326421382",
+    "tags": [
+      "Photography Accessories",
+      "Generic",
+      "Photography"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2025-06-05T23:17:32.680Z",
+    "updatedAt": "2025-07-23T04:19:10.285Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fed",
+    "sku": "GEN-PHOT-0346",
+    "name": "Generic Photography Accessories Model 9",
+    "description": "Discover excellence with the Generic Photography Accessories Model 9. Engineered with precision and built to last, this photography accessories product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140c",
+      "name": "Photography Accessories",
+      "path": "/electronics/cameras-photography/photography-accessories"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 191.79,
+      "price": 315.43,
+      "compareAtPrice": 372.08,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 60,
+      "availableStock": 60,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 15,
+      "reorderQuantity": 30,
+      "minStockLevel": 6,
+      "stockValue": 11507.61,
+      "averageCost": 191.79,
+      "lastCostUpdate": "2025-06-27T04:11:37.565Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 12,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 12,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 12,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-PHOT-0347",
+        "cost": 180.39,
+        "leadTime": 13,
+        "minOrderQuantity": 24,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-PHOT-0348",
+        "cost": 187.35,
+        "leadTime": 9,
+        "minOrderQuantity": 25,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.34,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 37.34587405941457,
+      "width": 45.30058912326752,
+      "height": 28.207476226042072,
+      "unit": "cm"
+    },
+    "barcode": "2500881261839",
+    "upc": "589738260810",
+    "tags": [
+      "Photography Accessories",
+      "Generic",
+      "Photography"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-12-20T02:19:27.309Z",
+    "updatedAt": "2025-06-05T15:54:26.751Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fee",
+    "sku": "GEN-PHOT-0347",
+    "name": "Generic Photography Accessories Model 10",
+    "description": "Discover excellence with the Generic Photography Accessories Model 10. Engineered with precision and built to last, this photography accessories product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140c",
+      "name": "Photography Accessories",
+      "path": "/electronics/cameras-photography/photography-accessories"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 252.83,
+      "price": 350.88,
+      "compareAtPrice": 393.34,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 38,
+      "availableStock": 38,
+      "reservedStock": 0,
+      "incomingStock": 14,
+      "reorderPoint": 10,
+      "reorderQuantity": 19,
+      "minStockLevel": 4,
+      "stockValue": 9607.64,
+      "averageCost": 252.83,
+      "lastCostUpdate": "2025-07-10T12:55:53.241Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 7,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 7,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 7,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-PHOT-0348",
+        "cost": 244.45,
+        "leadTime": 5,
+        "minOrderQuantity": 5,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-PHOT-0349",
+        "cost": 237.7,
+        "leadTime": 6,
+        "minOrderQuantity": 7,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 2.5,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 42.28847007975761,
+      "width": 39.8255395186098,
+      "height": 29.934357534968846,
+      "unit": "cm"
+    },
+    "barcode": "3551731696499",
+    "upc": "886034645946",
+    "tags": [
+      "Photography Accessories",
+      "Generic",
+      "Photography"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-03-19T17:55:06.249Z",
+    "updatedAt": "2025-06-02T17:14:28.796Z"
+  },
+  {
+    "_id": "68811caa975c12956e900fef",
+    "sku": "GEN-PHOT-0348",
+    "name": "Generic Photography Accessories Model 11",
+    "description": "Discover excellence with the Generic Photography Accessories Model 11. Engineered with precision and built to last, this photography accessories product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140c",
+      "name": "Photography Accessories",
+      "path": "/electronics/cameras-photography/photography-accessories"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 310.68,
+      "price": 541.22,
+      "compareAtPrice": 674.55,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 79,
+      "availableStock": 79,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 20,
+      "reorderQuantity": 40,
+      "minStockLevel": 8,
+      "stockValue": 24543.71,
+      "averageCost": 310.68,
+      "lastCostUpdate": "2025-07-07T20:48:54.278Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 15,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 15,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 15,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-PHOT-0349",
+        "cost": 296.28,
+        "leadTime": 11,
+        "minOrderQuantity": 20,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-PHOT-0350",
+        "cost": 285.57,
+        "leadTime": 5,
+        "minOrderQuantity": 9,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.89,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 39.22830800199894,
+      "width": 35.054540142090175,
+      "height": 6.309175080390079,
+      "unit": "cm"
+    },
+    "barcode": "7182612447846",
+    "upc": "728087614739",
+    "tags": [
+      "Photography Accessories",
+      "Generic",
+      "Photography"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-11-16T14:56:03.363Z",
+    "updatedAt": "2025-05-09T03:00:37.069Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ff0",
+    "sku": "GEN-PHOT-0349",
+    "name": "Generic Photography Accessories Model 12",
+    "description": "Discover excellence with the Generic Photography Accessories Model 12. Engineered with precision and built to last, this photography accessories product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140c",
+      "name": "Photography Accessories",
+      "path": "/electronics/cameras-photography/photography-accessories"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 638.82,
+      "price": 972.11,
+      "compareAtPrice": 1130.76,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 33,
+      "availableStock": 33,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 9,
+      "reorderQuantity": 17,
+      "minStockLevel": 4,
+      "stockValue": 21080.91,
+      "averageCost": 638.82,
+      "lastCostUpdate": "2025-07-17T18:09:23.462Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 6,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 6,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 6,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-PHOT-0350",
+        "cost": 600.02,
+        "leadTime": 12,
+        "minOrderQuantity": 9,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-PHOT-0351",
+        "cost": 583.43,
+        "leadTime": 14,
+        "minOrderQuantity": 8,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 3.73,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 12.609395178636134,
+      "width": 32.74353169745818,
+      "height": 20.003584503686863,
+      "unit": "cm"
+    },
+    "barcode": "5912063537240",
+    "upc": "553819769136",
+    "tags": [
+      "Photography Accessories",
+      "Generic",
+      "Photography"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050602",
+    "updatedBy": "668035a5e7604adf9d050601",
+    "createdAt": "2025-04-06T23:01:21.826Z",
+    "updatedAt": "2025-07-15T17:03:54.134Z"
+  },
+  {
+    "_id": "68811caa975c12956e900ff1",
+    "sku": "GEN-PHOT-0350",
+    "name": "Generic Photography Accessories Model 13",
+    "description": "Discover excellence with the Generic Photography Accessories Model 13. Engineered with precision and built to last, this photography accessories product combines innovative features with reliable performance. Backed by Generic's commitment to quality and customer satisfaction.",
+    "category": {
+      "id": "6880316114bfcd086db9140c",
+      "name": "Photography Accessories",
+      "path": "/electronics/cameras-photography/photography-accessories"
+    },
+    "brand": "Generic",
+    "type": "physical",
+    "status": "active",
+    "pricing": {
+      "cost": 547.76,
+      "price": 843.57,
+      "compareAtPrice": 1033.76,
+      "currency": "USD",
+      "taxable": true,
+      "taxRate": 0.07
+    },
+    "inventory": {
+      "trackQuantity": true,
+      "currentStock": 95,
+      "availableStock": 95,
+      "reservedStock": 0,
+      "incomingStock": 0,
+      "reorderPoint": 24,
+      "reorderQuantity": 48,
+      "minStockLevel": 10,
+      "stockValue": 52037.67,
+      "averageCost": 547.76,
+      "lastCostUpdate": "2025-07-02T13:50:43.462Z",
+      "stockMethod": "FIFO",
+      "locations": [
+        {
+          "warehouseId": "6880316114bfcd086db9140d",
+          "warehouseName": "Miami Main Distribution Center",
+          "quantity": 19,
+          "isDefault": true
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140e",
+          "warehouseName": "Aventura Retail Warehouse",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db9140f",
+          "warehouseName": "Coral Gables Premium Storage",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91410",
+          "warehouseName": "Homestead Fulfillment Center",
+          "quantity": 19,
+          "isDefault": false
+        },
+        {
+          "warehouseId": "6880316114bfcd086db91411",
+          "warehouseName": "Brickell Boutique Storage",
+          "quantity": 19,
+          "isDefault": false
+        }
+      ]
+    },
+    "suppliers": [
+      {
+        "vendorId": "688035a5e7604adf9d05062a",
+        "vendorName": "Apple Inc.",
+        "supplierSku": "SUP-MFG-001-GEN-PHOT-0351",
+        "cost": 512.49,
+        "leadTime": 13,
+        "minOrderQuantity": 22,
+        "isPrimary": true
+      },
+      {
+        "vendorId": "688035a5e7604adf9d05062b",
+        "vendorName": "Samsung Electronics",
+        "supplierSku": "SUP-MFG-002-GEN-PHOT-0352",
+        "cost": 524.75,
+        "leadTime": 14,
+        "minOrderQuantity": 24,
+        "isPrimary": false
+      }
+    ],
+    "weight": {
+      "value": 1.84,
+      "unit": "kg"
+    },
+    "dimensions": {
+      "length": 47.29471714610289,
+      "width": 22.24522240038079,
+      "height": 24.224705939358564,
+      "unit": "cm"
+    },
+    "barcode": "9100418502517",
+    "upc": "311880157857",
+    "tags": [
+      "Photography Accessories",
+      "Generic",
+      "Photography"
+    ],
+    "isActive": true,
+    "createdBy": "668035a5e7604adf9d050601",
+    "updatedBy": "668035a5e7604adf9d050602",
+    "createdAt": "2024-07-26T08:02:57.347Z",
+    "updatedAt": "2025-05-21T08:23:13.042Z"
+  }
+]
