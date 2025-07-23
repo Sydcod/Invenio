@@ -100,7 +100,7 @@ export default async function SalesOrdersPage() {
                           </div>
                         </td>
                         <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-900">
-                          {order.warehouseId?.name || 'N/A'}
+                          {order.warehouse?.name || 'N/A'}
                         </td>
                         <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-900">
                           ${order.financial?.grandTotal?.toFixed(2) || '0.00'}
