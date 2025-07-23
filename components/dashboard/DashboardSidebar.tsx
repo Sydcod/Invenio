@@ -12,7 +12,8 @@ import {
   DocumentCheckIcon,
   ChartBarIcon,
   Cog6ToothIcon,
-  UsersIcon
+  UsersIcon,
+  UserGroupIcon
 } from '@heroicons/react/24/outline';
 import { cn } from '@/libs/utils';
 
@@ -24,6 +25,7 @@ const navigation = [
   { name: 'Warehouses', href: '/dashboard/warehouses', icon: BuildingStorefrontIcon },
   { name: 'Purchase Orders', href: '/dashboard/purchase-orders', icon: DocumentTextIcon },
   { name: 'Sales Orders', href: '/dashboard/sales-orders', icon: DocumentCheckIcon },
+  { name: 'Customers', href: '/dashboard/customers', icon: UserGroupIcon },
   { name: 'Reports', href: '/dashboard/reports', icon: ChartBarIcon },
   { name: 'Team', href: '/dashboard/team', icon: UsersIcon },
   { name: 'Settings', href: '/dashboard/settings', icon: Cog6ToothIcon },
