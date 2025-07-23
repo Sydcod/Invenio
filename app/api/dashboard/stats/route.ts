@@ -20,18 +20,25 @@ export async function GET() {
     // Get date ranges
     const today = new Date();
     today.setHours(0, 0, 0, 0);
+    // Calculate dates for same-day-range comparison
+    const now = new Date();
+    const currentDayOfMonth = now.getDate();
     
-    const thisMonth = new Date();
-    thisMonth.setDate(1);
-    thisMonth.setHours(0, 0, 0, 0);
+    // This month: from 1st to current day
+    const thisMonthStart = new Date(now.getFullYear(), now.getMonth(), 1);
+    thisMonthStart.setHours(0, 0, 0, 0);
     
-    const lastMonth = new Date();
-    lastMonth.setMonth(lastMonth.getMonth() - 1);
-    lastMonth.setDate(1);
-    lastMonth.setHours(0, 0, 0, 0);
+    const thisMonthEnd = new Date(now);
+    thisMonthEnd.setHours(23, 59, 59, 999);
     
-    const lastMonthEnd = new Date(thisMonth);
-    lastMonthEnd.setDate(0);
+    // Last month: from 1st to same day number (or last day if month is shorter)
+    const lastMonthStart = new Date(now.getFullYear(), now.getMonth() - 1, 1);
+    lastMonthStart.setHours(0, 0, 0, 0);
+    
+    const lastMonthDaysInMonth = new Date(now.getFullYear(), now.getMonth(), 0).getDate();
+    const lastMonthCompareDay = Math.min(currentDayOfMonth, lastMonthDaysInMonth);
+    const lastMonthEnd = new Date(now.getFullYear(), now.getMonth() - 1, lastMonthCompareDay);
+    lastMonthEnd.setHours(23, 59, 59, 999);
 
     // Fetch all data in parallel
     const [
@@ -69,9 +76,14 @@ export async function GET() {
         }}
       ]),
       
-      // This month's revenue
+      // This month's revenue (up to current day)
       SalesOrder.aggregate([
-        { $match: { createdAt: { $gte: thisMonth.toISOString() } } },
+        { $match: { 
+          createdAt: { 
+            $gte: thisMonthStart.toISOString(),
+            $lte: thisMonthEnd.toISOString()
+          } 
+        }},
         { $group: { 
           _id: null, 
           total: { $sum: "$financial.grandTotal" },
@@ -79,12 +91,12 @@ export async function GET() {
         }}
       ]),
       
-      // Last month's revenue
+      // Last month's revenue (same day range)
       SalesOrder.aggregate([
         { $match: { 
           createdAt: { 
-            $gte: lastMonth.toISOString(),
-            $lt: thisMonth.toISOString()
+            $gte: lastMonthStart.toISOString(),
+            $lte: lastMonthEnd.toISOString()
           } 
         }},
         { $group: { 
