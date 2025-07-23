@@ -1,0 +1,367 @@
+[
+  {
+    "_id": "688035a5e7604adf9d050632",
+    "code": "SUP-DST-001",
+    "name": "Tech Data Corporation",
+    "type": "distributor",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "Michael Thompson",
+        "email": "mthompson@techdata.com",
+        "phone": "+1-305-555-3100",
+        "position": "Sales Representative"
+      },
+      "alternateContact": {
+        "name": "Sarah Johnson",
+        "email": "sjohnson@techdata.com",
+        "phone": "+1-305-555-3101",
+        "position": "Account Support"
+      },
+      "address": {
+        "street": "5350 Tech Data Drive",
+        "city": "Clearwater",
+        "state": "FL",
+        "postalCode": "33760",
+        "country": "USA"
+      },
+      "website": "https://www.techdata.com"
+    },
+    "financial": {
+      "taxId": "59-1239707",
+      "currency": "USD",
+      "paymentTerms": "Net 45",
+      "creditLimit": 250000,
+      "currentBalance": 39923,
+      "totalPurchases": 1148763
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "LTL Freight"
+      ],
+      "leadTime": 3,
+      "freeShippingThreshold": 1000,
+      "locations": [
+        "USA",
+        "Canada",
+        "Mexico"
+      ]
+    },
+    "products": {
+      "categories": [
+        "All Electronics"
+      ],
+      "brandNames": [
+        "Multiple Brands"
+      ],
+      "totalProducts": 14543
+    },
+    "performance": {
+      "rating": 4.800008034850236,
+      "onTimeDeliveryRate": 95.81660655438984,
+      "qualityScore": 97.58798031978218,
+      "responseTime": 3.829656450795655,
+      "totalOrders": 141,
+      "returnRate": 0.8832902420024857
+    },
+    "compliance": {
+      "certifications": [
+        "ISO 9001"
+      ],
+      "insuranceExpiry": "2026-03-31T00:00:00.000Z",
+      "licenses": [
+        {
+          "type": "Business License",
+          "number": "BL2024001",
+          "expiry": "2027-01-31T00:00:00.000Z"
+        }
+      ]
+    },
+    "bankDetails": {
+      "bankName": "Bank of America",
+      "accountName": "Tech Data Corporation",
+      "routingNumber": "026009593",
+      "accountNumber": "XXXX2748"
+    },
+    "notes": "Large distributor with wide product range. Good for bulk orders.",
+    "tags": [
+      "distributor",
+      "Multiple Brands",
+      "national"
+    ],
+    "isPreferred": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2025-07-15T00:00:00.000Z"
+  },
+  {
+    "_id": "688035a5e7604adf9d050633",
+    "code": "SUP-DST-002",
+    "name": "Ingram Micro",
+    "type": "distributor",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "Patricia Rodriguez",
+        "email": "p.rodriguez@ingrammicro.com",
+        "phone": "+1-714-566-1000",
+        "position": "Account Executive"
+      },
+      "address": {
+        "street": "3351 Michelson Drive",
+        "city": "Irvine",
+        "state": "CA",
+        "postalCode": "92612",
+        "country": "USA"
+      },
+      "website": "https://www.ingrammicro.com"
+    },
+    "financial": {
+      "taxId": "95-2557465",
+      "currency": "USD",
+      "paymentTerms": "Net 60",
+      "creditLimit": 300000,
+      "currentBalance": 29580,
+      "totalPurchases": 1559321
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "LTL Freight"
+      ],
+      "leadTime": 4,
+      "freeShippingThreshold": 1000,
+      "locations": [
+        "USA",
+        "Canada",
+        "Mexico"
+      ]
+    },
+    "products": {
+      "categories": [
+        "All Electronics"
+      ],
+      "brandNames": [
+        "Multiple Brands"
+      ],
+      "totalProducts": 14854
+    },
+    "performance": {
+      "rating": 4.373398876411801,
+      "onTimeDeliveryRate": 97.17225220025978,
+      "qualityScore": 97.48433728064992,
+      "responseTime": 3.276533465247221,
+      "totalOrders": 732,
+      "returnRate": 1.3960857437529495
+    },
+    "compliance": {
+      "certifications": [
+        "ISO 9001",
+        "ISO 14001"
+      ],
+      "insuranceExpiry": "2026-03-31T00:00:00.000Z",
+      "licenses": [
+        {
+          "type": "Business License",
+          "number": "BL2024002",
+          "expiry": "2027-01-31T00:00:00.000Z"
+        }
+      ]
+    },
+    "bankDetails": {
+      "bankName": "Bank of America",
+      "accountName": "Ingram Micro",
+      "routingNumber": "026009593",
+      "accountNumber": "XXXX6600"
+    },
+    "tags": [
+      "distributor",
+      "Multiple Brands",
+      "national"
+    ],
+    "isPreferred": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2025-07-15T00:00:00.000Z"
+  },
+  {
+    "_id": "688035a5e7604adf9d050634",
+    "code": "SUP-DST-003",
+    "name": "Synnex Corporation",
+    "type": "distributor",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "James Lee",
+        "email": "j.lee@synnex.com",
+        "phone": "+1-510-656-3333",
+        "position": "Regional Sales Manager"
+      },
+      "address": {
+        "street": "44201 Nobel Drive",
+        "city": "Fremont",
+        "state": "CA",
+        "postalCode": "94538",
+        "country": "USA"
+      },
+      "website": "https://www.synnex.com"
+    },
+    "financial": {
+      "taxId": "94-2703333",
+      "currency": "USD",
+      "paymentTerms": "Net 45",
+      "creditLimit": 200000,
+      "currentBalance": 12045,
+      "totalPurchases": 821969
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "LTL Freight"
+      ],
+      "leadTime": 5,
+      "freeShippingThreshold": 1000,
+      "locations": [
+        "USA",
+        "Canada",
+        "Mexico"
+      ]
+    },
+    "products": {
+      "categories": [
+        "All Electronics"
+      ],
+      "brandNames": [
+        "Multiple Brands"
+      ],
+      "totalProducts": 11987
+    },
+    "performance": {
+      "rating": 4.257373168904113,
+      "onTimeDeliveryRate": 98.32478186872619,
+      "qualityScore": 99.3482000311701,
+      "responseTime": 1.2093077923305926,
+      "totalOrders": 584,
+      "returnRate": 1.9515729264822528
+    },
+    "compliance": {
+      "certifications": [
+        "ISO 9001"
+      ],
+      "insuranceExpiry": "2026-03-31T00:00:00.000Z",
+      "licenses": [
+        {
+          "type": "Business License",
+          "number": "BL2024003",
+          "expiry": "2027-01-31T00:00:00.000Z"
+        }
+      ]
+    },
+    "bankDetails": {
+      "bankName": "Bank of America",
+      "accountName": "Synnex Corporation",
+      "routingNumber": "026009593",
+      "accountNumber": "XXXX3651"
+    },
+    "tags": [
+      "distributor",
+      "Multiple Brands",
+      "national"
+    ],
+    "isPreferred": false,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2025-07-15T00:00:00.000Z"
+  },
+  {
+    "_id": "688035a5e7604adf9d050635",
+    "code": "SUP-DST-004",
+    "name": "Caribbean Electronics Network",
+    "type": "distributor",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "Jean-Pierre Baptiste",
+        "email": "jpbaptiste@caribelectronics.com",
+        "phone": "+1-305-555-3400",
+        "position": "Regional Manager"
+      },
+      "address": {
+        "street": "3500 NW 114th Avenue",
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33178",
+        "country": "USA"
+      },
+      "website": "https://www.caribelectronics.com"
+    },
+    "financial": {
+      "taxId": "59-3456789",
+      "currency": "USD",
+      "paymentTerms": "Net 45",
+      "creditLimit": 175000,
+      "currentBalance": 30741,
+      "totalPurchases": 760238
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "LTL Freight"
+      ],
+      "leadTime": 4,
+      "freeShippingThreshold": 1000,
+      "locations": [
+        "USA",
+        "Canada",
+        "Mexico"
+      ]
+    },
+    "products": {
+      "categories": [
+        "All Electronics"
+      ],
+      "brandNames": [
+        "Multiple Brands"
+      ],
+      "totalProducts": 10679
+    },
+    "performance": {
+      "rating": 4.354028071114958,
+      "onTimeDeliveryRate": 94.52681656377136,
+      "qualityScore": 96.80083854961435,
+      "responseTime": 3.241513676982463,
+      "totalOrders": 278,
+      "returnRate": 1.997189807070218
+    },
+    "compliance": {
+      "certifications": [
+        "ISO 9001"
+      ],
+      "insuranceExpiry": "2026-03-31T00:00:00.000Z",
+      "licenses": [
+        {
+          "type": "Business License",
+          "number": "BL2024004",
+          "expiry": "2027-01-31T00:00:00.000Z"
+        }
+      ]
+    },
+    "bankDetails": {
+      "bankName": "Bank of America",
+      "accountName": "Caribbean Electronics Network",
+      "routingNumber": "026009593",
+      "accountNumber": "XXXX1887"
+    },
+    "notes": "Strong presence in Caribbean market. Good for international orders.",
+    "tags": [
+      "distributor",
+      "Multiple Brands",
+      "national"
+    ],
+    "isPreferred": false,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2025-07-15T00:00:00.000Z"
+  }
+]

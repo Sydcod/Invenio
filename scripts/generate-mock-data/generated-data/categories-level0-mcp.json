@@ -1,0 +1,30 @@
+[
+  {
+    "_id": "6880316114bfcd086db913ed",
+    "name": "Electronics",
+    "slug": "electronics",
+    "parentId": null,
+    "path": "/electronics",
+    "level": 0,
+    "description": "All electronics products, devices, and accessories for Miami customers",
+    "metaTitle": "Electronics Store Miami - Computers, TVs, Audio & More",
+    "metaDescription": "Shop the best electronics in Miami. Find computers, TVs, audio equipment, smart home devices, and accessories at competitive prices.",
+    "keywords": [
+      "electronics",
+      "Miami electronics",
+      "computers",
+      "TVs",
+      "audio",
+      "smart home"
+    ],
+    "imageUrl": "/images/categories/electronics.jpg",
+    "isActive": true,
+    "isFeatured": true,
+    "sortOrder": 1,
+    "attributes": {
+      "showInMenu": true,
+      "showInHomepage": true,
+      "bannerColor": "#1e40af"
+    }
+  }
+]

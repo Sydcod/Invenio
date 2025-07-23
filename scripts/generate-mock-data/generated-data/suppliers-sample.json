@@ -1,0 +1,119 @@
+[
+  {
+    "_id": {
+      "$oid": "669f3234567890abcdef0001"
+    },
+    "code": "SUP-MFG-001",
+    "name": "Apple Inc.",
+    "type": "manufacturer",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "Jennifer Martinez",
+        "email": "j.martinez@apple.com",
+        "phone": "+1-408-996-1010",
+        "position": "Account Manager"
+      },
+      "address": {
+        "street": "One Apple Park Way",
+        "city": "Cupertino",
+        "state": "CA",
+        "country": "USA",
+        "postalCode": "95014"
+      },
+      "website": "https://www.apple.com"
+    },
+    "financial": {
+      "taxId": "94-2404110",
+      "currency": "USD",
+      "paymentTerms": "Net 30",
+      "creditLimit": 500000,
+      "currentBalance": 25000
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "Freight"
+      ],
+      "leadTime": 5,
+      "freeShippingThreshold": 5000,
+      "locations": [
+        "USA",
+        "Canada",
+        "Mexico"
+      ]
+    },
+    "products": {
+      "categories": [
+        "Laptops",
+        "Tablets",
+        "Smartphones"
+      ],
+      "brandNames": [
+        "Apple"
+      ],
+      "totalProducts": 150
+    },
+    "isPreferred": true
+  },
+  {
+    "_id": {
+      "$oid": "669f3234567890abcdef0002"
+    },
+    "code": "SUP-MFG-002",
+    "name": "Samsung Electronics",
+    "type": "manufacturer",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "David Kim",
+        "email": "d.kim@samsung.com",
+        "phone": "+1-201-229-4000",
+        "position": "Regional Sales Manager"
+      },
+      "address": {
+        "street": "85 Challenger Road",
+        "city": "Ridgefield Park",
+        "state": "NJ",
+        "country": "USA",
+        "postalCode": "07660"
+      },
+      "website": "https://www.samsung.com"
+    },
+    "financial": {
+      "taxId": "52-1721859",
+      "currency": "USD",
+      "paymentTerms": "Net 45",
+      "creditLimit": 400000,
+      "currentBalance": 35000
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "Freight"
+      ],
+      "leadTime": 7,
+      "freeShippingThreshold": 5000,
+      "locations": [
+        "USA",
+        "Canada",
+        "Mexico"
+      ]
+    },
+    "products": {
+      "categories": [
+        "Televisions",
+        "Smartphones",
+        "Tablets",
+        "Home Audio"
+      ],
+      "brandNames": [
+        "Samsung"
+      ],
+      "totalProducts": 280
+    },
+    "isPreferred": true
+  }
+]

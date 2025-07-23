@@ -1,0 +1,1559 @@
+[
+  {
+    "_id": "688035a5e7604adf9d05062a",
+    "code": "SUP-MFG-001",
+    "name": "Apple Inc.",
+    "type": "manufacturer",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "Jennifer Martinez",
+        "email": "j.martinez@apple.com",
+        "phone": "+1-408-996-1010",
+        "position": "Account Manager"
+      },
+      "address": {
+        "street": "One Apple Park Way",
+        "city": "Cupertino",
+        "state": "CA",
+        "postalCode": "95014",
+        "country": "USA"
+      },
+      "website": "https://www.apple.com"
+    },
+    "financial": {
+      "taxId": "94-2404110",
+      "currency": "USD",
+      "paymentTerms": "Net 30",
+      "creditLimit": 500000,
+      "currentBalance": 49650,
+      "totalPurchases": 1516357
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "Freight"
+      ],
+      "leadTime": 5,
+      "freeShippingThreshold": 5000,
+      "locations": [
+        "USA",
+        "Canada",
+        "Mexico"
+      ]
+    },
+    "products": {
+      "categories": [
+        "Laptops",
+        "Tablets",
+        "Smartphones"
+      ],
+      "brandNames": [
+        "Apple"
+      ],
+      "totalProducts": 224
+    },
+    "performance": {
+      "rating": 4.149105601619116,
+      "onTimeDeliveryRate": 93.2854098060357,
+      "qualityScore": 97.33497748144194,
+      "responseTime": 2.8734443914669843,
+      "totalOrders": 501,
+      "returnRate": 1.0097886741850912
+    },
+    "compliance": {
+      "certifications": [
+        "ISO 9001",
+        "ISO 14001",
+        "EPEAT Gold"
+      ],
+      "insuranceExpiry": "2026-03-31T00:00:00.000Z",
+      "licenses": [
+        {
+          "type": "Business License",
+          "number": "BL2024001",
+          "expiry": "2027-01-31T00:00:00.000Z"
+        }
+      ]
+    },
+    "notes": "Premium supplier. Requires advance payment for first 3 orders.",
+    "tags": [
+      "manufacturer",
+      "Apple",
+      "national"
+    ],
+    "isPreferred": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2025-07-15T00:00:00.000Z"
+  },
+  {
+    "_id": "688035a5e7604adf9d05062b",
+    "code": "SUP-MFG-002",
+    "name": "Samsung Electronics",
+    "type": "manufacturer",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "David Kim",
+        "email": "d.kim@samsung.com",
+        "phone": "+1-201-229-4000",
+        "position": "Regional Sales Manager"
+      },
+      "address": {
+        "street": "85 Challenger Road",
+        "city": "Ridgefield Park",
+        "state": "NJ",
+        "postalCode": "07660",
+        "country": "USA"
+      },
+      "website": "https://www.samsung.com"
+    },
+    "financial": {
+      "taxId": "52-1721859",
+      "currency": "USD",
+      "paymentTerms": "Net 45",
+      "creditLimit": 400000,
+      "currentBalance": 67655,
+      "totalPurchases": 4017563
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "Freight"
+      ],
+      "leadTime": 7,
+      "freeShippingThreshold": 5000,
+      "locations": [
+        "USA",
+        "Canada",
+        "Mexico"
+      ]
+    },
+    "products": {
+      "categories": [
+        "Televisions",
+        "Smartphones",
+        "Tablets",
+        "Home Audio"
+      ],
+      "brandNames": [
+        "Samsung"
+      ],
+      "totalProducts": 146
+    },
+    "performance": {
+      "rating": 4.214487194417735,
+      "onTimeDeliveryRate": 95.6131749614579,
+      "qualityScore": 96.83450802355155,
+      "responseTime": 2.87629936876027,
+      "totalOrders": 754,
+      "returnRate": 0.5974023550052354
+    },
+    "compliance": {
+      "certifications": [
+        "ISO 9001",
+        "ISO 14001",
+        "ENERGY STAR Partner"
+      ],
+      "insuranceExpiry": "2026-03-31T00:00:00.000Z",
+      "licenses": [
+        {
+          "type": "Business License",
+          "number": "BL2024002",
+          "expiry": "2027-01-31T00:00:00.000Z"
+        }
+      ]
+    },
+    "tags": [
+      "manufacturer",
+      "Samsung",
+      "national"
+    ],
+    "isPreferred": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2025-07-15T00:00:00.000Z"
+  },
+  {
+    "_id": "688035a5e7604adf9d05062c",
+    "code": "SUP-MFG-003",
+    "name": "Dell Technologies",
+    "type": "manufacturer",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "Robert Johnson",
+        "email": "r.johnson@dell.com",
+        "phone": "+1-800-999-3355",
+        "position": "Enterprise Account Manager"
+      },
+      "address": {
+        "street": "One Dell Way",
+        "city": "Round Rock",
+        "state": "TX",
+        "postalCode": "78682",
+        "country": "USA"
+      },
+      "website": "https://www.dell.com"
+    },
+    "financial": {
+      "taxId": "74-2487834",
+      "currency": "USD",
+      "paymentTerms": "Net 30",
+      "creditLimit": 350000,
+      "currentBalance": 37545,
+      "totalPurchases": 1398684
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "Freight"
+      ],
+      "leadTime": 5,
+      "freeShippingThreshold": 5000,
+      "locations": [
+        "USA",
+        "Canada",
+        "Mexico"
+      ]
+    },
+    "products": {
+      "categories": [
+        "Desktop Computers",
+        "Laptops",
+        "Computer Components"
+      ],
+      "brandNames": [
+        "Dell",
+        "Alienware"
+      ],
+      "totalProducts": 66
+    },
+    "performance": {
+      "rating": 4.7634668703214125,
+      "onTimeDeliveryRate": 93.44428286715785,
+      "qualityScore": 99.21783215235536,
+      "responseTime": 1.1357490355794222,
+      "totalOrders": 657,
+      "returnRate": 0.7576808239433968
+    },
+    "compliance": {
+      "certifications": [
+        "ISO 9001",
+        "ISO 14001"
+      ],
+      "insuranceExpiry": "2026-03-31T00:00:00.000Z",
+      "licenses": [
+        {
+          "type": "Business License",
+          "number": "BL2024003",
+          "expiry": "2027-01-31T00:00:00.000Z"
+        }
+      ]
+    },
+    "tags": [
+      "manufacturer",
+      "Dell",
+      "Alienware",
+      "national"
+    ],
+    "isPreferred": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2025-07-15T00:00:00.000Z"
+  },
+  {
+    "_id": "688035a5e7604adf9d05062d",
+    "code": "SUP-MFG-004",
+    "name": "HP Inc.",
+    "type": "manufacturer",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "Sarah Williams",
+        "email": "s.williams@hp.com",
+        "phone": "+1-650-857-1501",
+        "position": "Channel Partner Manager"
+      },
+      "address": {
+        "street": "1501 Page Mill Road",
+        "city": "Palo Alto",
+        "state": "CA",
+        "postalCode": "94304",
+        "country": "USA"
+      },
+      "website": "https://www.hp.com"
+    },
+    "financial": {
+      "taxId": "94-1081436",
+      "currency": "USD",
+      "paymentTerms": "Net 45",
+      "creditLimit": 300000,
+      "currentBalance": 55269,
+      "totalPurchases": 2828711
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "Freight"
+      ],
+      "leadTime": 6,
+      "freeShippingThreshold": 5000,
+      "locations": [
+        "USA",
+        "Canada",
+        "Mexico"
+      ]
+    },
+    "products": {
+      "categories": [
+        "Laptops",
+        "Desktop Computers",
+        "Printers"
+      ],
+      "brandNames": [
+        "HP",
+        "OMEN"
+      ],
+      "totalProducts": 85
+    },
+    "performance": {
+      "rating": 4.251294106323886,
+      "onTimeDeliveryRate": 92.10853503378667,
+      "qualityScore": 99.49768564623454,
+      "responseTime": 3.578561350963123,
+      "totalOrders": 382,
+      "returnRate": 1.1690673471996602
+    },
+    "compliance": {
+      "certifications": [
+        "ISO 9001",
+        "ISO 14001",
+        "EPEAT Gold"
+      ],
+      "insuranceExpiry": "2026-03-31T00:00:00.000Z",
+      "licenses": [
+        {
+          "type": "Business License",
+          "number": "BL2024004",
+          "expiry": "2027-01-31T00:00:00.000Z"
+        }
+      ]
+    },
+    "tags": [
+      "manufacturer",
+      "HP",
+      "OMEN",
+      "national"
+    ],
+    "isPreferred": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2025-07-15T00:00:00.000Z"
+  },
+  {
+    "_id": "688035a5e7604adf9d05062e",
+    "code": "SUP-MFG-005",
+    "name": "LG Electronics",
+    "type": "manufacturer",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "Michael Park",
+        "email": "m.park@lge.com",
+        "phone": "+1-201-816-2000",
+        "position": "Sales Director"
+      },
+      "address": {
+        "street": "111 Sylvan Avenue",
+        "city": "Englewood Cliffs",
+        "state": "NJ",
+        "postalCode": "07632",
+        "country": "USA"
+      },
+      "website": "https://www.lg.com"
+    },
+    "financial": {
+      "taxId": "13-3882008",
+      "currency": "USD",
+      "paymentTerms": "Net 30",
+      "creditLimit": 250000,
+      "currentBalance": 19813,
+      "totalPurchases": 1599834
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "Freight"
+      ],
+      "leadTime": 7,
+      "freeShippingThreshold": 5000,
+      "locations": [
+        "USA",
+        "Canada",
+        "Mexico"
+      ]
+    },
+    "products": {
+      "categories": [
+        "Televisions",
+        "Home Audio",
+        "Smart Home"
+      ],
+      "brandNames": [
+        "LG"
+      ],
+      "totalProducts": 180
+    },
+    "performance": {
+      "rating": 4.71770324611741,
+      "onTimeDeliveryRate": 95.47191614570019,
+      "qualityScore": 97.94755892479213,
+      "responseTime": 2.306548611492614,
+      "totalOrders": 363,
+      "returnRate": 0.9658491892705647
+    },
+    "compliance": {
+      "certifications": [
+        "ISO 9001",
+        "ENERGY STAR Partner"
+      ],
+      "insuranceExpiry": "2026-03-31T00:00:00.000Z",
+      "licenses": [
+        {
+          "type": "Business License",
+          "number": "BL2024005",
+          "expiry": "2027-01-31T00:00:00.000Z"
+        }
+      ]
+    },
+    "tags": [
+      "manufacturer",
+      "LG",
+      "national"
+    ],
+    "isPreferred": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2025-07-15T00:00:00.000Z"
+  },
+  {
+    "_id": "688035a5e7604adf9d05062f",
+    "code": "SUP-MFG-006",
+    "name": "Sony Corporation",
+    "type": "manufacturer",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "Yuki Tanaka",
+        "email": "y.tanaka@sony.com",
+        "phone": "+1-858-942-2000",
+        "position": "Regional Account Manager"
+      },
+      "address": {
+        "street": "16535 Via Esprillo",
+        "city": "San Diego",
+        "state": "CA",
+        "postalCode": "92127",
+        "country": "USA"
+      },
+      "website": "https://www.sony.com"
+    },
+    "financial": {
+      "taxId": "95-2666820",
+      "currency": "USD",
+      "paymentTerms": "Net 45",
+      "creditLimit": 300000,
+      "currentBalance": 54804,
+      "totalPurchases": 3531465
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "Freight"
+      ],
+      "leadTime": 8,
+      "freeShippingThreshold": 5000,
+      "locations": [
+        "USA",
+        "Canada",
+        "Mexico"
+      ]
+    },
+    "products": {
+      "categories": [
+        "Televisions",
+        "Gaming Consoles",
+        "Audio",
+        "Cameras"
+      ],
+      "brandNames": [
+        "Sony",
+        "PlayStation"
+      ],
+      "totalProducts": 78
+    },
+    "performance": {
+      "rating": 4.3942787902646705,
+      "onTimeDeliveryRate": 94.99139292061318,
+      "qualityScore": 97.66588377258101,
+      "responseTime": 1.8760386780770504,
+      "totalOrders": 632,
+      "returnRate": 1.722067178372469
+    },
+    "compliance": {
+      "certifications": [
+        "ISO 9001",
+        "ISO 14001"
+      ],
+      "insuranceExpiry": "2026-03-31T00:00:00.000Z",
+      "licenses": [
+        {
+          "type": "Business License",
+          "number": "BL2024006",
+          "expiry": "2027-01-31T00:00:00.000Z"
+        }
+      ]
+    },
+    "tags": [
+      "manufacturer",
+      "Sony",
+      "PlayStation",
+      "national"
+    ],
+    "isPreferred": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2025-07-15T00:00:00.000Z"
+  },
+  {
+    "_id": "688035a5e7604adf9d050630",
+    "code": "SUP-MFG-007",
+    "name": "Lenovo",
+    "type": "manufacturer",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "Lisa Chen",
+        "email": "l.chen@lenovo.com",
+        "phone": "+1-919-294-4800",
+        "position": "Partner Account Manager"
+      },
+      "address": {
+        "street": "1009 Think Place",
+        "city": "Morrisville",
+        "state": "NC",
+        "postalCode": "27560",
+        "country": "USA"
+      },
+      "website": "https://www.lenovo.com"
+    },
+    "financial": {
+      "taxId": "41-1945908",
+      "currency": "USD",
+      "paymentTerms": "Net 30",
+      "creditLimit": 200000,
+      "currentBalance": 21743,
+      "totalPurchases": 1885529
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "Freight"
+      ],
+      "leadTime": 6,
+      "freeShippingThreshold": 5000,
+      "locations": [
+        "USA",
+        "Canada",
+        "Mexico"
+      ]
+    },
+    "products": {
+      "categories": [
+        "Laptops",
+        "Desktop Computers",
+        "Tablets"
+      ],
+      "brandNames": [
+        "Lenovo",
+        "ThinkPad",
+        "IdeaPad"
+      ],
+      "totalProducts": 62
+    },
+    "performance": {
+      "rating": 4.291012155831661,
+      "onTimeDeliveryRate": 96.28180090106923,
+      "qualityScore": 97.59242333623529,
+      "responseTime": 1.673299984914959,
+      "totalOrders": 395,
+      "returnRate": 1.9828233340188803
+    },
+    "compliance": {
+      "certifications": [
+        "ISO 9001",
+        "ISO 14001"
+      ],
+      "insuranceExpiry": "2026-03-31T00:00:00.000Z",
+      "licenses": [
+        {
+          "type": "Business License",
+          "number": "BL2024007",
+          "expiry": "2027-01-31T00:00:00.000Z"
+        }
+      ]
+    },
+    "tags": [
+      "manufacturer",
+      "Lenovo",
+      "ThinkPad",
+      "IdeaPad",
+      "national"
+    ],
+    "isPreferred": false,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2025-07-15T00:00:00.000Z"
+  },
+  {
+    "_id": "688035a5e7604adf9d050631",
+    "code": "SUP-MFG-008",
+    "name": "Microsoft Corporation",
+    "type": "manufacturer",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "Amanda Foster",
+        "email": "afoster@microsoft.com",
+        "phone": "+1-425-882-8080",
+        "position": "Partner Account Executive"
+      },
+      "address": {
+        "street": "One Microsoft Way",
+        "city": "Redmond",
+        "state": "WA",
+        "postalCode": "98052",
+        "country": "USA"
+      },
+      "website": "https://www.microsoft.com"
+    },
+    "financial": {
+      "taxId": "91-1144442",
+      "currency": "USD",
+      "paymentTerms": "Net 60",
+      "creditLimit": 400000,
+      "currentBalance": 55853,
+      "totalPurchases": 4356797
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "Freight"
+      ],
+      "leadTime": 5,
+      "freeShippingThreshold": 5000,
+      "locations": [
+        "USA",
+        "Canada",
+        "Mexico"
+      ]
+    },
+    "products": {
+      "categories": [
+        "Gaming Consoles",
+        "Tablets",
+        "Computer Accessories"
+      ],
+      "brandNames": [
+        "Microsoft",
+        "Xbox",
+        "Surface"
+      ],
+      "totalProducts": 99
+    },
+    "performance": {
+      "rating": 4.672146707796089,
+      "onTimeDeliveryRate": 92.36614702528144,
+      "qualityScore": 96.90110622768361,
+      "responseTime": 2.0337549058513478,
+      "totalOrders": 830,
+      "returnRate": 0.7988685832855122
+    },
+    "compliance": {
+      "certifications": [
+        "ISO 9001",
+        "ISO 14001",
+        "ISO 27001"
+      ],
+      "insuranceExpiry": "2026-03-31T00:00:00.000Z",
+      "licenses": [
+        {
+          "type": "Business License",
+          "number": "BL2024008",
+          "expiry": "2027-01-31T00:00:00.000Z"
+        }
+      ]
+    },
+    "tags": [
+      "manufacturer",
+      "Microsoft",
+      "Xbox",
+      "Surface",
+      "national"
+    ],
+    "isPreferred": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2025-07-15T00:00:00.000Z"
+  },
+  {
+    "_id": "688035a5e7604adf9d050632",
+    "code": "SUP-DST-001",
+    "name": "Tech Data Corporation",
+    "type": "distributor",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "Michael Thompson",
+        "email": "mthompson@techdata.com",
+        "phone": "+1-305-555-3100",
+        "position": "Sales Representative"
+      },
+      "alternateContact": {
+        "name": "Sarah Johnson",
+        "email": "sjohnson@techdata.com",
+        "phone": "+1-305-555-3101",
+        "position": "Account Support"
+      },
+      "address": {
+        "street": "5350 Tech Data Drive",
+        "city": "Clearwater",
+        "state": "FL",
+        "postalCode": "33760",
+        "country": "USA"
+      },
+      "website": "https://www.techdata.com"
+    },
+    "financial": {
+      "taxId": "59-1239707",
+      "currency": "USD",
+      "paymentTerms": "Net 45",
+      "creditLimit": 250000,
+      "currentBalance": 39923,
+      "totalPurchases": 1148763
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "LTL Freight"
+      ],
+      "leadTime": 3,
+      "freeShippingThreshold": 1000,
+      "locations": [
+        "USA",
+        "Canada",
+        "Mexico"
+      ]
+    },
+    "products": {
+      "categories": [
+        "All Electronics"
+      ],
+      "brandNames": [
+        "Multiple Brands"
+      ],
+      "totalProducts": 14543
+    },
+    "performance": {
+      "rating": 4.800008034850236,
+      "onTimeDeliveryRate": 95.81660655438984,
+      "qualityScore": 97.58798031978218,
+      "responseTime": 3.829656450795655,
+      "totalOrders": 141,
+      "returnRate": 0.8832902420024857
+    },
+    "compliance": {
+      "certifications": [
+        "ISO 9001"
+      ],
+      "insuranceExpiry": "2026-03-31T00:00:00.000Z",
+      "licenses": [
+        {
+          "type": "Business License",
+          "number": "BL2024001",
+          "expiry": "2027-01-31T00:00:00.000Z"
+        }
+      ]
+    },
+    "bankDetails": {
+      "bankName": "Bank of America",
+      "accountName": "Tech Data Corporation",
+      "routingNumber": "026009593",
+      "accountNumber": "XXXX2748"
+    },
+    "notes": "Large distributor with wide product range. Good for bulk orders.",
+    "tags": [
+      "distributor",
+      "Multiple Brands",
+      "national"
+    ],
+    "isPreferred": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2025-07-15T00:00:00.000Z"
+  },
+  {
+    "_id": "688035a5e7604adf9d050633",
+    "code": "SUP-DST-002",
+    "name": "Ingram Micro",
+    "type": "distributor",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "Patricia Rodriguez",
+        "email": "p.rodriguez@ingrammicro.com",
+        "phone": "+1-714-566-1000",
+        "position": "Account Executive"
+      },
+      "address": {
+        "street": "3351 Michelson Drive",
+        "city": "Irvine",
+        "state": "CA",
+        "postalCode": "92612",
+        "country": "USA"
+      },
+      "website": "https://www.ingrammicro.com"
+    },
+    "financial": {
+      "taxId": "95-2557465",
+      "currency": "USD",
+      "paymentTerms": "Net 60",
+      "creditLimit": 300000,
+      "currentBalance": 29580,
+      "totalPurchases": 1559321
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "LTL Freight"
+      ],
+      "leadTime": 4,
+      "freeShippingThreshold": 1000,
+      "locations": [
+        "USA",
+        "Canada",
+        "Mexico"
+      ]
+    },
+    "products": {
+      "categories": [
+        "All Electronics"
+      ],
+      "brandNames": [
+        "Multiple Brands"
+      ],
+      "totalProducts": 14854
+    },
+    "performance": {
+      "rating": 4.373398876411801,
+      "onTimeDeliveryRate": 97.17225220025978,
+      "qualityScore": 97.48433728064992,
+      "responseTime": 3.276533465247221,
+      "totalOrders": 732,
+      "returnRate": 1.3960857437529495
+    },
+    "compliance": {
+      "certifications": [
+        "ISO 9001",
+        "ISO 14001"
+      ],
+      "insuranceExpiry": "2026-03-31T00:00:00.000Z",
+      "licenses": [
+        {
+          "type": "Business License",
+          "number": "BL2024002",
+          "expiry": "2027-01-31T00:00:00.000Z"
+        }
+      ]
+    },
+    "bankDetails": {
+      "bankName": "Bank of America",
+      "accountName": "Ingram Micro",
+      "routingNumber": "026009593",
+      "accountNumber": "XXXX6600"
+    },
+    "tags": [
+      "distributor",
+      "Multiple Brands",
+      "national"
+    ],
+    "isPreferred": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2025-07-15T00:00:00.000Z"
+  },
+  {
+    "_id": "688035a5e7604adf9d050634",
+    "code": "SUP-DST-003",
+    "name": "Synnex Corporation",
+    "type": "distributor",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "James Lee",
+        "email": "j.lee@synnex.com",
+        "phone": "+1-510-656-3333",
+        "position": "Regional Sales Manager"
+      },
+      "address": {
+        "street": "44201 Nobel Drive",
+        "city": "Fremont",
+        "state": "CA",
+        "postalCode": "94538",
+        "country": "USA"
+      },
+      "website": "https://www.synnex.com"
+    },
+    "financial": {
+      "taxId": "94-2703333",
+      "currency": "USD",
+      "paymentTerms": "Net 45",
+      "creditLimit": 200000,
+      "currentBalance": 12045,
+      "totalPurchases": 821969
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "LTL Freight"
+      ],
+      "leadTime": 5,
+      "freeShippingThreshold": 1000,
+      "locations": [
+        "USA",
+        "Canada",
+        "Mexico"
+      ]
+    },
+    "products": {
+      "categories": [
+        "All Electronics"
+      ],
+      "brandNames": [
+        "Multiple Brands"
+      ],
+      "totalProducts": 11987
+    },
+    "performance": {
+      "rating": 4.257373168904113,
+      "onTimeDeliveryRate": 98.32478186872619,
+      "qualityScore": 99.3482000311701,
+      "responseTime": 1.2093077923305926,
+      "totalOrders": 584,
+      "returnRate": 1.9515729264822528
+    },
+    "compliance": {
+      "certifications": [
+        "ISO 9001"
+      ],
+      "insuranceExpiry": "2026-03-31T00:00:00.000Z",
+      "licenses": [
+        {
+          "type": "Business License",
+          "number": "BL2024003",
+          "expiry": "2027-01-31T00:00:00.000Z"
+        }
+      ]
+    },
+    "bankDetails": {
+      "bankName": "Bank of America",
+      "accountName": "Synnex Corporation",
+      "routingNumber": "026009593",
+      "accountNumber": "XXXX3651"
+    },
+    "tags": [
+      "distributor",
+      "Multiple Brands",
+      "national"
+    ],
+    "isPreferred": false,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2025-07-15T00:00:00.000Z"
+  },
+  {
+    "_id": "688035a5e7604adf9d050635",
+    "code": "SUP-DST-004",
+    "name": "Caribbean Electronics Network",
+    "type": "distributor",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "Jean-Pierre Baptiste",
+        "email": "jpbaptiste@caribelectronics.com",
+        "phone": "+1-305-555-3400",
+        "position": "Regional Manager"
+      },
+      "address": {
+        "street": "3500 NW 114th Avenue",
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33178",
+        "country": "USA"
+      },
+      "website": "https://www.caribelectronics.com"
+    },
+    "financial": {
+      "taxId": "59-3456789",
+      "currency": "USD",
+      "paymentTerms": "Net 45",
+      "creditLimit": 175000,
+      "currentBalance": 30741,
+      "totalPurchases": 760238
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "LTL Freight"
+      ],
+      "leadTime": 4,
+      "freeShippingThreshold": 1000,
+      "locations": [
+        "USA",
+        "Canada",
+        "Mexico"
+      ]
+    },
+    "products": {
+      "categories": [
+        "All Electronics"
+      ],
+      "brandNames": [
+        "Multiple Brands"
+      ],
+      "totalProducts": 10679
+    },
+    "performance": {
+      "rating": 4.354028071114958,
+      "onTimeDeliveryRate": 94.52681656377136,
+      "qualityScore": 96.80083854961435,
+      "responseTime": 3.241513676982463,
+      "totalOrders": 278,
+      "returnRate": 1.997189807070218
+    },
+    "compliance": {
+      "certifications": [
+        "ISO 9001"
+      ],
+      "insuranceExpiry": "2026-03-31T00:00:00.000Z",
+      "licenses": [
+        {
+          "type": "Business License",
+          "number": "BL2024004",
+          "expiry": "2027-01-31T00:00:00.000Z"
+        }
+      ]
+    },
+    "bankDetails": {
+      "bankName": "Bank of America",
+      "accountName": "Caribbean Electronics Network",
+      "routingNumber": "026009593",
+      "accountNumber": "XXXX1887"
+    },
+    "notes": "Strong presence in Caribbean market. Good for international orders.",
+    "tags": [
+      "distributor",
+      "Multiple Brands",
+      "national"
+    ],
+    "isPreferred": false,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2025-07-15T00:00:00.000Z"
+  },
+  {
+    "_id": "688035a5e7604adf9d050636",
+    "code": "SUP-WHL-001",
+    "name": "Miami Electronics Wholesale",
+    "type": "wholesaler",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "Carlos Mendez",
+        "email": "cmendez@miamielectronicswholesale.com",
+        "phone": "+1-305-555-4100",
+        "position": "Owner"
+      },
+      "address": {
+        "street": "8900 NW 35th Lane",
+        "city": "Doral",
+        "state": "FL",
+        "postalCode": "33172",
+        "country": "USA"
+      },
+      "website": "https://www.miamielectronicswholesale.com"
+    },
+    "financial": {
+      "taxId": "65-1234567",
+      "currency": "USD",
+      "paymentTerms": "Net 30",
+      "creditLimit": 100000,
+      "currentBalance": 17793,
+      "totalPurchases": 1011311
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "LTL Freight"
+      ],
+      "leadTime": 1,
+      "freeShippingThreshold": 500,
+      "locations": [
+        "USA",
+        "Florida"
+      ]
+    },
+    "products": {
+      "categories": [
+        "Computer Accessories",
+        "Mobile Accessories",
+        "Audio"
+      ],
+      "brandNames": [
+        "Various"
+      ],
+      "totalProducts": 400
+    },
+    "performance": {
+      "rating": 4.277059864572301,
+      "onTimeDeliveryRate": 95.74677247598602,
+      "qualityScore": 98.19245660421471,
+      "responseTime": 1.615403147492883,
+      "totalOrders": 786,
+      "returnRate": 1.8158096870737885
+    },
+    "bankDetails": {
+      "bankName": "Bank of America",
+      "accountName": "Miami Electronics Wholesale",
+      "routingNumber": "026009593",
+      "accountNumber": "XXXX6020"
+    },
+    "notes": "Local supplier with fast delivery. Good for urgent orders.",
+    "tags": [
+      "wholesaler",
+      "Various",
+      "local"
+    ],
+    "isPreferred": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2025-07-15T00:00:00.000Z"
+  },
+  {
+    "_id": "688035a5e7604adf9d050637",
+    "code": "SUP-WHL-002",
+    "name": "Florida Tech Distributors",
+    "type": "wholesaler",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "Ana Garcia",
+        "email": "agarcia@floridatechdist.com",
+        "phone": "+1-305-555-4200",
+        "position": "Sales Manager"
+      },
+      "address": {
+        "street": "15600 SW 288th Street",
+        "city": "Homestead",
+        "state": "FL",
+        "postalCode": "33033",
+        "country": "USA"
+      }
+    },
+    "financial": {
+      "taxId": "65-2345678",
+      "currency": "USD",
+      "paymentTerms": "Net 30",
+      "creditLimit": 75000,
+      "currentBalance": 8284,
+      "totalPurchases": 670022
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "LTL Freight"
+      ],
+      "leadTime": 2,
+      "freeShippingThreshold": 500,
+      "locations": [
+        "USA",
+        "Florida"
+      ]
+    },
+    "products": {
+      "categories": [
+        "Smart Home",
+        "Computer Components",
+        "Office Electronics"
+      ],
+      "brandNames": [
+        "Various"
+      ],
+      "totalProducts": 291
+    },
+    "performance": {
+      "rating": 4.292494626247647,
+      "onTimeDeliveryRate": 95.60442302704892,
+      "qualityScore": 99.01310245554235,
+      "responseTime": 0.5178285706519361,
+      "totalOrders": 251,
+      "returnRate": 2.078167650835489
+    },
+    "bankDetails": {
+      "bankName": "Bank of America",
+      "accountName": "Florida Tech Distributors",
+      "routingNumber": "026009593",
+      "accountNumber": "XXXX4486"
+    },
+    "tags": [
+      "wholesaler",
+      "Various",
+      "local"
+    ],
+    "isPreferred": false,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2025-07-15T00:00:00.000Z"
+  },
+  {
+    "_id": "688035a5e7604adf9d050638",
+    "code": "SUP-WHL-003",
+    "name": "Southeast Electronics Supply",
+    "type": "wholesaler",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "Mark Davis",
+        "email": "mdavis@southeastelectronics.com",
+        "phone": "+1-305-555-4300",
+        "position": "Account Manager"
+      },
+      "address": {
+        "street": "2100 Coral Way",
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33145",
+        "country": "USA"
+      }
+    },
+    "financial": {
+      "taxId": "65-3456789",
+      "currency": "USD",
+      "paymentTerms": "Net 15",
+      "creditLimit": 50000,
+      "currentBalance": 5495,
+      "totalPurchases": 151766
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "LTL Freight"
+      ],
+      "leadTime": 1,
+      "freeShippingThreshold": 500,
+      "locations": [
+        "USA",
+        "Florida"
+      ]
+    },
+    "products": {
+      "categories": [
+        "Gaming Accessories",
+        "Chargers & Cables",
+        "Screen Protectors"
+      ],
+      "brandNames": [
+        "Generic",
+        "OEM"
+      ],
+      "totalProducts": 236
+    },
+    "performance": {
+      "rating": 4.395773049382656,
+      "onTimeDeliveryRate": 98.97389275216972,
+      "qualityScore": 99.21654757170717,
+      "responseTime": 0.6552671864659743,
+      "totalOrders": 814,
+      "returnRate": 1.9979208548127503
+    },
+    "bankDetails": {
+      "bankName": "Bank of America",
+      "accountName": "Southeast Electronics Supply",
+      "routingNumber": "026009593",
+      "accountNumber": "XXXX4449"
+    },
+    "notes": "Budget supplier for accessories and generic items.",
+    "tags": [
+      "wholesaler",
+      "Generic",
+      "OEM",
+      "local"
+    ],
+    "isPreferred": false,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2025-07-15T00:00:00.000Z"
+  },
+  {
+    "_id": "688035a5e7604adf9d050639",
+    "code": "SUP-WHL-004",
+    "name": "Aventura Tech Supplies",
+    "type": "wholesaler",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "Elena Rodriguez",
+        "email": "erodriguez@aventuratechsupplies.com",
+        "phone": "+1-305-555-4400",
+        "position": "Sales Director"
+      },
+      "address": {
+        "street": "20801 Biscayne Blvd",
+        "city": "Aventura",
+        "state": "FL",
+        "postalCode": "33180",
+        "country": "USA"
+      }
+    },
+    "financial": {
+      "taxId": "65-4567890",
+      "currency": "USD",
+      "paymentTerms": "Net 30",
+      "creditLimit": 125000,
+      "currentBalance": 13325,
+      "totalPurchases": 1374814
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "LTL Freight"
+      ],
+      "leadTime": 1,
+      "freeShippingThreshold": 500,
+      "locations": [
+        "USA",
+        "Florida"
+      ]
+    },
+    "products": {
+      "categories": [
+        "Smart Home",
+        "Security Systems",
+        "Home Audio"
+      ],
+      "brandNames": [
+        "Nest",
+        "Ring",
+        "Arlo",
+        "Sonos"
+      ],
+      "totalProducts": 573
+    },
+    "performance": {
+      "rating": 4.33801385264948,
+      "onTimeDeliveryRate": 97.85930321999123,
+      "qualityScore": 98.3820238798827,
+      "responseTime": 1.09840180356333,
+      "totalOrders": 879,
+      "returnRate": 1.8045592579137506
+    },
+    "bankDetails": {
+      "bankName": "Bank of America",
+      "accountName": "Aventura Tech Supplies",
+      "routingNumber": "026009593",
+      "accountNumber": "XXXX2887"
+    },
+    "notes": "Specializes in smart home and security products. Same-day delivery in North Miami.",
+    "tags": [
+      "wholesaler",
+      "Nest",
+      "Ring",
+      "Arlo",
+      "Sonos",
+      "local"
+    ],
+    "isPreferred": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2025-07-15T00:00:00.000Z"
+  },
+  {
+    "_id": "688035a5e7604adf9d05063a",
+    "code": "SUP-WHL-005",
+    "name": "Brickell Electronic Boutique",
+    "type": "wholesaler",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "Isabella Martinez",
+        "email": "imartinez@brickellelectronic.com",
+        "phone": "+1-305-555-4500",
+        "position": "Owner"
+      },
+      "address": {
+        "street": "801 Brickell Avenue",
+        "city": "Miami",
+        "state": "FL",
+        "postalCode": "33131",
+        "country": "USA"
+      },
+      "website": "https://www.brickellelectronic.com"
+    },
+    "financial": {
+      "taxId": "65-5678901",
+      "currency": "USD",
+      "paymentTerms": "Net 15",
+      "creditLimit": 80000,
+      "currentBalance": 13268,
+      "totalPurchases": 859706
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "LTL Freight"
+      ],
+      "leadTime": 1,
+      "freeShippingThreshold": 500,
+      "locations": [
+        "USA",
+        "Florida"
+      ]
+    },
+    "products": {
+      "categories": [
+        "Premium Audio",
+        "Smart Home",
+        "Luxury Electronics"
+      ],
+      "brandNames": [
+        "Bang & Olufsen",
+        "Bose",
+        "Harman Kardon"
+      ],
+      "totalProducts": 377
+    },
+    "performance": {
+      "rating": 4.465934342153688,
+      "onTimeDeliveryRate": 98.59242139828298,
+      "qualityScore": 95.0442100278305,
+      "responseTime": 1.3465472561411935,
+      "totalOrders": 357,
+      "returnRate": 1.5154763093659864
+    },
+    "bankDetails": {
+      "bankName": "Bank of America",
+      "accountName": "Brickell Electronic Boutique",
+      "routingNumber": "026009593",
+      "accountNumber": "XXXX6199"
+    },
+    "notes": "High-end electronics supplier. White glove delivery service available.",
+    "tags": [
+      "wholesaler",
+      "Bang & Olufsen",
+      "Bose",
+      "Harman Kardon",
+      "local"
+    ],
+    "isPreferred": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2025-07-15T00:00:00.000Z"
+  },
+  {
+    "_id": "688035a5e7604adf9d05063b",
+    "code": "SUP-DRP-001",
+    "name": "TechDrop Miami",
+    "type": "dropshipper",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "Ryan Chen",
+        "email": "rchen@techdropmiami.com",
+        "phone": "+1-786-555-5100",
+        "position": "Operations Manager"
+      },
+      "alternateContact": {
+        "name": "Sofia Alvarez",
+        "email": "salvarez@techdropmiami.com",
+        "phone": "+1-786-555-5101",
+        "position": "Customer Success"
+      },
+      "address": {
+        "street": "7950 NW 53rd Street",
+        "city": "Doral",
+        "state": "FL",
+        "postalCode": "33166",
+        "country": "USA"
+      },
+      "website": "https://www.techdropmiami.com"
+    },
+    "financial": {
+      "taxId": "88-1234567",
+      "currency": "USD",
+      "paymentTerms": "Prepaid",
+      "creditLimit": 25000,
+      "currentBalance": 4916,
+      "totalPurchases": 101374
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "LTL Freight"
+      ],
+      "leadTime": 2,
+      "freeShippingThreshold": 5000,
+      "locations": [
+        "USA",
+        "Canada",
+        "Mexico"
+      ]
+    },
+    "products": {
+      "categories": [
+        "Mobile Accessories",
+        "Computer Accessories",
+        "Gaming Accessories"
+      ],
+      "brandNames": [
+        "Various"
+      ],
+      "totalProducts": 150
+    },
+    "performance": {
+      "rating": 4.095154069710971,
+      "onTimeDeliveryRate": 93.77690169960725,
+      "qualityScore": 96.24343568274871,
+      "responseTime": 2.0186608964649047,
+      "totalOrders": 375,
+      "returnRate": 1.808724105277481
+    },
+    "bankDetails": {
+      "bankName": "Bank of America",
+      "accountName": "TechDrop Miami",
+      "routingNumber": "026009593",
+      "accountNumber": "XXXX5628"
+    },
+    "notes": "Dropshipping specialist. Direct to consumer fulfillment. No inventory required.",
+    "tags": [
+      "dropshipper",
+      "Various",
+      "national"
+    ],
+    "isPreferred": false,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2025-07-15T00:00:00.000Z"
+  }
+]

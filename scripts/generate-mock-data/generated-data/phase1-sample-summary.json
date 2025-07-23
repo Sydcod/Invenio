@@ -1,0 +1,16 @@
+{
+  "generated": "2025-07-23T00:41:14.848Z",
+  "phase": "Phase 1: Reference Data (Sample)",
+  "counts": {
+    "categories": 3,
+    "warehouses": 2,
+    "suppliers": 2
+  },
+  "notes": [
+    "This is a small sample for review",
+    "Full generation will create:",
+    "- 30+ categories in 3-level hierarchy",
+    "- 5 warehouses across Miami",
+    "- 15 suppliers (manufacturers, distributors, wholesalers)"
+  ]
+}

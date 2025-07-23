@@ -1,0 +1,46 @@
+{
+  "timestamp": "2025-07-23T01:07:27.606Z",
+  "totalSuppliers": 18,
+  "batch1": {
+    "filename": "suppliers-batch1-manufacturers.json",
+    "count": 8,
+    "types": [
+      "manufacturer"
+    ],
+    "suppliers": [
+      "SUP-MFG-001 - Apple Inc.",
+      "SUP-MFG-002 - Samsung Electronics",
+      "SUP-MFG-003 - Dell Technologies",
+      "SUP-MFG-004 - HP Inc.",
+      "SUP-MFG-005 - LG Electronics",
+      "SUP-MFG-006 - Sony Corporation",
+      "SUP-MFG-007 - Lenovo",
+      "SUP-MFG-008 - Microsoft Corporation"
+    ]
+  },
+  "batch2": {
+    "filename": "suppliers-batch2-others.json",
+    "count": 10,
+    "types": [
+      "distributor",
+      "wholesaler",
+      "dropshipper"
+    ],
+    "suppliers": [
+      "SUP-DST-001 - Tech Data Corporation",
+      "SUP-DST-002 - Ingram Micro",
+      "SUP-DST-003 - Synnex Corporation",
+      "SUP-DST-004 - Caribbean Electronics Network",
+      "SUP-WHL-001 - Miami Electronics Wholesale",
+      "SUP-WHL-002 - Florida Tech Distributors",
+      "SUP-WHL-003 - Southeast Electronics Supply",
+      "SUP-WHL-004 - Aventura Tech Supplies",
+      "SUP-WHL-005 - Brickell Electronic Boutique",
+      "SUP-DRP-001 - TechDrop Miami"
+    ]
+  },
+  "insertionOrder": [
+    "Run MongoDB insert-many with suppliers-batch1-manufacturers.json to suppliers collection",
+    "Run MongoDB insert-many with suppliers-batch2-others.json to suppliers collection"
+  ]
+}

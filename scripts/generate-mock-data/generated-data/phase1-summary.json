@@ -1,0 +1,28 @@
+{
+  "phase": "Phase 1 - Reference Data",
+  "generatedAt": "2025-07-23T00:48:33.875Z",
+  "statistics": {
+    "categories": {
+      "total": 32,
+      "byLevel": {
+        "level0": 1,
+        "level1": 10,
+        "level2": 21
+      }
+    },
+    "warehouses": {
+      "total": 5,
+      "byType": {
+        "distribution": 1,
+        "retail": 1,
+        "storage": 1,
+        "fulfillment": 1,
+        "boutique": 1
+      }
+    }
+  },
+  "files": {
+    "categories": "categories-full.json",
+    "warehouses": "warehouses-full.json"
+  }
+}

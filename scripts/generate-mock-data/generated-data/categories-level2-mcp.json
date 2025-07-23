@@ -1,0 +1,506 @@
+[
+  {
+    "_id": "6880316114bfcd086db913f8",
+    "name": "Laptops",
+    "slug": "laptops",
+    "parentId": "6880316114bfcd086db913ee",
+    "path": "/electronics/computers-tablets/laptops",
+    "level": 2,
+    "description": "Business, gaming, and ultrabook laptops",
+    "metaTitle": "Laptops - computers tablets - Miami",
+    "metaDescription": "Business, gaming, and ultrabook laptops available in Miami. Shop online or visit our stores.",
+    "keywords": [
+      "laptops",
+      "computers tablets",
+      "Miami"
+    ],
+    "imageUrl": "/images/categories/laptops.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 12,
+    "attributes": {
+      "showInMenu": true,
+      "showInSidebar": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db913f9",
+    "name": "Desktop Computers",
+    "slug": "desktop-computers",
+    "parentId": "6880316114bfcd086db913ee",
+    "path": "/electronics/computers-tablets/desktop-computers",
+    "level": 2,
+    "description": "Desktop PCs and all-in-one computers",
+    "metaTitle": "Desktop Computers - computers tablets - Miami",
+    "metaDescription": "Desktop PCs and all-in-one computers available in Miami. Shop online or visit our stores.",
+    "keywords": [
+      "desktop computers",
+      "computers tablets",
+      "Miami"
+    ],
+    "imageUrl": "/images/categories/desktop-computers.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 13,
+    "attributes": {
+      "showInMenu": true,
+      "showInSidebar": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db913fa",
+    "name": "Tablets",
+    "slug": "tablets",
+    "parentId": "6880316114bfcd086db913ee",
+    "path": "/electronics/computers-tablets/tablets",
+    "level": 2,
+    "description": "iPads, Android tablets, and e-readers",
+    "metaTitle": "Tablets - computers tablets - Miami",
+    "metaDescription": "iPads, Android tablets, and e-readers available in Miami. Shop online or visit our stores.",
+    "keywords": [
+      "tablets",
+      "computers tablets",
+      "Miami"
+    ],
+    "imageUrl": "/images/categories/tablets.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 14,
+    "attributes": {
+      "showInMenu": true,
+      "showInSidebar": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db913fb",
+    "name": "Computer Accessories",
+    "slug": "computer-accessories",
+    "parentId": "6880316114bfcd086db913ee",
+    "path": "/electronics/computers-tablets/computer-accessories",
+    "level": 2,
+    "description": "Keyboards, mice, and computer peripherals",
+    "metaTitle": "Computer Accessories - computers tablets - Miami",
+    "metaDescription": "Keyboards, mice, and computer peripherals available in Miami. Shop online or visit our stores.",
+    "keywords": [
+      "computer accessories",
+      "computers tablets",
+      "Miami"
+    ],
+    "imageUrl": "/images/categories/computer-accessories.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 15,
+    "attributes": {
+      "showInMenu": true,
+      "showInSidebar": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db913fc",
+    "name": "Televisions",
+    "slug": "televisions",
+    "parentId": "6880316114bfcd086db913ef",
+    "path": "/electronics/tv-audio/televisions",
+    "level": 2,
+    "description": "4K, OLED, and Smart TVs",
+    "metaTitle": "Televisions - tv audio - Miami",
+    "metaDescription": "4K, OLED, and Smart TVs available in Miami. Shop online or visit our stores.",
+    "keywords": [
+      "televisions",
+      "tv audio",
+      "Miami"
+    ],
+    "imageUrl": "/images/categories/televisions.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 16,
+    "attributes": {
+      "showInMenu": true,
+      "showInSidebar": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db913fd",
+    "name": "Speakers",
+    "slug": "speakers",
+    "parentId": "6880316114bfcd086db913ef",
+    "path": "/electronics/tv-audio/speakers",
+    "level": 2,
+    "description": "Bluetooth, wireless, and home speakers",
+    "metaTitle": "Speakers - tv audio - Miami",
+    "metaDescription": "Bluetooth, wireless, and home speakers available in Miami. Shop online or visit our stores.",
+    "keywords": [
+      "speakers",
+      "tv audio",
+      "Miami"
+    ],
+    "imageUrl": "/images/categories/speakers.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 17,
+    "attributes": {
+      "showInMenu": true,
+      "showInSidebar": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db913fe",
+    "name": "Soundbars",
+    "slug": "soundbars",
+    "parentId": "6880316114bfcd086db913ef",
+    "path": "/electronics/tv-audio/soundbars",
+    "level": 2,
+    "description": "TV soundbars and home theater sound systems",
+    "metaTitle": "Soundbars - tv audio - Miami",
+    "metaDescription": "TV soundbars and home theater sound systems available in Miami. Shop online or visit our stores.",
+    "keywords": [
+      "soundbars",
+      "tv audio",
+      "Miami"
+    ],
+    "imageUrl": "/images/categories/soundbars.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 18,
+    "attributes": {
+      "showInMenu": true,
+      "showInSidebar": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db913ff",
+    "name": "Headphones",
+    "slug": "headphones",
+    "parentId": "6880316114bfcd086db913ef",
+    "path": "/electronics/tv-audio/headphones",
+    "level": 2,
+    "description": "Over-ear, in-ear, and wireless headphones",
+    "metaTitle": "Headphones - tv audio - Miami",
+    "metaDescription": "Over-ear, in-ear, and wireless headphones available in Miami. Shop online or visit our stores.",
+    "keywords": [
+      "headphones",
+      "tv audio",
+      "Miami"
+    ],
+    "imageUrl": "/images/categories/headphones.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 19,
+    "attributes": {
+      "showInMenu": true,
+      "showInSidebar": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db91400",
+    "name": "Smart Lighting",
+    "slug": "smart-lighting",
+    "parentId": "6880316114bfcd086db913f0",
+    "path": "/electronics/smart-home/smart-lighting",
+    "level": 2,
+    "description": "Smart bulbs, switches, and lighting systems",
+    "metaTitle": "Smart Lighting - smart home - Miami",
+    "metaDescription": "Smart bulbs, switches, and lighting systems available in Miami. Shop online or visit our stores.",
+    "keywords": [
+      "smart lighting",
+      "smart home",
+      "Miami"
+    ],
+    "imageUrl": "/images/categories/smart-lighting.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 20,
+    "attributes": {
+      "showInMenu": true,
+      "showInSidebar": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db91401",
+    "name": "Smart Security",
+    "slug": "smart-security",
+    "parentId": "6880316114bfcd086db913f0",
+    "path": "/electronics/smart-home/smart-security",
+    "level": 2,
+    "description": "Cameras, doorbells, and security systems",
+    "metaTitle": "Smart Security - smart home - Miami",
+    "metaDescription": "Cameras, doorbells, and security systems available in Miami. Shop online or visit our stores.",
+    "keywords": [
+      "smart security",
+      "smart home",
+      "Miami"
+    ],
+    "imageUrl": "/images/categories/smart-security.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 21,
+    "attributes": {
+      "showInMenu": true,
+      "showInSidebar": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db91402",
+    "name": "Smart Climate",
+    "slug": "smart-climate",
+    "parentId": "6880316114bfcd086db913f0",
+    "path": "/electronics/smart-home/smart-climate",
+    "level": 2,
+    "description": "Thermostats, AC controllers for Miami heat",
+    "metaTitle": "Smart Climate - smart home - Miami",
+    "metaDescription": "Thermostats, AC controllers for Miami heat available in Miami. Shop online or visit our stores.",
+    "keywords": [
+      "smart climate",
+      "smart home",
+      "Miami"
+    ],
+    "imageUrl": "/images/categories/smart-climate.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 22,
+    "attributes": {
+      "showInMenu": true,
+      "showInSidebar": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db91403",
+    "name": "Voice Assistants",
+    "slug": "voice-assistants",
+    "parentId": "6880316114bfcd086db913f0",
+    "path": "/electronics/smart-home/voice-assistants",
+    "level": 2,
+    "description": "Alexa, Google Home, and smart displays",
+    "metaTitle": "Voice Assistants - smart home - Miami",
+    "metaDescription": "Alexa, Google Home, and smart displays available in Miami. Shop online or visit our stores.",
+    "keywords": [
+      "voice assistants",
+      "smart home",
+      "Miami"
+    ],
+    "imageUrl": "/images/categories/voice-assistants.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 23,
+    "attributes": {
+      "showInMenu": true,
+      "showInSidebar": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db91404",
+    "name": "Gaming Consoles",
+    "slug": "gaming-consoles",
+    "parentId": "6880316114bfcd086db913f1",
+    "path": "/electronics/gaming/gaming-consoles",
+    "level": 2,
+    "description": "PlayStation, Xbox, Nintendo consoles",
+    "metaTitle": "Gaming Consoles - gaming - Miami",
+    "metaDescription": "PlayStation, Xbox, Nintendo consoles available in Miami. Shop online or visit our stores.",
+    "keywords": [
+      "gaming consoles",
+      "gaming",
+      "Miami"
+    ],
+    "imageUrl": "/images/categories/gaming-consoles.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 24,
+    "attributes": {
+      "showInMenu": true,
+      "showInSidebar": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db91405",
+    "name": "Gaming PCs",
+    "slug": "gaming-pcs",
+    "parentId": "6880316114bfcd086db913f1",
+    "path": "/electronics/gaming/gaming-pcs",
+    "level": 2,
+    "description": "Pre-built gaming computers",
+    "metaTitle": "Gaming PCs - gaming - Miami",
+    "metaDescription": "Pre-built gaming computers available in Miami. Shop online or visit our stores.",
+    "keywords": [
+      "gaming pcs",
+      "gaming",
+      "Miami"
+    ],
+    "imageUrl": "/images/categories/gaming-pcs.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 25,
+    "attributes": {
+      "showInMenu": true,
+      "showInSidebar": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db91406",
+    "name": "Gaming Accessories",
+    "slug": "gaming-accessories",
+    "parentId": "6880316114bfcd086db913f1",
+    "path": "/electronics/gaming/gaming-accessories",
+    "level": 2,
+    "description": "Controllers, headsets, and gaming gear",
+    "metaTitle": "Gaming Accessories - gaming - Miami",
+    "metaDescription": "Controllers, headsets, and gaming gear available in Miami. Shop online or visit our stores.",
+    "keywords": [
+      "gaming accessories",
+      "gaming",
+      "Miami"
+    ],
+    "imageUrl": "/images/categories/gaming-accessories.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 26,
+    "attributes": {
+      "showInMenu": true,
+      "showInSidebar": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db91407",
+    "name": "Phone Cases",
+    "slug": "phone-cases",
+    "parentId": "6880316114bfcd086db913f2",
+    "path": "/electronics/mobile-accessories/phone-cases",
+    "level": 2,
+    "description": "Protective cases and covers",
+    "metaTitle": "Phone Cases - mobile accessories - Miami",
+    "metaDescription": "Protective cases and covers available in Miami. Shop online or visit our stores.",
+    "keywords": [
+      "phone cases",
+      "mobile accessories",
+      "Miami"
+    ],
+    "imageUrl": "/images/categories/phone-cases.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 27,
+    "attributes": {
+      "showInMenu": true,
+      "showInSidebar": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db91408",
+    "name": "Chargers & Cables",
+    "slug": "chargers-cables",
+    "parentId": "6880316114bfcd086db913f2",
+    "path": "/electronics/mobile-accessories/chargers-cables",
+    "level": 2,
+    "description": "Fast chargers, wireless chargers, cables",
+    "metaTitle": "Chargers & Cables - mobile accessories - Miami",
+    "metaDescription": "Fast chargers, wireless chargers, cables available in Miami. Shop online or visit our stores.",
+    "keywords": [
+      "chargers & cables",
+      "mobile accessories",
+      "Miami"
+    ],
+    "imageUrl": "/images/categories/chargers-cables.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 28,
+    "attributes": {
+      "showInMenu": true,
+      "showInSidebar": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db91409",
+    "name": "Screen Protectors",
+    "slug": "screen-protectors",
+    "parentId": "6880316114bfcd086db913f2",
+    "path": "/electronics/mobile-accessories/screen-protectors",
+    "level": 2,
+    "description": "Tempered glass and film protectors",
+    "metaTitle": "Screen Protectors - mobile accessories - Miami",
+    "metaDescription": "Tempered glass and film protectors available in Miami. Shop online or visit our stores.",
+    "keywords": [
+      "screen protectors",
+      "mobile accessories",
+      "Miami"
+    ],
+    "imageUrl": "/images/categories/screen-protectors.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 29,
+    "attributes": {
+      "showInMenu": true,
+      "showInSidebar": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db9140a",
+    "name": "Digital Cameras",
+    "slug": "digital-cameras",
+    "parentId": "6880316114bfcd086db913f3",
+    "path": "/electronics/cameras-photography/digital-cameras",
+    "level": 2,
+    "description": "DSLR, mirrorless, and point-and-shoot cameras",
+    "metaTitle": "Digital Cameras - cameras photography - Miami",
+    "metaDescription": "DSLR, mirrorless, and point-and-shoot cameras available in Miami. Shop online or visit our stores.",
+    "keywords": [
+      "digital cameras",
+      "cameras photography",
+      "Miami"
+    ],
+    "imageUrl": "/images/categories/digital-cameras.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 30,
+    "attributes": {
+      "showInMenu": true,
+      "showInSidebar": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db9140b",
+    "name": "Camera Lenses",
+    "slug": "camera-lenses",
+    "parentId": "6880316114bfcd086db913f3",
+    "path": "/electronics/cameras-photography/camera-lenses",
+    "level": 2,
+    "description": "Wide angle, telephoto, and specialty lenses",
+    "metaTitle": "Camera Lenses - cameras photography - Miami",
+    "metaDescription": "Wide angle, telephoto, and specialty lenses available in Miami. Shop online or visit our stores.",
+    "keywords": [
+      "camera lenses",
+      "cameras photography",
+      "Miami"
+    ],
+    "imageUrl": "/images/categories/camera-lenses.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 31,
+    "attributes": {
+      "showInMenu": true,
+      "showInSidebar": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db9140c",
+    "name": "Photography Accessories",
+    "slug": "photography-accessories",
+    "parentId": "6880316114bfcd086db913f3",
+    "path": "/electronics/cameras-photography/photography-accessories",
+    "level": 2,
+    "description": "Tripods, bags, and camera gear",
+    "metaTitle": "Photography Accessories - cameras photography - Miami",
+    "metaDescription": "Tripods, bags, and camera gear available in Miami. Shop online or visit our stores.",
+    "keywords": [
+      "photography accessories",
+      "cameras photography",
+      "Miami"
+    ],
+    "imageUrl": "/images/categories/photography-accessories.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 32,
+    "attributes": {
+      "showInMenu": true,
+      "showInSidebar": true
+    }
+  }
+]

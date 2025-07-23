@@ -1,0 +1,711 @@
+[
+  {
+    "_id": "688035a5e7604adf9d05062a",
+    "code": "SUP-MFG-001",
+    "name": "Apple Inc.",
+    "type": "manufacturer",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "Jennifer Martinez",
+        "email": "j.martinez@apple.com",
+        "phone": "+1-408-996-1010",
+        "position": "Account Manager"
+      },
+      "address": {
+        "street": "One Apple Park Way",
+        "city": "Cupertino",
+        "state": "CA",
+        "postalCode": "95014",
+        "country": "USA"
+      },
+      "website": "https://www.apple.com"
+    },
+    "financial": {
+      "taxId": "94-2404110",
+      "currency": "USD",
+      "paymentTerms": "Net 30",
+      "creditLimit": 500000,
+      "currentBalance": 49650,
+      "totalPurchases": 1516357
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "Freight"
+      ],
+      "leadTime": 5,
+      "freeShippingThreshold": 5000,
+      "locations": [
+        "USA",
+        "Canada",
+        "Mexico"
+      ]
+    },
+    "products": {
+      "categories": [
+        "Laptops",
+        "Tablets",
+        "Smartphones"
+      ],
+      "brandNames": [
+        "Apple"
+      ],
+      "totalProducts": 224
+    },
+    "performance": {
+      "rating": 4.149105601619116,
+      "onTimeDeliveryRate": 93.2854098060357,
+      "qualityScore": 97.33497748144194,
+      "responseTime": 2.8734443914669843,
+      "totalOrders": 501,
+      "returnRate": 1.0097886741850912
+    },
+    "compliance": {
+      "certifications": [
+        "ISO 9001",
+        "ISO 14001",
+        "EPEAT Gold"
+      ],
+      "insuranceExpiry": "2026-03-31T00:00:00.000Z",
+      "licenses": [
+        {
+          "type": "Business License",
+          "number": "BL2024001",
+          "expiry": "2027-01-31T00:00:00.000Z"
+        }
+      ]
+    },
+    "notes": "Premium supplier. Requires advance payment for first 3 orders.",
+    "tags": [
+      "manufacturer",
+      "Apple",
+      "national"
+    ],
+    "isPreferred": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2025-07-15T00:00:00.000Z"
+  },
+  {
+    "_id": "688035a5e7604adf9d05062b",
+    "code": "SUP-MFG-002",
+    "name": "Samsung Electronics",
+    "type": "manufacturer",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "David Kim",
+        "email": "d.kim@samsung.com",
+        "phone": "+1-201-229-4000",
+        "position": "Regional Sales Manager"
+      },
+      "address": {
+        "street": "85 Challenger Road",
+        "city": "Ridgefield Park",
+        "state": "NJ",
+        "postalCode": "07660",
+        "country": "USA"
+      },
+      "website": "https://www.samsung.com"
+    },
+    "financial": {
+      "taxId": "52-1721859",
+      "currency": "USD",
+      "paymentTerms": "Net 45",
+      "creditLimit": 400000,
+      "currentBalance": 67655,
+      "totalPurchases": 4017563
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "Freight"
+      ],
+      "leadTime": 7,
+      "freeShippingThreshold": 5000,
+      "locations": [
+        "USA",
+        "Canada",
+        "Mexico"
+      ]
+    },
+    "products": {
+      "categories": [
+        "Televisions",
+        "Smartphones",
+        "Tablets",
+        "Home Audio"
+      ],
+      "brandNames": [
+        "Samsung"
+      ],
+      "totalProducts": 146
+    },
+    "performance": {
+      "rating": 4.214487194417735,
+      "onTimeDeliveryRate": 95.6131749614579,
+      "qualityScore": 96.83450802355155,
+      "responseTime": 2.87629936876027,
+      "totalOrders": 754,
+      "returnRate": 0.5974023550052354
+    },
+    "compliance": {
+      "certifications": [
+        "ISO 9001",
+        "ISO 14001",
+        "ENERGY STAR Partner"
+      ],
+      "insuranceExpiry": "2026-03-31T00:00:00.000Z",
+      "licenses": [
+        {
+          "type": "Business License",
+          "number": "BL2024002",
+          "expiry": "2027-01-31T00:00:00.000Z"
+        }
+      ]
+    },
+    "tags": [
+      "manufacturer",
+      "Samsung",
+      "national"
+    ],
+    "isPreferred": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2025-07-15T00:00:00.000Z"
+  },
+  {
+    "_id": "688035a5e7604adf9d05062c",
+    "code": "SUP-MFG-003",
+    "name": "Dell Technologies",
+    "type": "manufacturer",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "Robert Johnson",
+        "email": "r.johnson@dell.com",
+        "phone": "+1-800-999-3355",
+        "position": "Enterprise Account Manager"
+      },
+      "address": {
+        "street": "One Dell Way",
+        "city": "Round Rock",
+        "state": "TX",
+        "postalCode": "78682",
+        "country": "USA"
+      },
+      "website": "https://www.dell.com"
+    },
+    "financial": {
+      "taxId": "74-2487834",
+      "currency": "USD",
+      "paymentTerms": "Net 30",
+      "creditLimit": 350000,
+      "currentBalance": 37545,
+      "totalPurchases": 1398684
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "Freight"
+      ],
+      "leadTime": 5,
+      "freeShippingThreshold": 5000,
+      "locations": [
+        "USA",
+        "Canada",
+        "Mexico"
+      ]
+    },
+    "products": {
+      "categories": [
+        "Desktop Computers",
+        "Laptops",
+        "Computer Components"
+      ],
+      "brandNames": [
+        "Dell",
+        "Alienware"
+      ],
+      "totalProducts": 66
+    },
+    "performance": {
+      "rating": 4.7634668703214125,
+      "onTimeDeliveryRate": 93.44428286715785,
+      "qualityScore": 99.21783215235536,
+      "responseTime": 1.1357490355794222,
+      "totalOrders": 657,
+      "returnRate": 0.7576808239433968
+    },
+    "compliance": {
+      "certifications": [
+        "ISO 9001",
+        "ISO 14001"
+      ],
+      "insuranceExpiry": "2026-03-31T00:00:00.000Z",
+      "licenses": [
+        {
+          "type": "Business License",
+          "number": "BL2024003",
+          "expiry": "2027-01-31T00:00:00.000Z"
+        }
+      ]
+    },
+    "tags": [
+      "manufacturer",
+      "Dell",
+      "Alienware",
+      "national"
+    ],
+    "isPreferred": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2025-07-15T00:00:00.000Z"
+  },
+  {
+    "_id": "688035a5e7604adf9d05062d",
+    "code": "SUP-MFG-004",
+    "name": "HP Inc.",
+    "type": "manufacturer",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "Sarah Williams",
+        "email": "s.williams@hp.com",
+        "phone": "+1-650-857-1501",
+        "position": "Channel Partner Manager"
+      },
+      "address": {
+        "street": "1501 Page Mill Road",
+        "city": "Palo Alto",
+        "state": "CA",
+        "postalCode": "94304",
+        "country": "USA"
+      },
+      "website": "https://www.hp.com"
+    },
+    "financial": {
+      "taxId": "94-1081436",
+      "currency": "USD",
+      "paymentTerms": "Net 45",
+      "creditLimit": 300000,
+      "currentBalance": 55269,
+      "totalPurchases": 2828711
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "Freight"
+      ],
+      "leadTime": 6,
+      "freeShippingThreshold": 5000,
+      "locations": [
+        "USA",
+        "Canada",
+        "Mexico"
+      ]
+    },
+    "products": {
+      "categories": [
+        "Laptops",
+        "Desktop Computers",
+        "Printers"
+      ],
+      "brandNames": [
+        "HP",
+        "OMEN"
+      ],
+      "totalProducts": 85
+    },
+    "performance": {
+      "rating": 4.251294106323886,
+      "onTimeDeliveryRate": 92.10853503378667,
+      "qualityScore": 99.49768564623454,
+      "responseTime": 3.578561350963123,
+      "totalOrders": 382,
+      "returnRate": 1.1690673471996602
+    },
+    "compliance": {
+      "certifications": [
+        "ISO 9001",
+        "ISO 14001",
+        "EPEAT Gold"
+      ],
+      "insuranceExpiry": "2026-03-31T00:00:00.000Z",
+      "licenses": [
+        {
+          "type": "Business License",
+          "number": "BL2024004",
+          "expiry": "2027-01-31T00:00:00.000Z"
+        }
+      ]
+    },
+    "tags": [
+      "manufacturer",
+      "HP",
+      "OMEN",
+      "national"
+    ],
+    "isPreferred": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2025-07-15T00:00:00.000Z"
+  },
+  {
+    "_id": "688035a5e7604adf9d05062e",
+    "code": "SUP-MFG-005",
+    "name": "LG Electronics",
+    "type": "manufacturer",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "Michael Park",
+        "email": "m.park@lge.com",
+        "phone": "+1-201-816-2000",
+        "position": "Sales Director"
+      },
+      "address": {
+        "street": "111 Sylvan Avenue",
+        "city": "Englewood Cliffs",
+        "state": "NJ",
+        "postalCode": "07632",
+        "country": "USA"
+      },
+      "website": "https://www.lg.com"
+    },
+    "financial": {
+      "taxId": "13-3882008",
+      "currency": "USD",
+      "paymentTerms": "Net 30",
+      "creditLimit": 250000,
+      "currentBalance": 19813,
+      "totalPurchases": 1599834
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "Freight"
+      ],
+      "leadTime": 7,
+      "freeShippingThreshold": 5000,
+      "locations": [
+        "USA",
+        "Canada",
+        "Mexico"
+      ]
+    },
+    "products": {
+      "categories": [
+        "Televisions",
+        "Home Audio",
+        "Smart Home"
+      ],
+      "brandNames": [
+        "LG"
+      ],
+      "totalProducts": 180
+    },
+    "performance": {
+      "rating": 4.71770324611741,
+      "onTimeDeliveryRate": 95.47191614570019,
+      "qualityScore": 97.94755892479213,
+      "responseTime": 2.306548611492614,
+      "totalOrders": 363,
+      "returnRate": 0.9658491892705647
+    },
+    "compliance": {
+      "certifications": [
+        "ISO 9001",
+        "ENERGY STAR Partner"
+      ],
+      "insuranceExpiry": "2026-03-31T00:00:00.000Z",
+      "licenses": [
+        {
+          "type": "Business License",
+          "number": "BL2024005",
+          "expiry": "2027-01-31T00:00:00.000Z"
+        }
+      ]
+    },
+    "tags": [
+      "manufacturer",
+      "LG",
+      "national"
+    ],
+    "isPreferred": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2025-07-15T00:00:00.000Z"
+  },
+  {
+    "_id": "688035a5e7604adf9d05062f",
+    "code": "SUP-MFG-006",
+    "name": "Sony Corporation",
+    "type": "manufacturer",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "Yuki Tanaka",
+        "email": "y.tanaka@sony.com",
+        "phone": "+1-858-942-2000",
+        "position": "Regional Account Manager"
+      },
+      "address": {
+        "street": "16535 Via Esprillo",
+        "city": "San Diego",
+        "state": "CA",
+        "postalCode": "92127",
+        "country": "USA"
+      },
+      "website": "https://www.sony.com"
+    },
+    "financial": {
+      "taxId": "95-2666820",
+      "currency": "USD",
+      "paymentTerms": "Net 45",
+      "creditLimit": 300000,
+      "currentBalance": 54804,
+      "totalPurchases": 3531465
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "Freight"
+      ],
+      "leadTime": 8,
+      "freeShippingThreshold": 5000,
+      "locations": [
+        "USA",
+        "Canada",
+        "Mexico"
+      ]
+    },
+    "products": {
+      "categories": [
+        "Televisions",
+        "Gaming Consoles",
+        "Audio",
+        "Cameras"
+      ],
+      "brandNames": [
+        "Sony",
+        "PlayStation"
+      ],
+      "totalProducts": 78
+    },
+    "performance": {
+      "rating": 4.3942787902646705,
+      "onTimeDeliveryRate": 94.99139292061318,
+      "qualityScore": 97.66588377258101,
+      "responseTime": 1.8760386780770504,
+      "totalOrders": 632,
+      "returnRate": 1.722067178372469
+    },
+    "compliance": {
+      "certifications": [
+        "ISO 9001",
+        "ISO 14001"
+      ],
+      "insuranceExpiry": "2026-03-31T00:00:00.000Z",
+      "licenses": [
+        {
+          "type": "Business License",
+          "number": "BL2024006",
+          "expiry": "2027-01-31T00:00:00.000Z"
+        }
+      ]
+    },
+    "tags": [
+      "manufacturer",
+      "Sony",
+      "PlayStation",
+      "national"
+    ],
+    "isPreferred": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2025-07-15T00:00:00.000Z"
+  },
+  {
+    "_id": "688035a5e7604adf9d050630",
+    "code": "SUP-MFG-007",
+    "name": "Lenovo",
+    "type": "manufacturer",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "Lisa Chen",
+        "email": "l.chen@lenovo.com",
+        "phone": "+1-919-294-4800",
+        "position": "Partner Account Manager"
+      },
+      "address": {
+        "street": "1009 Think Place",
+        "city": "Morrisville",
+        "state": "NC",
+        "postalCode": "27560",
+        "country": "USA"
+      },
+      "website": "https://www.lenovo.com"
+    },
+    "financial": {
+      "taxId": "41-1945908",
+      "currency": "USD",
+      "paymentTerms": "Net 30",
+      "creditLimit": 200000,
+      "currentBalance": 21743,
+      "totalPurchases": 1885529
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "Freight"
+      ],
+      "leadTime": 6,
+      "freeShippingThreshold": 5000,
+      "locations": [
+        "USA",
+        "Canada",
+        "Mexico"
+      ]
+    },
+    "products": {
+      "categories": [
+        "Laptops",
+        "Desktop Computers",
+        "Tablets"
+      ],
+      "brandNames": [
+        "Lenovo",
+        "ThinkPad",
+        "IdeaPad"
+      ],
+      "totalProducts": 62
+    },
+    "performance": {
+      "rating": 4.291012155831661,
+      "onTimeDeliveryRate": 96.28180090106923,
+      "qualityScore": 97.59242333623529,
+      "responseTime": 1.673299984914959,
+      "totalOrders": 395,
+      "returnRate": 1.9828233340188803
+    },
+    "compliance": {
+      "certifications": [
+        "ISO 9001",
+        "ISO 14001"
+      ],
+      "insuranceExpiry": "2026-03-31T00:00:00.000Z",
+      "licenses": [
+        {
+          "type": "Business License",
+          "number": "BL2024007",
+          "expiry": "2027-01-31T00:00:00.000Z"
+        }
+      ]
+    },
+    "tags": [
+      "manufacturer",
+      "Lenovo",
+      "ThinkPad",
+      "IdeaPad",
+      "national"
+    ],
+    "isPreferred": false,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2025-07-15T00:00:00.000Z"
+  },
+  {
+    "_id": "688035a5e7604adf9d050631",
+    "code": "SUP-MFG-008",
+    "name": "Microsoft Corporation",
+    "type": "manufacturer",
+    "status": "active",
+    "contact": {
+      "primaryContact": {
+        "name": "Amanda Foster",
+        "email": "afoster@microsoft.com",
+        "phone": "+1-425-882-8080",
+        "position": "Partner Account Executive"
+      },
+      "address": {
+        "street": "One Microsoft Way",
+        "city": "Redmond",
+        "state": "WA",
+        "postalCode": "98052",
+        "country": "USA"
+      },
+      "website": "https://www.microsoft.com"
+    },
+    "financial": {
+      "taxId": "91-1144442",
+      "currency": "USD",
+      "paymentTerms": "Net 60",
+      "creditLimit": 400000,
+      "currentBalance": 55853,
+      "totalPurchases": 4356797
+    },
+    "shipping": {
+      "methods": [
+        "Ground",
+        "Express",
+        "Freight"
+      ],
+      "leadTime": 5,
+      "freeShippingThreshold": 5000,
+      "locations": [
+        "USA",
+        "Canada",
+        "Mexico"
+      ]
+    },
+    "products": {
+      "categories": [
+        "Gaming Consoles",
+        "Tablets",
+        "Computer Accessories"
+      ],
+      "brandNames": [
+        "Microsoft",
+        "Xbox",
+        "Surface"
+      ],
+      "totalProducts": 99
+    },
+    "performance": {
+      "rating": 4.672146707796089,
+      "onTimeDeliveryRate": 92.36614702528144,
+      "qualityScore": 96.90110622768361,
+      "responseTime": 2.0337549058513478,
+      "totalOrders": 830,
+      "returnRate": 0.7988685832855122
+    },
+    "compliance": {
+      "certifications": [
+        "ISO 9001",
+        "ISO 14001",
+        "ISO 27001"
+      ],
+      "insuranceExpiry": "2026-03-31T00:00:00.000Z",
+      "licenses": [
+        {
+          "type": "Business License",
+          "number": "BL2024008",
+          "expiry": "2027-01-31T00:00:00.000Z"
+        }
+      ]
+    },
+    "tags": [
+      "manufacturer",
+      "Microsoft",
+      "Xbox",
+      "Surface",
+      "national"
+    ],
+    "isPreferred": true,
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2025-07-15T00:00:00.000Z"
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "_id": "669f2234567890abcdef0001",
+    "code": "WH-MIA-001",
+    "name": "Miami Main Distribution Center",
+    "type": "distribution",
+    "status": "active",
+    "address": {
+      "street": "2500 NW 107th Avenue",
+      "city": "Miami",
+      "state": "FL",
+      "country": "USA",
+      "postalCode": "33172"
+    },
+    "contact": {
+      "phone": "+1-305-555-0100",
+      "email": "wh-mia-001@miamielectronics.com",
+      "manager": {
+        "name": "Carlos Rodriguez",
+        "email": "c.rodriguez@miamielectronics.com",
+        "phone": "+1-305-555-0102"
+      }
+    },
+    "capacity": {
+      "totalSpace": 100000,
+      "usedSpace": 68000,
+      "availableSpace": 32000,
+      "unit": "sqft"
+    },
+    "settings": {
+      "isDefault": true,
+      "allowNegativeStock": false,
+      "autoReorder": true,
+      "minOrderValue": 50,
+      "maxOrderValue": 100000
+    }
+  },
+  {
+    "_id": "669f2234567890abcdef0002",
+    "code": "WH-AVE-002",
+    "name": "Aventura Retail Warehouse",
+    "type": "retail",
+    "status": "active",
+    "address": {
+      "street": "19501 Biscayne Boulevard",
+      "city": "Aventura",
+      "state": "FL",
+      "country": "USA",
+      "postalCode": "33180"
+    },
+    "contact": {
+      "phone": "+1-305-555-0200",
+      "email": "wh-ave-002@miamielectronics.com",
+      "manager": {
+        "name": "Maria Gonzalez",
+        "email": "m.gonzalez@miamielectronics.com",
+        "phone": "+1-305-555-0201"
+      }
+    },
+    "capacity": {
+      "totalSpace": 25000,
+      "usedSpace": 18000,
+      "availableSpace": 7000,
+      "unit": "sqft"
+    },
+    "settings": {
+      "isDefault": false,
+      "allowNegativeStock": false,
+      "autoReorder": true,
+      "minOrderValue": 0,
+      "maxOrderValue": 50000
+    }
+  }
+]

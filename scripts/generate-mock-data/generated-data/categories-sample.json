@@ -1,0 +1,42 @@
+[
+  {
+    "_id": {
+      "$oid": "669f1234567890abcdef0001"
+    },
+    "name": "Electronics",
+    "parentId": null,
+    "path": "/electronics",
+    "level": 0,
+    "description": "All electronics products, devices, and accessories for Miami customers",
+    "isActive": true,
+    "sortOrder": 1
+  },
+  {
+    "_id": {
+      "$oid": "669f1234567890abcdef0002"
+    },
+    "name": "Computers & Tablets",
+    "parentId": {
+      "$oid": "669f1234567890abcdef0001"
+    },
+    "path": "/electronics/computers-tablets",
+    "level": 1,
+    "description": "Desktop computers, laptops, tablets, and accessories",
+    "isActive": true,
+    "sortOrder": 2
+  },
+  {
+    "_id": {
+      "$oid": "669f1234567890abcdef0003"
+    },
+    "name": "Laptops",
+    "parentId": {
+      "$oid": "669f1234567890abcdef0002"
+    },
+    "path": "/electronics/computers-tablets/laptops",
+    "level": 2,
+    "description": "Portable computers for work, gaming, and creativity",
+    "isActive": true,
+    "sortOrder": 3
+  }
+]

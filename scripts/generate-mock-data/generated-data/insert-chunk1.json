@@ -1,0 +1,242 @@
+[
+  {
+    "_id": "6880316114bfcd086db913f8",
+    "name": "Laptops",
+    "slug": "laptops",
+    "parentId": "6880316114bfcd086db913ee",
+    "path": "/electronics/computers-tablets/laptops",
+    "level": 2,
+    "description": "Business, gaming, and ultrabook laptops",
+    "metaTitle": "Laptops - computers tablets - Miami",
+    "metaDescription": "Business, gaming, and ultrabook laptops available in Miami. Shop online or visit our stores.",
+    "keywords": [
+      "laptops",
+      "computers tablets",
+      "Miami"
+    ],
+    "imageUrl": "/images/categories/laptops.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 12,
+    "attributes": {
+      "showInMenu": true,
+      "showInSidebar": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db913f9",
+    "name": "Desktop Computers",
+    "slug": "desktop-computers",
+    "parentId": "6880316114bfcd086db913ee",
+    "path": "/electronics/computers-tablets/desktop-computers",
+    "level": 2,
+    "description": "Desktop PCs and all-in-one computers",
+    "metaTitle": "Desktop Computers - computers tablets - Miami",
+    "metaDescription": "Desktop PCs and all-in-one computers available in Miami. Shop online or visit our stores.",
+    "keywords": [
+      "desktop computers",
+      "computers tablets",
+      "Miami"
+    ],
+    "imageUrl": "/images/categories/desktop-computers.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 13,
+    "attributes": {
+      "showInMenu": true,
+      "showInSidebar": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db913fa",
+    "name": "Tablets",
+    "slug": "tablets",
+    "parentId": "6880316114bfcd086db913ee",
+    "path": "/electronics/computers-tablets/tablets",
+    "level": 2,
+    "description": "iPads, Android tablets, and e-readers",
+    "metaTitle": "Tablets - computers tablets - Miami",
+    "metaDescription": "iPads, Android tablets, and e-readers available in Miami. Shop online or visit our stores.",
+    "keywords": [
+      "tablets",
+      "computers tablets",
+      "Miami"
+    ],
+    "imageUrl": "/images/categories/tablets.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 14,
+    "attributes": {
+      "showInMenu": true,
+      "showInSidebar": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db913fb",
+    "name": "Computer Accessories",
+    "slug": "computer-accessories",
+    "parentId": "6880316114bfcd086db913ee",
+    "path": "/electronics/computers-tablets/computer-accessories",
+    "level": 2,
+    "description": "Keyboards, mice, and computer peripherals",
+    "metaTitle": "Computer Accessories - computers tablets - Miami",
+    "metaDescription": "Keyboards, mice, and computer peripherals available in Miami. Shop online or visit our stores.",
+    "keywords": [
+      "computer accessories",
+      "computers tablets",
+      "Miami"
+    ],
+    "imageUrl": "/images/categories/computer-accessories.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 15,
+    "attributes": {
+      "showInMenu": true,
+      "showInSidebar": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db913fc",
+    "name": "Televisions",
+    "slug": "televisions",
+    "parentId": "6880316114bfcd086db913ef",
+    "path": "/electronics/tv-audio/televisions",
+    "level": 2,
+    "description": "4K, OLED, and Smart TVs",
+    "metaTitle": "Televisions - tv audio - Miami",
+    "metaDescription": "4K, OLED, and Smart TVs available in Miami. Shop online or visit our stores.",
+    "keywords": [
+      "televisions",
+      "tv audio",
+      "Miami"
+    ],
+    "imageUrl": "/images/categories/televisions.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 16,
+    "attributes": {
+      "showInMenu": true,
+      "showInSidebar": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db913fd",
+    "name": "Speakers",
+    "slug": "speakers",
+    "parentId": "6880316114bfcd086db913ef",
+    "path": "/electronics/tv-audio/speakers",
+    "level": 2,
+    "description": "Bluetooth, wireless, and home speakers",
+    "metaTitle": "Speakers - tv audio - Miami",
+    "metaDescription": "Bluetooth, wireless, and home speakers available in Miami. Shop online or visit our stores.",
+    "keywords": [
+      "speakers",
+      "tv audio",
+      "Miami"
+    ],
+    "imageUrl": "/images/categories/speakers.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 17,
+    "attributes": {
+      "showInMenu": true,
+      "showInSidebar": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db913fe",
+    "name": "Soundbars",
+    "slug": "soundbars",
+    "parentId": "6880316114bfcd086db913ef",
+    "path": "/electronics/tv-audio/soundbars",
+    "level": 2,
+    "description": "TV soundbars and home theater sound systems",
+    "metaTitle": "Soundbars - tv audio - Miami",
+    "metaDescription": "TV soundbars and home theater sound systems available in Miami. Shop online or visit our stores.",
+    "keywords": [
+      "soundbars",
+      "tv audio",
+      "Miami"
+    ],
+    "imageUrl": "/images/categories/soundbars.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 18,
+    "attributes": {
+      "showInMenu": true,
+      "showInSidebar": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db913ff",
+    "name": "Headphones",
+    "slug": "headphones",
+    "parentId": "6880316114bfcd086db913ef",
+    "path": "/electronics/tv-audio/headphones",
+    "level": 2,
+    "description": "Over-ear, in-ear, and wireless headphones",
+    "metaTitle": "Headphones - tv audio - Miami",
+    "metaDescription": "Over-ear, in-ear, and wireless headphones available in Miami. Shop online or visit our stores.",
+    "keywords": [
+      "headphones",
+      "tv audio",
+      "Miami"
+    ],
+    "imageUrl": "/images/categories/headphones.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 19,
+    "attributes": {
+      "showInMenu": true,
+      "showInSidebar": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db91400",
+    "name": "Smart Lighting",
+    "slug": "smart-lighting",
+    "parentId": "6880316114bfcd086db913f0",
+    "path": "/electronics/smart-home/smart-lighting",
+    "level": 2,
+    "description": "Smart bulbs, switches, and lighting systems",
+    "metaTitle": "Smart Lighting - smart home - Miami",
+    "metaDescription": "Smart bulbs, switches, and lighting systems available in Miami. Shop online or visit our stores.",
+    "keywords": [
+      "smart lighting",
+      "smart home",
+      "Miami"
+    ],
+    "imageUrl": "/images/categories/smart-lighting.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 20,
+    "attributes": {
+      "showInMenu": true,
+      "showInSidebar": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db91401",
+    "name": "Smart Security",
+    "slug": "smart-security",
+    "parentId": "6880316114bfcd086db913f0",
+    "path": "/electronics/smart-home/smart-security",
+    "level": 2,
+    "description": "Cameras, doorbells, and security systems",
+    "metaTitle": "Smart Security - smart home - Miami",
+    "metaDescription": "Cameras, doorbells, and security systems available in Miami. Shop online or visit our stores.",
+    "keywords": [
+      "smart security",
+      "smart home",
+      "Miami"
+    ],
+    "imageUrl": "/images/categories/smart-security.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 21,
+    "attributes": {
+      "showInMenu": true,
+      "showInSidebar": true
+    }
+  }
+]

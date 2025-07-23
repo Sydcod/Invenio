@@ -1,0 +1,348 @@
+/**
+ * Generate Full Warehouse Data
+ * Creates 5 Miami-area warehouses with detailed configurations
+ */
+
+const { ObjectId } = require('mongodb');
+
+function generateWarehouses() {
+  const warehouses = [
+    {
+      _id: new ObjectId(),
+      code: 'WH-MIA-001',
+      name: 'Miami Main Distribution Center',
+      type: 'distribution',
+      status: 'active',
+      address: {
+        street: '2500 NW 107th Avenue',
+        city: 'Miami',
+        state: 'FL',
+        country: 'USA',
+        postalCode: '33172',
+        coordinates: {
+          latitude: 25.7968,
+          longitude: -80.3659
+        }
+      },
+      contact: {
+        phone: '+1-305-555-0100',
+        email: 'wh-mia-001@miamielectronics.com',
+        manager: {
+          name: 'Carlos Rodriguez',
+          email: 'c.rodriguez@miamielectronics.com',
+          phone: '+1-305-555-0101',
+          mobile: '+1-786-555-0102'
+        }
+      },
+      operatingHours: {
+        monday: { open: '06:00', close: '22:00' },
+        tuesday: { open: '06:00', close: '22:00' },
+        wednesday: { open: '06:00', close: '22:00' },
+        thursday: { open: '06:00', close: '22:00' },
+        friday: { open: '06:00', close: '22:00' },
+        saturday: { open: '08:00', close: '18:00' },
+        sunday: { open: '10:00', close: '16:00' }
+      },
+      capacity: {
+        totalSpace: 150000,
+        usedSpace: 95000,
+        availableSpace: 55000,
+        unit: 'sqft',
+        zones: {
+          receiving: 20000,
+          storage: 100000,
+          staging: 20000,
+          shipping: 10000
+        }
+      },
+      features: [
+        'Climate controlled',
+        'Hurricane resistant',
+        '24/7 security',
+        'Loading docks',
+        'High ceiling storage',
+        'RFID tracking'
+      ],
+      certifications: ['ISO 9001', 'TAPA FSR', 'C-TPAT'],
+      settings: {
+        isDefault: true,
+        allowNegativeStock: false,
+        autoReorder: true,
+        minOrderValue: 100,
+        maxOrderValue: 250000,
+        reorderPoint: 20,
+        reorderQuantity: 100
+      },
+      createdAt: new Date('2023-01-15'),
+      updatedAt: new Date()
+    },
+    {
+      _id: new ObjectId(),
+      code: 'WH-AVE-002',
+      name: 'Aventura Retail Warehouse',
+      type: 'retail',
+      status: 'active',
+      address: {
+        street: '19501 Biscayne Boulevard',
+        city: 'Aventura',
+        state: 'FL',
+        country: 'USA',
+        postalCode: '33180',
+        coordinates: {
+          latitude: 25.9525,
+          longitude: -80.1431
+        }
+      },
+      contact: {
+        phone: '+1-305-555-0200',
+        email: 'wh-ave-002@miamielectronics.com',
+        manager: {
+          name: 'Maria Gonzalez',
+          email: 'mgonzalez@miamielectronics.com',
+          phone: '+1-305-555-0201',
+          mobile: '+1-786-555-0202'
+        }
+      },
+      operatingHours: {
+        monday: { open: '09:00', close: '21:00' },
+        tuesday: { open: '09:00', close: '21:00' },
+        wednesday: { open: '09:00', close: '21:00' },
+        thursday: { open: '09:00', close: '21:00' },
+        friday: { open: '09:00', close: '22:00' },
+        saturday: { open: '09:00', close: '22:00' },
+        sunday: { open: '10:00', close: '20:00' }
+      },
+      capacity: {
+        totalSpace: 35000,
+        usedSpace: 28000,
+        availableSpace: 7000,
+        unit: 'sqft',
+        zones: {
+          showroom: 15000,
+          backstock: 15000,
+          service: 5000
+        }
+      },
+      features: [
+        'Customer showroom',
+        'Pickup counter',
+        'Repair center',
+        'Demo area',
+        'Parking garage'
+      ],
+      certifications: ['Retail Excellence'],
+      settings: {
+        isDefault: false,
+        allowNegativeStock: false,
+        autoReorder: true,
+        minOrderValue: 0,
+        maxOrderValue: 50000,
+        reorderPoint: 10,
+        reorderQuantity: 50
+      },
+      createdAt: new Date('2023-03-20'),
+      updatedAt: new Date()
+    },
+    {
+      _id: new ObjectId(),
+      code: 'WH-COR-003',
+      name: 'Coral Gables Premium Storage',
+      type: 'storage',
+      status: 'active',
+      address: {
+        street: '2801 SW 3rd Avenue',
+        city: 'Coral Gables',
+        state: 'FL',
+        country: 'USA',
+        postalCode: '33133',
+        coordinates: {
+          latitude: 25.7331,
+          longitude: -80.2593
+        }
+      },
+      contact: {
+        phone: '+1-305-555-0300',
+        email: 'wh-cor-003@miamielectronics.com',
+        manager: {
+          name: 'James Wilson',
+          email: 'jwilson@miamielectronics.com',
+          phone: '+1-305-555-0301'
+        }
+      },
+      operatingHours: {
+        monday: { open: '08:00', close: '18:00' },
+        tuesday: { open: '08:00', close: '18:00' },
+        wednesday: { open: '08:00', close: '18:00' },
+        thursday: { open: '08:00', close: '18:00' },
+        friday: { open: '08:00', close: '18:00' },
+        saturday: { open: '09:00', close: '14:00' },
+        sunday: { closed: true }
+      },
+      capacity: {
+        totalSpace: 25000,
+        usedSpace: 18000,
+        availableSpace: 7000,
+        unit: 'sqft',
+        zones: {
+          highValue: 5000,
+          standard: 15000,
+          overflow: 5000
+        }
+      },
+      features: [
+        'High security vault',
+        'Climate controlled',
+        'Biometric access',
+        'Insurance coverage'
+      ],
+      certifications: ['Security Grade A'],
+      settings: {
+        isDefault: false,
+        allowNegativeStock: false,
+        autoReorder: false,
+        minOrderValue: 500,
+        maxOrderValue: 100000
+      },
+      createdAt: new Date('2023-05-10'),
+      updatedAt: new Date()
+    },
+    {
+      _id: new ObjectId(),
+      code: 'WH-HOM-004',
+      name: 'Homestead Fulfillment Center',
+      type: 'fulfillment',
+      status: 'active',
+      address: {
+        street: '28700 SW 217th Avenue',
+        city: 'Homestead',
+        state: 'FL',
+        country: 'USA',
+        postalCode: '33030',
+        coordinates: {
+          latitude: 25.5084,
+          longitude: -80.5684
+        }
+      },
+      contact: {
+        phone: '+1-305-555-0400',
+        email: 'wh-hom-004@miamielectronics.com',
+        manager: {
+          name: 'Ana Martinez',
+          email: 'amartinez@miamielectronics.com',
+          phone: '+1-305-555-0401',
+          mobile: '+1-786-555-0402'
+        }
+      },
+      operatingHours: {
+        monday: { open: '00:00', close: '23:59' },
+        tuesday: { open: '00:00', close: '23:59' },
+        wednesday: { open: '00:00', close: '23:59' },
+        thursday: { open: '00:00', close: '23:59' },
+        friday: { open: '00:00', close: '23:59' },
+        saturday: { open: '00:00', close: '23:59' },
+        sunday: { open: '00:00', close: '23:59' }
+      },
+      capacity: {
+        totalSpace: 200000,
+        usedSpace: 140000,
+        availableSpace: 60000,
+        unit: 'sqft',
+        zones: {
+          automated: 80000,
+          manual: 60000,
+          packing: 40000,
+          shipping: 20000
+        }
+      },
+      features: [
+        'Automated sorting',
+        'Robotic picking',
+        'Same-day shipping',
+        'Multi-carrier integration',
+        'Real-time tracking',
+        'Hurricane shelter certified'
+      ],
+      certifications: ['ISO 9001', 'Amazon SFP', 'FedEx Authorized'],
+      settings: {
+        isDefault: false,
+        allowNegativeStock: false,
+        autoReorder: true,
+        minOrderValue: 0,
+        maxOrderValue: 500000,
+        reorderPoint: 50,
+        reorderQuantity: 200
+      },
+      createdAt: new Date('2023-07-01'),
+      updatedAt: new Date()
+    },
+    {
+      _id: new ObjectId(),
+      code: 'WH-BRI-005',
+      name: 'Brickell Boutique Storage',
+      type: 'boutique',
+      status: 'active',
+      address: {
+        street: '1001 Brickell Bay Drive',
+        city: 'Miami',
+        state: 'FL',
+        country: 'USA',
+        postalCode: '33131',
+        coordinates: {
+          latitude: 25.7616,
+          longitude: -80.1885
+        }
+      },
+      contact: {
+        phone: '+1-305-555-0500',
+        email: 'wh-bri-005@miamielectronics.com',
+        manager: {
+          name: 'Sofia Chen',
+          email: 'schen@miamielectronics.com',
+          phone: '+1-305-555-0501'
+        }
+      },
+      operatingHours: {
+        monday: { open: '10:00', close: '19:00' },
+        tuesday: { open: '10:00', close: '19:00' },
+        wednesday: { open: '10:00', close: '19:00' },
+        thursday: { open: '10:00', close: '19:00' },
+        friday: { open: '10:00', close: '20:00' },
+        saturday: { open: '10:00', close: '20:00' },
+        sunday: { open: '12:00', close: '18:00' }
+      },
+      capacity: {
+        totalSpace: 8000,
+        usedSpace: 6000,
+        availableSpace: 2000,
+        unit: 'sqft',
+        zones: {
+          premium: 3000,
+          display: 3000,
+          storage: 2000
+        }
+      },
+      features: [
+        'Luxury showroom',
+        'VIP customer lounge',
+        'Concierge service',
+        'Valet parking'
+      ],
+      certifications: ['Luxury Retail Certified'],
+      settings: {
+        isDefault: false,
+        allowNegativeStock: false,
+        autoReorder: true,
+        minOrderValue: 1000,
+        maxOrderValue: 100000,
+        reorderPoint: 5,
+        reorderQuantity: 20
+      },
+      createdAt: new Date('2023-09-15'),
+      updatedAt: new Date()
+    }
+  ];
+  
+  return warehouses;
+}
+
+module.exports = { generateWarehouses };

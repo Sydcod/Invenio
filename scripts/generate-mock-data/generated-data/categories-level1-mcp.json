@@ -1,0 +1,242 @@
+[
+  {
+    "_id": "6880316114bfcd086db913ee",
+    "name": "Computers & Tablets",
+    "slug": "computers-tablets",
+    "parentId": "6880316114bfcd086db913ed",
+    "path": "/electronics/computers-tablets",
+    "level": 1,
+    "description": "Desktop computers, laptops, tablets, and accessories",
+    "metaTitle": "Computers & Tablets - Miami Electronics Store",
+    "metaDescription": "Shop Computers & Tablets in Miami. Desktop computers, laptops, tablets, and accessories. Best prices and fast delivery.",
+    "keywords": [
+      "computers & tablets",
+      "Miami",
+      "computers tablets"
+    ],
+    "imageUrl": "/images/categories/computers-tablets.jpg",
+    "isActive": true,
+    "isFeatured": true,
+    "sortOrder": 2,
+    "attributes": {
+      "showInMenu": true,
+      "showInHomepage": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db913ef",
+    "name": "TV & Audio",
+    "slug": "tv-audio",
+    "parentId": "6880316114bfcd086db913ed",
+    "path": "/electronics/tv-audio",
+    "level": 1,
+    "description": "Televisions, speakers, soundbars, and home theater systems",
+    "metaTitle": "TV & Audio - Miami Electronics Store",
+    "metaDescription": "Shop TV & Audio in Miami. Televisions, speakers, soundbars, and home theater systems. Best prices and fast delivery.",
+    "keywords": [
+      "tv & audio",
+      "Miami",
+      "tv audio"
+    ],
+    "imageUrl": "/images/categories/tv-audio.jpg",
+    "isActive": true,
+    "isFeatured": true,
+    "sortOrder": 3,
+    "attributes": {
+      "showInMenu": true,
+      "showInHomepage": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db913f0",
+    "name": "Smart Home",
+    "slug": "smart-home",
+    "parentId": "6880316114bfcd086db913ed",
+    "path": "/electronics/smart-home",
+    "level": 1,
+    "description": "Smart home devices, automation, and IoT products",
+    "metaTitle": "Smart Home - Miami Electronics Store",
+    "metaDescription": "Shop Smart Home in Miami. Smart home devices, automation, and IoT products. Best prices and fast delivery.",
+    "keywords": [
+      "smart home",
+      "Miami",
+      "smart home"
+    ],
+    "imageUrl": "/images/categories/smart-home.jpg",
+    "isActive": true,
+    "isFeatured": true,
+    "sortOrder": 4,
+    "attributes": {
+      "showInMenu": true,
+      "showInHomepage": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db913f1",
+    "name": "Gaming",
+    "slug": "gaming",
+    "parentId": "6880316114bfcd086db913ed",
+    "path": "/electronics/gaming",
+    "level": 1,
+    "description": "Gaming consoles, PCs, accessories, and games",
+    "metaTitle": "Gaming - Miami Electronics Store",
+    "metaDescription": "Shop Gaming in Miami. Gaming consoles, PCs, accessories, and games. Best prices and fast delivery.",
+    "keywords": [
+      "gaming",
+      "Miami",
+      "gaming"
+    ],
+    "imageUrl": "/images/categories/gaming.jpg",
+    "isActive": true,
+    "isFeatured": true,
+    "sortOrder": 5,
+    "attributes": {
+      "showInMenu": true,
+      "showInHomepage": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db913f2",
+    "name": "Mobile & Accessories",
+    "slug": "mobile-accessories",
+    "parentId": "6880316114bfcd086db913ed",
+    "path": "/electronics/mobile-accessories",
+    "level": 1,
+    "description": "Smartphones, cases, chargers, and mobile accessories",
+    "metaTitle": "Mobile & Accessories - Miami Electronics Store",
+    "metaDescription": "Shop Mobile & Accessories in Miami. Smartphones, cases, chargers, and mobile accessories. Best prices and fast delivery.",
+    "keywords": [
+      "mobile & accessories",
+      "Miami",
+      "mobile accessories"
+    ],
+    "imageUrl": "/images/categories/mobile-accessories.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 6,
+    "attributes": {
+      "showInMenu": true,
+      "showInHomepage": true
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db913f3",
+    "name": "Cameras & Photography",
+    "slug": "cameras-photography",
+    "parentId": "6880316114bfcd086db913ed",
+    "path": "/electronics/cameras-photography",
+    "level": 1,
+    "description": "Digital cameras, lenses, and photography equipment",
+    "metaTitle": "Cameras & Photography - Miami Electronics Store",
+    "metaDescription": "Shop Cameras & Photography in Miami. Digital cameras, lenses, and photography equipment. Best prices and fast delivery.",
+    "keywords": [
+      "cameras & photography",
+      "Miami",
+      "cameras photography"
+    ],
+    "imageUrl": "/images/categories/cameras-photography.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 7,
+    "attributes": {
+      "showInMenu": true,
+      "showInHomepage": false
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db913f4",
+    "name": "Office Equipment",
+    "slug": "office-equipment",
+    "parentId": "6880316114bfcd086db913ed",
+    "path": "/electronics/office-equipment",
+    "level": 1,
+    "description": "Printers, scanners, and office electronics",
+    "metaTitle": "Office Equipment - Miami Electronics Store",
+    "metaDescription": "Shop Office Equipment in Miami. Printers, scanners, and office electronics. Best prices and fast delivery.",
+    "keywords": [
+      "office equipment",
+      "Miami",
+      "office equipment"
+    ],
+    "imageUrl": "/images/categories/office-equipment.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 8,
+    "attributes": {
+      "showInMenu": true,
+      "showInHomepage": false
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db913f5",
+    "name": "Networking",
+    "slug": "networking",
+    "parentId": "6880316114bfcd086db913ed",
+    "path": "/electronics/networking",
+    "level": 1,
+    "description": "Routers, switches, and networking equipment",
+    "metaTitle": "Networking - Miami Electronics Store",
+    "metaDescription": "Shop Networking in Miami. Routers, switches, and networking equipment. Best prices and fast delivery.",
+    "keywords": [
+      "networking",
+      "Miami",
+      "networking"
+    ],
+    "imageUrl": "/images/categories/networking.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 9,
+    "attributes": {
+      "showInMenu": true,
+      "showInHomepage": false
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db913f6",
+    "name": "Components & Storage",
+    "slug": "components-storage",
+    "parentId": "6880316114bfcd086db913ed",
+    "path": "/electronics/components-storage",
+    "level": 1,
+    "description": "Computer components, storage devices, and accessories",
+    "metaTitle": "Components & Storage - Miami Electronics Store",
+    "metaDescription": "Shop Components & Storage in Miami. Computer components, storage devices, and accessories. Best prices and fast delivery.",
+    "keywords": [
+      "components & storage",
+      "Miami",
+      "components storage"
+    ],
+    "imageUrl": "/images/categories/components-storage.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 10,
+    "attributes": {
+      "showInMenu": true,
+      "showInHomepage": false
+    }
+  },
+  {
+    "_id": "6880316114bfcd086db913f7",
+    "name": "Wearables",
+    "slug": "wearables",
+    "parentId": "6880316114bfcd086db913ed",
+    "path": "/electronics/wearables",
+    "level": 1,
+    "description": "Smartwatches, fitness trackers, and wearable tech",
+    "metaTitle": "Wearables - Miami Electronics Store",
+    "metaDescription": "Shop Wearables in Miami. Smartwatches, fitness trackers, and wearable tech. Best prices and fast delivery.",
+    "keywords": [
+      "wearables",
+      "Miami",
+      "wearables"
+    ],
+    "imageUrl": "/images/categories/wearables.jpg",
+    "isActive": true,
+    "isFeatured": false,
+    "sortOrder": 11,
+    "attributes": {
+      "showInMenu": true,
+      "showInHomepage": false
+    }
+  }
+]
