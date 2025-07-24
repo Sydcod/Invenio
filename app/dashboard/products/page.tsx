@@ -1,6 +1,15 @@
 import { requirePermission } from "@/libs/auth-utils";
 import Link from "next/link";
-import { PlusIcon, MagnifyingGlassIcon } from "@heroicons/react/24/outline";
+import { 
+  PlusIcon, 
+  MagnifyingGlassIcon,
+  CubeIcon,
+  CheckCircleIcon,
+  ExclamationTriangleIcon,
+  CurrencyDollarIcon,
+  ArchiveBoxIcon,
+  XCircleIcon
+} from "@heroicons/react/24/outline";
 import Product from "@/models/Product";
 import Category from "@/models/Category";
 import connectMongo from "@/libs/mongoose";
@@ -21,12 +30,136 @@ async function getProducts(searchQuery?: string) {
   }
   
   const products = await Product.find(query)
-
     .sort({ createdAt: -1 })
     .limit(100)
     .lean();
     
   return products;
+}
+
+async function getProductStats() {
+  try {
+    await connectMongo();
+
+    const [overview, inventoryStats, lowStockProducts, topCategories, topBrands] = await Promise.all([
+      // Overview stats
+      Product.aggregate([
+        {
+          $group: {
+            _id: null,
+            total: { $sum: 1 },
+            active: { $sum: { $cond: [{ $eq: ["$status", "active"] }, 1, 0] } },
+            draft: { $sum: { $cond: [{ $eq: ["$status", "draft"] }, 1, 0] } },
+            discontinued: { $sum: { $cond: [{ $eq: ["$status", "discontinued"] }, 1, 0] } },
+          },
+        },
+      ]),
+
+      // Inventory stats
+      Product.aggregate([
+        {
+          $group: {
+            _id: null,
+            totalValue: {
+              $sum: { $multiply: ["$pricing.price", "$inventory.currentStock"] },
+            },
+            totalStock: { $sum: "$inventory.currentStock" },
+            lowStock: {
+              $sum: {
+                $cond: [
+                  {
+                    $and: [
+                      { $gt: ["$inventory.currentStock", 0] },
+                      { $lte: ["$inventory.currentStock", "$inventory.reorderPoint"] },
+                    ],
+                  },
+                  1,
+                  0,
+                ],
+              },
+            },
+            outOfStock: {
+              $sum: { $cond: [{ $eq: ["$inventory.currentStock", 0] }, 1, 0] },
+            },
+          },
+        },
+      ]),
+
+      // Low stock products
+      Product.find({
+        $and: [
+          { "inventory.currentStock": { $gt: 0 } },
+          { $expr: { $lte: ["$inventory.currentStock", "$inventory.reorderPoint"] } },
+        ],
+      })
+        .limit(5)
+        .select("name sku inventory.currentStock inventory.reorderPoint")
+        .lean(),
+
+      // Top categories by product count and value
+      Product.aggregate([
+        { $match: { status: "active" } },
+        {
+          $group: {
+            _id: "$category.name",
+            count: { $sum: 1 },
+            value: {
+              $sum: { $multiply: ["$pricing.price", "$inventory.currentStock"] },
+            },
+          },
+        },
+        { $sort: { value: -1 } },
+        { $limit: 5 },
+      ]),
+
+      // Top brands by product count and value
+      Product.aggregate([
+        { $match: { status: "active", brand: { $ne: null } } },
+        {
+          $group: {
+            _id: "$brand",
+            count: { $sum: 1 },
+            value: {
+              $sum: { $multiply: ["$pricing.price", "$inventory.currentStock"] },
+            },
+          },
+        },
+        { $sort: { value: -1 } },
+        { $limit: 5 },
+      ]),
+    ]);
+
+    const stats = {
+      overview: {
+        total: overview[0]?.total || 0,
+        active: overview[0]?.active || 0,
+        draft: overview[0]?.draft || 0,
+        discontinued: overview[0]?.discontinued || 0,
+        lowStock: inventoryStats[0]?.lowStock || 0,
+        outOfStock: inventoryStats[0]?.outOfStock || 0,
+      },
+      inventory: {
+        totalValue: inventoryStats[0]?.totalValue || 0,
+        totalStock: inventoryStats[0]?.totalStock || 0,
+      },
+      lowStockProducts: lowStockProducts,
+      topCategories: topCategories.map((cat) => ({
+        category: cat._id || "Uncategorized",
+        count: cat.count,
+        value: cat.value,
+      })),
+      topBrands: topBrands.map((brand) => ({
+        brand: brand._id,
+        count: brand.count,
+        value: brand.value,
+      })),
+    };
+
+    return stats;
+  } catch (error) {
+    console.error('Error fetching product stats:', error);
+    return null;
+  }
 }
 
 export default async function ProductsPage({
@@ -35,12 +168,15 @@ export default async function ProductsPage({
   searchParams: { search?: string };
 }) {
   const session = await requirePermission('canManageInventory');
-  const products = await getProducts(searchParams.search);
+  const [products, stats] = await Promise.all([
+    getProducts(searchParams.search),
+    getProductStats()
+  ]);
 
   return (
-    <div className="p-8">
+    <div className="p-8 bg-gray-100 min-h-screen">
       {/* Page header */}
-      <div className="sm:flex sm:items-center sm:justify-between">
+      <div className="sm:flex sm:items-center sm:justify-between mb-8">
         <div>
           <h1 className="text-2xl font-bold text-gray-900">Products</h1>
           <p className="mt-1 text-sm text-gray-500">
@@ -57,6 +193,91 @@ export default async function ProductsPage({
           </Link>
         </div>
       </div>
+
+      {/* Metric Cards */}
+      {stats && (
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 mb-8">
+          {/* Total Products */}
+          <div className="relative overflow-hidden rounded-lg bg-white px-6 py-5 shadow hover:shadow-md transition-shadow">
+            <dt>
+              <div className="absolute rounded-md bg-blue-100 p-3">
+                <CubeIcon className="h-6 w-6 text-blue-600" />
+              </div>
+              <p className="ml-16 truncate text-sm font-medium text-gray-500">Total Products</p>
+            </dt>
+            <dd className="ml-16 flex items-baseline">
+              <p className="text-2xl font-semibold text-gray-900">{stats.overview.total}</p>
+            </dd>
+          </div>
+
+          {/* Active Products */}
+          <div className="relative overflow-hidden rounded-lg bg-white px-6 py-5 shadow hover:shadow-md transition-shadow">
+            <dt>
+              <div className="absolute rounded-md bg-green-100 p-3">
+                <CheckCircleIcon className="h-6 w-6 text-green-600" />
+              </div>
+              <p className="ml-16 truncate text-sm font-medium text-gray-500">Active</p>
+            </dt>
+            <dd className="ml-16 flex items-baseline">
+              <p className="text-2xl font-semibold text-gray-900">{stats.overview.active}</p>
+            </dd>
+          </div>
+
+          {/* Low Stock */}
+          <div className="relative overflow-hidden rounded-lg bg-white px-6 py-5 shadow hover:shadow-md transition-shadow">
+            <dt>
+              <div className="absolute rounded-md bg-yellow-100 p-3">
+                <ExclamationTriangleIcon className="h-6 w-6 text-yellow-600" />
+              </div>
+              <p className="ml-16 truncate text-sm font-medium text-gray-500">Low Stock</p>
+            </dt>
+            <dd className="ml-16 flex items-baseline">
+              <p className="text-2xl font-semibold text-gray-900">{stats.overview.lowStock}</p>
+            </dd>
+          </div>
+
+          {/* Out of Stock */}
+          <div className="relative overflow-hidden rounded-lg bg-white px-6 py-5 shadow hover:shadow-md transition-shadow">
+            <dt>
+              <div className="absolute rounded-md bg-red-100 p-3">
+                <XCircleIcon className="h-6 w-6 text-red-600" />
+              </div>
+              <p className="ml-16 truncate text-sm font-medium text-gray-500">Out of Stock</p>
+            </dt>
+            <dd className="ml-16 flex items-baseline">
+              <p className="text-2xl font-semibold text-gray-900">{stats.overview.outOfStock}</p>
+            </dd>
+          </div>
+
+          {/* Total Inventory Value */}
+          <div className="relative overflow-hidden rounded-lg bg-white px-6 py-5 shadow hover:shadow-md transition-shadow">
+            <dt>
+              <div className="absolute rounded-md bg-purple-100 p-3">
+                <CurrencyDollarIcon className="h-6 w-6 text-purple-600" />
+              </div>
+              <p className="ml-16 truncate text-sm font-medium text-gray-500">Inventory Value</p>
+            </dt>
+            <dd className="ml-16 flex items-baseline">
+              <p className="text-2xl font-semibold text-gray-900">
+                ${(stats.inventory.totalValue / 1000).toFixed(0)}K
+              </p>
+            </dd>
+          </div>
+
+          {/* Discontinued */}
+          <div className="relative overflow-hidden rounded-lg bg-white px-6 py-5 shadow hover:shadow-md transition-shadow">
+            <dt>
+              <div className="absolute rounded-md bg-gray-100 p-3">
+                <ArchiveBoxIcon className="h-6 w-6 text-gray-600" />
+              </div>
+              <p className="ml-16 truncate text-sm font-medium text-gray-500">Discontinued</p>
+            </dt>
+            <dd className="ml-16 flex items-baseline">
+              <p className="text-2xl font-semibold text-gray-900">{stats.overview.discontinued}</p>
+            </dd>
+          </div>
+        </div>
+      )}
 
       {/* Search bar */}
       <div className="mt-6">
@@ -137,24 +358,24 @@ export default async function ProductsPage({
                         </td>
                         <td className="whitespace-nowrap px-3 py-4 text-sm">
                           <div className={`font-medium ${
-                            product.inventory.quantity <= product.inventory.reorderPoint
+                            (product.inventory?.currentStock || 0) <= (product.inventory?.reorderPoint || 0)
                               ? 'text-red-600'
                               : 'text-gray-900'
                           }`}>
-                            {product.inventory.quantity}
-                            {product.inventory.quantity <= product.inventory.reorderPoint && (
+                            {product.inventory?.currentStock || 0}
+                            {(product.inventory?.currentStock || 0) <= (product.inventory?.reorderPoint || 0) && (
                               <span className="ml-1 text-xs text-red-500">Low</span>
                             )}
                           </div>
                           <div className="text-xs text-gray-500">
-                            Min: {product.inventory.minQuantity}
+                            Min: {product.inventory?.minQuantity || 0}
                           </div>
                         </td>
                         <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-900">
-                          ${product.pricing.price.toFixed(2)}
-                          {product.pricing.compareAtPrice > product.pricing.price && (
+                          ${product.pricing?.price?.toFixed(2) || '0.00'}
+                          {product.pricing?.compareAtPrice > product.pricing?.price && (
                             <div className="text-xs text-gray-500 line-through">
-                              ${product.pricing.compareAtPrice.toFixed(2)}
+                              ${product.pricing?.compareAtPrice?.toFixed(2) || '0.00'}
                             </div>
                           )}
                         </td>

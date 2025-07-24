@@ -3,6 +3,7 @@ import { getServerSession } from 'next-auth/next';
 import { authOptions } from '@/libs/next-auth';
 import connectMongo from '@/libs/mongoose';
 import Category from '@/models/Category';
+import Product from '@/models/Product';
 import mongoose from 'mongoose';
 
 // GET /api/categories - List all categories
@@ -48,7 +49,35 @@ export async function GET(req: NextRequest) {
     // Execute query
     const categories = await Category.find(query)
       .populate('parentId', 'name')
-      .sort({ sortOrder: 1, name: 1 });
+      .sort({ sortOrder: 1, name: 1 })
+      .lean();
+
+    // Get product counts for each category
+    const productCounts = await Product.aggregate([
+      {
+        $match: {
+          isActive: true,
+          status: 'active'
+        }
+      },
+      {
+        $group: {
+          _id: '$category.id',
+          count: { $sum: 1 }
+        }
+      }
+    ]);
+
+    // Create a map of category ID to product count
+    const countMap = new Map(
+      productCounts.map((item: any) => [item._id.toString(), item.count])
+    );
+
+    // Add product counts to categories
+    const categoriesWithCounts = categories.map(cat => ({
+      ...cat,
+      productCount: countMap.get(cat._id.toString()) || 0
+    }));
 
     // Build hierarchy if requested
     const buildHierarchy = searchParams.get('hierarchy') === 'true';
@@ -56,24 +85,21 @@ export async function GET(req: NextRequest) {
       const categoryMap = new Map();
       const rootCategories: any[] = [];
 
-      // Create map of all categories
-      categories.forEach(cat => {
+      categoriesWithCounts.forEach(cat => {
         categoryMap.set(cat._id.toString(), {
-          ...cat.toObject(),
-          children: [],
+          ...cat,
+          children: []
         });
       });
 
-      // Build hierarchy
-      categories.forEach(cat => {
-        const catObj = categoryMap.get(cat._id.toString());
+      categoriesWithCounts.forEach(cat => {
         if (cat.parentId) {
           const parent = categoryMap.get(cat.parentId._id.toString());
           if (parent) {
-            parent.children.push(catObj);
+            parent.children.push(categoryMap.get(cat._id.toString()));
           }
         } else {
-          rootCategories.push(catObj);
+          rootCategories.push(categoryMap.get(cat._id.toString()));
         }
       });
 
@@ -86,8 +112,8 @@ export async function GET(req: NextRequest) {
 
     return NextResponse.json({
       success: true,
-      data: categories,
-      count: categories.length,
+      data: categoriesWithCounts,
+      count: categoriesWithCounts.length,
     });
   } catch (error) {
     console.error('Error fetching categories:', error);
