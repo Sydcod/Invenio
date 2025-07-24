@@ -74,39 +74,64 @@ export async function GET(req: NextRequest) {
     );
 
     // Add product counts to categories
-    const categoriesWithCounts = categories.map(cat => ({
+    const categoriesWithCounts = categories.map((cat: any) => ({
       ...cat,
       productCount: countMap.get(cat._id.toString()) || 0
     }));
 
-    // Build hierarchy if requested
-    const buildHierarchy = searchParams.get('hierarchy') === 'true';
-    if (buildHierarchy && !parent) {
-      const categoryMap = new Map();
-      const rootCategories: any[] = [];
-
-      categoriesWithCounts.forEach(cat => {
-        categoryMap.set(cat._id.toString(), {
-          ...cat,
-          children: []
-        });
-      });
-
-      categoriesWithCounts.forEach(cat => {
-        if (cat.parentId) {
-          const parent = categoryMap.get(cat.parentId._id.toString());
-          if (parent) {
-            parent.children.push(categoryMap.get(cat._id.toString()));
+    // Check if hierarchy is requested
+    const withHierarchy = searchParams.get('hierarchy') === 'true';
+    
+    if (withHierarchy && !parent) {
+      console.log('Building hierarchy using Category.buildTree()');
+      
+      // Use the Category model's built-in buildTree method
+      const tree = await (Category as any).buildTree();
+      
+      // Add product counts to the tree and aggregate for parents
+      const addProductCounts = (nodes: any[]): any[] => {
+        return nodes.map(node => {
+          // Get direct product count for this category
+          const directCount = countMap.get(node._id.toString()) || 0;
+          
+          // Process children first
+          let childrenWithCounts: any[] = [];
+          let childrenTotalCount = 0;
+          
+          if (node.children && node.children.length > 0) {
+            childrenWithCounts = addProductCounts(node.children);
+            // Sum up all children's total counts
+            childrenTotalCount = childrenWithCounts.reduce((sum, child) => 
+              sum + (child.productCount || 0), 0
+            );
           }
-        } else {
-          rootCategories.push(categoryMap.get(cat._id.toString()));
-        }
-      });
+          
+          // Total count is direct count plus all children's counts
+          const totalCount = directCount + childrenTotalCount;
+          
+          return {
+            ...node,
+            productCount: totalCount,
+            directProductCount: directCount,
+            children: childrenWithCounts
+          };
+        });
+      };
+      
+      const treeWithCounts = addProductCounts(tree);
+      
+      console.log('Tree built with', treeWithCounts.length, 'root categories');
+      console.log('Tree structure:', JSON.stringify(treeWithCounts.map(c => ({
+        name: c.name,
+        level: c.level,
+        childrenCount: c.children?.length || 0,
+        childrenNames: c.children?.map((child: any) => child.name) || []
+      })), null, 2));
 
       return NextResponse.json({
         success: true,
-        data: rootCategories,
-        count: categories.length,
+        data: treeWithCounts,
+        count: treeWithCounts.length,
       });
     }
 

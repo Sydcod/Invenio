@@ -41,13 +41,14 @@ const getCategoryIcon = (name: string, level: number) => {
   return '📄';
 };
 
-// Color classes for levels
+// Color classes// Get level color
 const getLevelColor = (level: number) => {
   const colors = [
-    'bg-purple-50 text-purple-700 border-purple-200',
-    'bg-blue-50 text-blue-700 border-blue-200',
-    'bg-green-50 text-green-700 border-green-200',
-    'bg-yellow-50 text-yellow-700 border-yellow-200'
+    'bg-gray-50 border-gray-300 border-l-4',
+    'bg-blue-50 border-blue-300 border-l-4', 
+    'bg-green-50 border-green-300 border-l-4',
+    'bg-amber-50 border-amber-300 border-l-4',
+    'bg-indigo-50 border-indigo-300 border-l-4'
   ];
   return colors[level % colors.length];
 };
@@ -62,6 +63,7 @@ interface Category {
   parentId?: string;
   isActive: boolean;
   productCount?: number;
+  directProductCount?: number;
   children: Category[];
 }
 
@@ -91,36 +93,38 @@ function CategoryRow({
   const levelColor = getLevelColor(level);
   
   return (
-    <div className="group">
+    <div className="mb-1">
       <div 
         className={`
-          flex items-center px-4 py-3 hover:bg-gray-50 transition-colors
-          ${level === 0 ? 'border-t border-gray-200' : ''}
+          border rounded-lg p-4 transition-all relative
+          ${getLevelColor(level)}
+          ${level > 0 ? 'ml-' + (level * 12) : ''}
         `}
       >
-        <div className="flex items-center flex-1" style={{ paddingLeft: `${level * 1.5}rem` }}>
+        <div className="flex items-center gap-2">
+          {/* Expand/Collapse button - Windows Explorer style */}
+          <div className="flex items-center gap-2">
           {hasChildren && (
-            <button
+            <button 
               onClick={onToggle}
-              className="mr-2 p-1 hover:bg-gray-200 rounded transition-colors"
+              className="flex items-center justify-center w-6 h-6 rounded hover:bg-gray-100 text-gray-600 hover:text-gray-900 transition-colors"
+              aria-label={isExpanded ? 'Collapse' : 'Expand'}
             >
               {isExpanded ? (
-                <ChevronDownIcon className="h-4 w-4 text-gray-600" />
+                <span className="text-lg font-bold leading-none">−</span>
               ) : (
-                <ChevronRightIcon className="h-4 w-4 text-gray-600" />
+                <span className="text-lg font-bold leading-none">+</span>
               )}
             </button>
           )}
-          {!hasChildren && <div className="w-8" />}
+          {!hasChildren && <div className="w-6" />}
+          </div>
           
-          <span className="text-2xl mr-3">{icon}</span>
+          <span className="text-lg mr-2">{icon}</span>
           
           <div className="flex-1">
             <div className="flex items-center gap-3">
               <span className="font-medium text-gray-900">{category.name}</span>
-              <span className={`px-2 py-0.5 text-xs rounded-full border ${levelColor}`}>
-                Level {level}
-              </span>
               <span className="text-xs text-gray-500">{category.code}</span>
             </div>
             {category.description && (
@@ -133,6 +137,11 @@ function CategoryRow({
           <div className="text-sm text-gray-600">
             <span className="font-medium">{category.productCount || 0}</span>
             <span className="text-gray-400 ml-1">products</span>
+            {category.directProductCount !== undefined && category.productCount !== category.directProductCount && (
+              <span className="text-xs text-gray-400 ml-1">
+                ({category.directProductCount} direct)
+              </span>
+            )}
           </div>
           
           <div className="flex items-center gap-2">
@@ -227,6 +236,12 @@ export default function EnhancedCategoriesPage() {
       if (!statsResponse.ok) throw new Error('Failed to fetch stats');
       const statsData = await statsResponse.json();
       
+      console.log('Categories from API:', catData.data);
+      console.log('First category children:', catData.data?.[0]?.children);
+      console.log('All category names and levels:');
+      catData.data?.forEach((cat: any) => {
+        console.log(`- ${cat.name} (Level ${cat.level}, Children: ${cat.children?.length || 0})`);
+      });
       setCategories(catData.data || []);
       setStats(statsData);
     } catch (error) {
