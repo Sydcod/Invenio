@@ -355,7 +355,7 @@ export default function ReportViewer({ reportConfig, reportId, category }: Repor
             </tr>
           </thead>
           <tbody>
-            ${allData.map(row => `
+            ${allData.map((row: any) => `
               <tr>
                 ${reportConfig.columns
                   .filter(col => col.exportable !== false)
