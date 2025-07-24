@@ -79,7 +79,7 @@ export async function GET() {
       // This month's revenue (up to current day)
       SalesOrder.aggregate([
         { $match: { 
-          createdAt: { 
+          "dates.orderDate": { 
             $gte: thisMonthStart.toISOString(),
             $lte: thisMonthEnd.toISOString()
           } 
@@ -94,7 +94,7 @@ export async function GET() {
       // Last month's revenue (same day range)
       SalesOrder.aggregate([
         { $match: { 
-          createdAt: { 
+          "dates.orderDate": { 
             $gte: lastMonthStart.toISOString(),
             $lte: lastMonthEnd.toISOString()
           } 

@@ -35,12 +35,12 @@ export default function DashboardSidebar() {
   const pathname = usePathname();
 
   return (
-    <div className="flex h-full w-64 flex-col bg-white border-r border-gray-200">
+    <div className="flex h-full w-64 flex-col bg-[#1E293B] border-r border-gray-200">
       {/* Logo */}
-      <div className="flex h-16 items-center justify-center border-b border-gray-200 px-4">
+      <div className="flex h-16 items-center justify-center border-b border-gray-700 px-4">
         <Link href="/dashboard" className="flex items-center space-x-2">
-          <CubeIcon className="h-8 w-8 text-primary" />
-          <span className="text-xl font-bold">Invenio</span>
+          <CubeIcon className="h-8 w-8 text-white" />
+          <span className="text-xl font-bold text-white">Invenio</span>
         </Link>
       </div>
 
@@ -57,16 +57,16 @@ export default function DashboardSidebar() {
               className={cn(
                 'group flex items-center px-2 py-2 text-sm font-medium rounded-md transition-colors',
                 isActive
-                  ? 'bg-primary/10 text-primary'
-                  : 'text-gray-600 hover:bg-gray-50 hover:text-gray-900'
+                  ? 'bg-white/20 text-white'
+                  : 'text-gray-300 hover:bg-white/10 hover:text-white'
               )}
             >
               <item.icon
                 className={cn(
                   'mr-3 h-5 w-5 flex-shrink-0 transition-colors',
                   isActive
-                    ? 'text-primary'
-                    : 'text-gray-400 group-hover:text-gray-500'
+                    ? 'text-white'
+                    : 'text-gray-400 group-hover:text-gray-300'
                 )}
               />
               {item.name}

@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { 
   AreaChart, Area, BarChart, Bar, PieChart, Pie, Cell,
-  XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer
+  XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, Treemap
 } from 'recharts';
 import { 
   CurrencyDollarIcon, 
@@ -151,7 +151,7 @@ export default function DashboardPage() {
   ];
 
   return (
-    <div className="p-8 bg-gray-50 min-h-screen">
+    <div className="p-8 bg-gray-100 min-h-screen">
       {/* Page header */}
       <div className="mb-8">
         <h1 className="text-3xl font-bold text-gray-900">Dashboard Overview</h1>
@@ -249,28 +249,70 @@ export default function DashboardPage() {
 
       {/* Category Distribution and Channel Performance */}
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-2 mb-8">
-        {/* Inventory by Category */}
-        <div className="bg-white p-6 rounded-lg shadow">
+        {/* Inventory Value by Category */}
+        <div className="bg-white rounded-lg shadow p-6">
           <h3 className="text-lg font-medium text-gray-900 mb-4">Inventory Value by Category</h3>
-          <ResponsiveContainer width="100%" height={300}>
-            <PieChart>
-              <Pie
+          <div className="h-64">
+            <ResponsiveContainer width="100%" height="100%">
+              <Treemap
                 data={categoryData}
-                cx="50%"
-                cy="50%"
-                labelLine={false}
-                label={(entry) => entry.name}
-                outerRadius={80}
-                fill="#8884d8"
                 dataKey="value"
+                aspectRatio={4/3}
+                stroke="#fff"
+                fill="#8884d8"
+                content={(props) => {
+                  const { x, y, width, height, index, name, value } = props;
+                  const color = COLORS[index % COLORS.length];
+                  
+                  return (
+                    <g>
+                      <rect
+                        x={x}
+                        y={y}
+                        width={width}
+                        height={height}
+                        style={{ fill: color, stroke: '#fff', strokeWidth: 2 }}
+                      />
+                      {width > 50 && height > 30 && (
+                        <text
+                          x={x + width / 2}
+                          y={y + height / 2}
+                          fill="#fff"
+                          textAnchor="middle"
+                          dominantBaseline="central"
+                          fontSize={width > 100 ? 14 : 12}
+                          fontWeight="500"
+                        >
+                          {name}
+                        </text>
+                      )}
+                    </g>
+                  );
+                }}
               >
-                {categoryData.map((entry: any, index: number) => (
-                  <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                ))}
-              </Pie>
-              <Tooltip formatter={(value: any) => formatCurrency(value)} />
-            </PieChart>
-          </ResponsiveContainer>
+                <Tooltip 
+                  content={({ payload }) => {
+                    if (payload && payload.length > 0) {
+                      const data = payload[0];
+                      const total = categoryData.reduce((sum: number, item: any) => sum + item.value, 0);
+                      return (
+                        <div className="bg-white p-2 border border-gray-200 rounded shadow-sm">
+                          <p className="font-medium">{data.payload.name}</p>
+                          <p className="text-sm text-gray-600">
+                            Value: ${Number(data.value).toLocaleString()}
+                          </p>
+                          <p className="text-sm text-gray-600">
+                            {((data.value / total) * 100).toFixed(1)}% of total
+                          </p>
+                        </div>
+                      );
+                    }
+                    return null;
+                  }}
+                />
+              </Treemap>
+            </ResponsiveContainer>
+          </div>
         </div>
 
         {/* Sales by Channel */}

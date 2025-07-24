@@ -23,11 +23,11 @@ interface DashboardHeaderProps {
 
 export default function DashboardHeader({ user }: DashboardHeaderProps) {
   return (
-    <div className="sticky top-0 z-10 flex h-16 bg-white border-b border-gray-200">
+    <div className="sticky top-0 z-10 flex h-16 bg-[#1E293B] border-b border-gray-700">
       <div className="flex flex-1 items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Welcome message */}
         <div className="flex items-center">
-          <span className="text-sm font-medium text-gray-900">Welcome back!</span>
+          <span className="text-sm font-medium text-white">Welcome back!</span>
         </div>
 
         {/* Right side */}
@@ -35,16 +35,16 @@ export default function DashboardHeader({ user }: DashboardHeaderProps) {
           {/* Notifications */}
           <button
             type="button"
-            className="relative p-1.5 text-gray-400 hover:text-gray-500 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+            className="relative p-1.5 text-gray-300 hover:text-white focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#1E293B]"
           >
             <span className="sr-only">View notifications</span>
             <BellIcon className="h-6 w-6" />
-            <span className="absolute top-0 right-0 block h-2 w-2 rounded-full bg-red-400 ring-2 ring-white" />
+            <span className="absolute top-0 right-0 block h-2 w-2 rounded-full bg-red-400 ring-2 ring-[#1E293B]" />
           </button>
 
           {/* Profile dropdown */}
           <Menu as="div" className="relative">
-            <Menu.Button className="flex items-center gap-x-2 rounded-full bg-white p-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2">
+            <Menu.Button className="flex items-center gap-x-2 rounded-full bg-white/10 p-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-[#1E293B]">
               <span className="sr-only">Open user menu</span>
               {user.image ? (
                 <img
@@ -53,13 +53,13 @@ export default function DashboardHeader({ user }: DashboardHeaderProps) {
                   alt={user.name || 'User'}
                 />
               ) : (
-                <UserCircleIcon className="h-8 w-8 text-gray-400" />
+                <UserCircleIcon className="h-8 w-8 text-gray-300" />
               )}
               <span className="hidden lg:flex lg:items-center">
-                <span className="text-sm font-medium text-gray-700" aria-hidden="true">
+                <span className="text-sm font-medium text-white" aria-hidden="true">
                   {user.name || user.email}
                 </span>
-                <ChevronDownIcon className="ml-1 h-4 w-4 text-gray-400" />
+                <ChevronDownIcon className="ml-1 h-4 w-4 text-gray-300" />
               </span>
             </Menu.Button>
             <Transition

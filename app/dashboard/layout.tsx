@@ -11,7 +11,7 @@ export default async function DashboardLayout({
   const session = await requireAuth();
 
   return (
-    <div className="flex h-screen bg-gray-50">
+    <div className="flex h-screen bg-gray-100">
       {/* Sidebar */}
       <DashboardSidebar />
       
