@@ -159,20 +159,7 @@ export const inventorySummaryReport: ReportConfig = {
   aggregationPipeline: (params: ReportParams) => {
     const pipeline: any[] = [];
     
-    // 1. Filter by warehouse first if specified (to reduce dataset early)
-    if (params.filters.warehouse && params.filters.warehouse !== 'all') {
-      pipeline.push({
-        $match: {
-          'inventory.locations': {
-            $elemMatch: {
-              warehouseId: params.filters.warehouse
-            }
-          }
-        }
-      });
-    }
-    
-    // 2. Match active products and apply other filters
+    // 1. Match active products and apply filters
     const matchStage: any = {
       isActive: true
     };
@@ -202,6 +189,16 @@ export const inventorySummaryReport: ReportConfig = {
         { sku: { $regex: params.filters.search, $options: 'i' } },
         { description: { $regex: params.filters.search, $options: 'i' } }
       ];
+    }
+    
+    // Warehouse filter - filter products that have stock in the selected warehouse
+    if (params.filters.warehouse && params.filters.warehouse !== 'all') {
+      matchStage['inventory.locations'] = {
+        $elemMatch: {
+          warehouseId: params.filters.warehouse,
+          quantity: { $gt: 0 }  // Only show products with stock in this warehouse
+        }
+      };
     }
     
     pipeline.push({ $match: matchStage });

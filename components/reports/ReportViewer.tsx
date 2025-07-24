@@ -208,24 +208,190 @@ export default function ReportViewer({ reportConfig, reportId, category }: Repor
       
       if (response.ok) {
         const blob = await response.blob();
+        console.log(`Export ${format} - Blob size:`, blob.size, 'Type:', blob.type);
+        
+        // Check if we got an empty response
+        if (blob.size === 0) {
+          console.error(`Export ${format} failed: Empty response`);
+          alert(`Export to ${format.toUpperCase()} failed: No data received`);
+          return;
+        }
+        
         const url = window.URL.createObjectURL(blob);
         const a = document.createElement('a');
         a.href = url;
-        a.download = `${reportConfig.name.toLowerCase().replace(/\s+/g, '_')}_${format}`;
+        
+        // Add proper file extension based on format
+        const fileExtensions: Record<string, string> = {
+          csv: '.csv',
+          excel: '.xlsx',
+          pdf: '.pdf'
+        };
+        const timestamp = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
+        a.download = `${reportConfig.name.toLowerCase().replace(/\s+/g, '_')}_${timestamp}${fileExtensions[format] || ''}`;
+        
         document.body.appendChild(a);
         a.click();
         window.URL.revokeObjectURL(url);
         document.body.removeChild(a);
+      } else {
+        // Handle non-OK responses
+        const errorText = await response.text();
+        console.error(`Export ${format} failed with status ${response.status}:`, errorText);
+        alert(`Export to ${format.toUpperCase()} failed: ${response.statusText}`);
       }
     } catch (error) {
       console.error('Export failed:', error);
+      alert(`Export failed: ${error instanceof Error ? error.message : 'Unknown error'}`);
     } finally {
       setExporting(false);
     }
   };
 
-  const handlePrint = () => {
-    window.print();
+  const handlePrint = async () => {
+    // Fetch all data for printing
+    setLoading(true);
+    try {
+      // Build params with large page size to get all records
+      const params = new URLSearchParams();
+      params.append('page', '1');
+      params.append('pageSize', '10000'); // Get all records
+      
+      // Add current filters
+      Object.entries(filters).forEach(([key, value]) => {
+        if (value !== undefined && value !== null && value !== '') {
+          if (key === 'dateRange' && value.startDate && value.endDate) {
+            params.append(key, JSON.stringify(value));
+          } else if (Array.isArray(value)) {
+            params.append(key, value.join(','));
+          } else {
+            params.append(key, value.toString());
+          }
+        }
+      });
+
+      // Add sort parameters
+      if (sortColumn) {
+        params.append('sortBy', sortColumn);
+        params.append('sortOrder', sortDirection);
+      }
+
+      const response = await fetch(`/api/reports/${category}/${reportId.replace(`${category}-`, '')}?${params}`);
+      
+      if (!response.ok) {
+        throw new Error('Failed to fetch data for printing');
+      }
+
+      const result = await response.json();
+      const allData = result.data || [];
+      const printSummary = result.summary || summary;
+      const printTotalRecords = result.pagination?.totalRecords || allData.length;
+
+      // Create a print-specific window with just the report content
+      const printWindow = window.open('', '_blank');
+      if (!printWindow) return;
+
+      // Build the print content
+      const printContent = `
+      <!DOCTYPE html>
+      <html>
+      <head>
+        <title>${reportConfig.name}</title>
+        <style>
+          body { font-family: Arial, sans-serif; padding: 20px; }
+          h1 { color: #333; margin-bottom: 10px; }
+          .metadata { color: #666; font-size: 14px; margin-bottom: 20px; }
+          .filters { background: #f5f5f5; padding: 10px; margin-bottom: 20px; border-radius: 4px; }
+          .filters h3 { margin: 0 0 10px 0; font-size: 16px; }
+          .filter-item { margin: 5px 0; }
+          .summary { background: #e8f4f8; padding: 15px; margin-bottom: 20px; border-radius: 4px; }
+          .summary h3 { margin: 0 0 10px 0; }
+          .summary-item { display: inline-block; margin-right: 30px; }
+          table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+          th { background: #f0f0f0; padding: 10px; text-align: left; border: 1px solid #ddd; }
+          td { padding: 8px; border: 1px solid #ddd; }
+          tr:nth-child(even) { background: #f9f9f9; }
+          @media print {
+            body { margin: 0; }
+            .no-print { display: none; }
+          }
+        </style>
+      </head>
+      <body>
+        <h1>${reportConfig.name}</h1>
+        <div class="metadata">
+          Generated on: ${new Date().toLocaleString()}<br>
+          Total Records: ${printTotalRecords}
+        </div>
+        
+        ${Object.keys(filters).some(key => filters[key]) ? `
+          <div class="filters">
+            <h3>Applied Filters:</h3>
+            ${Object.entries(filters).map(([key, value]) => {
+              if (!value) return '';
+              const filter = reportConfig.filters.find(f => f.key === key);
+              const label = filter?.label || key;
+              return `<div class="filter-item"><strong>${label}:</strong> ${Array.isArray(value) ? value.join(', ') : value}</div>`;
+            }).join('')}
+          </div>
+        ` : ''}
+        
+        ${Object.keys(printSummary).length > 0 ? `
+          <div class="summary">
+            <h3>Summary</h3>
+            ${Object.entries(printSummary).map(([key, value]) => 
+              `<div class="summary-item"><strong>${key}:</strong> ${value}</div>`
+            ).join('')}
+          </div>
+        ` : ''}
+        
+        <table>
+          <thead>
+            <tr>
+              ${reportConfig.columns
+                .filter(col => col.exportable !== false)
+                .map(col => `<th>${col.label}</th>`)
+                .join('')}
+            </tr>
+          </thead>
+          <tbody>
+            ${allData.map(row => `
+              <tr>
+                ${reportConfig.columns
+                  .filter(col => col.exportable !== false)
+                  .map(col => {
+                    const value = row[col.key];
+                    const displayValue = value !== null && value !== undefined
+                      ? (col.format ? col.format(value) : value)
+                      : '';
+                    return `<td>${displayValue}</td>`;
+                  })
+                  .join('')}
+              </tr>
+            `).join('')}
+          </tbody>
+        </table>
+      </body>
+      </html>
+    `;
+
+    printWindow.document.write(printContent);
+    printWindow.document.close();
+    
+    // Wait for content to load then print
+    printWindow.onload = () => {
+      printWindow.print();
+      // Close the window after printing
+      printWindow.onafterprint = () => {
+        printWindow.close();
+      };
+    };
+    } catch (error) {
+      console.error('Print failed:', error);
+      alert('Failed to prepare data for printing');
+    } finally {
+      setLoading(false);
+    }
   };
 
   const renderFilterControl = (filter: ReportFilter) => {

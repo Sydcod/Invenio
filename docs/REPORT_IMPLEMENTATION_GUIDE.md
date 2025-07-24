@@ -114,10 +114,15 @@ This guide documents the correct approach for implementing reports in the Inveni
 4. Working aggregation pipeline with proper match stages
 5. Summary calculations that update with filters
 
+### Areas Fixed:
+1. ✅ Warehouse filter - Now properly uses `$elemMatch` to filter products with stock in selected warehouse
+2. ✅ Category and Brand filters - Handle both single values and arrays correctly
+3. ✅ Dynamic filter loading - All filters load options from MongoDB
+
 ### Areas Still Needing Refinement:
-1. Warehouse filter with array field matching (requires more complex aggregation)
-2. Export functionality with filtered data
-3. Performance optimization for large datasets
+1. Export functionality with filtered data
+2. Performance optimization for large datasets
+3. Complex multi-warehouse stock calculations
 
 ## MongoDB Data Structure Reference
 

@@ -33,12 +33,15 @@ export async function GET(
       }, { status: 404 });
     }
     
+    // Check for export format first
+    const exportFormat = searchParams.get('export') as 'pdf' | 'excel' | 'csv' | null;
+    
     // Parse query parameters
     const reportParams: ReportParams = {
       filters: {},
       pagination: {
         page: parseInt(searchParams.get('page') || '1'),
-        pageSize: parseInt(searchParams.get('pageSize') || '50')
+        pageSize: exportFormat ? 10000 : parseInt(searchParams.get('pageSize') || '50') // Use large page size for exports
       }
     };
 
@@ -83,8 +86,7 @@ export async function GET(
       };
     }
 
-    // Check for export format
-    const exportFormat = searchParams.get('export') as 'pdf' | 'excel' | 'csv' | null;
+    // Set export format if present
     if (exportFormat) {
       reportParams.export = exportFormat;
     }
