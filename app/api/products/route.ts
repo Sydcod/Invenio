@@ -31,11 +31,10 @@ export async function GET(req: NextRequest) {
     const warehouseId = searchParams.get('warehouseId');
     const sortBy = searchParams.get('sortBy') || 'createdAt';
     const sortOrder = searchParams.get('sortOrder') || 'desc';
+    const paginate = searchParams.get('paginate') !== 'false';
 
     // Build query
-    const query: any = { 
-      isActive: true 
-    };
+    const query: any = {};
     
     if (search) {
       query.$or = [
@@ -66,16 +65,27 @@ export async function GET(req: NextRequest) {
       query['inventory.warehouses.warehouseId'] = warehouseId;
     }
 
-    const skip = (page - 1) * limit;
     const sortOptions: any = { [sortBy]: sortOrder === 'asc' ? 1 : -1 };
 
+    if (!paginate) {
+      // Return all products without pagination
+      const products = await Product.find(query)
+        .populate('category', 'name')
+        .sort(sortOptions)
+        .lean();
+      
+      return NextResponse.json(products);
+    }
+
+    // With pagination
+    const skip = (page - 1) * limit;
     const [products, total] = await Promise.all([
       Product.find(query)
-        .populate('categoryId', 'name parentId')
-        .populate('suppliers.supplierId', 'name code')
+        .populate('category', 'name')
         .sort(sortOptions)
         .skip(skip)
-        .limit(limit),
+        .limit(limit)
+        .lean(),
       Product.countDocuments(query),
     ]);
 

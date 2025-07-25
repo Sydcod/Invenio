@@ -23,9 +23,10 @@ export async function GET(req: NextRequest) {
     const status = searchParams.get('status');
     const search = searchParams.get('search');
     const page = parseInt(searchParams.get('page') || '1');
-    const limit = parseInt(searchParams.get('limit') || '20');
+    const limit = parseInt(searchParams.get('limit') || '100'); // Default to 100 for enhanced page
     const sort = searchParams.get('sort') || 'name';
     const order = searchParams.get('order') === 'desc' ? -1 : 1;
+    const paginationEnabled = searchParams.get('paginate') === 'true';
 
     // Build query
     const query: any = {};
@@ -40,18 +41,26 @@ export async function GET(req: NextRequest) {
         { code: { $regex: search, $options: 'i' } },
         { 'contact.contactPerson': { $regex: search, $options: 'i' } },
         { 'contact.email': { $regex: search, $options: 'i' } },
+        { 'contact.phone': { $regex: search, $options: 'i' } },
+        { 'contact.primaryContact.name': { $regex: search, $options: 'i' } },
+        { 'contact.primaryContact.email': { $regex: search, $options: 'i' } },
+        { 'contact.primaryContact.phone': { $regex: search, $options: 'i' } },
       ];
     }
 
-    // Execute query with pagination
-    const skip = (page - 1) * limit;
+    // Execute query with optional pagination
     const totalCount = await Supplier.countDocuments(query);
     
-    const suppliers = await Supplier.find(query)
+    let suppliersQuery = Supplier.find(query)
       .select('-__v')
-      .sort({ [sort]: order })
-      .skip(skip)
-      .limit(limit);
+      .sort({ [sort]: order });
+    
+    if (paginationEnabled) {
+      const skip = (page - 1) * limit;
+      suppliersQuery = suppliersQuery.skip(skip).limit(limit);
+    }
+    
+    const suppliers = await suppliersQuery;
 
     // Calculate performance metrics
     const suppliersWithMetrics = suppliers.map(supplier => {
@@ -68,16 +77,22 @@ export async function GET(req: NextRequest) {
       };
     });
 
-    return NextResponse.json({
-      success: true,
-      data: suppliersWithMetrics,
-      pagination: {
-        page,
-        limit,
-        totalPages: Math.ceil(totalCount / limit),
-        totalCount,
-      },
-    });
+    // Return with or without pagination
+    if (paginationEnabled) {
+      return NextResponse.json({
+        success: true,
+        data: suppliersWithMetrics,
+        pagination: {
+          page,
+          limit,
+          totalPages: Math.ceil(totalCount / limit),
+          totalCount,
+        },
+      });
+    } else {
+      // Return just the data array for enhanced suppliers page
+      return NextResponse.json(suppliersWithMetrics);
+    }
   } catch (error) {
     console.error('Error fetching suppliers:', error);
     return NextResponse.json(

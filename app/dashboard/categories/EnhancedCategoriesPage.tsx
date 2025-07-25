@@ -56,7 +56,7 @@ const getLevelColor = (level: number) => {
 interface Category {
   _id: string;
   name: string;
-  code: string;
+  code?: string;
   description?: string;
   level: number;
   path: string;
@@ -125,7 +125,7 @@ function CategoryRow({
           <div className="flex-1">
             <div className="flex items-center gap-3">
               <span className="font-medium text-gray-900">{category.name}</span>
-              <span className="text-xs text-gray-500">{category.code}</span>
+              {category.code && <span className="text-xs text-gray-500">{category.code}</span>}
             </div>
             {category.description && (
               <p className="text-sm text-gray-500 mt-0.5">{category.description}</p>
@@ -271,7 +271,7 @@ export default function EnhancedCategoriesPage() {
         if (searchTerm) {
           const searchLower = searchTerm.toLowerCase();
           include = cat.name.toLowerCase().includes(searchLower) ||
-                   cat.code.toLowerCase().includes(searchLower) ||
+                   (cat.code?.toLowerCase() || '').includes(searchLower) ||
                    (cat.description?.toLowerCase() || '').includes(searchLower);
         }
         
@@ -508,6 +508,16 @@ export default function EnhancedCategoriesPage() {
                 className="block w-full rounded-md border-0 py-2 pl-10 pr-3 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm"
                 placeholder="Search categories by name, code, or description..."
               />
+              {searchTerm && (
+                <button
+                  onClick={() => setSearchTerm('')}
+                  className="absolute inset-y-0 right-0 flex items-center pr-3"
+                >
+                  <svg className="h-5 w-5 text-gray-400 hover:text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  </svg>
+                </button>
+              )}
             </div>
           </div>
           
