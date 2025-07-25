@@ -1,0 +1,213 @@
+import { NextRequest, NextResponse } from 'next/server';
+import { getServerSession } from 'next-auth/next';
+import { authOptions } from '@/libs/next-auth';
+import connectMongo from '@/libs/mongoose';
+import '@/models/SalesOrder';
+import '@/models/Product';
+import '@/models/Customer';
+import mongoose from 'mongoose';
+import { 
+  buildSalesKPIsPipeline, 
+  buildSalesTrendPipeline,
+  buildCategoryPerformancePipeline,
+  buildCustomerSegmentsPipeline,
+  buildInventoryKPIsPipeline
+} from '@/libs/analytics/aggregations';
+
+export async function GET(request: NextRequest) {
+  try {
+    // Check authentication
+    // TEMPORARILY DISABLED FOR DEVELOPMENT - UNCOMMENT IN PRODUCTION
+    // const session = await getServerSession(authOptions);
+    // if (!session) {
+    //   return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+    // }
+
+    // Get query parameters
+    const searchParams = request.nextUrl.searchParams;
+    const startDate = searchParams.get('startDate');
+    const endDate = searchParams.get('endDate');
+    const warehouseId = searchParams.get('warehouse');
+
+    console.log('Analytics API - Date Range:', { startDate, endDate });
+
+    // Calculate comparison period for KPIs (previous period of same length)
+    let comparisonStartDate, comparisonEndDate;
+    if (startDate && endDate) {
+      const start = new Date(startDate);
+      const end = new Date(endDate);
+      const periodLength = end.getTime() - start.getTime();
+      
+      comparisonEndDate = new Date(start.getTime() - 1);
+      comparisonStartDate = new Date(comparisonEndDate.getTime() - periodLength);
+    }
+
+    // Connect to database
+    await connectMongo();
+
+    const SalesOrder = mongoose.model('SalesOrder');
+    const Product = mongoose.model('Product');
+
+    // Execute aggregations in parallel for better performance
+    const [salesKPIsResult, salesTrendResult, categoryPerformanceResult, customerSegmentsResult, inventoryKPIsResult] = await Promise.all([
+      // Sales KPIs with comparison
+      SalesOrder.aggregate(buildSalesKPIsPipeline({
+        startDate: startDate || undefined,
+        endDate: endDate || undefined,
+        warehouseId: warehouseId || undefined,
+        comparisonStartDate: comparisonStartDate?.toISOString(),
+        comparisonEndDate: comparisonEndDate?.toISOString()
+      })),
+      
+      // Sales trend (daily for dashboard overview)
+      SalesOrder.aggregate(buildSalesTrendPipeline({
+        startDate: startDate || undefined,
+        endDate: endDate || undefined,
+        warehouseId: warehouseId || undefined,
+        groupBy: 'day'
+      })),
+      
+      // Top 5 categories by revenue
+      SalesOrder.aggregate(buildCategoryPerformancePipeline({
+        startDate: startDate || undefined,
+        endDate: endDate || undefined,
+        warehouseId: warehouseId || undefined,
+        limit: 5
+      })),
+      
+      // Customer segments
+      (() => {
+        const params = {
+          startDate: startDate || undefined,
+          endDate: endDate || undefined
+        };
+        console.log('[API DEBUG] Customer segments params:', params);
+        const pipeline = buildCustomerSegmentsPipeline(params);
+        console.log('[API DEBUG] Customer segments pipeline:', JSON.stringify(pipeline, null, 2));
+        return SalesOrder.aggregate(pipeline).then(result => {
+          console.log('[API DEBUG] Customer segments raw result:', JSON.stringify(result, null, 2));
+          return result;
+        });
+      })(),
+      
+      // Inventory KPIs
+      Product.aggregate(buildInventoryKPIsPipeline({
+        warehouseId: warehouseId || undefined
+      }))
+    ]);
+
+    // Debug logging
+    console.log('Analytics API - Sales KPIs Result:', JSON.stringify(salesKPIsResult, null, 2));
+    console.log('Analytics API - Sales Trend Result:', JSON.stringify(salesTrendResult, null, 2));
+    console.log('Analytics API - Category Performance Result:', JSON.stringify(categoryPerformanceResult, null, 2));
+    console.log('Analytics API - Customer Segments Result:', JSON.stringify(customerSegmentsResult, null, 2));
+    console.log('Analytics API - Inventory KPIs Result:', JSON.stringify(inventoryKPIsResult, null, 2));
+
+    // Process KPIs with comparison calculations
+    const currentKPIs = salesKPIsResult[0]?.current[0] || {
+      totalRevenue: 0,
+      totalOrders: 0,
+      avgOrderValue: 0,
+      uniqueCustomerCount: 0
+    };
+
+    const comparisonKPIs = salesKPIsResult[0]?.comparison[0] || {
+      totalRevenue: 0,
+      totalOrders: 0,
+      avgOrderValue: 0
+    };
+
+    // Calculate percentage changes
+    const calculateChange = (current: number, previous: number) => {
+      if (previous === 0) return current > 0 ? 100 : 0;
+      return ((current - previous) / previous) * 100;
+    };
+
+    // Process inventory KPIs
+    const inventoryOverview = inventoryKPIsResult[0]?.overview[0] || {
+      totalProducts: 0,
+      totalValue: 0,
+      totalQuantity: 0,
+      outOfStock: 0,
+      lowStock: 0
+    };
+
+    const deadStock = inventoryKPIsResult[0]?.deadStock[0] || {
+      deadStockValue: 0,
+      deadStockCount: 0
+    };
+
+    // Calculate inventory turnover (simplified - would need more data for accurate calculation)
+    const inventoryTurnover = currentKPIs.totalRevenue > 0 && inventoryOverview.totalValue > 0
+      ? (currentKPIs.totalRevenue / inventoryOverview.totalValue) * 4 // Quarterly estimate
+      : 0;
+
+    // Calculate conversion rate (orders vs unique customers)
+    const conversionRate = currentKPIs.uniqueCustomerCount > 0
+      ? (currentKPIs.totalOrders / currentKPIs.uniqueCustomerCount) * 100
+      : 0;
+
+    // Customer lifetime value (simplified - total revenue / unique customers)
+    const customerLifetimeValue = currentKPIs.uniqueCustomerCount > 0
+      ? currentKPIs.totalRevenue / currentKPIs.uniqueCustomerCount
+      : 0;
+
+    // Format response
+    const response = {
+      kpis: {
+        totalRevenue: {
+          value: currentKPIs.totalRevenue || 0,
+          change: calculateChange(currentKPIs.totalRevenue || 0, comparisonKPIs.totalRevenue || 0)
+        },
+        totalOrders: {
+          value: currentKPIs.totalOrders || 0,
+          change: calculateChange(currentKPIs.totalOrders || 0, comparisonKPIs.totalOrders || 0)
+        },
+        avgOrderValue: {
+          value: currentKPIs.avgOrderValue || 0,
+          change: calculateChange(currentKPIs.avgOrderValue || 0, comparisonKPIs.avgOrderValue || 0)
+        },
+        conversionRate: {
+          value: conversionRate,
+          change: 0 // Would need historical data for comparison
+        },
+        inventoryTurnover: {
+          value: inventoryTurnover,
+          change: 0 // Would need historical data for comparison
+        },
+        customerLifetimeValue: {
+          value: customerLifetimeValue,
+          change: 0 // Would need historical data for comparison
+        }
+      },
+      salesTrend: salesTrendResult.map(item => ({
+        date: item.date,
+        revenue: item.revenue,
+        orders: item.orders
+      })),
+      categoryPerformance: categoryPerformanceResult,
+      customerSegments: customerSegmentsResult.map(segment => ({
+        segment: segment.segment,
+        count: segment.customerCount, // Rename customerCount to count
+        revenue: segment.revenue,
+        orderCount: segment.orderCount,
+        avgOrderValue: segment.avgOrderValue
+      })),
+      inventoryMetrics: {
+        totalProducts: inventoryOverview.totalProducts,
+        totalValue: inventoryOverview.totalValue,
+        outOfStock: inventoryOverview.outOfStock,
+        lowStock: inventoryOverview.lowStock,
+        deadStockValue: deadStock.deadStockValue
+      }
+    };
+
+    return NextResponse.json(response);
+  } catch (error) {
+    console.error('Error in analytics dashboard API:', error);
+    return NextResponse.json(
+      { error: 'Failed to fetch analytics data' },
+      { status: 500 }
+    );
+  }
+}
