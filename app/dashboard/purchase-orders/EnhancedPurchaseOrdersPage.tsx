@@ -60,7 +60,7 @@ export default function EnhancedPurchaseOrdersPage() {
   const [sortBy, setSortBy] = useState('recent');
   const [showFilters, setShowFilters] = useState(false);
   const [suppliers, setSuppliers] = useState<Array<{_id: string, name: string}>>([]);
-  const [warehouses, setWarehouses] = useState<Array<{_id: string, name: string}>>([]);
+  const [warehouses, setWarehouses] = useState<Array<{id: string, name: string}>>([]);
 
   // Format currency with commas
   const formatCurrency = (amount: number) => {
@@ -85,12 +85,6 @@ export default function EnhancedPurchaseOrdersPage() {
       const ordersData = result.data || [];
       setOrders(ordersData);
       calculateStats(ordersData);
-      
-      // Add debug logging
-      console.log('Orders after fetch:', ordersData);
-      if (ordersData.length > 0) {
-        console.log('First order structure:', ordersData[0]);
-      }
     } catch (error) {
       console.error('Error fetching purchase orders:', error);
       toast.error('Failed to load purchase orders');
@@ -123,6 +117,7 @@ export default function EnhancedPurchaseOrdersPage() {
         const result = await response.json();
         // Warehouses API returns {success: true, data: [...], count: n}
         const warehousesData = result.data || [];
+
         setWarehouses(warehousesData);
       }
     } catch (error) {
@@ -191,12 +186,9 @@ export default function EnhancedPurchaseOrdersPage() {
     // Supplier filter
     if (filters.supplier !== 'all') {
       filtered = filtered.filter(order => {
-        if (order.supplier && typeof order.supplier === 'object') {
-          const supplierId = order.supplier.id || order.supplier._id;
-          return supplierId === filters.supplier;
-        }
-        if (typeof order.supplier === 'string') {
-          return order.supplier === filters.supplier;
+        // Purchase orders store the supplier ID in the supplierId field
+        if (order.supplierId) {
+          return String(order.supplierId) === String(filters.supplier);
         }
         return false;
       });
@@ -205,12 +197,8 @@ export default function EnhancedPurchaseOrdersPage() {
     // Warehouse filter
     if (filters.warehouse !== 'all') {
       filtered = filtered.filter(order => {
-        if (order.warehouse && typeof order.warehouse === 'object') {
-          const warehouseId = order.warehouse.id || order.warehouse._id;
-          return warehouseId === filters.warehouse;
-        }
-        if (typeof order.warehouse === 'string') {
-          return order.warehouse === filters.warehouse;
+        if (order.warehouseId) {
+          return String(order.warehouseId) === String(filters.warehouse);
         }
         return false;
       });
@@ -444,6 +432,7 @@ export default function EnhancedPurchaseOrdersPage() {
                   warehouse: 'all',
                   dateRange: 'all'
                 });
+
               }}
               className="inline-flex items-center px-3 py-2 border border-gray-300 shadow-sm text-sm leading-4 font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary"
             >
@@ -493,7 +482,7 @@ export default function EnhancedPurchaseOrdersPage() {
           >
             <option value="all">All Warehouses</option>
             {warehouses.map(warehouse => (
-              <option key={warehouse._id} value={warehouse._id}>
+              <option key={warehouse.id} value={warehouse.id}>
                 {warehouse.name}
               </option>
             ))}
@@ -586,7 +575,7 @@ export default function EnhancedPurchaseOrdersPage() {
                 >
                   <option value="all">All Warehouses</option>
                   {warehouses && warehouses.map(warehouse => (
-                    <option key={warehouse._id} value={warehouse._id}>
+                    <option key={warehouse.id} value={warehouse.id}>
                       {warehouse.name}
                     </option>
                   ))}
