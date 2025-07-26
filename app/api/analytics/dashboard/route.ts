@@ -11,7 +11,8 @@ import {
   buildSalesTrendPipeline,
   buildCategoryPerformancePipeline,
   buildCustomerSegmentsPipeline,
-  buildInventoryKPIsPipeline
+  buildInventoryKPIsPipeline,
+  buildInsightsPipeline
 } from '@/libs/analytics/aggregations';
 
 export async function GET(request: NextRequest) {
@@ -175,7 +176,7 @@ export async function GET(request: NextRequest) {
       : 0;
 
     // Format response
-    const response = {
+    const response: any = {
       kpis: {
         totalRevenue: {
           value: currentKPIs.totalRevenue || 0,
@@ -223,6 +224,71 @@ export async function GET(request: NextRequest) {
         deadStockValue: deadStock.deadStockValue
       }
     };
+
+    // Generate insights
+    const { lowStockPipeline, categoryTrendsPipeline, segmentTrendsPipeline } = buildInsightsPipeline({
+      startDate: searchParams.get('startDate') || undefined,
+      endDate: searchParams.get('endDate') || undefined
+    });
+
+    // Execute insights pipelines
+    const [lowStockResult] = await Product.aggregate(lowStockPipeline);
+    const [categoryTrend] = await SalesOrder.aggregate(categoryTrendsPipeline as any);
+    const segmentTrends = await SalesOrder.aggregate(segmentTrendsPipeline);
+
+    // Process segment trends to find growth comparison
+    const b2bGrowth = segmentTrends.find(s => s.segment === 'B2B')?.growth || 0;
+    const b2cGrowth = segmentTrends.find(s => s.segment === 'B2C')?.growth || 0;
+    const growthComparison = b2bGrowth > 0 && b2cGrowth > 0 ? b2bGrowth / b2cGrowth : 0;
+
+    // Build insights array
+    const insights = [];
+    
+    // Low stock alert
+    if (lowStockResult?.lowStockCount > 0) {
+      insights.push({
+        type: 'alert',
+        icon: 'warning',
+        title: 'Low Stock Alert',
+        description: `${lowStockResult.lowStockCount} products below reorder point`
+      });
+    }
+
+    // Category trend insight
+    if (categoryTrend && categoryTrend.percentChange !== 0) {
+      const trend = categoryTrend.percentChange > 0 ? 'up' : 'down';
+      const icon = categoryTrend.percentChange > 0 ? 'up' : 'down';
+      insights.push({
+        type: 'trend',
+        icon,
+        title: 'Sales Spike',
+        description: `${categoryTrend.category || 'Top category'} ${trend} ${Math.abs(categoryTrend.percentChange).toFixed(1)}% this week`
+      });
+    }
+
+    // Segment growth comparison
+    if (growthComparison > 1) {
+      insights.push({
+        type: 'analysis',
+        icon: 'chart',
+        title: 'Trend Analysis',
+        description: `B2B sales growing ${growthComparison.toFixed(1)}x faster than B2C`
+      });
+    } else if (b2bGrowth > 0 || b2cGrowth > 0) {
+      const leadingSegment = b2bGrowth > b2cGrowth ? 'B2B' : 'B2C';
+      const growth = Math.max(b2bGrowth, b2cGrowth);
+      if (growth > 1) {
+        insights.push({
+          type: 'analysis',
+          icon: 'chart',
+          title: 'Segment Growth',
+          description: `${leadingSegment} segment showing ${((growth - 1) * 100).toFixed(1)}% growth`
+        });
+      }
+    }
+
+    // Add insights to response
+    response.insights = insights;
 
     return NextResponse.json(response);
   } catch (error) {

@@ -407,6 +407,207 @@ export function buildCustomerSegmentsPipeline(params: {
   return pipeline;
 }
 
+export function buildInsightsPipeline(params: {
+  startDate?: string;
+  endDate?: string;
+}) {
+  const { startDate, endDate } = params;
+  
+  // Pipeline for low stock products
+  const lowStockPipeline = [
+    {
+      $match: {
+        status: 'active'
+      }
+    },
+    {
+      $project: {
+        name: 1,
+        sku: 1,
+        currentStock: '$inventory.currentStock',
+        reorderPoint: '$inventory.reorderPoint',
+        isLowStock: {
+          $and: [
+            { $gt: ['$inventory.reorderPoint', 0] },
+            { $lte: ['$inventory.currentStock', '$inventory.reorderPoint'] }
+          ]
+        }
+      }
+    },
+    {
+      $match: { isLowStock: true }
+    },
+    {
+      $count: 'lowStockCount'
+    }
+  ];
+
+  // Pipeline for category trends (week over week)
+  const currentWeekStart = new Date(endDate || new Date().toISOString());
+  currentWeekStart.setDate(currentWeekStart.getDate() - 7);
+  const previousWeekStart = new Date(currentWeekStart);
+  previousWeekStart.setDate(previousWeekStart.getDate() - 7);
+  
+  const categoryTrendsPipeline = [
+    createDateConversionStage(['dates.orderDate']),
+    {
+      $match: {
+        'dates.orderDate': {
+          $gte: previousWeekStart,
+          $lte: new Date(endDate || new Date().toISOString())
+        },
+        status: { $nin: ['Draft', 'Cancelled'] }
+      }
+    },
+    { $unwind: '$items' },
+    {
+      $group: {
+        _id: {
+          category: '$items.product.category',
+          week: {
+            $cond: [
+              { $gte: ['$dates.orderDate', currentWeekStart] },
+              'current',
+              'previous'
+            ]
+          }
+        },
+        revenue: {
+          $sum: {
+            $multiply: ['$items.quantity', '$items.costPrice']
+          }
+        }
+      }
+    },
+    {
+      $group: {
+        _id: '$_id.category',
+        currentWeek: {
+          $sum: {
+            $cond: [
+              { $eq: ['$_id.week', 'current'] },
+              '$revenue',
+              0
+            ]
+          }
+        },
+        previousWeek: {
+          $sum: {
+            $cond: [
+              { $eq: ['$_id.week', 'previous'] },
+              '$revenue',
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      $project: {
+        category: '$_id',
+        currentWeek: 1,
+        previousWeek: 1,
+        percentChange: {
+          $cond: [
+            { $eq: ['$previousWeek', 0] },
+            0,
+            {
+              $multiply: [
+                {
+                  $divide: [
+                    { $subtract: ['$currentWeek', '$previousWeek'] },
+                    '$previousWeek'
+                  ]
+                },
+                100
+              ]
+            }
+          ]
+        },
+        _id: 0
+      }
+    },
+    { $sort: { percentChange: -1 } },
+    { $limit: 1 }
+  ];
+
+  // Pipeline for customer segment trends (B2B vs B2C)
+  const segmentTrendsPipeline = [
+    createDateConversionStage(['dates.orderDate']),
+    {
+      $match: {
+        'dates.orderDate': {
+          $gte: new Date(startDate || new Date(new Date().setMonth(new Date().getMonth() - 1)).toISOString()),
+          $lte: new Date(endDate || new Date().toISOString())
+        },
+        status: { $nin: ['Draft', 'Cancelled'] }
+      }
+    },
+    {
+      $lookup: {
+        from: 'customers',
+        localField: 'customer.customerId',
+        foreignField: '_id',
+        as: 'customerDetails'
+      }
+    },
+    { $unwind: '$customerDetails' },
+    {
+      $group: {
+        _id: {
+          type: '$customerDetails.type',
+          month: { $month: '$dates.orderDate' }
+        },
+        revenue: { $sum: '$financial.grandTotal' },
+        orderCount: { $sum: 1 }
+      }
+    },
+    {
+      $group: {
+        _id: '$_id.type',
+        currentMonth: {
+          $sum: {
+            $cond: [
+              { $eq: ['$_id.month', new Date(endDate || new Date()).getMonth() + 1] },
+              '$revenue',
+              0
+            ]
+          }
+        },
+        previousMonth: {
+          $sum: {
+            $cond: [
+              { $eq: ['$_id.month', new Date(endDate || new Date()).getMonth()] },
+              '$revenue',
+              0
+            ]
+          }
+        }
+      }
+    },
+    {
+      $project: {
+        segment: '$_id',
+        growth: {
+          $cond: [
+            { $eq: ['$previousMonth', 0] },
+            0,
+            { $divide: ['$currentMonth', '$previousMonth'] }
+          ]
+        },
+        currentRevenue: '$currentMonth',
+        _id: 0
+      }
+    }
+  ];
+
+  return {
+    lowStockPipeline,
+    categoryTrendsPipeline,
+    segmentTrendsPipeline
+  };
+}
+
 export function buildTopCustomersPipeline(params: {
   startDate?: string;
   endDate?: string;

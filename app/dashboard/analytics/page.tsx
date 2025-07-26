@@ -441,31 +441,34 @@ export default function AnalyticsDashboard() {
           </div>
         </div>
 
-        {/* Recent Alerts */}
+        {/* Insights & Alerts */}
         <div className="bg-white p-6 rounded-lg shadow">
           <h3 className="text-lg font-medium text-gray-900 mb-4">Insights & Alerts</h3>
           <div className="space-y-3">
-            <div className="flex items-start">
-              <ExclamationTriangleIcon className="h-5 w-5 text-yellow-500 mr-2 flex-shrink-0 mt-0.5" />
-              <div>
-                <p className="text-sm font-medium text-gray-900">Low Stock Alert</p>
-                <p className="text-xs text-gray-500">12 products below reorder point</p>
-              </div>
-            </div>
-            <div className="flex items-start">
-              <ArrowUpIcon className="h-5 w-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" />
-              <div>
-                <p className="text-sm font-medium text-gray-900">Sales Spike</p>
-                <p className="text-xs text-gray-500">Laptops category up 25% this week</p>
-              </div>
-            </div>
-            <div className="flex items-start">
-              <ChartBarIcon className="h-5 w-5 text-blue-500 mr-2 flex-shrink-0 mt-0.5" />
-              <div>
-                <p className="text-sm font-medium text-gray-900">Trend Analysis</p>
-                <p className="text-xs text-gray-500">B2B sales growing 3x faster than B2C</p>
-              </div>
-            </div>
+            {dashboardData?.insights && dashboardData.insights.length > 0 ? (
+              dashboardData.insights.map((insight: any, index: number) => (
+                <div key={index} className="flex items-start">
+                  {insight.icon === 'warning' && (
+                    <ExclamationTriangleIcon className="h-5 w-5 text-yellow-500 mr-2 flex-shrink-0 mt-0.5" />
+                  )}
+                  {insight.icon === 'up' && (
+                    <ArrowUpIcon className="h-5 w-5 text-green-500 mr-2 flex-shrink-0 mt-0.5" />
+                  )}
+                  {insight.icon === 'down' && (
+                    <ArrowDownIcon className="h-5 w-5 text-red-500 mr-2 flex-shrink-0 mt-0.5" />
+                  )}
+                  {insight.icon === 'chart' && (
+                    <ChartBarIcon className="h-5 w-5 text-blue-500 mr-2 flex-shrink-0 mt-0.5" />
+                  )}
+                  <div>
+                    <p className="text-sm font-medium text-gray-900">{insight.title}</p>
+                    <p className="text-xs text-gray-500">{insight.description}</p>
+                  </div>
+                </div>
+              ))
+            ) : (
+              <p className="text-sm text-gray-500">No significant insights available for this period</p>
+            )}
           </div>
         </div>
       </div>
