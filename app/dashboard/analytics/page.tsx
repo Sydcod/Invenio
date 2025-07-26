@@ -121,49 +121,39 @@ export default function AnalyticsDashboard() {
     );
   }
 
-  // Mock data for initial display - will be replaced with real data from API
-  const mockData = {
-    kpis: {
-      totalRevenue: { value: 1234567, change: 12.5 },
-      totalOrders: { value: 543, change: 8.3 },
-      avgOrderValue: { value: 2274, change: 3.2 },
-      conversionRate: { value: 68.5, change: -2.1 },
-      inventoryTurnover: { value: 8.2, change: 0.5 },
-      customerLifetimeValue: { value: 5432, change: 15.7 }
-    },
-    salesTrend: [
-      { date: 'Jan', revenue: 120000, orders: 45 },
-      { date: 'Feb', revenue: 135000, orders: 52 },
-      { date: 'Mar', revenue: 155000, orders: 61 },
-      { date: 'Apr', revenue: 142000, orders: 58 },
-      { date: 'May', revenue: 168000, orders: 67 },
-      { date: 'Jun', revenue: 185000, orders: 73 },
-      { date: 'Jul', revenue: 198000, orders: 78 },
-    ],
-    categoryPerformance: [
-      { name: 'Laptops', revenue: 450000, quantity: 125 },
-      { name: 'Smartphones', revenue: 380000, quantity: 320 },
-      { name: 'Tablets', revenue: 220000, quantity: 145 },
-      { name: 'Televisions', revenue: 180000, quantity: 65 },
-      { name: 'Audio', revenue: 120000, quantity: 210 },
-    ],
-    customerSegments: [
-      { segment: 'B2B', count: 120, revenue: 820000 },
-      { segment: 'B2C', count: 423, revenue: 530000 },
-    ]
-  };
-
   // Debug: Check what dashboardData contains
   console.log('dashboardData:', dashboardData);
   console.log('dashboardData.customerSegments:', dashboardData?.customerSegments);
   
-  // Properly merge data - use dashboardData but fill missing fields from mockData
-  const data = dashboardData ? {
-    ...mockData,
-    ...dashboardData,
-    // Ensure customerSegments exists even if API doesn't return it
-    customerSegments: dashboardData.customerSegments || mockData.customerSegments
-  } : mockData;
+  // Define types for our data structures
+  type SalesTrendItem = { date: string; revenue: number; orders: number };
+  type CategoryPerformanceItem = { name: string; revenue: number; quantity: number };
+  type CustomerSegmentItem = { segment: string; count: number; revenue: number; orderCount?: number; avgOrderValue?: number };
+
+  // Define default empty structures for data that might be missing from API
+  const defaultEmptyData = {
+    kpis: {
+      totalRevenue: { value: 0, change: 0 },
+      totalOrders: { value: 0, change: 0 },
+      avgOrderValue: { value: 0, change: 0 },
+      conversionRate: { value: 0, change: 0 },
+      inventoryTurnover: { value: 0, change: 0 },
+      customerLifetimeValue: { value: 0, change: 0 }
+    },
+    salesTrend: [] as SalesTrendItem[],
+    categoryPerformance: [] as CategoryPerformanceItem[],
+    customerSegments: [] as CustomerSegmentItem[],
+    inventoryMetrics: {
+      totalProducts: 0,
+      totalValue: 0,
+      outOfStock: 0,
+      lowStock: 0,
+      deadStockValue: 0
+    }
+  };
+
+  // Use API data or default empty structures if data is missing
+  const data = dashboardData || defaultEmptyData;
 
   return (
     <div className="space-y-6 p-6">
@@ -207,7 +197,7 @@ export default function AnalyticsDashboard() {
               <p className="text-xl font-semibold text-gray-900">{formatCurrency(data.kpis.totalRevenue.value)}</p>
               <p className={`text-sm ${data.kpis.totalRevenue.change >= 0 ? 'text-green-600' : 'text-red-600'} flex items-center`}>
                 {data.kpis.totalRevenue.change >= 0 ? <ArrowUpIcon className="h-3 w-3 mr-1" /> : <ArrowDownIcon className="h-3 w-3 mr-1" />}
-                {formatPercentage(Math.abs(data.kpis.totalRevenue.change))}
+                {formatPercentage(data.kpis.totalRevenue.change)}
               </p>
             </div>
           </div>
@@ -223,7 +213,7 @@ export default function AnalyticsDashboard() {
               <p className="text-xl font-semibold text-gray-900">{formatNumber(data.kpis.totalOrders.value)}</p>
               <p className={`text-sm ${data.kpis.totalOrders.change >= 0 ? 'text-green-600' : 'text-red-600'} flex items-center`}>
                 {data.kpis.totalOrders.change >= 0 ? <ArrowUpIcon className="h-3 w-3 mr-1" /> : <ArrowDownIcon className="h-3 w-3 mr-1" />}
-                {formatPercentage(Math.abs(data.kpis.totalOrders.change))}
+                {formatPercentage(data.kpis.totalOrders.change)}
               </p>
             </div>
           </div>
@@ -239,7 +229,7 @@ export default function AnalyticsDashboard() {
               <p className="text-xl font-semibold text-gray-900">{formatCurrency(data.kpis.avgOrderValue.value)}</p>
               <p className={`text-sm ${data.kpis.avgOrderValue.change >= 0 ? 'text-green-600' : 'text-red-600'} flex items-center`}>
                 {data.kpis.avgOrderValue.change >= 0 ? <ArrowUpIcon className="h-3 w-3 mr-1" /> : <ArrowDownIcon className="h-3 w-3 mr-1" />}
-                {formatPercentage(Math.abs(data.kpis.avgOrderValue.change))}
+                {formatPercentage(data.kpis.avgOrderValue.change)}
               </p>
             </div>
           </div>
@@ -251,11 +241,11 @@ export default function AnalyticsDashboard() {
               <ChartBarIcon className="h-6 w-6 text-orange-600" />
             </div>
             <div className="ml-3 flex-1">
-              <p className="text-sm font-medium text-gray-500">Conversion Rate</p>
+              <p className="text-sm font-medium text-gray-500">Orders per Customer</p>
               <p className="text-xl font-semibold text-gray-900">{formatPercentage(data.kpis.conversionRate.value)}</p>
               <p className={`text-sm ${data.kpis.conversionRate.change >= 0 ? 'text-green-600' : 'text-red-600'} flex items-center`}>
                 {data.kpis.conversionRate.change >= 0 ? <ArrowUpIcon className="h-3 w-3 mr-1" /> : <ArrowDownIcon className="h-3 w-3 mr-1" />}
-                {formatPercentage(Math.abs(data.kpis.conversionRate.change))} pts
+                {formatPercentage(data.kpis.conversionRate.change)} pts
               </p>
             </div>
           </div>
@@ -268,10 +258,10 @@ export default function AnalyticsDashboard() {
             </div>
             <div className="ml-3 flex-1">
               <p className="text-sm font-medium text-gray-500">Inventory Turnover</p>
-              <p className="text-xl font-semibold text-gray-900">{data.kpis.inventoryTurnover.value}x</p>
+              <p className="text-xl font-semibold text-gray-900">{data.kpis.inventoryTurnover.value.toFixed(2)}x</p>
               <p className={`text-sm ${data.kpis.inventoryTurnover.change >= 0 ? 'text-green-600' : 'text-red-600'} flex items-center`}>
                 {data.kpis.inventoryTurnover.change >= 0 ? <ArrowUpIcon className="h-3 w-3 mr-1" /> : <ArrowDownIcon className="h-3 w-3 mr-1" />}
-                {Math.abs(data.kpis.inventoryTurnover.change)}x
+                {Math.abs(data.kpis.inventoryTurnover.change).toFixed(2)}%
               </p>
             </div>
           </div>
@@ -299,51 +289,71 @@ export default function AnalyticsDashboard() {
         {/* Sales Trend Chart */}
         <div className="bg-white p-6 rounded-lg shadow">
           <h3 className="text-lg font-medium text-gray-900 mb-4">Sales Trend</h3>
-          <ResponsiveContainer width="100%" height={300}>
-            <LineChart 
-              data={data.salesTrend}
-              margin={{ top: 5, right: 30, left: 50, bottom: 5 }}
-            >
-              <CartesianGrid strokeDasharray="3 3" />
-              <XAxis dataKey="date" />
-              <YAxis 
-                yAxisId="left" 
-                tickFormatter={(value) => `$${(value/1000)}k`} 
-                width={60}
-              />
-              <YAxis 
-                yAxisId="right" 
-                orientation="right" 
-                width={35}
-              />
-              <Tooltip formatter={(value: any, name: string) => 
-                name === 'revenue' ? formatCurrency(value) : formatNumber(value)
-              } />
-              <Legend />
-              <Line yAxisId="left" type="monotone" dataKey="revenue" stroke="#0088FE" name="Revenue" />
-              <Line yAxisId="right" type="monotone" dataKey="orders" stroke="#00C49F" name="Orders" />
-            </LineChart>
-          </ResponsiveContainer>
+          {data.salesTrend && data.salesTrend.length > 0 ? (
+            <ResponsiveContainer width="100%" height={300}>
+              <LineChart 
+                data={data.salesTrend}
+                margin={{ top: 5, right: 30, left: 50, bottom: 5 }}
+              >
+                <CartesianGrid strokeDasharray="3 3" />
+                <XAxis dataKey="date" />
+                <YAxis 
+                  yAxisId="left" 
+                  tickFormatter={(value) => `$${(value/1000)}k`} 
+                  width={60}
+                />
+                <YAxis 
+                  yAxisId="right" 
+                  orientation="right" 
+                  width={35}
+                />
+                <Tooltip formatter={(value: any, name: string) => 
+                  name === 'revenue' ? formatCurrency(value) : formatNumber(value)
+                } />
+                <Legend />
+                <Line yAxisId="left" type="monotone" dataKey="revenue" stroke="#0088FE" name="Revenue" />
+                <Line yAxisId="right" type="monotone" dataKey="orders" stroke="#00C49F" name="Orders" />
+              </LineChart>
+            </ResponsiveContainer>
+          ) : (
+            <div className="flex flex-col items-center justify-center h-64 text-gray-500">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+              </svg>
+              <p className="text-sm font-medium">No sales trend data available for the selected period</p>
+              <p className="text-xs">Try changing your date range filter</p>
+            </div>
+          )}
         </div>
 
         {/* Category Performance */}
         <div className="bg-white p-6 rounded-lg shadow">
           <h3 className="text-lg font-medium text-gray-900 mb-4">Category Performance</h3>
-          <ResponsiveContainer width="100%" height={300}>
-            <BarChart 
-              data={data.categoryPerformance}
-              margin={{ top: 5, right: 20, left: 50, bottom: 5 }}
-            >
-              <CartesianGrid strokeDasharray="3 3" />
-              <XAxis dataKey="name" />
-              <YAxis 
-                tickFormatter={(value) => `$${(value/1000)}k`} 
-                width={60} 
-              />
-              <Tooltip formatter={(value: any) => formatCurrency(value)} />
-              <Bar dataKey="revenue" fill="#8884d8" />
-            </BarChart>
-          </ResponsiveContainer>
+          {data.categoryPerformance && data.categoryPerformance.length > 0 ? (
+            <ResponsiveContainer width="100%" height={300}>
+              <BarChart 
+                data={data.categoryPerformance}
+                margin={{ top: 5, right: 20, left: 50, bottom: 5 }}
+              >
+                <CartesianGrid strokeDasharray="3 3" />
+                <XAxis dataKey="name" />
+                <YAxis 
+                  tickFormatter={(value) => `$${(value/1000)}k`} 
+                  width={60} 
+                />
+                <Tooltip formatter={(value: any) => formatCurrency(value)} />
+                <Bar dataKey="revenue" fill="#8884d8" />
+              </BarChart>
+            </ResponsiveContainer>
+          ) : (
+            <div className="flex flex-col items-center justify-center h-64 text-gray-500">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M3 6l3 1m0 0l-3 9a5.002 5.002 0 006.001 0M6 7l3 9M6 7l6-2m6 2l3-1m-3 1l-3 9a5.002 5.002 0 006.001 0M18 7l3 9m-3-9l-6-2m0-2v2m0 16V5m0 16H9m3 0h3" />
+              </svg>
+              <p className="text-sm font-medium">No category performance data available</p>
+              <p className="text-xs">Try changing your date range filter</p>
+            </div>
+          )}
         </div>
       </div>
 
@@ -352,25 +362,36 @@ export default function AnalyticsDashboard() {
         {/* Customer Segments */}
         <div className="bg-white p-6 rounded-lg shadow">
           <h3 className="text-lg font-medium text-gray-900 mb-4">Customer Segments</h3>
-          <ResponsiveContainer width="100%" height={250}>
-            <PieChart>
-              <Pie
-                data={data.customerSegments}
-                cx="50%"
-                cy="50%"
-                labelLine={false}
-                label={({ segment, percent }: any) => `${segment} ${(percent * 100).toFixed(0)}%`}
-                outerRadius={80}
-                fill="#8884d8"
-                dataKey="revenue"
-              >
-                {data.customerSegments.map((entry: any, index: number) => (
-                  <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                ))}
-              </Pie>
-              <Tooltip formatter={(value: any) => formatCurrency(value)} />
-            </PieChart>
-          </ResponsiveContainer>
+          {data.customerSegments && data.customerSegments.length > 0 ? (
+            <ResponsiveContainer width="100%" height={300}>
+              <PieChart>
+                <Pie
+                  data={data.customerSegments}
+                  cx="50%"
+                  cy="50%"
+                  labelLine={false}
+                  label={({ name, percent }) => `${name}: ${(percent * 100).toFixed(0)}%`}
+                  outerRadius={100}
+                  fill="#8884d8"
+                  dataKey="revenue"
+                  nameKey="segment"
+                >
+                  {data.customerSegments.map((entry: any, index: number) => (
+                    <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+                  ))}
+                </Pie>
+                <Tooltip formatter={(value: any) => formatCurrency(value)} />
+              </PieChart>
+            </ResponsiveContainer>
+          ) : (
+            <div className="flex flex-col items-center justify-center h-64 text-gray-500">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-12 w-12 mb-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+              </svg>
+              <p className="text-sm font-medium">No customer segment data available</p>
+              <p className="text-xs">Try changing your date range filter</p>
+            </div>
+          )}
         </div>
 
         {/* Quick Actions */}

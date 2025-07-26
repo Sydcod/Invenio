@@ -48,6 +48,14 @@ export async function GET(request: NextRequest) {
     const SalesOrder = mongoose.model('SalesOrder');
     const Product = mongoose.model('Product');
 
+    // Debug: Log the date parameters being used
+    console.log('[DEBUG] Date parameters:', {
+      startDate,
+      endDate,
+      comparisonStartDate: comparisonStartDate?.toISOString(),
+      comparisonEndDate: comparisonEndDate?.toISOString()
+    });
+
     // Execute aggregations in parallel for better performance
     const [salesKPIsResult, salesTrendResult, categoryPerformanceResult, customerSegmentsResult, inventoryKPIsResult] = await Promise.all([
       // Sales KPIs with comparison
@@ -103,6 +111,9 @@ export async function GET(request: NextRequest) {
     console.log('Analytics API - Customer Segments Result:', JSON.stringify(customerSegmentsResult, null, 2));
     console.log('Analytics API - Inventory KPIs Result:', JSON.stringify(inventoryKPIsResult, null, 2));
 
+    // Debug: Log raw aggregation result
+    console.log('[DEBUG] Raw salesKPIsResult:', JSON.stringify(salesKPIsResult, null, 2));
+
     // Process KPIs with comparison calculations
     const currentKPIs = salesKPIsResult[0]?.current[0] || {
       totalRevenue: 0,
@@ -137,19 +148,30 @@ export async function GET(request: NextRequest) {
       deadStockCount: 0
     };
 
-    // Calculate inventory turnover (simplified - would need more data for accurate calculation)
+    // Calculate current period metrics
     const inventoryTurnover = currentKPIs.totalRevenue > 0 && inventoryOverview.totalValue > 0
       ? (currentKPIs.totalRevenue / inventoryOverview.totalValue) * 4 // Quarterly estimate
       : 0;
 
-    // Calculate conversion rate (orders vs unique customers)
     const conversionRate = currentKPIs.uniqueCustomerCount > 0
       ? (currentKPIs.totalOrders / currentKPIs.uniqueCustomerCount) * 100
       : 0;
 
-    // Customer lifetime value (simplified - total revenue / unique customers)
     const customerLifetimeValue = currentKPIs.uniqueCustomerCount > 0
       ? currentKPIs.totalRevenue / currentKPIs.uniqueCustomerCount
+      : 0;
+
+    // Calculate comparison period metrics for percentage changes
+    const comparisonInventoryTurnover = comparisonKPIs.totalRevenue > 0 && inventoryOverview.totalValue > 0
+      ? (comparisonKPIs.totalRevenue / inventoryOverview.totalValue) * 4
+      : 0;
+
+    const comparisonConversionRate = comparisonKPIs.uniqueCustomerCount > 0
+      ? (comparisonKPIs.totalOrders / comparisonKPIs.uniqueCustomerCount) * 100
+      : 0;
+
+    const comparisonCustomerLifetimeValue = comparisonKPIs.uniqueCustomerCount > 0
+      ? comparisonKPIs.totalRevenue / comparisonKPIs.uniqueCustomerCount
       : 0;
 
     // Format response
@@ -169,15 +191,15 @@ export async function GET(request: NextRequest) {
         },
         conversionRate: {
           value: conversionRate,
-          change: 0 // Would need historical data for comparison
+          change: calculateChange(conversionRate, comparisonConversionRate)
         },
         inventoryTurnover: {
           value: inventoryTurnover,
-          change: 0 // Would need historical data for comparison
+          change: calculateChange(inventoryTurnover, comparisonInventoryTurnover)
         },
         customerLifetimeValue: {
           value: customerLifetimeValue,
-          change: 0 // Would need historical data for comparison
+          change: calculateChange(customerLifetimeValue, comparisonCustomerLifetimeValue)
         }
       },
       salesTrend: salesTrendResult.map(item => ({

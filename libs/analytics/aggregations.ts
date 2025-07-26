@@ -64,10 +64,10 @@ export function buildSalesKPIsPipeline(params: {
   const pipeline: any[] = [
     // Convert string dates to Date objects
     createDateConversionStage(['dates.orderDate']),
-    { $match: matchStage },
     {
       $facet: {
         current: [
+          { $match: matchStage },
           {
             $group: {
               _id: null,
@@ -239,7 +239,7 @@ export function buildInventoryKPIsPipeline(params: {
   const { warehouseId } = params;
   
   const matchStage: any = {
-    status: 'Active'
+    status: 'active'
   };
 
   // For inventory, we need to consider warehouse-specific stock
@@ -254,13 +254,13 @@ export function buildInventoryKPIsPipeline(params: {
               totalProducts: { $sum: 1 },
               totalValue: {
                 $sum: {
-                  $multiply: ['$inventory.quantity', '$pricing.unitPrice']
+                  $multiply: ['$inventory.currentStock', '$pricing.price']
                 }
               },
-              totalQuantity: { $sum: '$inventory.quantity' },
+              totalQuantity: { $sum: '$inventory.currentStock' },
               outOfStock: {
                 $sum: {
-                  $cond: [{ $lte: ['$inventory.quantity', 0] }, 1, 0]
+                  $cond: [{ $lte: ['$inventory.currentStock', 0] }, 1, 0]
                 }
               },
               lowStock: {
@@ -268,8 +268,8 @@ export function buildInventoryKPIsPipeline(params: {
                   $cond: [
                     {
                       $and: [
-                        { $gt: ['$inventory.quantity', 0] },
-                        { $lte: ['$inventory.quantity', '$inventory.reorderPoint'] }
+                        { $gt: ['$inventory.currentStock', 0] },
+                        { $lte: ['$inventory.currentStock', '$inventory.reorderPoint'] }
                       ]
                     },
                     1,
@@ -287,10 +287,10 @@ export function buildInventoryKPIsPipeline(params: {
               count: { $sum: 1 },
               value: {
                 $sum: {
-                  $multiply: ['$inventory.quantity', '$pricing.unitPrice']
+                  $multiply: ['$inventory.currentStock', '$pricing.price']
                 }
               },
-              quantity: { $sum: '$inventory.quantity' }
+              quantity: { $sum: '$inventory.currentStock' }
             }
           },
           { $sort: { value: -1 as -1 } },
@@ -325,7 +325,7 @@ export function buildInventoryKPIsPipeline(params: {
           {
             $match: {
               recentSales: { $size: 0 },
-              'inventory.quantity': { $gt: 0 }
+              'inventory.currentStock': { $gt: 0 }
             }
           },
           {
@@ -333,7 +333,7 @@ export function buildInventoryKPIsPipeline(params: {
               _id: null as any,
               deadStockValue: {
                 $sum: {
-                  $multiply: ['$inventory.quantity', '$pricing.unitPrice']
+                  $multiply: ['$inventory.currentStock', '$pricing.price']
                 }
               },
               deadStockCount: { $sum: 1 }
