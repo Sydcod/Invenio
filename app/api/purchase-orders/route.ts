@@ -67,17 +67,25 @@ export async function GET(req: NextRequest) {
     const totalCount = await PurchaseOrder.countDocuments(query);
     
     const orders = await PurchaseOrder.find(query)
-      .populate('supplierId', 'name code contactInfo')
-      .populate('warehouseId', 'name code')
       .populate('createdBy', 'name email')
       .select('-__v')
       .sort({ [sort]: order })
       .skip(skip)
       .limit(limit);
 
+    // Convert ObjectIds to strings for frontend filtering
+    const transformedOrders = orders.map(order => {
+      const orderObj = order.toObject();
+      return {
+        ...orderObj,
+        supplierId: orderObj.supplierId?.toString() || null,
+        warehouseId: orderObj.warehouseId?.toString() || null,
+      };
+    });
+
     return NextResponse.json({
       success: true,
-      data: orders,
+      data: transformedOrders,
       pagination: {
         page,
         limit,
