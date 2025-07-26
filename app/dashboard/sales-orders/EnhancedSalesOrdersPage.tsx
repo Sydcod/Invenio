@@ -125,83 +125,31 @@ export default function EnhancedSalesOrdersPage() {
     }
   }, []);
 
-  // Fetch data
+  // Fetch orders data
   const fetchData = useCallback(async () => {
     if (status !== 'authenticated') return;
     
     try {
       setLoading(true);
       
-      // Fetch orders
-      const ordersResponse = await fetch('/api/sales-orders');
+      // Fetch orders and stats in parallel
+      const [ordersResponse, statsResponse] = await Promise.all([
+        fetch('/api/sales-orders'),
+        fetch('/api/sales-orders/stats')
+      ]);
+      
       if (!ordersResponse.ok) {
         throw new Error('Failed to fetch sales orders');
       }
+      if (!statsResponse.ok) {
+        throw new Error('Failed to fetch sales orders stats');
+      }
+      
       const ordersResult = await ordersResponse.json();
+      const statsResult = await statsResponse.json();
+      
       setOrders(ordersResult.data || []);
-      
-      // Calculate stats
-      const ordersData = ordersResult.data || [];
-      const currentMonth = new Date().getMonth();
-      const currentYear = new Date().getFullYear();
-      
-      const pendingOrders = ordersData.filter((o: SalesOrder) => 
-        ['draft', 'pending', 'confirmed'].includes(o.status)
-      );
-      
-      const completedOrders = ordersData.filter((o: SalesOrder) => 
-        ['delivered', 'completed'].includes(o.status)
-      );
-      
-      const thisMonthOrders = ordersData.filter((o: SalesOrder) => {
-        const orderDate = new Date(o.dates.orderDate);
-        return orderDate.getMonth() === currentMonth && orderDate.getFullYear() === currentYear;
-      });
-      
-      const totalRevenue = ordersData.reduce((sum: number, o: SalesOrder) => 
-        sum + (o.financial?.grandTotal || 0), 0
-      );
-      
-      const thisMonthRevenue = thisMonthOrders.reduce((sum: number, o: SalesOrder) => 
-        sum + (o.financial?.grandTotal || 0), 0
-      );
-      
-      const ordersByStatus = ['draft', 'pending', 'confirmed', 'processing', 'shipped', 'delivered', 'cancelled'].map(status => ({
-        status,
-        count: ordersData.filter((o: SalesOrder) => o.status === status).length
-      }));
-      
-      // Calculate top customers
-      const customerStats = ordersData.reduce((acc: any, order: SalesOrder) => {
-        const key = order.customer.email;
-        if (!acc[key]) {
-          acc[key] = {
-            name: order.customer.name,
-            email: order.customer.email,
-            totalOrders: 0,
-            totalRevenue: 0
-          };
-        }
-        acc[key].totalOrders += 1;
-        acc[key].totalRevenue += order.financial?.grandTotal || 0;
-        return acc;
-      }, {});
-      
-      const topCustomers = Object.values(customerStats)
-        .sort((a: any, b: any) => b.totalRevenue - a.totalRevenue)
-        .slice(0, 5);
-
-      setStats({
-        totalOrders: ordersData.length,
-        pendingOrders: pendingOrders.length,
-        totalRevenue,
-        thisMonthRevenue,
-        averageOrderValue: ordersData.length > 0 ? totalRevenue / ordersData.length : 0,
-        completedOrders: completedOrders.length,
-        ordersByStatus,
-        revenueByMonth: [], // Could be calculated with more complex aggregation
-        topCustomers: topCustomers as any
-      });
+      setStats(statsResult.data || null);
       
     } catch (error) {
       console.error('Error fetching data:', error);
