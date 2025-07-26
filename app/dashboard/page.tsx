@@ -174,7 +174,7 @@ export default function DashboardPage() {
               <p className="ml-16 truncate text-sm font-medium text-gray-500">{stat.name}</p>
             </dt>
             <dd className="ml-16 flex items-baseline">
-              <p className="text-2xl font-semibold text-gray-900">{stat.value}</p>
+              <p className="text-lg font-medium text-gray-900">{stat.value}</p>
               {stat.change !== 0 && (
                 <p
                   className={`ml-2 flex items-baseline text-sm font-semibold ${
