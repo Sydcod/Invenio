@@ -320,8 +320,7 @@ export const buildTopProductsPipeline = (
         sku: { $first: '$items.product.sku' },
         category: { $first: '$items.product.category' },
         unitsSold: { $sum: '$items.quantity' },
-        revenue: { $sum: '$items.total' },
-        totalPrice: { $sum: '$items.price' }
+        revenue: { $sum: '$items.total' }
       }
     },
     {
@@ -337,7 +336,7 @@ export const buildTopProductsPipeline = (
           $cond: [
             { $eq: ['$unitsSold', 0] },
             0,
-            { $divide: ['$totalPrice', '$unitsSold'] }
+            { $divide: ['$revenue', '$unitsSold'] }
           ]
         }
       }

@@ -480,10 +480,15 @@ export default function SalesAnalyticsPage() {
       <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
         <h3 className="text-lg font-semibold mb-4">Sales Representative Performance</h3>
         <ResponsiveContainer width="100%" height={400}>
-          <BarChart data={data.salesRepPerformance} layout="horizontal">
+          <BarChart data={data.salesRepPerformance} margin={{ top: 5, right: 30, left: 20, bottom: 50 }}>
             <CartesianGrid strokeDasharray="3 3" />
-            <XAxis type="number" />
-            <YAxis dataKey="name" type="category" width={150} />
+            <XAxis 
+              dataKey="name" 
+              angle={-45}
+              textAnchor="end"
+              height={100}
+            />
+            <YAxis tickFormatter={(value) => `$${(value / 1000).toFixed(0)}k`} />
             <Tooltip formatter={(value: number) => formatCurrency(value)} />
             <Legend />
             <Bar dataKey="revenue" fill="#3B82F6" name="Revenue" />
