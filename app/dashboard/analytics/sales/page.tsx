@@ -109,12 +109,31 @@ interface SalesAnalyticsData {
 const COLORS = ['#3B82F6', '#10B981', '#F59E0B', '#EF4444', '#8B5CF6', '#EC4899'];
 
 export default function SalesAnalyticsPage() {
+  // Helper function to get first day of current month in YYYY-MM-DD format
+  const getFirstDayOfCurrentMonth = () => {
+    const now = new Date();
+    // We're using year 2025 for demo purposes since that's the year in our dataset
+    const year = 2025; // Use now.getFullYear() for production
+    const month = now.getMonth(); // 0-indexed month
+    return `${year}-${String(month + 1).padStart(2, '0')}-01`;
+  };
+
+  // Helper function to get last day of current month in YYYY-MM-DD format
+  const getLastDayOfCurrentMonth = () => {
+    const now = new Date();
+    // We're using year 2025 for demo purposes since that's the year in our dataset
+    const year = 2025; // Use now.getFullYear() for production
+    const month = now.getMonth(); // 0-indexed month
+    const lastDay = new Date(2025, month + 1, 0).getDate();
+    return `${year}-${String(month + 1).padStart(2, '0')}-${String(lastDay).padStart(2, '0')}`;
+  };
+
   const [data, setData] = useState<SalesAnalyticsData | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [dateRange, setDateRange] = useState({
-    startDate: format(startOfMonth(new Date('2025-07-01')), 'yyyy-MM-dd'),
-    endDate: format(endOfMonth(new Date('2025-07-01')), 'yyyy-MM-dd')
+    startDate: getFirstDayOfCurrentMonth(),
+    endDate: getLastDayOfCurrentMonth()
   });
   const [filters, setFilters] = useState({
     warehouse: 'all',
@@ -355,11 +374,20 @@ export default function SalesAnalyticsPage() {
         <div className="bg-white dark:bg-gray-800 rounded-lg shadow p-6">
           <h3 className="text-lg font-semibold mb-4">Sales by Source</h3>
           <ResponsiveContainer width="100%" height={300}>
-            <BarChart data={data.sourceDistribution} layout="horizontal">
+            <BarChart 
+              data={data.sourceDistribution} 
+              margin={{ top: 5, right: 30, left: 50, bottom: 5 }}
+            >
               <CartesianGrid strokeDasharray="3 3" />
-              <XAxis type="number" />
-              <YAxis dataKey="source" type="category" />
-              <Tooltip formatter={(value: number) => formatCurrency(value)} />
+              <XAxis 
+                dataKey="source" 
+              />
+              <YAxis 
+                tickFormatter={(value) => `$${(value / 1000).toFixed(0)}k`}
+              />
+              <Tooltip 
+                formatter={(value: number) => formatCurrency(value)}
+              />
               <Bar dataKey="revenue" fill="#3B82F6">
                 {data.sourceDistribution.map((entry, index) => (
                   <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
