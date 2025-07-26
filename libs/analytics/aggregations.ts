@@ -361,7 +361,7 @@ export function buildCustomerSegmentsPipeline(params: {
   
   const matchStage: any = {
     ...dateFilter,
-    status: { $in: [ORDER_STATUSES.COMPLETED, ORDER_STATUSES.DELIVERED] }
+    status: { $nin: ['draft', 'cancelled'] } // Use lowercase to match database values
   };
   
   console.log('[DEBUG] Match stage:', JSON.stringify(matchStage, null, 2));
@@ -370,25 +370,18 @@ export function buildCustomerSegmentsPipeline(params: {
     // Convert string dates to Date objects
     createDateConversionStage(['dates.orderDate']),
     { $match: matchStage },
-    // Calculate order total from items array
-    {
-      $addFields: {
-        orderTotal: {
-          $sum: '$items.total'
-        }
-      }
-    },
+    // Group by channel (B2B/B2C) which is embedded in sales orders
     {
       $group: {
         _id: '$channel',
         customerCount: { $addToSet: '$customer.email' },
-        revenue: { $sum: '$orderTotal' },
+        revenue: { $sum: '$financial.grandTotal' },
         orderCount: { $sum: 1 }
       }
     },
     {
       $project: {
-        segment: { $ifNull: ['$_id', 'B2C'] },
+        segment: { $ifNull: ['$_id', 'Unknown'] },
         customerCount: { $size: '$customerCount' },
         revenue: { $round: ['$revenue', 2] },
         orderCount: 1,
