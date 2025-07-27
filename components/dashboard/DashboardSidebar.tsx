@@ -40,7 +40,7 @@ const navigation = [
       { name: 'Overview', href: '/dashboard/analytics', icon: ChartBarIcon },
       { name: 'Sales Analytics', href: '/dashboard/analytics/sales', icon: CurrencyDollarIcon },
       { name: 'Inventory Analytics', href: '/dashboard/analytics/inventory', icon: CubeIcon },
-      { name: 'Customer Analytics', href: '/dashboard/analytics/customers', icon: UserGroupIcon },
+      { name: 'Customer Analytics', href: '/dashboard/analytics/customer', icon: UserGroupIcon },
       { name: 'Procurement Analytics', href: '/dashboard/analytics/procurement', icon: TruckIcon },
     ]
   },
