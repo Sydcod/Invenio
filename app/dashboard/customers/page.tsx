@@ -1,34 +1,116 @@
-import { requirePermission } from "@/libs/auth-utils";
+'use client';
+
+import { useEffect, useState } from 'react';
+import { useSession } from 'next-auth/react';
 import Link from "next/link";
 import { UserGroupIcon, UserPlusIcon } from "@heroicons/react/24/outline";
-import Customer from "@/models/Customer";
-import connectMongo from "@/libs/mongoose";
 
 export const dynamic = "force-dynamic";
 
-async function getCustomers() {
-  await connectMongo();
-  
-  const customers = await Customer.find({})
-    .sort({ 'metrics.totalSpent': -1 })
-    .limit(100)
-    .lean();
-    
-  return customers;
+interface Customer {
+  _id: string;
+  name: string;
+  type: 'B2B' | 'B2C';
+  email: string;
+  company?: string;
+  status: string;
+  metrics?: {
+    totalOrders?: number;
+    totalSpent?: number;
+    lastOrderDate?: string;
+  };
+  tags?: string[];
 }
 
-export default async function CustomersPage() {
-  const session = await requirePermission('canManageInventory');
-  const customers = await getCustomers();
+interface CustomerStats {
+  totalCustomers: number;
+  b2bCustomers: number;
+  b2cCustomers: number;
+  b2bPercentage: number;
+  b2cPercentage: number;
+  totalRevenue: number;
+  totalOrders: number;
+  averageSpentPerCustomer: number;
+  averageOrdersPerCustomer: number;
+  activeCustomers: number;
+  inactiveCustomers: number;
+}
 
-  // Calculate summary stats
-  const stats = {
-    total: customers.length,
-    b2b: customers.filter(c => c.type === 'B2B').length,
-    b2c: customers.filter(c => c.type === 'B2C').length,
-    active: customers.filter(c => c.status === 'active').length,
-    totalRevenue: customers.reduce((sum, c) => sum + (c.metrics?.totalSpent || 0), 0)
+export default function CustomersPage() {
+  const { data: session, status } = useSession();
+  const [customers, setCustomers] = useState<Customer[]>([]);
+  const [stats, setStats] = useState<CustomerStats | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (status === 'authenticated') {
+      fetchData();
+    }
+  }, [status]);
+
+  const fetchData = async () => {
+    try {
+      setLoading(true);
+      
+      // Fetch customers and stats in parallel
+      const [customersResponse, statsResponse] = await Promise.all([
+        fetch('/api/customers'),
+        fetch('/api/customers/stats')
+      ]);
+      
+      if (!customersResponse.ok) {
+        throw new Error('Failed to fetch customers');
+      }
+      if (!statsResponse.ok) {
+        throw new Error('Failed to fetch customer stats');
+      }
+      
+      const customersResult = await customersResponse.json();
+      const statsResult = await statsResponse.json();
+      
+      // Handle different API response formats
+      const customersData = customersResult.data || customersResult.customers || customersResult;
+      const statsData = statsResult.data || statsResult;
+      
+      setCustomers(Array.isArray(customersData) ? customersData : []);
+      setStats(statsData);
+      
+    } catch (error) {
+      console.error('Error fetching data:', error);
+      setError(error instanceof Error ? error.message : 'Failed to fetch data');
+    } finally {
+      setLoading(false);
+    }
   };
+
+  if (status === 'loading' || loading) {
+    return (
+      <div className="flex items-center justify-center h-screen">
+        <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary"></div>
+      </div>
+    );
+  }
+
+  if (status === 'unauthenticated') {
+    return (
+      <div className="p-8">
+        <div className="bg-red-50 border border-red-200 rounded-md p-4">
+          <p className="text-red-800">Please log in to access this page.</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="p-8">
+        <div className="bg-red-50 border border-red-200 rounded-md p-4">
+          <p className="text-red-800">Error: {error}</p>
+        </div>
+      </div>
+    );
+  }
 
   return (
     <div className="p-8">
@@ -55,24 +137,24 @@ export default async function CustomersPage() {
       <div className="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
         <div className="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
           <dt className="truncate text-sm font-medium text-gray-500">Total Customers</dt>
-          <dd className="mt-1 text-3xl font-semibold tracking-tight text-gray-900">{stats.total}</dd>
+          <dd className="mt-1 text-lg font-medium text-gray-900">{stats?.totalCustomers || 0}</dd>
         </div>
         <div className="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
           <dt className="truncate text-sm font-medium text-gray-500">B2B Customers</dt>
-          <dd className="mt-1 text-3xl font-semibold tracking-tight text-gray-900">
-            {stats.b2b} <span className="text-sm font-normal text-gray-500">({Math.round(stats.b2b / stats.total * 100)}%)</span>
+          <dd className="mt-1 text-lg font-medium text-gray-900">
+            {stats?.b2bCustomers || 0} <span className="text-sm font-normal text-gray-500">({stats?.b2bPercentage || 0}%)</span>
           </dd>
         </div>
         <div className="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
           <dt className="truncate text-sm font-medium text-gray-500">B2C Customers</dt>
-          <dd className="mt-1 text-3xl font-semibold tracking-tight text-gray-900">
-            {stats.b2c} <span className="text-sm font-normal text-gray-500">({Math.round(stats.b2c / stats.total * 100)}%)</span>
+          <dd className="mt-1 text-lg font-medium text-gray-900">
+            {stats?.b2cCustomers || 0} <span className="text-sm font-normal text-gray-500">({stats?.b2cPercentage || 0}%)</span>
           </dd>
         </div>
         <div className="overflow-hidden rounded-lg bg-white px-4 py-5 shadow sm:p-6">
           <dt className="truncate text-sm font-medium text-gray-500">Total Revenue</dt>
-          <dd className="mt-1 text-3xl font-semibold tracking-tight text-gray-900">
-            ${stats.totalRevenue.toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
+          <dd className="mt-1 text-lg font-medium text-gray-900">
+            ${(stats?.totalRevenue || 0).toLocaleString('en-US', { minimumFractionDigits: 2, maximumFractionDigits: 2 })}
           </dd>
         </div>
       </div>

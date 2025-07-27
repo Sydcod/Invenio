@@ -84,12 +84,35 @@ export default function EnhancedPurchaseOrdersPage() {
       const result = await response.json();
       const ordersData = result.data || [];
       setOrders(ordersData);
-      calculateStats(ordersData);
     } catch (error) {
       console.error('Error fetching purchase orders:', error);
       toast.error('Failed to load purchase orders');
     } finally {
       setLoading(false);
+    }
+  }, [status]);
+
+  // Fetch purchase order statistics separately
+  const fetchStats = useCallback(async () => {
+    if (status !== 'authenticated') return;
+
+    try {
+      const response = await fetch('/api/purchase-orders/stats');
+      if (!response.ok) {
+        throw new Error('Failed to fetch purchase order stats');
+      }
+      const result = await response.json();
+      const statsData = result.data;
+      
+      setStats({
+        totalOrders: statsData.totalOrders,
+        pendingOrders: statsData.pendingOrders,
+        totalValue: statsData.totalValue,
+        ordersThisMonth: statsData.ordersThisMonth
+      });
+    } catch (error) {
+      console.error('Error fetching purchase order stats:', error);
+      toast.error('Failed to load purchase order statistics');
     }
   }, [status]);
 
@@ -131,37 +154,21 @@ export default function EnhancedPurchaseOrdersPage() {
       router.push('/login');
     } else if (status === 'authenticated') {
       fetchOrders();
+      fetchStats();
       fetchSuppliers();
       fetchWarehouses();
     }
-  }, [status, router, fetchOrders, fetchSuppliers, fetchWarehouses]);
+  }, [status, router, fetchOrders, fetchStats, fetchSuppliers, fetchWarehouses]);
 
-  // Calculate statistics
   // Fetch data on mount
   useEffect(() => {
     fetchOrders();
+    fetchStats();
     fetchSuppliers();
     fetchWarehouses();
-  }, [fetchOrders, fetchSuppliers, fetchWarehouses]);
+  }, [fetchOrders, fetchStats, fetchSuppliers, fetchWarehouses]);
   
-  const calculateStats = (ordersList: PurchaseOrder[]) => {
-    const totalOrders = ordersList.length;
-    const pendingOrders = ordersList.filter(order => order.status === 'pending').length;
-    const totalValue = ordersList.reduce((sum, order) => sum + (order.financial?.grandTotal || 0), 0);
-    
-    const now = new Date();
-    const startOfMonth = new Date(now.getFullYear(), now.getMonth(), 1);
-    const ordersThisMonth = ordersList.filter(order => 
-      new Date(order.dates?.orderDate || order.createdAt) >= startOfMonth
-    ).length;
-    
-    setStats({
-      totalOrders,
-      pendingOrders,
-      totalValue,
-      ordersThisMonth
-    });
-  };
+
 
   // Filter and search orders
   useEffect(() => {
