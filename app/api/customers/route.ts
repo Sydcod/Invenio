@@ -125,7 +125,7 @@ export async function POST(req: NextRequest) {
         totalOrders: 0,
         totalSpent: 0,
         averageOrderValue: 0,
-        lastOrderDate: null
+        lastOrderDate: null as Date | null
       },
       tags: body.tags || [],
       notes: body.notes || '',
