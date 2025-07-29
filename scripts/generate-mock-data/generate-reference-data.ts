@@ -21,7 +21,7 @@ async function ensureOutputDir() {
   }
 }
 
-async function saveJSON(data, filename) {
+async function saveJSON(data: any[], filename: string) {
   const filepath = join(OUTPUT_DIR, filename);
   await writeFile(filepath, JSON.stringify(data, null, 2));
   console.log(`✓ Saved ${filename} (${data.length} items)`);

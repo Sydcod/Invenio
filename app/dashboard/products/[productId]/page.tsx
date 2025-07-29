@@ -10,7 +10,7 @@ import ProductForm from "@/components/dashboard/ProductForm";
 
 export const dynamic = "force-dynamic";
 
-async function getProduct(productId: string) {
+async function getProduct(productId: string): Promise<any | null> {
   await connectMongo();
   
   const product = await Product.findOne({

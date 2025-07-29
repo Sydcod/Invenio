@@ -8,7 +8,7 @@ import WarehouseForm from "@/components/dashboard/WarehouseForm";
 
 export const dynamic = "force-dynamic";
 
-async function getWarehouse(warehouseId: string) {
+async function getWarehouse(warehouseId: string): Promise<any | null> {
   await connectMongo();
   
   const warehouse = await Warehouse.findOne({
